@@ -1,7 +1,7 @@
 package com.imooc.service;
 
 import com.imooc.pojo.Users;
-import com.imooc.pojo.bo.UserBo;
+import com.imooc.pojo.bo.UserBO;
 
 public interface UserService {
 
@@ -17,6 +17,6 @@ public interface UserService {
      * @param userBo
      * @return
      */
-    public Users createUser(UserBo userBo);
+    public Users createUser(UserBO userBo);
 
 }

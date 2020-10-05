@@ -1,6 +1,6 @@
 package com.imooc.pojo.bo;
 
-public class UserBo {
+public class UserBO {
     private String username;
     private String password;
     private String confirmPassword;

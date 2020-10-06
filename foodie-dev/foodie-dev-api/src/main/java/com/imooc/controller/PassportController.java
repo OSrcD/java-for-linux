@@ -139,5 +139,20 @@ public class PassportController {
         return userResult;
     }
 
+    @ApiOperation(value = "退出登录",notes = "退出登录",httpMethod = "POST")
+    @PostMapping("/logout")
+    public IMOOCJSONResult logout(@RequestParam String userId,
+                                  HttpServletRequest request,
+                                  HttpServletResponse response){
+        // 清除用户的相关信息的cookie
+        CookieUtils.deleteCookie(request,response,"user");
+
+        // TODO 用户登录退出，需要清空购物车
+        // TODO 分布式会话中需要清理用户数据
+
+        return IMOOCJSONResult.ok();
+
+    }
+
 
 }

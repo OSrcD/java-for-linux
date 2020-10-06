@@ -43,6 +43,13 @@ public class UserServiceImpl implements UserService {
     @Transactional(propagation=Propagation.REQUIRED)
     @Override
     public Users createUser(UserBO userBO) {
+
+        try {
+            Thread.sleep(3500);
+        }catch(InterruptedException e){
+            e.printStackTrace();
+        }
+
         String userId = sid.nextShort();
         Users user = new Users();
         user.setId(userId);
@@ -71,6 +78,13 @@ public class UserServiceImpl implements UserService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public Users queryUserForLogin(String username, String password) {
+
+        try{
+            Thread.sleep(2500);
+        }catch(InterruptedException e){
+            e.printStackTrace();
+        }
+
         Example userExample = new Example(Users.class);
 
         Example.Criteria userCriteria = userExample.createCriteria();

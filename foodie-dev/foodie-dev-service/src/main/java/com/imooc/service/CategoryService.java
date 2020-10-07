@@ -2,6 +2,7 @@ package com.imooc.service;
 
 import com.imooc.pojo.Category;
 import com.imooc.pojo.vo.CategoryVO;
+import com.imooc.pojo.vo.NewItemsVO;
 
 import java.util.List;
 
@@ -19,4 +20,7 @@ public interface CategoryService {
      * @return
      */
     public List<CategoryVO> getSubCatList(Integer rootCatId);
+
+
+    public List<NewItemsVO> getSixNewItemsLazy(Integer rootCatId);
 }

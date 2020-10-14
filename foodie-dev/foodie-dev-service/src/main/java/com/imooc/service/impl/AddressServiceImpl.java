@@ -77,4 +77,17 @@ public class AddressServiceImpl implements AddressService {
 
         userAddressMapper.updateByPrimaryKeySelective(pendingAddress);
     }
+
+    @Override
+    public void deleteUserAddress(String userId, String addressId) {
+
+        UserAddress userAddress = new UserAddress();
+
+        userAddress.setUserId(userId);
+        userAddress.setId(addressId);
+
+        userAddressMapper.delete(userAddress);
+
+
+    }
 }

@@ -26,6 +26,14 @@ public interface AddressService {
      */
     public void updateUserAddress(AddressBO addressBO);
 
-
+    /**
+     * 根据用户id和地址id，删除对应的用户地址信息
+     * @param userId
+     * @param addressId
+     */
     public void deleteUserAddress(String userId,String addressId);
+
+
+    public void updateUserAddressToBeDefault(String userId,String addressId);
+
 }

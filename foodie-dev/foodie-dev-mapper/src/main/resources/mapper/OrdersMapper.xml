@@ -5,16 +5,20 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="id" jdbcType="CHAR" property="id" />
-    <result column="products_id" jdbcType="CHAR" property="productsId" />
-    <result column="number" jdbcType="INTEGER" property="number" />
-    <result column="price" jdbcType="DOUBLE" property="price" />
-    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="send_time" jdbcType="TIMESTAMP" property="sendTime" />
-    <result column="confirm_time" jdbcType="TIMESTAMP" property="confirmTime" />
-    <result column="consignee" jdbcType="VARCHAR" property="consignee" />
-    <result column="consignee_phone" jdbcType="CHAR" property="consigneePhone" />
-    <result column="consignee_address" jdbcType="VARCHAR" property="consigneeAddress" />
-    <result column="status" jdbcType="VARCHAR" property="status" />
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="receiver_name" jdbcType="VARCHAR" property="receiverName" />
+    <result column="receiver_mobile" jdbcType="VARCHAR" property="receiverMobile" />
+    <result column="receiver_address" jdbcType="VARCHAR" property="receiverAddress" />
+    <result column="total_amount" jdbcType="INTEGER" property="totalAmount" />
+    <result column="real_pay_amount" jdbcType="INTEGER" property="realPayAmount" />
+    <result column="post_amount" jdbcType="INTEGER" property="postAmount" />
+    <result column="pay_method" jdbcType="INTEGER" property="payMethod" />
+    <result column="left_msg" jdbcType="VARCHAR" property="leftMsg" />
+    <result column="extand" jdbcType="VARCHAR" property="extand" />
+    <result column="is_comment" jdbcType="INTEGER" property="isComment" />
+    <result column="is_delete" jdbcType="INTEGER" property="isDelete" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
   </resultMap>
 </mapper>

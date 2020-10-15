@@ -178,14 +178,15 @@
 
                     // 发起请求获得微信支付扫描二维码
                     var paymentServerUrl = app.paymentServerUrl;
+                    console.log(paymentServerUrl);
 					axios.defaults.withCredentials = true;
 					axios.post(
                             paymentServerUrl + '/payment/getWXPayQRCode?merchantUserId=' + userInfo.id + "&merchantOrderId=" + orderId, 
 							{},
 							{
 								headers: {
-									'imoocUserId': "imooc",
-									'password': "imooc"
+									'imoocUserId': "5450049-1004108488",
+									'password': "4t43-09oi-rejo-i309"
 								}
 							})
 							.then(res => {

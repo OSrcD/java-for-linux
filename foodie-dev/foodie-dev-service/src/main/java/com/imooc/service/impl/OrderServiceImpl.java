@@ -130,8 +130,5 @@ public class OrderServiceImpl implements OrderService {
         waitPayOrderStatus.setCreatedTime(new Date());
         orderStatusMapper.insert(waitPayOrderStatus);
 
-
-
-
     }
 }

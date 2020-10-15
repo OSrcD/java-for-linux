@@ -1,7 +1,9 @@
 package com.imooc.service.impl;
 
+import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.YesOrNo;
 import com.imooc.mapper.OrderItemsMapper;
+import com.imooc.mapper.OrderStatusMapper;
 import com.imooc.mapper.OrdersMapper;
 import com.imooc.pojo.*;
 import com.imooc.pojo.bo.SubmitOrderBO;
@@ -24,6 +26,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     private OrderItemsMapper orderItemsMapper;
+
+    @Autowired
+    private OrderStatusMapper orderStatusMapper;
 
     @Autowired
     private AddressService addressService;
@@ -109,6 +114,9 @@ public class OrderServiceImpl implements OrderService {
             subOrderItem.setPrice(itemSpec.getPriceDiscount());
             orderItemsMapper.insert(subOrderItem);
 
+            // 2.4 在用户提交订单以后，规格表中需要扣除库存
+            itemService.decreaseItemSpecStock(itemSpecId,buyCounts);
+
         }
         newOrder.setTotalAmount(totalAmount);
         newOrder.setRealPayAmount(realPayAmount);
@@ -116,5 +124,14 @@ public class OrderServiceImpl implements OrderService {
 
 
         // 3. 保存订单状态
+        OrderStatus waitPayOrderStatus = new OrderStatus();
+        waitPayOrderStatus.setOrderId(orderId);
+        waitPayOrderStatus.setOrderStatus(OrderStatusEnum.WAIT_PAY.type);
+        waitPayOrderStatus.setCreatedTime(new Date());
+        orderStatusMapper.insert(waitPayOrderStatus);
+
+
+
+
     }
 }

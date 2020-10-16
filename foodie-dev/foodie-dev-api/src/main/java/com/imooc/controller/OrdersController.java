@@ -1,17 +1,18 @@
 package com.imooc.controller;
 
+import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.PlayMethod;
 import com.imooc.pojo.bo.SubmitOrderBO;
+import com.imooc.pojo.vo.MerchantOrdersVO;
+import com.imooc.pojo.vo.OrderVO;
 import com.imooc.service.OrderService;
 import com.imooc.utils.CookieUtils;
 import com.imooc.utils.IMOOCJSONResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -41,7 +42,10 @@ public class OrdersController extends BaseController{
         System.out.println(submitOrderBO.toString());
 
         // 1. 创建订单
-        String orderId = orderService.createOrder(submitOrderBO);
+        OrderVO orderVO = orderService.createOrder(submitOrderBO);
+        String orderId = orderVO.getOrderId();
+        MerchantOrdersVO merchantOrdersVO = orderVO.getMerchantOrdersVO();
+        merchantOrdersVO.setReturnUrl(payReturnUrl);
 
         // 2. 创建订单以后，移除购物车中已结算（已提交）的商品
         /**
@@ -56,6 +60,12 @@ public class OrdersController extends BaseController{
         // 3. 向支付中心发送当前订单，用于保存支付中心的订单数据
 
         return IMOOCJSONResult.ok(orderId);
+    }
+
+    @PostMapping("notifyMerchantOrderPaid")
+    public Integer notifyMerchantOrderPaid(@RequestParam String merchantOrderId){
+        orderService.updateOrderStatus(merchantOrderId, OrderStatusEnum.WAIT_DELIVER.type);
+        return HttpStatus.OK.value();
     }
 
 }

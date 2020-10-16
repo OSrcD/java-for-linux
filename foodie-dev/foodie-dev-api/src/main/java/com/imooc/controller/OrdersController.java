@@ -11,8 +11,9 @@ import com.imooc.utils.IMOOCJSONResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -25,6 +26,9 @@ public class OrdersController extends BaseController{
 
     @Autowired
     private OrderService orderService;
+
+    @Autowired
+    private RestTemplate restTemplate;
 
     @ApiOperation(value="用户下单",notes="用户下单",httpMethod="POST")
     @PostMapping("/create")
@@ -39,13 +43,11 @@ public class OrdersController extends BaseController{
             return IMOOCJSONResult.errorMsg("支付方式不支持！");
         }
 
-        System.out.println(submitOrderBO.toString());
+//        System.out.println(submitOrderBO.toString());
 
         // 1. 创建订单
         OrderVO orderVO = orderService.createOrder(submitOrderBO);
         String orderId = orderVO.getOrderId();
-        MerchantOrdersVO merchantOrdersVO = orderVO.getMerchantOrdersVO();
-        merchantOrdersVO.setReturnUrl(payReturnUrl);
 
         // 2. 创建订单以后，移除购物车中已结算（已提交）的商品
         /**
@@ -58,6 +60,26 @@ public class OrdersController extends BaseController{
 //        CookieUtils.setCookie(request,response,"FOODIE_SHOPCART","",true);
 
         // 3. 向支付中心发送当前订单，用于保存支付中心的订单数据
+        MerchantOrdersVO merchantOrdersVO = orderVO.getMerchantOrdersVO();
+        merchantOrdersVO.setReturnUrl(payReturnUrl);
+
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("imoocUserId","5450049-1004108488");
+        headers.add("password","4t43-09oi-rejo-i309");
+
+        HttpEntity<MerchantOrdersVO> entity =
+                new HttpEntity<>(merchantOrdersVO,headers);
+
+        ResponseEntity<IMOOCJSONResult> responseEntity =
+                restTemplate.postForEntity(paymenUrl,
+                                            entity,
+                                            IMOOCJSONResult.class);
+
+        IMOOCJSONResult paymenResult = responseEntity.getBody();
+        if(paymenResult.getStatus() != 200){
+            return IMOOCJSONResult.errorMsg("支付中心订单创建失败，请联系管理员！");
+        }
 
         return IMOOCJSONResult.ok(orderId);
     }

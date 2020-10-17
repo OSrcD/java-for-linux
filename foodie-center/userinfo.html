@@ -306,7 +306,7 @@
 						// 请求后端获得最新数据
 						var serverUrl = app.serverUrl;
 						axios.defaults.withCredentials = true;
-						axios.post(
+						axios.get(
 								serverUrl + '/userInfo/update?userId=' + userInfo.id, 
 								userInfoMore, 
 								{

@@ -114,9 +114,10 @@
                             paymentServerUrl + '/payment/goAlipay?merchantUserId=' + userInfo.id + "&merchantOrderId=" + orderId, 
 							{},
 							{
+                                // 添加接口用户名和密码
 								headers: {
-									'imoocUserId': "123",
-									'password': "123"
+									'imoocUserId': "5450049-1004108488",
+									'password': "4t43-09oi-rejo-i309"
 								}
 							})
 							.then(res => {
@@ -124,7 +125,7 @@
                                     var alipayForm = res.data.data;
                                     console.log(alipayForm);
                                     // this.alipayForm = alipayForm;
-
+// debugger;
                                     document.write(alipayForm);
 								} else {
 									alert(res.data.msg);

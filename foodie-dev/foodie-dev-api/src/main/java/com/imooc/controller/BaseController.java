@@ -2,18 +2,25 @@ package com.imooc.controller;
 
 import org.springframework.stereotype.Controller;
 
+import java.io.File;
+
 @Controller
 public class BaseController {
-    protected static final String FOODIE_SHOPCART = "shopcart";
+    public static final String FOODIE_SHOPCART = "shopcart";
 
-    protected static final Integer COMMENT_PAGE_SIZE = 10;
-    protected static final Integer PAGE_SIZE = 20;
+    public static final Integer COMMENT_PAGE_SIZE = 10;
+    public static final Integer PAGE_SIZE = 20;
 
     // 支付中心的调用地址
-    String paymenUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
+    public String paymenUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
 
     // 微信支付成功 -> 支付中心 -> 天天吃货平台
     //                       -> 回调通知的url
-    String payReturnUrl = "http://120.77.47.215:8080/orders/notifyMerchantOrderPaid";
+    public String payReturnUrl = "http://120.77.47.215:8080/orders/notifyMerchantOrderPaid";
+
+    public final String IMAGE_USER_FACE_LOCATION = File.separator + "workspace" +
+                                                    File.separator + "images" +
+                                                    File.separator + "foodie" +
+                                                    File.separator + "faces";
 
 }

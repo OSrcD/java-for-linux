@@ -18,7 +18,11 @@ public class BaseController {
     //                       -> 回调通知的url
     public String payReturnUrl = "http://120.77.47.215:8080/orders/notifyMerchantOrderPaid";
 
-    public final String IMAGE_USER_FACE_LOCATION = File.separator + "workspace" +
+    public final String IMAGE_USER_FACE_LOCATION = File.separator + "Users"+
+                                                    File.separator + "virtualman"+
+                                                    File.separator + "Downloads" +
+                                                    File.separator + "temp"+
+                                                    File.separator + "workspace" +
                                                     File.separator + "images" +
                                                     File.separator + "foodie" +
                                                     File.separator + "faces";

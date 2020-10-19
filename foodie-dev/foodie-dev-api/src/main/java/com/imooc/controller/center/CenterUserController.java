@@ -3,6 +3,7 @@ package com.imooc.controller.center;
 import com.imooc.controller.BaseController;
 import com.imooc.pojo.Users;
 import com.imooc.pojo.bo.center.CenterUserBO;
+import com.imooc.resource.FileUpload;
 import com.imooc.service.center.CenterUserService;
 import com.imooc.utils.CookieUtils;
 import com.imooc.utils.IMOOCJSONResult;
@@ -35,6 +36,8 @@ public class CenterUserController extends BaseController {
     @Autowired
     private CenterUserService centerUserService;
 
+    @Autowired
+    private FileUpload fileUpload;
 
 
 
@@ -49,8 +52,8 @@ public class CenterUserController extends BaseController {
             HttpServletRequest request, HttpServletResponse response) {
 
         // 定义头像保存的地址
-        String fileSpace = IMAGE_USER_FACE_LOCATION;
-
+//        String fileSpace = IMAGE_USER_FACE_LOCATION;
+        String fileSpace = fileUpload.getImageUserFaceLocation();
         // 在路径上为每一个用户增加一个userId，用于区分不同用户上传
         String uploadPathPrefix = File.separator + userId;
 
@@ -79,7 +82,6 @@ public class CenterUserController extends BaseController {
 
                     // 上传文件头像最终保存位置
                     String finalFilePath = fileSpace + uploadPathPrefix + File.separator + newFileName;
-
 
                     File outFile = new File(finalFilePath);
 

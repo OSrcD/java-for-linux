@@ -6,6 +6,7 @@ import com.imooc.pojo.bo.center.CenterUserBO;
 import com.imooc.resource.FileUpload;
 import com.imooc.service.center.CenterUserService;
 import com.imooc.utils.CookieUtils;
+import com.imooc.utils.DateUtil;
 import com.imooc.utils.IMOOCJSONResult;
 import com.imooc.utils.JsonUtils;
 import io.swagger.annotations.Api;
@@ -54,6 +55,9 @@ public class CenterUserController extends BaseController {
         // 定义头像保存的地址
 //        String fileSpace = IMAGE_USER_FACE_LOCATION;
         String fileSpace = fileUpload.getImageUserFaceLocation();
+
+
+
         // 在路径上为每一个用户增加一个userId，用于区分不同用户上传
         String uploadPathPrefix = File.separator + userId;
 
@@ -82,6 +86,12 @@ public class CenterUserController extends BaseController {
 
                     // 上传文件头像最终保存位置
                     String finalFilePath = fileSpace + uploadPathPrefix + File.separator + newFileName;
+                    // 用于提供给web服务访问的地址
+                    uploadPathPrefix += ( "/" + newFileName);
+
+
+
+
 
                     File outFile = new File(finalFilePath);
 
@@ -94,6 +104,12 @@ public class CenterUserController extends BaseController {
                     fileOutputStream = new FileOutputStream(outFile);
                     inputStream = file.getInputStream();
                     IOUtils.copy(inputStream, fileOutputStream); // 当两个流连接在一起就形成了pipeline
+
+
+
+
+
+
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -111,6 +127,24 @@ public class CenterUserController extends BaseController {
         } else {
             return IMOOCJSONResult.errorMsg("文件不能为空!");
         }
+
+        // 获取图片服务地址
+        String imageServerUrl = fileUpload.getImageServerUrl();
+
+        // 由于浏览器可能存在缓存情况，所以在这里，我们需要加上时间戳来保证更新后的图片可以及时刷新
+        String finalUserFaceUrl = imageServerUrl + uploadPathPrefix +
+                "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
+
+        // 更新用户头像到数据库
+        Users userResult = centerUserService.updateUserFaceUrl(userId,finalUserFaceUrl);
+
+        userResult = setNullProperty(userResult);
+
+        CookieUtils.setCookie(request, response, "user",
+                JsonUtils.objectToJson(userResult),
+                true);
+
+        // TODO 后续要改，增加令牌token，会整合进redis，分布式会话
 
         return IMOOCJSONResult.ok();
 

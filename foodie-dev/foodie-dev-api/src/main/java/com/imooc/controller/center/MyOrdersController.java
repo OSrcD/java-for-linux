@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(value="",tags={""})
+@Api(value="用户中心我的订单",tags={"用户中心我的订单相关接口"})
 @RestController
 @RequestMapping("myorders")
 public class MyOrdersController extends BaseController {
@@ -22,20 +22,20 @@ public class MyOrdersController extends BaseController {
     @Autowired
     private MyOrdersService myOrdersService;
 
-    @ApiOperation(value="",notes="",httpMethod="POST")
+    @ApiOperation(value="查询订单列表",notes="查询订单列表",httpMethod="POST")
     @PostMapping("query")
     public IMOOCJSONResult query(
-            @ApiParam(name="",value="",required=true)
+            @ApiParam(name="userId",value="用户id",required=true)
             @RequestParam String userId,
-            @ApiParam(name="",value="",required=false)
+            @ApiParam(name="orderStatus",value="订单状态",required=false)
             @RequestParam Integer orderStatus,
-            @ApiParam(name="",value="",required=false)
+            @ApiParam(name="page",value="查询下一页的第几页",required=false)
             @RequestParam Integer page,
-            @ApiParam(name="",value="",required=false)
+            @ApiParam(name="pageSize",value="分页的每一页显示的条数",required=false)
             @RequestParam Integer pageSize){
 
         if (StringUtils.isBlank(userId)) {
-            return IMOOCJSONResult.errorMsg("");
+            return IMOOCJSONResult.errorMsg(null);
         }
 
         if(page == null){

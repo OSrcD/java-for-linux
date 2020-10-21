@@ -3,9 +3,12 @@ package com.imooc.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.imooc.enums.OrderStatusEnum;
+import com.imooc.enums.YesOrNo;
 import com.imooc.mapper.OrderStatusMapper;
+import com.imooc.mapper.OrdersMapper;
 import com.imooc.mapper.OrdersMapperCustom;
 import com.imooc.pojo.OrderStatus;
+import com.imooc.pojo.Orders;
 import com.imooc.pojo.vo.MyOrdersVO;
 import com.imooc.service.center.MyOrdersService;
 import com.imooc.utils.PagedGridResult;
@@ -28,6 +31,9 @@ public class MyOrdersServiceImpl implements MyOrdersService {
 
     @Autowired
     private OrderStatusMapper orderStatusMapper;
+
+    @Autowired
+    private OrdersMapper ordersMapper;
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
@@ -78,5 +84,21 @@ public class MyOrdersServiceImpl implements MyOrdersService {
         orderStatusMapper.updateByExampleSelective(updateOrder,example);
 
 
+
+
     }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public Orders queryMyOrder(String userId, String orderId) {
+
+        Orders orders = new Orders();
+        orders.setUserId(userId);
+        orders.setId(orderId);
+        orders.setIsDelete(YesOrNo.NO.type);
+
+        return ordersMapper.selectOne(orders);
+    }
+
+
 }

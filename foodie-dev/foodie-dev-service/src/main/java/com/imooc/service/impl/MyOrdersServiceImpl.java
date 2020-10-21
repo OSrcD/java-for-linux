@@ -26,6 +26,7 @@ import java.util.Map;
 @Service
 public class MyOrdersServiceImpl implements MyOrdersService {
 
+
     @Autowired
     private OrdersMapperCustom ordersMapperCustom;
 
@@ -42,20 +43,19 @@ public class MyOrdersServiceImpl implements MyOrdersService {
                                          Integer page,
                                          Integer pageSize) {
 
-        Map<String,Object> map = new HashMap<String,Object>();
-        map.put("userId",userId);
-        if(orderStatus != null) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("userId", userId);
+        if (orderStatus != null) {
             map.put("orderStatus", orderStatus);
         }
 
-        PageHelper.startPage(page,pageSize);
+        PageHelper.startPage(page, pageSize);
         List<MyOrdersVO> list = ordersMapperCustom.queryMyOrders(map);
-        return setterPagedGrid(list,page);
+        return setterPagedGrid(list, page);
     }
 
 
-
-    private PagedGridResult setterPagedGrid(List<?> list, Integer page){
+    private PagedGridResult setterPagedGrid(List<?> list, Integer page) {
 
         PageInfo<?> pageList = new PageInfo<>(list);
         PagedGridResult grid = new PagedGridResult();
@@ -77,13 +77,11 @@ public class MyOrdersServiceImpl implements MyOrdersService {
         updateOrder.setDeliverTime(new Date());
 
         Example example = new Example(OrderStatus.class);
-        Example.Criteria criteria =  example.createCriteria();
-        criteria.andEqualTo("orderId",orderId);
-        criteria.andEqualTo("orderStatus",OrderStatusEnum.WAIT_DELIVER.type);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("orderId", orderId);
+        criteria.andEqualTo("orderStatus", OrderStatusEnum.WAIT_DELIVER.type);
 
-        orderStatusMapper.updateByExampleSelective(updateOrder,example);
-
-
+        orderStatusMapper.updateByExampleSelective(updateOrder, example);
 
 
     }
@@ -98,6 +96,41 @@ public class MyOrdersServiceImpl implements MyOrdersService {
         orders.setIsDelete(YesOrNo.NO.type);
 
         return ordersMapper.selectOne(orders);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public boolean updateReceiveOrderStatus(String orderId) {
+        OrderStatus updateOrder = new OrderStatus();
+        updateOrder.setOrderStatus(OrderStatusEnum.SUCCESS.type);
+        updateOrder.setSuccessTime(new Date());
+
+        Example example = new Example(OrderStatus.class);
+        Example.Criteria criteria = example.createCriteria();
+
+        criteria.andEqualTo("orderId",orderId);
+        criteria.andEqualTo("orderStatus",OrderStatusEnum.WAI_RECEIVE.type);
+        int result = orderStatusMapper.updateByExampleSelective(updateOrder,example);
+
+        return result == 1 ? true:false;
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public boolean deleteOrder(String userId, String orderId) {
+
+        Orders updateOrder = new Orders();
+        updateOrder.setIsDelete(YesOrNo.YES.type);
+        updateOrder.setUpdatedTime(new Date());
+
+        Example example = new Example(Orders.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("id",orderId);
+        criteria.andEqualTo("userId", userId);
+
+        int result = ordersMapper.updateByExampleSelective(updateOrder,example);
+
+        return result == 1 ? true : false;
     }
 
 

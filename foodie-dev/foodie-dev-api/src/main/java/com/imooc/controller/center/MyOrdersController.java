@@ -69,7 +69,7 @@ public class MyOrdersController extends BaseController {
 
 
     @ApiOperation(value = "用户确认收货",notes="用户确认收货",httpMethod="POST")
-    @PostMapping("/confirmReceiver")
+    @PostMapping("/confirmReceive")
     public IMOOCJSONResult confirmReceiver(
             @ApiParam(name="orderID",value="订单id",required = true)
             @RequestParam String orderId ,
@@ -83,10 +83,15 @@ public class MyOrdersController extends BaseController {
             return checkResult;
         }
 
+        boolean res = myOrdersService.updateReceiveOrderStatus(orderId);
+
+        if (!res) {
+            return IMOOCJSONResult.errorMsg("订单确认收货失败！");
+        }
+
         return IMOOCJSONResult.ok();
 
     }
-
 
 
 
@@ -114,6 +119,12 @@ public class MyOrdersController extends BaseController {
         IMOOCJSONResult checkResult = checkUserOrder(userId, orderId);
         if (checkResult.getStatus() != HttpStatus.OK.value()) {
             return checkResult;
+        }
+
+        boolean res = myOrdersService.deleteOrder(userId,orderId);
+
+        if (!res) {
+            return IMOOCJSONResult.errorMsg("订单删除失败！");
         }
 
 

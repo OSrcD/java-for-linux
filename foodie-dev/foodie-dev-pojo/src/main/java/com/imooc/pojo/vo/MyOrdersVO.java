@@ -12,7 +12,7 @@ public class MyOrdersVO {
     private String orderId;
     private Date createdTime;
     private Integer payMethod;
-    private Integer relPayAmount;
+    private Integer realPayAmount;
     private Integer isComment;
     private Integer postAmount;
     private Integer orderStatus;
@@ -44,12 +44,12 @@ public class MyOrdersVO {
         this.payMethod = payMethod;
     }
 
-    public Integer getRelPayAmount() {
-        return relPayAmount;
+    public Integer getRealPayAmount() {
+        return realPayAmount;
     }
 
-    public void setRelPayAmount(Integer relPayAmount) {
-        this.relPayAmount = relPayAmount;
+    public void setRealPayAmount(Integer realPayAmount) {
+        this.realPayAmount = realPayAmount;
     }
 
     public Integer getIsComment() {

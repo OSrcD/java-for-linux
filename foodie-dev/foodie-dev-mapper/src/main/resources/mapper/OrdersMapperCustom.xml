@@ -6,7 +6,7 @@
         <id column="orderId" property="orderId" />
         <result column="createdTime" property="createdTime" />
         <result column="payMethod" property="payMethod" />
-        <result column="relPayAmount" property="relPayAmount" />
+        <result column="realPayAmount" property="realPayAmount" />
         <result column="postAmount" property="postAmount" />
         <result column="orderStatus" property="orderStatus" />
 
@@ -21,7 +21,7 @@
     </resultMap>
 
 
-   <select id="queryMyOrders" resultMap="myOrdersVO" parameterMap="Map">
+   <select id="queryMyOrders" resultMap="myOrdersVO" parameterType="Map">
     SELECT
         od.id as orderId,
         od.created_time as createdTime,
@@ -32,7 +32,6 @@
         oi.item_id as itemId,
         oi.item_name as itemName,
         oi.item_img as itemImg,
-        oi.item_spec_id as itemSpecId,
         oi.item_spec_name as itemSpecName,
         oi.buy_counts as buyCounts,
         oi.price as price

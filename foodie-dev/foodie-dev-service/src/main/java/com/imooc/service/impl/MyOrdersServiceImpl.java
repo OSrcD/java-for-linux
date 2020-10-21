@@ -7,6 +7,7 @@ import com.imooc.pojo.vo.MyOrdersVO;
 import com.imooc.service.center.MyOrdersService;
 import com.imooc.utils.PagedGridResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,6 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Service
 public class MyOrdersServiceImpl implements MyOrdersService {
 
     @Autowired

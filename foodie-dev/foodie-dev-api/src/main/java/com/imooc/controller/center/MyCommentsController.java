@@ -58,7 +58,7 @@ public class MyCommentsController extends BaseController {
             @ApiParam(name = "orderId", value = "订单id", required = true)
             @RequestParam String orderId,
             @RequestBody List<OrderItemsCommentBO> commentList) {
-        
+
 
         System.out.println(commentList);
 
@@ -74,6 +74,9 @@ public class MyCommentsController extends BaseController {
         if (commentList == null || commentList.size() == 0 || commentList.isEmpty()) {
             return IMOOCJSONResult.errorMsg("评论内容不能为空！");
         }
+
+
+        myCommentsService.saveComments(orderId,userId,commentList);
 
         return IMOOCJSONResult.ok();
 

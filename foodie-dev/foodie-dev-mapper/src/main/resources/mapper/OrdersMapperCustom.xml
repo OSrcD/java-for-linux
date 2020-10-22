@@ -118,5 +118,34 @@
     </select>
 
 
+    <select id="getMyOrderTrend" parameterType="Map" resultType="com.imooc.pojo.OrderStatus" >
+
+        SELECT
+            os.order_id AS orderId,
+            os.order_status AS orderStatus,
+            os.created_time AS createdTime,
+            os.pay_time AS payTime,
+            os.deliver_time AS deliverTime,
+            os.success_time AS successTime,
+            os.close_time as closeTime,
+            os.comment_Time as commentTime
+        FROM
+            orders o
+        LEFT JOIN
+            order_status os
+        ON
+            o.id = os.order_id
+        AND
+            o.is_delete = 0
+        AND
+            o.userId = #{paramsMap.userId}
+        AND
+            os.order_status IN (20, 30, 40)
+        ORDER BY
+            os.order_id;
+
+
+    </select>
+
 
 </mapper>

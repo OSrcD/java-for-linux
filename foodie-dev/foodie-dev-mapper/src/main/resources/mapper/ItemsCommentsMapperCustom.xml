@@ -64,7 +64,7 @@
     ON
         ic.item_id = ii.item_id
     WHERE
-        ic.user_id = '1908017YR51G1XWH'
+        ic.user_id = #{paramsMap.userId}
     AND
         ii.is_main = 1
     ORDER BY

@@ -88,10 +88,8 @@ public class MyCommentsServiceImpl extends BaseService  implements MyCommentsSer
 
         Map<String, Object> map = new HashMap<>();
         map.put("userId",userId);
-
         PageHelper.startPage(page, pageSize);
         List<MyCommentVO> list = itemsCommentsMapperCustom.queryMyComments(map);
-
-        return setterPagedGridResult(list,page,pageSize);
+        return setterPagedGrid(list,page);
     }
 }

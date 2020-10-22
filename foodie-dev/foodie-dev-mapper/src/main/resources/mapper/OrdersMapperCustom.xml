@@ -119,7 +119,6 @@
 
 
     <select id="getMyOrderTrend" parameterType="Map" resultType="com.imooc.pojo.OrderStatus" >
-
         SELECT
             os.order_id AS orderId,
             os.order_status AS orderStatus,
@@ -135,16 +134,15 @@
             order_status os
         ON
             o.id = os.order_id
-        AND
+        WHERE
             o.is_delete = 0
         AND
-            o.userId = #{paramsMap.userId}
+            o.user_id = #{paramsMap.userId}
         AND
             os.order_status IN (20, 30, 40)
         ORDER BY
-            os.order_id;
-
-
+            os.order_id
+        DESC
     </select>
 
 

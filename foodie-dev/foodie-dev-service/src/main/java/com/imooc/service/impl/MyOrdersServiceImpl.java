@@ -1,7 +1,6 @@
 package com.imooc.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
 import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.YesOrNo;
 import com.imooc.mapper.OrderStatusMapper;
@@ -25,8 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class MyOrdersServiceImpl implements MyOrdersService {
-
+public class MyOrdersServiceImpl extends BaseService implements  MyOrdersService {
 
     @Autowired
     private OrdersMapperCustom ordersMapperCustom;
@@ -56,16 +54,16 @@ public class MyOrdersServiceImpl implements MyOrdersService {
     }
 
 
-    private PagedGridResult setterPagedGrid(List<?> list, Integer page) {
-
-        PageInfo<?> pageList = new PageInfo<>(list);
-        PagedGridResult grid = new PagedGridResult();
-        grid.setPage(page);
-        grid.setRows(list);
-        grid.setTotal(pageList.getPages());
-        grid.setRecords(pageList.getTotal());
-        return grid;
-    }
+//    private PagedGridResult setterPagedGrid(List<?> list, Integer page) {
+//
+//        PageInfo<?> pageList = new PageInfo<>(list);
+//        PagedGridResult grid = new PagedGridResult();
+//        grid.setPage(page);
+//        grid.setRows(list);
+//        grid.setTotal(pageList.getPages());
+//        grid.setRecords(pageList.getTotal());
+//        return grid;
+//    }
 
 
     @Transactional(propagation = Propagation.REQUIRED)
@@ -161,5 +159,18 @@ public class MyOrdersServiceImpl implements MyOrdersService {
         );
 
         return orderStatusCountsVO;
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public PagedGridResult getOrdersTrend(String userId, Integer page, Integer pageSize) {
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("userId", userId);
+
+        PageHelper.startPage(page,pageSize);
+        List<OrderStatus> list = ordersMapperCustom.getMyOrderTrend(map);
+
+        return setterPagedGrid(list,page);
     }
 }

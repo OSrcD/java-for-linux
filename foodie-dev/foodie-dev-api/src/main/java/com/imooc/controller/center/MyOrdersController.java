@@ -25,7 +25,7 @@ public class MyOrdersController extends BaseController {
 
 
     @ApiOperation(value="查询订单列表",notes="查询订单列表",httpMethod="POST")
-    @PostMapping("query")
+    @PostMapping("/query")
     public IMOOCJSONResult query(
             @ApiParam(name="userId",value="用户id",required=true)
             @RequestParam String userId,

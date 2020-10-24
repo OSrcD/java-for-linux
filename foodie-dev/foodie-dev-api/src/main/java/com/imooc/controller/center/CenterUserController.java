@@ -54,7 +54,7 @@ public class CenterUserController extends BaseController {
 
         // 定义头像保存的地址
 //        String fileSpace = IMAGE_USER_FACE_LOCATION;
-        String fileSpace = fileUpload.getImageUserFaceLocation();
+        String fileSpace = fileUpload.getImageUserFaceLocation(); // /Users/virtualman/Downloads/temp/workspace/images/foodie/faces
 
 
 
@@ -138,7 +138,7 @@ public class CenterUserController extends BaseController {
         }
 
         // 获取图片服务地址
-        String imageServerUrl = fileUpload.getImageServerUrl();
+        String imageServerUrl = fileUpload.getImageServerUrl(); // http://localhost:8088/foodie/faces
 
         // 由于浏览器可能存在缓存情况，所以在这里，我们需要加上时间戳来保证更新后的图片可以及时刷新
         String finalUserFaceUrl = imageServerUrl + uploadPathPrefix +

@@ -1,4 +1,4 @@
-package com.imooc.service.impl;
+package com.imooc.service.impl.center;
 
 import com.github.pagehelper.PageHelper;
 import com.imooc.enums.YesOrNo;
@@ -12,6 +12,7 @@ import com.imooc.pojo.Orders;
 import com.imooc.pojo.bo.center.OrderItemsCommentBO;
 import com.imooc.pojo.vo.MyCommentVO;
 import com.imooc.service.center.MyCommentsService;
+import com.imooc.service.impl.center.BaseService;
 import com.imooc.utils.PagedGridResult;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class MyCommentsServiceImpl extends BaseService  implements MyCommentsService {
+public class MyCommentsServiceImpl extends BaseService implements MyCommentsService {
 
 
     @Autowired

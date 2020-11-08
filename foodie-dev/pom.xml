@@ -16,13 +16,13 @@
         <module>foodie-dev-api</module>
     </modules>
 
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>aliyun</id>
             <name>aliyun</name>
             <url>https://maven.aliyun.com/repository/public</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -52,6 +52,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -143,9 +149,12 @@
             <version>1.7.21</version>
         </dependency>
 
-
+        <!-- 打包war [3] 添加依赖 -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
-
-
 </project>

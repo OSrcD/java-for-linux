@@ -89,12 +89,14 @@ public class OrdersController extends BaseController{
     }
 
     @PostMapping("notifyMerchantOrderPaid")
+    @ApiOperation(value="支付中心回调用户的订单是否已付款",notes="支付中心回调后端用户的订单是否已付款",httpMethod="POST")
     public Integer notifyMerchantOrderPaid(@RequestParam String merchantOrderId){
         orderService.updateOrderStatus(merchantOrderId, OrderStatusEnum.WAIT_DELIVER.type);
         return HttpStatus.OK.value();
     }
 
     @PostMapping("getPaidOrderInfo")
+    @ApiOperation(value="前端轮询查询是否付款",notes="前端轮询查询是否付款",httpMethod="POST")
     public IMOOCJSONResult getPaidOrderInfo(@RequestParam String orderId){
         OrderStatus orderStatus = orderService.queryOrderStatusInfo(orderId);
         return IMOOCJSONResult.ok(orderStatus);

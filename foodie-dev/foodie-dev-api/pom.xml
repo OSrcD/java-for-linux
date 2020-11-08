@@ -11,12 +11,23 @@
 
     <artifactId>foodie-dev-api</artifactId>
 
+    <!--<packaging>jar</packaging>-->
+    <!-- 打包war [1] -->
+    <packaging>war</packaging>
+
     <dependencies>
         <dependency>
             <groupId>com.imooc</groupId>
             <artifactId>foodie-dev-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-    </dependencies>
 
+        <!-- 打包war [3] 添加依赖 -->
+        <!--<dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>-->
+
+    </dependencies>
 </project>

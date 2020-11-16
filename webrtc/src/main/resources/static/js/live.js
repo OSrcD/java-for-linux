@@ -56,6 +56,7 @@ function startLive() {
         webRtcPeer = new kurentoUtils.WebRtcPeer.WebRtcPeerSendonly(options, function (error) {
 
             if (error) {
+                webRtcPeer = null;
                 return alert('实例化主播端webRtcPeer对象失败： ' + error + ' 请重新刷新页面连接');
             }
 
@@ -85,7 +86,7 @@ function onAnchorOfferSdp(error, offerSdp) {
     if (error) {
         return console.log('监听生成OfferSdp失败');
     }
-    console.log('监听生成OfferSdp失败' + location.host);
+    console.log('监听生成OfferSdp' + location.host);
     var message = {
         id : 'presenter', // presenter sendAnchorOfferSdp
         sdpOffer: offerSdp
@@ -174,6 +175,7 @@ function checkLive() {
 
         webRtcPeer = new kurentoUtils.WebRtcPeer.WebRtcPeerRecvonly(options, function (error) {
             if (error) {
+                webRtcPeer = null;
                 return console.log('实例化观众端webRtcPeer失败 ' + error);
             }
             // 生成观众端的SDP提供，需要指定回调函数
@@ -196,7 +198,7 @@ function onAudienceOfferSdp(error, offerSdp) {
     if (error) {
         return console.log('监听生成OfferSdp失败');
     }
-    console.log('监听生成OfferSdp失败 ' + location.host);
+    console.log('监听生成OfferSdp ' + location.host);
     var message = {
         id : 'viewer', // viewer sendAudienceOfferSdp
         sdpOffer: offerSdp
@@ -213,7 +215,7 @@ function onAudienceOfferSdp(error, offerSdp) {
  */
 function audienceProcessAnswer(message) {
 
-    if (message.message == '当前没有直播在直播') {
+    if (message.message == '当前没有主播在直播') {
         alert(message.message);
     }
 

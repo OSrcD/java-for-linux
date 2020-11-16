@@ -240,7 +240,7 @@ public class LiveController extends TextWebSocketHandler {
             JsonObject response = new JsonObject();
             response.addProperty("id","viewerResponse");
             response.addProperty("response","rejected");
-            response.addProperty("message", "当前没有直播在直播");
+            response.addProperty("message", "当前没有主播在直播");
             session.sendMessage(new TextMessage(response.toString()));
         }else{
 
@@ -348,7 +348,7 @@ public class LiveController extends TextWebSocketHandler {
                 pipeline.release();
             }
 
-            // 释放内存
+            // 释放内存 防止内存泄露
             pipeline = null;
             presenterUserSession = null;
             viewers.clear();

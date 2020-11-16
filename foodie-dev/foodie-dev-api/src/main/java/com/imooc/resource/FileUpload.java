@@ -9,7 +9,7 @@ import java.util.List;
 
 @Component
 @ConfigurationProperties(prefix="file")
-@PropertySource("classpath:file-upload-prod.properties")
+@PropertySource("classpath:file-upload-dev.properties")
 public class FileUpload {
 
 

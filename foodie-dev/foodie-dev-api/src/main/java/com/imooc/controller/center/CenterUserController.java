@@ -59,7 +59,7 @@ public class CenterUserController extends BaseController {
 
 
         // 在路径上为每一个用户增加一个userId，用于区分不同用户上传
-        String uploadPathPrefix = File.separator + userId;
+        String uploadPathPrefix = File.separator + userId; //  / 201013ASBYNDSR1P
 
         // 开发文件上传
         if (file != null) {
@@ -68,7 +68,7 @@ public class CenterUserController extends BaseController {
             try {
 
                 // 获得文件上传的文件名称
-                String fileName = file.getOriginalFilename();
+                String fileName = file.getOriginalFilename(); // xxx.png xxx.jpg xxx.jpeg
 
                 if (StringUtils.isNotBlank(fileName)) {
 
@@ -78,7 +78,7 @@ public class CenterUserController extends BaseController {
 
 
                     // 获得文件的后缀名
-                    String suffix = fileNameArr[fileNameArr.length - 1];
+                    String suffix = fileNameArr[fileNameArr.length - 1]; // png jpe jpeg
 
                     if (!suffix.equalsIgnoreCase("png") &&
                             !suffix.equalsIgnoreCase("jpg") &&
@@ -91,33 +91,40 @@ public class CenterUserController extends BaseController {
 
                     // face-{userId}.png
                     // 文件名称重组 覆盖式上传，增量式: 额外拼接当前时间
-                    String newFileName = "face-" + userId + "." + suffix;
+                    String newFileName = "face-" + userId + "." + suffix; // face- 201013ASBYNDSR1P . png
 
-                    // 上传文件头像最终保存位置
+                    /**
+                     * 上传文件头像最终保存位置
+                     * /Users/virtualman/Downloads/temp/workspace/images/foodie/faces /201013ASBYNDSR1P / face-201013ASBYNDSR1P.png
+                     */
                     String finalFilePath = fileSpace + uploadPathPrefix + File.separator + newFileName;
                     // 用于提供给web服务访问的地址
-                    uploadPathPrefix += ( "/" + newFileName);
+                    uploadPathPrefix += ( "/" + newFileName); // /201013ASBYNDSR1P / face-201013ASBYNDSR1P.png
 
 
 
 
-
+                    // /Users/virtualman/Downloads/temp/workspace/images/foodie/faces /201013ASBYNDSR1P / face-201013ASBYNDSR1P.png
                     File outFile = new File(finalFilePath);
 
-                    if (outFile.getParentFile() != null) {
-                        // 创建文件夹
+                    if (outFile.getParentFile() != null) { // 只要存在相应的父类目录
+
+                        /**
+                         * 创建文件夹
+                         * 在/Users/virtualman/Downloads/temp/workspace/images/foodie/faces创建下面目录
+                         * /201013ASBYNDSR1P
+                         */
                         outFile.getParentFile().mkdirs();
                     }
 
-                    // 文件输出保存到目录
+
+                    /**
+                     * 文件输出保存到目录
+                     * /Users/virtualman/Downloads/temp/workspace/images/foodie/faces/201013ASBYNDSR1P/face-201013ASBYNDSR1P.png
+                     */
                     fileOutputStream = new FileOutputStream(outFile);
                     inputStream = file.getInputStream();
                     IOUtils.copy(inputStream, fileOutputStream); // 当两个流连接在一起就形成了pipeline
-
-
-
-
-
 
                 }
             } catch (IOException e) {
@@ -126,7 +133,7 @@ public class CenterUserController extends BaseController {
                 if (fileOutputStream != null) {
                     try {
                         fileOutputStream.flush();
-                        fileOutputStream.close();
+                        fileOutputStream.close(); // 防止内存泄露
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -140,12 +147,15 @@ public class CenterUserController extends BaseController {
         // 获取图片服务地址
         String imageServerUrl = fileUpload.getImageServerUrl(); // http://localhost:8088/foodie/faces
 
-        // 由于浏览器可能存在缓存情况，所以在这里，我们需要加上时间戳来保证更新后的图片可以及时刷新
+        /**
+         * 由于浏览器可能存在缓存情况，所以在这里，我们需要加上时间戳来保证更新后的图片可以及时刷新
+         * http://localhost:8088/foodie/faces /201013ASBYNDSR1P?t= 20201021122213
+         */
         String finalUserFaceUrl = imageServerUrl + uploadPathPrefix +
                 "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
 
         // 更新用户头像到数据库
-        Users userResult = centerUserService.updateUserFaceUrl(userId,finalUserFaceUrl);
+        Users userResult = centerUserService.updateUserFaceUrl(userId,finalUserFaceUrl); // http://localhost:8088/foodie/faces/201013ASBYNDSR1P?t=20201021122213
 
         userResult = setNullProperty(userResult);
 

@@ -7,11 +7,11 @@ window.app = {
     cookieDomain: "",                                                       // cookie 域
 
     /* 生产环境 */
-    // serverUrl: "http://120.77.47.215:8088/foodie-dev-api/",                      // 接口服务接口地址
+    // serverUrl: "http://api.z.opendevel.gq:8088/foodie-dev-api",                      // 接口服务接口地址
     // paymentServerUrl: "http://payment.t.mukewang.com/foodie-payment",       // 支付中心服务地址
-    // shopServerUrl: "http://120.77.47.215:8080/foodie-shop/",                            // 门户网站地址
-    // centerServerUrl: "http://120.77.47.215:8080/foodie-center/",                        // 用户中心地址
-    // cookieDomain: "",                                       // cookie 域
+    // shopServerUrl: "http://shop.z.opendevel.gq:8080/foodie-shop/",                            // 门户网站地址
+    // centerServerUrl: "http://center.z.opendevel.gq:8080/foodie-center/",                        // 用户中心地址
+    // cookieDomain: ".z.opendevel.gq",   
 
     ctx: "/foodie-shop",
 

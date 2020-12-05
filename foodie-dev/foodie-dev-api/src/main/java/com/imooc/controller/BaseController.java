@@ -20,7 +20,7 @@ public class BaseController {
 
     // 微信支付成功 -> 支付中心 -> 天天吃货平台
     //                       -> 回调通知的url
-    public String payReturnUrl = "http://120.77.47.215:8088/foodie-dev-api/orders/notifyMerchantOrderPaid";
+    public String payReturnUrl = "http://api.z.opendevel.gq:8088/foodie-dev-api/orders/notifyMerchantOrderPaid";
 
     public final String IMAGE_USER_FACE_LOCATION = File.separator + "Users"+
                                                     File.separator + "virtualman"+

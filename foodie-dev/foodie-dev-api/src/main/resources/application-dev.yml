@@ -5,7 +5,11 @@ spring:
   datasource:                                           # 数据源的相关配置
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     password: SocialPG
-
+  redis:
+    database: 1
+    host: 192.168.245.138
+    port: 6379
+    password: imooc
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -69,22 +69,42 @@ public class IndexController {
     @ApiOperation(value="获取商品分类(一级分类)",notes="获取商品分类(一级分类)",httpMethod = "GET")
     @GetMapping("/cats")
     public IMOOCJSONResult cats() {
-        List<Category> result = categoryService.queryAllRootLevelCat();
-        return IMOOCJSONResult.ok(result);
+
+        List<Category> list = new ArrayList<>();
+        String catsStr =  redisOperator.get("cats");
+
+        if (StringUtils.isBlank(catsStr)) {
+            list = categoryService.queryAllRootLevelCat();
+            redisOperator.set("cats", JsonUtils.objectToJson(list));
+        }else{
+            list = JsonUtils.jsonToList(catsStr, Category.class);
+        }
+//        List<Category> list = categoryService.queryAllRootLevelCat();
+        return IMOOCJSONResult.ok(list);
     }
 
 
     @ApiOperation(value="获取商品子分类",notes="获取商品子分类",httpMethod="GET")
     @GetMapping("/subCat/{rootCatId}")
     public IMOOCJSONResult subCat(
-            @ApiParam(name = "rootCatId",value = "父分类Id",required = true)
+            @ApiParam(name = "rootCatId",value = "一级分类id",required = true)
             @PathVariable Integer rootCatId){
 
         if(rootCatId == null){
             return IMOOCJSONResult.errorMsg("分类不存在");
         }
 
-        List<CategoryVO> list = categoryService.getSubCatList(rootCatId);
+        List<CategoryVO> list = new ArrayList<>();
+        String catsStr = redisOperator.get("subCat:" +  rootCatId);
+
+        if (StringUtils.isBlank(catsStr)) {
+            list = categoryService.getSubCatList(rootCatId);
+            redisOperator.set("subCat:" + rootCatId, JsonUtils.objectToJson(list));
+        }else{
+            list = JsonUtils.jsonToList(catsStr, CategoryVO.class);
+        }
+
+//        List<CategoryVO> list = categoryService.getSubCatList(rootCatId);
 
         return IMOOCJSONResult.ok(list);
 

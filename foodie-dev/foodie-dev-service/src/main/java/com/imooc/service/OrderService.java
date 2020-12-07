@@ -2,8 +2,11 @@ package com.imooc.service;
 
 import com.imooc.pojo.OrderStatus;
 import com.imooc.pojo.Orders;
+import com.imooc.pojo.bo.ShopcartBO;
 import com.imooc.pojo.bo.SubmitOrderBO;
 import com.imooc.pojo.vo.OrderVO;
+
+import java.util.List;
 
 public interface OrderService {
 
@@ -11,7 +14,7 @@ public interface OrderService {
      * 用于创建订单相关信息
      * @param submitOrderBO
      */
-    public OrderVO createOrder(SubmitOrderBO submitOrderBO);
+    public OrderVO createOrder(List<ShopcartBO> shopcartList,SubmitOrderBO submitOrderBO);
 
     /**
      * 修改订单状态

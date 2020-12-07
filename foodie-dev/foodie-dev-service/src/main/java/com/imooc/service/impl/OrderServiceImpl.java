@@ -6,6 +6,7 @@ import com.imooc.mapper.OrderItemsMapper;
 import com.imooc.mapper.OrderStatusMapper;
 import com.imooc.mapper.OrdersMapper;
 import com.imooc.pojo.*;
+import com.imooc.pojo.bo.ShopcartBO;
 import com.imooc.pojo.bo.SubmitOrderBO;
 import com.imooc.pojo.vo.MerchantOrdersVO;
 import com.imooc.pojo.vo.OrderVO;
@@ -45,7 +46,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
-    public OrderVO createOrder(SubmitOrderBO submitOrderBO) {
+    public OrderVO createOrder(List<ShopcartBO> shopcartList, SubmitOrderBO submitOrderBO) {
 
         String userId = submitOrderBO.getUserId();
         String addressId = submitOrderBO.getAddressId();
@@ -91,8 +92,9 @@ public class OrderServiceImpl implements OrderService {
 
         for(String itemSpecId : itemSpecIdArr){
 
-            // TODO 整合redis后，商品购买的数量重新从redis的购物车中获取
-            Integer buyCounts = 1;
+            // 整合redis后，商品购买的数量重新从redis的购物车中获取
+            ShopcartBO cartItem = getBuyCountsFromShopcart(shopcartList,itemSpecId);
+            int buyCounts = cartItem.getBuyCounts();
 
             // 2.1 根据规格id，查询规格的具体信息，主要获取价格
             ItemsSpec itemSpec = itemService.queryItemsSpecById(itemSpecId);
@@ -149,6 +151,22 @@ public class OrderServiceImpl implements OrderService {
         return orderVO;
     }
 
+    /**
+     * 从redis中的购物车里获取商品，目的：counts
+     * @param shopcartList
+     * @param specId
+     * @return
+     */
+    private ShopcartBO getBuyCountsFromShopcart(List<ShopcartBO> shopcartList, String specId) {
+        for (ShopcartBO cart : shopcartList) {
+            if (cart.getSpecId().equals(specId)) {
+                return cart;
+            }
+        }
+        return null;
+    }
+
+
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void updateOrderStatus(String orderId, Integer orderStatus) {
@@ -199,5 +217,8 @@ public class OrderServiceImpl implements OrderService {
         close.setCloseTime(new Date());
         orderStatusMapper.updateByPrimaryKeySelective(close);
     }
+
+
+
 
 }

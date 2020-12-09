@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.imooc.oa.dao.DepartmentDao">
+
+    <resultMap id="department" type="Department">
+        <id property="sn" column="sn" javaType="String" />
+        <result property="name" column="name" javaType="String" />
+        <result property="address" column="address" javaType="String" />
+    </resultMap>
+
+    <insert id="insert" parameterType="Department">
+        insert into department values (#{sn},#{name},#{address})
+    </insert>
+
+    <update id="update" parameterType="Department" >
+        update department set name=#{name},address=#{address} where sn=#{sn}
+    </update>
+
+    <delete id="delete" parameterType="String">
+        delete from department where sn=#{sn}
+
+    </delete>
+
+
+    <select id="select" parameterType="String" resultMap="department">
+        select * from department where sn=#{sn}
+    </select>
+
+    <select id="selectAll" parameterType="String" resultMap="department">
+      select * from department
+    </select>
+
+
+</mapper>

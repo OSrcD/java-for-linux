@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper PUBLIC "EmployeeDao" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.imooc.oa.dao.EmployeeDao">
+<resultMap id="employee" type="Employee">
+    <id property="sn" column="sn" javaType="String"/>
+    <result property="password" column="password" javaType="String"/>
+    <result property="name" column="name" javaType="String" />
+    <result property="departmentSn" column="department_sn" javaType="String" />
+    <result property="post" column="post" javaType="String" />
+
+    <association property="department" column="department_sn" javaType="Department">
+        <id property="sn" column="dsn" javaType="String"/>
+        <result property="name" column="dname" javaType="String"/>
+    </association>
+</resultMap>
+
+<insert id="insert" parameterType="Employee">
+        insert into employee values (#{sn},#{password},#{name},#{departmentSn},#{post})
+
+
+    </insert>
+
+<update id="update" parameterType="Employee" >
+        update employee set password=#{password},name=#{name},department_sn=#{departmentSn},post=#{post} where sn=#{sn}
+    </update>
+
+<delete id="delete" parameterType="String">
+        delete from employee where sn=#{sn}
+    </delete>
+
+<select id="select" parameterType="String" resultMap="employee">
+        select  e.*,d.sn dsn,d.name dname from employee e left join department d on d.sn = e.department_sn where e.sn = #{sn}
+    </select>
+
+<select id="selectAll"   resultMap="employee">
+        select e.*,d.sn dsn,d.name dname from employee e left join department d on d.sn = e.department_sn
+    </select>
+
+</mapper>

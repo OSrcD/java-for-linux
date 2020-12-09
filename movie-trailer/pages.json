@@ -1,0 +1,134 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                },
+                "enablePullDownRefresh" : true // 开启单页面下拉刷新功能
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                "navigationBarTitleText" : "搜索预告片"
+            }
+        },
+        {
+            "path" : "pages/me/me",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false //禁用原生导航栏
+                },
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "我的",
+                "navigationBarBackgroundColor" : "#ffd655"
+            }
+        },
+        {
+            "path" : "pages/movie/movie",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent",
+                        "buttons" : [
+                            {
+                                "type" : "share"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/cover/cover",
+            "style" : {}
+        },
+        {
+            "path" : "pages/registLogin/registLogin",
+            "style" : {}
+        },
+        {
+            "path" : "pages/meInfo/meInfo",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "我的",
+                "navigationBarBackgroundColor" : "#ffd655"
+            }
+        },
+        {
+            "path" : "pages/meFace/meFace",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "头像上传",
+                "navigationBarBackgroundColor" : "#000000"
+            }
+        },
+        {
+            "path" : "pages/faceCrop/faceCrop",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "头像剪裁",
+                "navigationBarBackgroundColor" : "#000000"
+            }
+        },
+        {
+            "path" : "pages/meNickname/meNickname",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "修改昵称",
+                "navigationBarBackgroundColor" : "#ffd655"
+            }
+        },
+        {
+            "path" : "pages/meBirthday/meBirthday",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "修改生日",
+                "navigationBarBackgroundColor" : "#ffd655"
+            }
+        },
+        {
+            "path" : "pages/sex/sex",
+            "style" : {
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "性别",
+                "navigationBarBackgroundColor" : "#ffd655"
+            }
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "NEXT超英预告",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#bfbfbf",
+        "selectedColor" : "#515151",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "static/tabBarIco/index.png",
+                "selectedIconPath" : "static/tabBarIco/index_sel.png"
+            },
+            {
+                "pagePath" : "pages/search/search",
+                "text" : "搜索",
+                "iconPath" : "static/tabBarIco/search.png",
+                "selectedIconPath" : "static/tabBarIco/search_sel.png"
+            },
+            {
+                "pagePath" : "pages/me/me",
+                "text" : "我的",
+                "iconPath" : "static/tabBarIco/me.png",
+                "selectedIconPath" : "static/tabBarIco/me_sel.png"
+            }
+        ]
+    }
+}

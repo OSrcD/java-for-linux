@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页面铺满屏幕 */
+.page-fill {
+	width:100%;
+	height: 100%;
+	position: absolute;
+}
+.graywords {
+	color: #EAEAEA;
+}
+.input {
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 500rpx;
+	margin-left: 40rpx;
+}
+.submitBtn {
+	width: 95%;
+	margin-top: 40rpx;
+}
+

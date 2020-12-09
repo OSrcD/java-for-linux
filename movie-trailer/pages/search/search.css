@@ -1,0 +1,47 @@
+/* 搜索框 start */
+.search-ico {
+	width: 40upx;
+	height: 40upx;
+}
+.search-text {
+	font-size: 14px;
+	background-color: #eaeaea;
+	height: 60upx;
+	width: 650upx;
+}
+.search-block {
+	display: flex;
+	flex-direction: row;
+	padding: 0upx 20upx 20upx 20upx;
+	/* 固定搜索栏 */
+	position: fixed;
+	top: 100;
+	z-index: 2000;
+	background-color: #F8F8F8;
+}
+.search-ico-wapper {
+	background-color: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0upx 10upx;
+}
+/* 搜索框 end */
+
+/* 预告片列表 start */
+.poster {
+	width: 200upx;
+	height: 270upx;
+}
+.movie-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	
+	padding: 100upx 10upx 0upx 10upx;
+}
+.movie-wapper {
+	padding: 10upx 20upx;
+}
+/* 预告片列表 end */

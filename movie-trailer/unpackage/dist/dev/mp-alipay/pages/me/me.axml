@@ -1,0 +1,2 @@
+<template name="57700388"><view class="_view {{ h[ 0 ].rcl }}">这是个人页面</view></template>
+<template is="57700388" data="{{ ...$root['0'], $root }}"/>

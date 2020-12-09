@@ -1,0 +1,10 @@
+{
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share"
+      }
+    ]
+  }
+}

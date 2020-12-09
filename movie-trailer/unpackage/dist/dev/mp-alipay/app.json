@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/me/me"
+  ],
+  "window": {
+    "defaultTitle": "NEXT超英预告",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#bfbfbf",
+    "selectedColor": "#515151",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/tabBarIco/index.png",
+        "activeIcon": "static/tabBarIco/index_sel.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "name": "搜索",
+        "icon": "static/tabBarIco/search.png",
+        "activeIcon": "static/tabBarIco/search_sel.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "name": "我的",
+        "icon": "static/tabBarIco/me.png",
+        "activeIcon": "static/tabBarIco/me_sel.png"
+      }
+    ]
+  }
+}

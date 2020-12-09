@@ -1,0 +1,1 @@
+<template name="7329c7a4"><view class="_view {{ h[ 0 ].rcl }}">{{ h[ 1 ].t }}<view class="_view"><input class="_input txt" type="text" value="{{ h[ 3 ][ 'value' ] }}"></input></view></view></template>

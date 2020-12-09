@@ -6,6 +6,6 @@ My open source projects
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenProject.jpeg)
 
-Open source courses link:<https://space.bilibili.com/77266754>
+My open source courses link:<https://space.bilibili.com/77266754>
 
-Open source projects link:<https://github.com/OpenSrcDeveloper/java-for-linux>
+My open source projects link:<https://github.com/OpenSrcDeveloper/java-for-linux>

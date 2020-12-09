@@ -1,0 +1,114 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_common.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_grfmt.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_jpeg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_png.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_read_write.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_tiff.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_webp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_common.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_exr.impl.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/imgcodecs/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_imgcodecs",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_imgcodecs",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_imgcodecs"
+	}
+}

@@ -1,0 +1,222 @@
+#use_cache "/Users/virtualman/Downloads/MySource/opencv-4.3.0/.cache"
+#do_unpack "ippicv_2020_mac_intel64_20191018_general.tgz" "1c3d675c2a2395d094d523024896e01b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_mac_intel64_20191018_general.tgz" "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/3rdparty/ippicv"
+#cmake_download "/Users/virtualman/Downloads/MySource/opencv-4.3.0/.cache/ippicv/1c3d675c2a2395d094d523024896e01b-ippicv_2020_mac_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_mac_intel64_20191018_general.tgz"
+#try 1
+#   Trying 0.0.0.0:443...
+# TCP_NODELAY set
+# connect to 0.0.0.0 port 443 failed: Connection refused
+# Failed to connect to raw.githubusercontent.com port 443: Connection refused
+# Closing connection 0
+# 
+
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/3rdparty/ade"
+#cmake_download "/Users/virtualman/Downloads/MySource/opencv-4.3.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip" "https://github.com/opencv/ade/archive/v0.1.1f.zip"
+#try 1
+#   Trying 13.250.177.223:443...
+# TCP_NODELAY set
+# Connected to github.com (13.250.177.223) port 443 (#0)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/ade/archive/v0.1.1f.zip HTTP/1.1
+# Host: github.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 302 Found
+# date: Mon, 15 Jun 2020 00:35:16 GMT
+# content-type: text/html; charset=utf-8
+# server: GitHub.com
+# status: 302 Found
+# vary: X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding
+# location: https://codeload.github.com/opencv/ade/zip/v0.1.1f
+# cache-control: max-age=0, private
+# strict-transport-security: max-age=31536000; includeSubdomains; preload
+# x-frame-options: deny
+# x-content-type-options: nosniff
+# x-xss-protection: 1; mode=block
+# expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+# content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://live.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js
+# Content-Length: 116
+# X-GitHub-Request-Id: C553:7554:20DE265:2DA3219:5EE6C274
+# 
+# Ignoring the response-body
+# [116 bytes data]
+# Connection #0 to host github.com left intact
+# Issue another request to this URL: 'https://codeload.github.com/opencv/ade/zip/v0.1.1f'
+#   Trying 54.251.140.56:443...
+# TCP_NODELAY set
+# Connected to codeload.github.com (54.251.140.56) port 443 (#1)
+# ALPN, offering http/1.1
+# TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+# Server certificate: *.github.com
+# Server certificate: DigiCert SHA2 High Assurance Server CA
+# Server certificate: DigiCert High Assurance EV Root CA
+# GET /opencv/ade/zip/v0.1.1f HTTP/1.1
+# Host: codeload.github.com
+# User-Agent: curl/7.65.0
+# Accept: */*
+# 
+# Mark bundle as not supporting multiuse
+# HTTP/1.1 200 OK
+# Date: Mon, 15 Jun 2020 00:36:07 GMT
+# Content-Type: application/zip
+# Transfer-Encoding: chunked
+# Access-Control-Allow-Origin: https://render.githubusercontent.com
+# Content-Disposition: attachment; filename=ade-0.1.1f.zip
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# ETag: "d6c62c0c3b4dc6059be5fd41ab24d5e0b5d7968e0563d1c2f0e56f27d0f4a57f"
+# Strict-Transport-Security: max-age=31536000
+# Vary: Authorization,Accept-Encoding
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# X-Varnish: 266112811
+# Age: 0
+# Via: 1.1 varnish (Varnish/6.0)
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# Accept-Ranges: bytes
+# Vary: Accept-Encoding
+# X-GitHub-Request-Id: F78A:04E5:CCBCB:10FC9F:5EE6C276
+# 
+# [611 bytes data]
+# [1370 bytes data]
+# [74 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [826 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1318 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [937 bytes data]
+# [419 bytes data]
+# [1370 bytes data]
+# [273 bytes data]
+# [1370 bytes data]
+# [1083 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [301 bytes data]
+# [1370 bytes data]
+# [1062 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [357 bytes data]
+# [1370 bytes data]
+# [999 bytes data]
+# [1370 bytes data]
+# [371 bytes data]
+# [1370 bytes data]
+# [985 bytes data]
+# [1370 bytes data]
+# [385 bytes data]
+# [1370 bytes data]
+# [971 bytes data]
+# [1370 bytes data]
+# [399 bytes data]
+# [1370 bytes data]
+# [957 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1349 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1370 bytes data]
+# [1347 bytes data]
+# Connection #1 to host codeload.github.com left intact
+# 
+
+#check_md5 "/Users/virtualman/Downloads/MySource/opencv-4.3.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/3rdparty/ade"
+#unpack "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/3rdparty/ade" "/Users/virtualman/Downloads/MySource/opencv-4.3.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"

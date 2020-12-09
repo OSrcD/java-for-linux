@@ -1,0 +1,155 @@
+PORTED FUNCs LIST (142 of 142):
+
+ bool cv::BackgroundSubtractorMOG2::getDetectShadows()
+ double cv::BackgroundSubtractorMOG2::getBackgroundRatio()
+ double cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold()
+ double cv::BackgroundSubtractorMOG2::getShadowThreshold()
+ double cv::BackgroundSubtractorMOG2::getVarInit()
+ double cv::BackgroundSubtractorMOG2::getVarMax()
+ double cv::BackgroundSubtractorMOG2::getVarMin()
+ double cv::BackgroundSubtractorMOG2::getVarThreshold()
+ double cv::BackgroundSubtractorMOG2::getVarThresholdGen()
+ int cv::BackgroundSubtractorMOG2::getHistory()
+ int cv::BackgroundSubtractorMOG2::getNMixtures()
+ int cv::BackgroundSubtractorMOG2::getShadowValue()
+ void cv::BackgroundSubtractorMOG2::apply(Mat image, Mat& fgmask, double learningRate = -1)
+ void cv::BackgroundSubtractorMOG2::setBackgroundRatio(double ratio)
+ void cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold(double ct)
+ void cv::BackgroundSubtractorMOG2::setDetectShadows(bool detectShadows)
+ void cv::BackgroundSubtractorMOG2::setHistory(int history)
+ void cv::BackgroundSubtractorMOG2::setNMixtures(int nmixtures)
+ void cv::BackgroundSubtractorMOG2::setShadowThreshold(double threshold)
+ void cv::BackgroundSubtractorMOG2::setShadowValue(int value)
+ void cv::BackgroundSubtractorMOG2::setVarInit(double varInit)
+ void cv::BackgroundSubtractorMOG2::setVarMax(double varMax)
+ void cv::BackgroundSubtractorMOG2::setVarMin(double varMin)
+ void cv::BackgroundSubtractorMOG2::setVarThreshold(double varThreshold)
+ void cv::BackgroundSubtractorMOG2::setVarThresholdGen(double varThresholdGen)
+static Ptr_FarnebackOpticalFlow cv::FarnebackOpticalFlow::create(int numLevels = 5, double pyrScale = 0.5, bool fastPyramids = false, int winSize = 13, int numIters = 10, int polyN = 5, double polySigma = 1.1, int flags = 0)
+ bool cv::FarnebackOpticalFlow::getFastPyramids()
+ double cv::FarnebackOpticalFlow::getPolySigma()
+ double cv::FarnebackOpticalFlow::getPyrScale()
+ int cv::FarnebackOpticalFlow::getFlags()
+ int cv::FarnebackOpticalFlow::getNumIters()
+ int cv::FarnebackOpticalFlow::getNumLevels()
+ int cv::FarnebackOpticalFlow::getPolyN()
+ int cv::FarnebackOpticalFlow::getWinSize()
+ void cv::FarnebackOpticalFlow::setFastPyramids(bool fastPyramids)
+ void cv::FarnebackOpticalFlow::setFlags(int flags)
+ void cv::FarnebackOpticalFlow::setNumIters(int numIters)
+ void cv::FarnebackOpticalFlow::setNumLevels(int numLevels)
+ void cv::FarnebackOpticalFlow::setPolyN(int polyN)
+ void cv::FarnebackOpticalFlow::setPolySigma(double polySigma)
+ void cv::FarnebackOpticalFlow::setPyrScale(double pyrScale)
+ void cv::FarnebackOpticalFlow::setWinSize(int winSize)
+ void cv::SparseOpticalFlow::calc(Mat prevImg, Mat nextImg, Mat prevPts, Mat& nextPts, Mat& status, Mat& err = cv::Mat())
+ void cv::DenseOpticalFlow::calc(Mat I0, Mat I1, Mat& flow)
+ void cv::DenseOpticalFlow::collectGarbage()
+ void cv::BackgroundSubtractor::apply(Mat image, Mat& fgmask, double learningRate = -1)
+ void cv::BackgroundSubtractor::getBackgroundImage(Mat& backgroundImage)
+ Mat cv::readOpticalFlow(String path)
+ Ptr_BackgroundSubtractorKNN cv::createBackgroundSubtractorKNN(int history = 500, double dist2Threshold = 400.0, bool detectShadows = true)
+ Ptr_BackgroundSubtractorMOG2 cv::createBackgroundSubtractorMOG2(int history = 500, double varThreshold = 16, bool detectShadows = true)
+ RotatedRect cv::CamShift(Mat probImage, Rect& window, TermCriteria criteria)
+ bool cv::writeOpticalFlow(String path, Mat flow)
+ double cv::computeECC(Mat templateImage, Mat inputImage, Mat inputMask = Mat())
+ double cv::findTransformECC(Mat templateImage, Mat inputImage, Mat& warpMatrix, int motionType, TermCriteria criteria, Mat inputMask, int gaussFiltSize)
+ int cv::buildOpticalFlowPyramid(Mat img, vector_Mat& pyramid, Size winSize, int maxLevel, bool withDerivatives = true, int pyrBorder = BORDER_REFLECT_101, int derivBorder = BORDER_CONSTANT, bool tryReuseInputImage = true)
+ int cv::meanShift(Mat probImage, Rect& window, TermCriteria criteria)
+ void cv::calcOpticalFlowFarneback(Mat prev, Mat next, Mat& flow, double pyr_scale, int levels, int winsize, int iterations, int poly_n, double poly_sigma, int flags)
+ void cv::calcOpticalFlowPyrLK(Mat prevImg, Mat nextImg, vector_Point2f prevPts, vector_Point2f& nextPts, vector_uchar& status, vector_float& err, Size winSize = Size(21,21), int maxLevel = 3, TermCriteria criteria = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01), int flags = 0, double minEigThreshold = 1e-4)
+static Ptr_DISOpticalFlow cv::DISOpticalFlow::create(int preset = DISOpticalFlow::PRESET_FAST)
+ bool cv::DISOpticalFlow::getUseMeanNormalization()
+ bool cv::DISOpticalFlow::getUseSpatialPropagation()
+ float cv::DISOpticalFlow::getVariationalRefinementAlpha()
+ float cv::DISOpticalFlow::getVariationalRefinementDelta()
+ float cv::DISOpticalFlow::getVariationalRefinementGamma()
+ int cv::DISOpticalFlow::getFinestScale()
+ int cv::DISOpticalFlow::getGradientDescentIterations()
+ int cv::DISOpticalFlow::getPatchSize()
+ int cv::DISOpticalFlow::getPatchStride()
+ int cv::DISOpticalFlow::getVariationalRefinementIterations()
+ void cv::DISOpticalFlow::setFinestScale(int val)
+ void cv::DISOpticalFlow::setGradientDescentIterations(int val)
+ void cv::DISOpticalFlow::setPatchSize(int val)
+ void cv::DISOpticalFlow::setPatchStride(int val)
+ void cv::DISOpticalFlow::setUseMeanNormalization(bool val)
+ void cv::DISOpticalFlow::setUseSpatialPropagation(bool val)
+ void cv::DISOpticalFlow::setVariationalRefinementAlpha(float val)
+ void cv::DISOpticalFlow::setVariationalRefinementDelta(float val)
+ void cv::DISOpticalFlow::setVariationalRefinementGamma(float val)
+ void cv::DISOpticalFlow::setVariationalRefinementIterations(int val)
+  cv::KalmanFilter::KalmanFilter(int dynamParams, int measureParams, int controlParams = 0, int type = CV_32F)
+  cv::KalmanFilter::KalmanFilter()
+ Mat cv::KalmanFilter::correct(Mat measurement)
+ Mat cv::KalmanFilter::predict(Mat control = Mat())
+Mat KalmanFilter::statePre
+void KalmanFilter::statePre
+Mat KalmanFilter::statePost
+void KalmanFilter::statePost
+Mat KalmanFilter::transitionMatrix
+void KalmanFilter::transitionMatrix
+Mat KalmanFilter::controlMatrix
+void KalmanFilter::controlMatrix
+Mat KalmanFilter::measurementMatrix
+void KalmanFilter::measurementMatrix
+Mat KalmanFilter::processNoiseCov
+void KalmanFilter::processNoiseCov
+Mat KalmanFilter::measurementNoiseCov
+void KalmanFilter::measurementNoiseCov
+Mat KalmanFilter::errorCovPre
+void KalmanFilter::errorCovPre
+Mat KalmanFilter::gain
+void KalmanFilter::gain
+Mat KalmanFilter::errorCovPost
+void KalmanFilter::errorCovPost
+static Ptr_SparsePyrLKOpticalFlow cv::SparsePyrLKOpticalFlow::create(Size winSize = Size(21, 21), int maxLevel = 3, TermCriteria crit = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01), int flags = 0, double minEigThreshold = 1e-4)
+ Size cv::SparsePyrLKOpticalFlow::getWinSize()
+ TermCriteria cv::SparsePyrLKOpticalFlow::getTermCriteria()
+ double cv::SparsePyrLKOpticalFlow::getMinEigThreshold()
+ int cv::SparsePyrLKOpticalFlow::getFlags()
+ int cv::SparsePyrLKOpticalFlow::getMaxLevel()
+ void cv::SparsePyrLKOpticalFlow::setFlags(int flags)
+ void cv::SparsePyrLKOpticalFlow::setMaxLevel(int maxLevel)
+ void cv::SparsePyrLKOpticalFlow::setMinEigThreshold(double minEigThreshold)
+ void cv::SparsePyrLKOpticalFlow::setTermCriteria(TermCriteria crit)
+ void cv::SparsePyrLKOpticalFlow::setWinSize(Size winSize)
+static Ptr_VariationalRefinement cv::VariationalRefinement::create()
+ float cv::VariationalRefinement::getAlpha()
+ float cv::VariationalRefinement::getDelta()
+ float cv::VariationalRefinement::getGamma()
+ float cv::VariationalRefinement::getOmega()
+ int cv::VariationalRefinement::getFixedPointIterations()
+ int cv::VariationalRefinement::getSorIterations()
+ void cv::VariationalRefinement::calcUV(Mat I0, Mat I1, Mat& flow_u, Mat& flow_v)
+ void cv::VariationalRefinement::setAlpha(float val)
+ void cv::VariationalRefinement::setDelta(float val)
+ void cv::VariationalRefinement::setFixedPointIterations(int val)
+ void cv::VariationalRefinement::setGamma(float val)
+ void cv::VariationalRefinement::setOmega(float val)
+ void cv::VariationalRefinement::setSorIterations(int val)
+ bool cv::BackgroundSubtractorKNN::getDetectShadows()
+ double cv::BackgroundSubtractorKNN::getDist2Threshold()
+ double cv::BackgroundSubtractorKNN::getShadowThreshold()
+ int cv::BackgroundSubtractorKNN::getHistory()
+ int cv::BackgroundSubtractorKNN::getNSamples()
+ int cv::BackgroundSubtractorKNN::getShadowValue()
+ int cv::BackgroundSubtractorKNN::getkNNSamples()
+ void cv::BackgroundSubtractorKNN::setDetectShadows(bool detectShadows)
+ void cv::BackgroundSubtractorKNN::setDist2Threshold(double _dist2Threshold)
+ void cv::BackgroundSubtractorKNN::setHistory(int history)
+ void cv::BackgroundSubtractorKNN::setNSamples(int _nN)
+ void cv::BackgroundSubtractorKNN::setShadowThreshold(double threshold)
+ void cv::BackgroundSubtractorKNN::setShadowValue(int value)
+ void cv::BackgroundSubtractorKNN::setkNNSamples(int _nkNN)
+
+SKIPPED FUNCs LIST (0 of 142):
+
+
+0 def args - 109 funcs
+1 def args - 6 funcs
+2 def args - 1 funcs
+3 def args - 2 funcs
+4 def args - 1 funcs
+5 def args - 2 funcs
+8 def args - 1 funcs

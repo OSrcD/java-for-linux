@@ -1,0 +1,1029 @@
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_35175/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_35175.dir/build.make CMakeFiles/cmTC_35175.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35175.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion -std=c++11 -o CMakeFiles/cmTC_35175.dir/src.cxx.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_35175
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35175.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35175.dir/src.cxx.o  -o cmTC_35175 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-enum-enum-conversion', did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_7ceb0/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7ceb0.dir/build.make CMakeFiles/cmTC_7ceb0.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ceb0.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-enum-enum-conversion -o CMakeFiles/cmTC_7ceb0.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-deprecated-enum-enum-conversion'; did you mean '-Wno-bitfield-enum-conversion'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_7ceb0
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ceb0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ceb0.dir/src.c.o  -o cmTC_7ceb0 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_0a151/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0a151.dir/build.make CMakeFiles/cmTC_0a151.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a151.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion -std=c++11 -o CMakeFiles/cmTC_0a151.dir/src.cxx.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_0a151
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a151.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a151.dir/src.cxx.o  -o cmTC_0a151 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion', did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_791ac/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_791ac.dir/build.make CMakeFiles/cmTC_791ac.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_791ac.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment  -Wno-deprecated-anon-enum-enum-conversion -o CMakeFiles/cmTC_791ac.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-deprecated-anon-enum-enum-conversion'; did you mean '-Wno-deprecated-increment-bool'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_791ac
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_791ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_791ac.dir/src.c.o  -o cmTC_791ac 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_popcnt.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b2de3/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b2de3.dir/build.make CMakeFiles/cmTC_b2de3.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2de3.dir/cpu_popcnt.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_b2de3.dir/cpu_popcnt.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_popcnt.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_popcnt.cpp:14:4: error: "__POPCNT__ is not defined by compiler"
+#  error "__POPCNT__ is not defined by compiler"
+   ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_popcnt.cpp:22:13: error: use of undeclared identifier 'CV_POPCNT_U32'
+    int j = CV_POPCNT_U32(1);
+            ^
+2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_b2de3.dir/build.make:86: CMakeFiles/cmTC_b2de3.dir/cpu_popcnt.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b2de3/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_sse42.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_38667/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_38667.dir/build.make CMakeFiles/cmTC_38667.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38667.dir/cpu_sse42.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_38667.dir/cpu_sse42.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_sse42.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_sse42.cpp:5:24: error: always_inline function '_mm_crc32_u8' requires target feature 'sse4.2', but would be inlined into function 'main' that is compiled without support for 'sse4.2'
+    unsigned int res = _mm_crc32_u8(1, 2);
+                       ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_38667.dir/build.make:86: CMakeFiles/cmTC_38667.dir/cpu_sse42.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_38667/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_c9214/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_c9214.dir/build.make CMakeFiles/cmTC_c9214.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9214.dir/cpu_fp16.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_c9214.dir/cpu_fp16.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_fp16.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_fp16.cpp:26:2: error: "FP16 is not supported"
+#error "FP16 is not supported"
+ ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_fp16.cpp:31:18: error: use of undeclared identifier 'test'
+  printf("%d\n", test());
+                 ^
+2 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_c9214.dir/build.make:86: CMakeFiles/cmTC_c9214.dir/cpu_fp16.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_c9214/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ababc/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ababc.dir/build.make CMakeFiles/cmTC_ababc.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ababc.dir/cpu_avx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_ababc.dir/cpu_avx.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx.cpp:2:2: error: "__AVX__ define is missing"
+#error "__AVX__ define is missing"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_ababc.dir/build.make:86: CMakeFiles/cmTC_ababc.dir/cpu_avx.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ababc/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx2.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b2e09/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b2e09.dir/build.make CMakeFiles/cmTC_b2e09.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2e09.dir/cpu_avx2.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_b2e09.dir/cpu_avx2.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx2.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx2.cpp:2:2: error: "__AVX2__ define is missing"
+#error "__AVX2__ define is missing"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_b2e09.dir/build.make:86: CMakeFiles/cmTC_b2e09.dir/cpu_avx2.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b2e09/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_e1007/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e1007.dir/build.make CMakeFiles/cmTC_e1007.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1007.dir/cpu_avx512.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_e1007.dir/cpu_avx512.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512.cpp:11:2: error: "AVX512 is not supported"
+#error "AVX512 is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_e1007.dir/build.make:86: CMakeFiles/cmTC_e1007.dir/cpu_avx512.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_e1007/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512common.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_9190a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_9190a.dir/build.make CMakeFiles/cmTC_9190a.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9190a.dir/cpu_avx512common.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_9190a.dir/cpu_avx512common.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512common.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512common.cpp:12:2: error: "AVX512-COMMON is not supported"
+#error "AVX512-COMMON is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_9190a.dir/build.make:86: CMakeFiles/cmTC_9190a.dir/cpu_avx512common.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_9190a/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_33b51/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_33b51.dir/build.make CMakeFiles/cmTC_33b51.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33b51.dir/cpu_avx512knl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_33b51.dir/cpu_avx512knl.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knl.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knl.cpp:14:2: error: "AVX512-KNL is not supported"
+#error "AVX512-KNL is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_33b51.dir/build.make:86: CMakeFiles/cmTC_33b51.dir/cpu_avx512knl.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_33b51/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knm.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_013ca/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_013ca.dir/build.make CMakeFiles/cmTC_013ca.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_013ca.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_013ca.dir/cpu_avx512knm.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knm.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knm.cpp:15:2: error: "AVX512-KNM is not supported"
+#error "AVX512-KNM is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_013ca.dir/build.make:86: CMakeFiles/cmTC_013ca.dir/cpu_avx512knm.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_013ca/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knm.cpp'
+    check option: ' -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_c0c9b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_c0c9b.dir/build.make CMakeFiles/cmTC_c0c9b.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0c9b.dir/cpu_avx512knm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq -std=c++11 -o CMakeFiles/cmTC_c0c9b.dir/cpu_avx512knm.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512knm.cpp
+clang: error: unknown argument: '-mavx5124fmaps'
+clang: error: unknown argument: '-mavx5124vnniw'
+gmake[1]: *** [CMakeFiles/cmTC_c0c9b.dir/build.make:86: CMakeFiles/cmTC_c0c9b.dir/cpu_avx512knm.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_c0c9b/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512skx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_44003/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_44003.dir/build.make CMakeFiles/cmTC_44003.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44003.dir/cpu_avx512skx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_44003.dir/cpu_avx512skx.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512skx.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512skx.cpp:30:2: error: "AVX512-SKX is not supported"
+#error "AVX512-SKX is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_44003.dir/build.make:86: CMakeFiles/cmTC_44003.dir/cpu_avx512skx.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_44003/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512cnl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b4ab0/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b4ab0.dir/build.make CMakeFiles/cmTC_b4ab0.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4ab0.dir/cpu_avx512cnl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_b4ab0.dir/cpu_avx512cnl.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512cnl.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512cnl.cpp:10:2: error: "AVX512-CNL is not supported"
+#error "AVX512-CNL is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_b4ab0.dir/build.make:86: CMakeFiles/cmTC_b4ab0.dir/cpu_avx512cnl.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b4ab0/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512clx.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ea3b4/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ea3b4.dir/build.make CMakeFiles/cmTC_ea3b4.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea3b4.dir/cpu_avx512clx.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_ea3b4.dir/cpu_avx512clx.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512clx.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512clx.cpp:9:2: error: "AVX512-CLX is not supported"
+#error "AVX512-CLX is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_ea3b4.dir/build.make:86: CMakeFiles/cmTC_ea3b4.dir/cpu_avx512clx.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ea3b4/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512icl.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_87615/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_87615.dir/build.make CMakeFiles/cmTC_87615.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87615.dir/cpu_avx512icl.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_87615.dir/cpu_avx512icl.cpp.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512icl.cpp
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/cmake/checks/cpu_avx512icl.cpp:12:2: error: "AVX512-ICL is not supported"
+#error "AVX512-ICL is not supported"
+ ^
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_87615.dir/build.make:86: CMakeFiles/cmTC_87615.dir/cpu_avx512icl.cpp.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_87615/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_d48a6/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_d48a6.dir/build.make CMakeFiles/cmTC_d48a6.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d48a6.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -std=c++11 -o CMakeFiles/cmTC_d48a6.dir/src.cxx.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d48a6
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d48a6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -Wl,--as-needed  CMakeFiles/cmTC_d48a6.dir/src.cxx.o  -o cmTC_d48a6 
+ld: unknown option: --as-needed
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [CMakeFiles/cmTC_d48a6.dir/build.make:107: cmTC_d48a6] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_d48a6/fast] Error 2
+
+
+===== END =====
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_a4cf1/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a4cf1.dir/build.make CMakeFiles/cmTC_a4cf1.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4cf1.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a4cf1.dir/CheckIncludeFile.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_a4cf1.dir/build.make:86: CMakeFiles/cmTC_a4cf1.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_a4cf1/fast] Error 2
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_6c4f4/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_6c4f4.dir/build.make CMakeFiles/cmTC_6c4f4.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c4f4.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_6c4f4.dir/OFF64_T.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_6c4f4.dir/build.make:86: CMakeFiles/cmTC_6c4f4.dir/OFF64_T.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_6c4f4/fast] Error 2
+
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_da785/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_da785.dir/build.make CMakeFiles/cmTC_da785.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da785.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_da785.dir/CheckIncludeFile.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_da785.dir/build.make:86: CMakeFiles/cmTC_da785.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_da785/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_b7e91/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_b7e91.dir/build.make CMakeFiles/cmTC_b7e91.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7e91.dir/int8.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_b7e91.dir/int8.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:25:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:26:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:27:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:28:12: error: use of undeclared identifier 'INT8'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT8))
+                     ^
+5 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_b7e91.dir/build.make:86: CMakeFiles/cmTC_b7e91.dir/int8.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_b7e91/fast] Error 2
+
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_86d55/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_86d55.dir/build.make CMakeFiles/cmTC_86d55.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86d55.dir/int16.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_86d55.dir/int16.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:25:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:26:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:27:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:28:12: error: use of undeclared identifier 'INT16'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT16))
+                     ^
+5 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_86d55.dir/build.make:86: CMakeFiles/cmTC_86d55.dir/int16.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_86d55/fast] Error 2
+
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_ad41a/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_ad41a.dir/build.make CMakeFiles/cmTC_ad41a.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad41a.dir/int32.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_ad41a.dir/int32.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:25:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:26:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:27:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:28:12: error: use of undeclared identifier 'INT32'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(INT32))
+                     ^
+5 errors generated.
+gmake[1]: *** [CMakeFiles/cmTC_ad41a.dir/build.make:86: CMakeFiles/cmTC_ad41a.dir/int32.c.o] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ad41a/fast] Error 2
+
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-variable', did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-variable'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_29da1/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_29da1.dir/build.make CMakeFiles/cmTC_29da1.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29da1.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-unused-but-set-variable -o CMakeFiles/cmTC_29da1.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_29da1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29da1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_29da1.dir/src.c.o  -o cmTC_29da1 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_25519/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_25519.dir/build.make CMakeFiles/cmTC_25519.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25519.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_25519.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_25519
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25519.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_25519.dir/src.c.o  -o cmTC_25519 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_cd6dc/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_cd6dc.dir/build.make CMakeFiles/cmTC_cd6dc.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd6dc.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-misleading-indentation -o CMakeFiles/cmTC_cd6dc.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_cd6dc
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6dc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_cd6dc.dir/src.c.o  -o cmTC_cd6dc 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-unused-but-set-parameter', did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-unused-but-set-parameter'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_6de8f/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_6de8f.dir/build.make CMakeFiles/cmTC_6de8f.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de8f.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-unused-but-set-parameter -o CMakeFiles/cmTC_6de8f.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-unused-but-set-parameter'; did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_6de8f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de8f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_6de8f.dir/src.c.o  -o cmTC_6de8f 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_4ce13/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_4ce13.dir/build.make CMakeFiles/cmTC_4ce13.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ce13.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-pointer-compare -o CMakeFiles/cmTC_4ce13.dir/src.c.o   -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-pointer-compare' [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking C executable cmTC_4ce13
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce13.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_4ce13.dir/src.c.o  -o cmTC_4ce13 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-misleading-indentation', did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_f9037/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_f9037.dir/build.make CMakeFiles/cmTC_f9037.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9037.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-misleading-indentation -std=c++11 -o CMakeFiles/cmTC_f9037.dir/src.cxx.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-misleading-indentation'; did you mean '-Wno-binding-in-condition'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_f9037
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9037.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_f9037.dir/src.cxx.o  -o cmTC_f9037 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-suggest-override', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_258c9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_258c9.dir/build.make CMakeFiles/cmTC_258c9.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_258c9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE    -Wno-suggest-override -std=c++11 -o CMakeFiles/cmTC_258c9.dir/src.cxx.o -c /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-suggest-override'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma
+       ^
+2 warnings generated.
+Linking CXX executable cmTC_258c9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_258c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_258c9.dir/src.cxx.o  -o cmTC_258c9 
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/local/bin/gmake cmTC_619f7/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_619f7.dir/build.make CMakeFiles/cmTC_619f7.dir/build
+gmake[1]: Entering directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_619f7.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_619f7.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_619f7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_619f7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -Wl,-dead_strip  CMakeFiles/cmTC_619f7.dir/CheckFunctionExists.c.o  -o cmTC_619f7 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+gmake[1]: *** [CMakeFiles/cmTC_619f7.dir/build.make:107: cmTC_619f7] Error 1
+gmake[1]: Leaving directory '/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_619f7/fast] Error 2
+
+
+

@@ -1,0 +1,483 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/include/opencv2/calib3d.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/include/opencv2/calib3d/calib3d.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/include/opencv2/calib3d/calib3d_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/ap3p.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/calibinit.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/calibration.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/calibration_handeye.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/checkchessboard.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/chessboard.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/circlesgrid.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/compat_ptsetreg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/dls.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/epnp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/fisheye.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/five-point.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/fundam.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/homography_decomp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/ippe.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/levmarq.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/p3p.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/polynom_solver.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/posit.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/ptsetreg.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/quadsubpix.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/rho.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/solvepnp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/stereobm.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/stereosgbm.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/triangulate.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/undistort.dispatch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/upnp.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/opencl/stereobm.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/modules/calib3d/opencl_kernels_calib3d.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/modules/calib3d/opencl_kernels_calib3d.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/ap3p.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/calib3d_c_api.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/chessboard.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/circlesgrid.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/distortion_model.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/dls.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/epnp.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/fisheye.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/ippe.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/p3p.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/polynom_solver.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/rho.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/undistort.simd.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/calib3d/src/upnp.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/modules/calib3d/undistort.avx2.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_calib3d",
+				"Module"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/cvconfig.h"
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/modules/calib3d/opencl_kernels_calib3d.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_calib3d",
+			"Module"
+		],
+		"name" : "opencv_calib3d"
+	}
+}

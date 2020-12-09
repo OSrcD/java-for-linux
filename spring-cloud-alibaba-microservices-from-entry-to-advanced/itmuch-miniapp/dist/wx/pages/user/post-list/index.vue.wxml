@@ -1,0 +1,7 @@
+<import src="/components/card-bought.vue.wxml" /><template name="5fd69c0e">
+  <view class="_div data-v-1aaa85fc">
+    <view class="_ul data-v-1aaa85fc">
+      <view wx:key="index" key="{{index}}" wx:for="{{shares}}" wx:for-index="index" wx:for-item="share" class="_li data-v-1aaa85fc"><template data="{{...$root[$kk+'0-'+index], $root}}" is="5ab079c8"></template></view>
+    </view>
+  </view>
+</template>

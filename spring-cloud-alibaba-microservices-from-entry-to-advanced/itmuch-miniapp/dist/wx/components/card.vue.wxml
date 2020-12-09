@@ -1,0 +1,24 @@
+<template name="439a2c80">
+  <navigator url="{{detailUrl}}" class="_a data-v-1cede892">
+    <view class="_div data-v-1cede892 itmuch-card">
+      <view catchtap="handleProxy" class="_div data-v-1cede892 thumb" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="{{cover}}" class="_img data-v-1cede892 img" mode="aspectFit"></image>
+        <view class="_div data-v-1cede892 tag origin" wx:if="{{share.isOriginal}}"> 原创 </view>
+        <view wx:else class="_div data-v-1cede892 tag reprint"> 转载 </view>
+      </view>
+      <view class="_div data-v-1cede892 detail">
+        <view class="_div data-v-1cede892 mid">
+          <view class="_div data-v-1cede892 title">
+            {{share.title}}
+          </view>
+          <view class="_div data-v-1cede892 summary">{{summary}}</view>
+        </view>
+        <view class="_div data-v-1cede892 right">
+          <view class="_div data-v-1cede892">{{share.price}}积分</view>
+          <view class="_div data-v-1cede892 right" wx:if="{{share.downloadUrl}}">下载</view>
+          <view class="_div data-v-1cede892 right" wx:else>兑换</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</template>

@@ -1,0 +1,40 @@
+<import src="/components/card.vue.wxml" /><template name="5098f496">
+  <view class="_div data-v-14f596a3">
+    <official-account class="_official-account data-v-14f596a3"></official-account>
+    <van-tabs value="{{active}}" bindchange="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_van-tabs data-v-14f596a3">
+      <van-tab title="发现" class="_van-tab data-v-14f596a3">
+        <van-notice-bar text="{{notice.content}}" class="_van-notice-bar data-v-14f596a3"></van-notice-bar>
+        <van-search placeholder="请输入关键词" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-search data-v-14f596a3"></van-search>
+        <view class="_ul data-v-14f596a3">
+          <view wx:key="index" key="{{index}}" wx:for="{{shares}}" wx:for-index="index" wx:for-item="share" class="_li data-v-14f596a3"><template data="{{...$root[$kk+'3-'+index], $root}}" is="439a2c80"></template></view>
+        </view>
+      </van-tab>
+      <van-tab title="使用说明" class="_van-tab data-v-14f596a3">
+        <view class="_div data-v-14f596a3 shuoming">
+          <view class="_p data-v-14f596a3">资源均为免费，兑换后即可查看下载地址；点击<label class="_span data-v-14f596a3">我的 -> 我的兑换</label>，即可查看、下载兑换过的资源。</view>
+          <view class="_h3 data-v-14f596a3">积分获得方式</view>
+          <view class="_ul data-v-14f596a3">
+            <view class="_li data-v-14f596a3"> > 每日签到</view>
+            <view class="_li data-v-14f596a3"> > 投稿</view>
+            <view class="_li data-v-14f596a3"> > 转发</view>
+            <view class="_li data-v-14f596a3"> > 提建议、意见（尚未完成）</view>
+          </view>
+          <view class="_h3 data-v-14f596a3">深入交流</view>
+          <view class="_ul data-v-14f596a3">
+            <view class="_li data-v-14f596a3"> > 技术交流群QQ群：731548893</view>
+            <view class="_li data-v-14f596a3"> > 技术交流微信群：加我微信，注明加微信群</view>
+            <view class="_li data-v-14f596a3"> > 私人微信：jumping_me <van-button type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-button data-v-14f596a3">复制</van-button>
+            </view>
+          </view>
+          <view class="_h3 data-v-14f596a3">公众号(技术干货分享)</view>
+          <view class="_div data-v-14f596a3"> 由于小程序不支持二维码识别，亲们可使用如下方式关注我的公众号： </view>
+          <view class="_ul data-v-14f596a3">
+            <view class="_li data-v-14f596a3"> > 点击<label class="_span data-v-14f596a3">右上角 -> 关于IT牧场 -> 相关公众号</label>即可关注，操作简单，只需5秒！</view>
+            <view class="_li data-v-14f596a3"> > 公众号微信：itmuch_com <van-button type="danger" size="mini" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_van-button data-v-14f596a3">复制</van-button>
+            </view>
+          </view>
+        </view>
+      </van-tab>
+    </van-tabs>
+  </view>
+</template>

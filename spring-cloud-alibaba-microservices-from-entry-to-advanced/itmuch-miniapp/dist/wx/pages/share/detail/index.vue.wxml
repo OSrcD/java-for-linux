@@ -1,0 +1,17 @@
+<import src="/modules/mpvue-wxparse/src/wxParse.vue.wxml" /><template name="cbf38ab0">
+  <view class="_div data-v-e1f06fd4 detail-wrapper">
+    <view class="_div data-v-e1f06fd4 detail-header">
+      <view class="_h1 data-v-e1f06fd4 title">{{share.title}}</view>
+      <view class="_div data-v-e1f06fd4 intro">
+        <view class="_div data-v-e1f06fd4 author">作者：{{share.author}}</view>
+        <view class="_div data-v-e1f06fd4 author">发布人：{{share.username}}</view>
+        <view class="_div data-v-e1f06fd4 count">下载数：{{share.buyCount}}</view>
+      </view>
+    </view>
+    <view class="_div data-v-e1f06fd4 content"><template bindpreview="handleProxy" bindnavigate="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="49e036ae"></template></view>
+    <view slot="footer" class="_div data-v-e1f06fd4">
+      <van-submit-bar price="{{share.price * 100}}" label="积分" button-text="兑换" currency="฿" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-submit-bar data-v-e1f06fd4"></van-submit-bar>
+    </view>
+    <van-toast id="van-toast" class="_van-toast data-v-e1f06fd4"></van-toast>
+  </view>
+</template>

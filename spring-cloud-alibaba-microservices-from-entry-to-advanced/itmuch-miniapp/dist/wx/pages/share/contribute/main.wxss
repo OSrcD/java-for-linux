@@ -1,0 +1,6 @@
+@import "../../../common/vendor.wxss";
+
+.description.data-v-0e9fb39c {
+  padding: 30rpx;
+  font-size: 28rpx;
+}

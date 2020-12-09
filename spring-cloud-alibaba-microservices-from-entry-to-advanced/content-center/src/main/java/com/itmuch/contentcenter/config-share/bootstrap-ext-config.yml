@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        ext-config:
+        # 需共享DataId，yaml后缀不能少，只支持yaml/properties
+        # 越靠后，优先级越高 优先级common2.yaml > common2.yaml
+          - data-id: common1.yaml
+            # common1.yaml所在的group
+            group: DEFAULT_GROUP
+            # 是否允许刷新，默认false
+            refresh: true
+          - data-id: common2.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+
+  application:
+    name: content-center
+  profiles:
+    active: dev
+
+

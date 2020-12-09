@@ -1,0 +1,41 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          # 认gateway通过服务发现组件找到其他的微服务
+          enabled: true
+      routes:
+        - id: user_route
+          uri: lb://user-center
+          predicates:
+            - Path=/users/**
+        - id: content_route
+          uri: lb://content-center
+          predicates:
+            - Path=/shares/**,/admin/**
+  zipkin:
+    base-url: http://localhost:9411/
+    discoveryClientEnabled: false
+  sleuth:
+    sampler:
+      probability: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    gateway:
+      enabled: true
+

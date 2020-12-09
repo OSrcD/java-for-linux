@@ -1,0 +1,9 @@
+<template name="ef54b58e">
+  <view class="_div data-v-43298f27">
+    <view class="_ul data-v-43298f27">
+      <view wx:key="index" key="{{index}}" wx:for="{{bonusLogs}}" wx:for-index="index" wx:for-item="bonusLog" class="_li data-v-43298f27">
+        <van-cell icon="{{bonusLog.icon}}" title="{{bonusLog.createTime + ' - ' + bonusLog.title}}" value="{{bonusLog.value}}" label="{{bonusLog.description}}" size="large" title-width="70%" class="_van-cell data-v-43298f27"></van-cell>
+      </view>
+    </view>
+  </view>
+</template>

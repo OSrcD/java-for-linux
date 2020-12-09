@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libAlgorithmLibrary.so -o ../lib/libAlgorithmLibrary.so CMakeFiles/AlgorithmLibrary.dir/DynamicRegister/DynamicRegisterMethod.cpp.o CMakeFiles/AlgorithmLibrary.dir/TimeComplexity/InstrucNumTime.cpp.o CMakeFiles/AlgorithmLibrary.dir/Test/Test.cpp.o 

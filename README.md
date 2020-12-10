@@ -74,6 +74,16 @@ Baidu cloud auto share link project（Java For OpenCV）
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)
 
+programmer for english（book）
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-00.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-01.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-02.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-03.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-04.png)
+
+<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=tvqujh>
+
 WeChat appreciation code
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/赞赏码.png)

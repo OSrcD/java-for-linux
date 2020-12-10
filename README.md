@@ -37,7 +37,7 @@ JNI dynamic register for linux project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
 
-kali-linux-kernel-programmer project
+Kali linux kernel programmer project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
 

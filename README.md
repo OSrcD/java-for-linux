@@ -15,7 +15,7 @@ My open source projects
 
 <https://github.com/OpenSrcDeveloper/java-for-linux>
 
-Write native function in JVM source code to call Java layer project
+Write native function in JVM source code to call java layer project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-01.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-02.png)

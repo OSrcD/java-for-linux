@@ -1,5 +1,8 @@
 My open source courses
 
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/bilibili.png)
+
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenCourse.jpeg)
 
 My open source projects
@@ -9,3 +12,6 @@ My open source projects
 My open source courses link:<https://space.bilibili.com/77266754>
 
 My open source projects link:<https://github.com/OpenSrcDeveloper/java-for-linux>
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/赞赏码.png)
+

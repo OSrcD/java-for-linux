@@ -74,6 +74,6 @@ Baidu cloud auto share link project（Java For OpenCV）
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)
 
-WeChat Appreciation code
+WeChat appreciation code
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/赞赏码.png)

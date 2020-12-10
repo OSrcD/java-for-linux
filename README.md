@@ -1,8 +1,6 @@
 My open source courses
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/bilibili.png)
-
-
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenCourse.jpeg)
 
 My open source projects
@@ -29,12 +27,13 @@ Write native function in JVM source code to call Java layer project
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-08.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-09.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-10.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-11.png)
 
 Java game security project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/java-game-security.png)
 
-Jni dynamic register for linux project
+JNI dynamic register for linux project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
 
@@ -42,7 +41,7 @@ kali-linux-kernel-programmer project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
 
-OpenToolbox sub project
+OpenToolbox project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenToolbox.jpg)
 
@@ -70,7 +69,7 @@ Bubble hall project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/2048.png)
 
-Baidu cloud auto share link
+Baidu cloud auto share link project（Java For OpenCV）
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)

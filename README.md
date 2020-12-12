@@ -1,6 +1,6 @@
 My open source courses
 
-![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/bilibili.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/bilibili.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenCourse.jpeg)
 
 My open source projects

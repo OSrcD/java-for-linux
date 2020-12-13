@@ -37,7 +37,7 @@ JNI dynamic register for linux project
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
 
-Kali linux kernel programmer project
+Kali linux kernel programmer demo
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
 

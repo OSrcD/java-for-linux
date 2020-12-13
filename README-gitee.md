@@ -107,7 +107,7 @@ add exagear-desktop-rpi3 project
 
 集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
-可以免费使用JetBrains 全家桶所有开发工具
+可以免费使用JetBrains 全家桶所有产品
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains.jpg)
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-00.png)

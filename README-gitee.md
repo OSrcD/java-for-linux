@@ -105,6 +105,16 @@ Open source programmer's English notes
 
 add exagear-desktop-rpi3 project
 
+集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证
+
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains.jpg)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-00.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-01.jpg)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-02.jpg)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-03.jpg)
+
+<https://www.jetbrains.com/shop/eform/opensource?product=ALL>
+
 WeChat appreciation code
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/赞赏码.png)

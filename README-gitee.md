@@ -50,7 +50,7 @@ OpenToolbox project
 
 Foodie shopping main project 
 
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/FoodieShopping.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/FoodieShopping.jpg)
 
 <http://120.77.47.215:8080/foodie-shop/>
 

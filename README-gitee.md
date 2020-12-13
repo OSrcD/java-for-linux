@@ -1,6 +1,6 @@
 My open source courses
 
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/bilibili.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/bilibili.jpg)
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
 My open source projects
@@ -61,6 +61,17 @@ WebRTC one to many sub project
 Audience end:<https://120.77.47.215:8443/>
 
 Anchor end:<https://120.77.47.215:8443/admin.html>
+
+Online education
+
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-00.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-01.png)
+
+Social sharing
+
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-alibaba-microservices-from-entry-to-advanced-00.png)
+
+
 
 Bubble hall project
 

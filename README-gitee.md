@@ -71,6 +71,13 @@ Social sharing
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-alibaba-microservices-from-entry-to-advanced-00.png)
 
+Movie Trailer project
+
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/movie-trailer.png)
+
+OA project
+
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/oa.png)
 
 
 Bubble hall project

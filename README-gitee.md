@@ -109,9 +109,9 @@ add exagear-desktop-rpi3 project
 
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains.jpg)
 ![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-00.png)
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-01.jpg)
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-02.jpg)
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-03.jpg)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-01.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-02.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/JetBrains-03.png)
 
 <https://www.jetbrains.com/shop/eform/opensource?product=ALL>
 

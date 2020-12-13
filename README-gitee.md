@@ -64,8 +64,8 @@ Anchor end:<https://120.77.47.215:8443/admin.html>
 
 Online education
 
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-00.png)
-![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-01.png)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-00.jpg)
+![image](https://gitee.com/opensourcedeveloper/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-01.jpg)
 
 Social sharing
 

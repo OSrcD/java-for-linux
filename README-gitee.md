@@ -15,7 +15,7 @@
 
 <https://gitee.com/OpenDevel/java-for-linux>
 
-在JVM源码内嵌写Native函数给Java层调用
+在JVM源码内嵌写Native函数给Java层调用项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)

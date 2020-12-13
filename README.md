@@ -3,19 +3,15 @@ My open source courses
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/bilibili.jpg)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenCourse.jpeg)
 
-My open source projects
-
-![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenProject.jpeg)
-
-My open source courses
-
 <https://space.bilibili.com/77266754>
 
 My open source projects
 
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OpenProject.jpeg)
+
 <https://github.com/OpenSrcDeveloper/java-for-linux>
 
-Write native function in JVM source code to call java layer project
+Write native function in JVM source code to call java layer
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-01.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-02.png)
@@ -29,11 +25,11 @@ Write native function in JVM source code to call java layer project
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-10.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jvm-library-extend-11.png)
 
-Java game security project
+Java game security
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/java-game-security.png)
 
-JNI dynamic register for linux project
+JNI dynamic register for linux
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
 
@@ -87,7 +83,7 @@ Bubble hall project
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/2048.png)
 
-Baidu cloud auto share link project（Java For OpenCV）
+Baidu cloud auto share link（Java For OpenCV）
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)

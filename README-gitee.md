@@ -3,19 +3,15 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
+<https://space.bilibili.com/77266754>
+
 我的开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 
-我的开源课程链接
-
-<https://space.bilibili.com/77266754>
-
-我的开源项目链接
-
 <https://gitee.com/OpenDevel/java-for-linux>
 
-在JVM源码内嵌写Native函数给Java层调用项目
+在JVM源码内嵌写Native函数给Java层调用
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
@@ -29,11 +25,11 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
-Java游戏安全项目
+Java游戏安全
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
 
-JNI基于Linux动态函数注册项目
+JNI基于Linux动态函数注册
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
 
@@ -79,7 +75,6 @@ OA办公项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/oa.png)
 
-
 Java泡泡堂项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
@@ -88,7 +83,7 @@ Java泡泡堂项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 
-百度云自动分享链接项目（Java For OpenCV）
+百度云自动分享链接（Java For OpenCV）
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)

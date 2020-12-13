@@ -1,21 +1,21 @@
-My open source courses
+我的开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
-My open source projects
+我的开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 
-My open source courses
+我的开源课程链接
 
 <https://space.bilibili.com/77266754>
 
-My open source projects
+我的开源项目链接
 
-<https://github.com/OpenSrcDeveloper/java-for-linux>
+<https://gitee.com/OpenDevel/java-for-linux>
 
-Write native function in JVM source code to call java layer project
+在JVM源码内嵌写Native函数给Java层调用
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
@@ -29,11 +29,11 @@ Write native function in JVM source code to call java layer project
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
-Java game security project
+Java游戏安全项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
 
-JNI dynamic register for linux project
+JNI基于Linux动态函数注册项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
 
@@ -58,29 +58,29 @@ WebRTC one to many sub project
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
 
-Audience end:<https://120.77.47.215:8443/>
+观众端:<https://120.77.47.215:8443/>
 
-Anchor end:<https://120.77.47.215:8443/admin.html>
+主播端:<https://120.77.47.215:8443/admin.html>
 
-Online education
+在线教育项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-00.jpg)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-01.jpg)
 
-Social sharing
+社交分享项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-alibaba-microservices-from-entry-to-advanced-00.png)
 
-Movie Trailer project
+电影预告项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/movie-trailer.png)
 
-OA project
+OA办公项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/oa.png)
 
 
-Bubble hall project
+Java泡泡堂项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
@@ -88,7 +88,7 @@ Bubble hall project
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 
-Baidu cloud auto share link project（Java For OpenCV）
+百度云自动分享链接项目（Java For OpenCV）
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
@@ -117,6 +117,6 @@ add exagear-desktop-rpi3 project
 
 <https://www.jetbrains.com/shop/eform/opensource?product=ALL>
 
-WeChat appreciation code
+微信赞赏码
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/赞赏码.png)

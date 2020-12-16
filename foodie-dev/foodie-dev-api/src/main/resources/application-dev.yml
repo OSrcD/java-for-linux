@@ -6,10 +6,17 @@ spring:
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     password: SocialPG
   redis:
+    # Redis 单机单实例
+#    database: 1
+#    host: 192.168.245.138
+#    port: 6379
+#    password: imooc
+    # Redis 哨兵模式
     database: 1
-    host: 192.168.245.138
-    port: 6379
     password: imooc
+    sentinel:
+      master: imooc-master
+      nodes: 192.168.245.138:26379,192.168.245.139:26379,192.168.245.140:26379
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

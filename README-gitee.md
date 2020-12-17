@@ -50,7 +50,7 @@
 
 <http://120.77.47.215:8080/foodie-shop/>
 
-### WebRTC one to many sub project
+### WebRTC一对多直播子项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
 

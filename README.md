@@ -96,7 +96,7 @@ Anchor end:<https://120.77.47.215:8443/admin.html>
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-03.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-04.png)
 
-<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=tvqujh>
+<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
 add exagear-desktop-rpi3 project
 

@@ -96,7 +96,7 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-03.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-04.png)
 
-<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=tvqujh>
+<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
 add exagear-desktop-rpi3 project
 

@@ -79,7 +79,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
-### 2048 project
+### 2048小游戏项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 

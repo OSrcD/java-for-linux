@@ -88,7 +88,7 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
 
-### 程序员的英语小抄
+### OSrcD的英语小抄
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-00.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)

@@ -11,7 +11,7 @@
 
 <https://gitee.com/OpenDevel/java-for-linux>
 
-### 在JVM源码内嵌写Native函数给Java层调用
+### 在 JVM 源码内嵌写 Native 函数给 Java 层调用
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
@@ -25,32 +25,32 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
-### Java游戏安全
+### Java 游戏安全
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
 
-### JNI基于Linux动态函数注册
+### JNI 基于 Linux 动态函数注册
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
 
-### Kali linux kernel programmer demo
+### Kali Linux 内核编程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
 
-### OpenToolbox project
+### 开源工具箱项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox.jpg)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox-00.png)
 
 <https://github.com/OpenSrcDeveloper/OpenToolbox>
 
-### Foodie shopping main project 
+### 天天吃货大型电商通用平台核心主项目 
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/FoodieShopping.jpg)
 
 <http://120.77.47.215:8080/foodie-shop/>
 
-### WebRTC一对多直播子项目
+### 天天吃货 WebRTC 一对多直播子项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
 
@@ -83,12 +83,12 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 
-### 百度云自动分享链接（Java For OpenCV）
+### 基于 Java For OpenCV 的百度云失效链接自动分享
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
 
-### Open source programmer's English notes
+### 程序员的英语小抄
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-00.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
@@ -100,7 +100,9 @@
 
 add exagear-desktop-rpi3 project
 
-### 集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
+### 开源项目福利
+
+集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
 可以免费使用JetBrains 全家桶所有产品
 

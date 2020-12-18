@@ -120,6 +120,7 @@ public class RedisOperator {
 		return redisTemplate.opsForValue().multiGet(keys);
 	}
 
+
 	/**
 	 * 批量查询，管道pipeline
 	 * @param keys

@@ -1,7 +1,7 @@
 ### 我的开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
+![image](https://gitee.com/OpenDevel/java-for-klinux/raw/master/image/OpenCourse.jpeg)
 
 <https://space.bilibili.com/77266754>
 

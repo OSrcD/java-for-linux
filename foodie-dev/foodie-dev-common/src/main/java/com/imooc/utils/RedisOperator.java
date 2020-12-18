@@ -120,22 +120,21 @@ public class RedisOperator {
 		return redisTemplate.opsForValue().multiGet(keys);
 	}
 
-
 	/**
 	 * 批量查询，管道pipeline
 	 * @param keys
 	 * @return
 	 */
-	public List<Object> batchGet(List<String> keys) {
+	public List<Object> batchGet(List<String> keys)  {
 
 //		nginx -> keepalive
 //		redis -> pipeline
 
 		List<Object> result = redisTemplate.executePipelined(new RedisCallback<String>() {
+
 			@Override
 			public String doInRedis(RedisConnection connection) throws DataAccessException {
-				StringRedisConnection src = (StringRedisConnection)connection;
-
+				StringRedisConnection src = (StringRedisConnection) connection;
 				for (String k : keys) {
 					src.get(k);
 				}
@@ -144,6 +143,7 @@ public class RedisOperator {
 		});
 
 		return result;
+
 	}
 
 

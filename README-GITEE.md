@@ -121,6 +121,114 @@ add exagear-desktop-rpi3 project
 
 <https://www.jetbrains.com/shop/eform/opensource?product=ALL>
 
+### 我的开源技术自学之路
+
+#### 计算机数学基础知识
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-00.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-01.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-02.png)
+
+#### 计算机物理基础知识
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-03.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-04.png)
+
+#### 计算机英语基础
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-05.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-06.png)
+
+#### 汇编语言基础
+8086汇编的经典是16位地址变为20位地址。
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-07.png)
+
+#### C语言基础
+C语言的经典是指针，我看了很多书都是说指针就是地址，这个没有错，但我觉得说对了一半，我觉得指针就是地址+类型，这个是我自学自己领悟出来的，书中也是有说的不全的，也有错误的。
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-08.png)
+
+#### 数据结构与算法基础
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-09.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-10.png)
+
+#### Linux基础
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-11.png)
+
+#### 渗透测试基础
+红黑联盟的渗透测试
+
+Web服务器基础
+
+Google Hacking
+
+Nmap
+
+原理探测
+
+实战经典
+
+综和利用......
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-12.png)
+网络信息收集
+
+漏洞评估之BurpSuite使用实战
+
+漏洞评估之SqlMap使用实战
+
+漏洞评估之Cookie注入实战
+
+漏洞评估之WEB扫描实战
+
+漏洞评估之Nessus使用实战
+
+Backtrack高级渗透教程
+
+某工具讲解
+
+无线安全的基本介绍......
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-13.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-14.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-15.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-16.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-17.png)
+Android Java 逆向基础
+Android Hook 插件开发
+Android 系统编译
+Android arm native 逆向
+Android 应用初步编程保护
+Android 应用脱壳
+Android 应用保护
+
+#### 审计学院内部软件的安全系统
+审计学院内部Web官网安全
+......
+
+审计学院内部的内网网络环境安全
+......
+
+审计学院内部的内网网络环境安全
+......
+
+审计学院内部的教学楼教师机器与学生机器内网安全
+......
+
+审计学院内部开发的人脸签到微信小程序
+......
+
+#### Java Web
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-18.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-21.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-23.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-24.png)
+
+#### JVM&C++&Linux
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-25.png)
+
+
+
+
 ### 微信赞赏码
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/赞赏码.png)

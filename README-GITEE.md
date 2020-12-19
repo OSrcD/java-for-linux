@@ -123,12 +123,12 @@ add exagear-desktop-rpi3 project
 
 ## 我的开源技术自学之路
 
-### 计算机数学基础知识
+### 计算机数学基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-00.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-01.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-02.png)
 
-### 计算机物理基础知识
+### 计算机物理基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-03.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-04.png)
 
@@ -154,7 +154,7 @@ C 语言的经典是指针，我看了很多书都是说指针就是地址，这
 ### Linux 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-11.png)
 
-### 渗透测试基础
+### CTF 基础
 Web 服务器基础
 
 Google Hacking
@@ -204,8 +204,11 @@ Android 应用初步编程保护
 Android 应用脱壳
 
 Android 应用保护
-### 审计学院内部软件的安全系统
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-18.png)
+
+审计学院内部软件的安全系统
+
 审计学院内部 Web 官网安全
 ......
 
@@ -226,7 +229,7 @@ Android 应用保护
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-23.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-24.png)
-### JVM&C++&Linux
+### JVM&C++&Linux 基础
 可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究
 
 微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了 互联网没有流传 1.0 版本 JVM源码

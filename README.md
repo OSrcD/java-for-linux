@@ -141,6 +141,7 @@ add exagear-desktop-rpi3 project
 
 ### 汇编基础
 8086 汇编的经典是 16 位地址变为 20 位地址。
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-07.png)
 
 ### C&C++ 基础
@@ -148,6 +149,7 @@ C 语言的经典是指针，我看了很多书都是说指针就是地址，这
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-08.png)
 ### 算法基础
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-09.png)
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-10.png)
 
 ### Linux 基础
@@ -189,9 +191,13 @@ Backtrack 高级渗透教程
 ......
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-13.png)
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-14.png)
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-15.png)
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-16.png)
+
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-17.png)
 
 Android Java 逆向基础

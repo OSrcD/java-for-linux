@@ -223,18 +223,18 @@ Android 应用保护
 
 审计学院内部开发的人脸签到微信小程序
 ......
-### Java Web 基础
+### Java 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-21.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-23.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-24.png)
-### JVM&C++&Linux 基础
-可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究
+### JVM 基础
+可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究。
 
-微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了 互联网没有流传 1.0 版本 JVM源码
+微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了。
 
-[c++--]<https://gitee.com/OpenDevel/cppmm>
+[C++--](https://gitee.com/OpenDevel/cppmm)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-25.png)
 
 

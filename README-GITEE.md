@@ -141,23 +141,23 @@ add exagear-desktop-rpi3 project
 
 
 #### 汇编语言基础
-8086汇编的经典是16位地址变为20位地址。
+8086 汇编的经典是 16 位地址变为 20 位地址。
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-07.png)
 
-#### C语言基础
-C语言的经典是指针，我看了很多书都是说指针就是地址，这个没有错，但我觉得说对了一半，我觉得指针就是地址+类型，这个是我自学自己领悟出来的，书中也是有说的不全的，也有错误的。
+#### C&C++ 语言基础
+C 语言的经典是指针，我看了很多书都是说指针就是地址，这个没有错，但我觉得说对了一半，我觉得指针就是地址+类型，这个是我自学自己领悟出来的，书中也是有说的不全的，也有错误的。
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-08.png)
 
 #### 数据结构与算法基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-09.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-10.png)
 
-#### Linux基础
+#### Linux 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-11.png)
 
 #### 渗透测试基础
 
-Web服务器基础
+Web 服务器基础
 
 Google Hacking
 
@@ -173,17 +173,17 @@ Nmap
 
 网络信息收集
 
-漏洞评估之BurpSuite使用实战
+漏洞评估之 BurpSuite 使用实战
 
-漏洞评估之SqlMap使用实战
+漏洞评估之 SqlMap 使用实战
 
-漏洞评估之Cookie注入实战
+漏洞评估之 Cookie 注入实战
 
-漏洞评估之WEB扫描实战
+漏洞评估之 Web 扫描实战
 
-漏洞评估之Nessus使用实战
+漏洞评估之 Nessus 使用实战
 
-Backtrack高级渗透教程
+Backtrack 高级渗透教程
 
 某工具讲解
 
@@ -214,7 +214,7 @@ Android 应用保护
 #### 审计学院内部软件的安全系统
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-18.png)
 
-审计学院内部Web官网安全
+审计学院内部 Web 官网安全
 ......
 
 审计学院内部的内网网络环境安全

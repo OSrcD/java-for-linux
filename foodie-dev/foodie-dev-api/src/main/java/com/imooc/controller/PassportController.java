@@ -91,6 +91,10 @@ public class PassportController extends BaseController {
         CookieUtils.setCookie(request,response,"user",
                 JsonUtils.objectToJson(userResult),true);
 
+        // 实现用户的redis会话
+
+
+
         // TODO 生成用户token，存入redis会话
         // 同步购物车数据
         synchShopcartData(userResult.getId(), request, response);

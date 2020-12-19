@@ -136,6 +136,10 @@ add exagear-desktop-rpi3 project
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-05.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-06.png)
 
+#### 软件基础&硬件基础
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
+
+
 #### 汇编语言基础
 8086汇编的经典是16位地址变为20位地址。
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-07.png)
@@ -152,7 +156,6 @@ C语言的经典是指针，我看了很多书都是说指针就是地址，这�
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-11.png)
 
 #### 渗透测试基础
-红黑联盟的渗透测试
 
 Web服务器基础
 
@@ -164,9 +167,10 @@ Nmap
 
 实战经典
 
-综和利用......
+综和利用
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-12.png)
+......
+
 网络信息收集
 
 漏洞评估之BurpSuite使用实战
@@ -183,22 +187,33 @@ Backtrack高级渗透教程
 
 某工具讲解
 
-无线安全的基本介绍......
+无线安全的基本介绍
+
+......
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-13.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-14.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-15.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-16.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-17.png)
+
 Android Java 逆向基础
+
 Android Hook 插件开发
+
 Android 系统编译
+
 Android arm native 逆向
+
 Android 应用初步编程保护
+
 Android 应用脱壳
+
 Android 应用保护
 
 #### 审计学院内部软件的安全系统
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-18.png)
+
 审计学院内部Web官网安全
 ......
 
@@ -215,8 +230,6 @@ Android 应用保护
 ......
 
 #### Java Web
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-18.png)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-21.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)

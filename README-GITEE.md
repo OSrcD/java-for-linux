@@ -230,6 +230,8 @@ Android 应用保护
 可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究
 
 微软的JVM虚拟机是 1.1 版本的 不开源 被SUN公司起诉了 1.0 版本 JVM源码 只有 SUN 公司有了 互联网没有流传 1.0 版本 JVM源码
+
+[c++--]<https://gitee.com/OpenDevel/cppmm>
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-25.png)
 
 

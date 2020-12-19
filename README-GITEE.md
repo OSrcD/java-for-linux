@@ -139,11 +139,11 @@ add exagear-desktop-rpi3 project
 ### 软件基础&硬件基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
 
-### 汇编语言基础
+### 汇编基础
 8086 汇编的经典是 16 位地址变为 20 位地址。
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-07.png)
 
-### C&C++ 语言基础
+### C&C++ 基础
 C 语言的经典是指针，我看了很多书都是说指针就是地址，这个没有错，但我觉得说对了一半，我觉得指针就是地址+类型，这个是我自学自己领悟出来的，书中也是有说的不全的，也有错误的。
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-08.png)
 

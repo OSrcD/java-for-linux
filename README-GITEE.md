@@ -220,7 +220,7 @@ Android 应用保护
 
 审计学院内部开发的人脸签到微信小程序
 ......
-### Java Web
+### Java Web 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-21.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)

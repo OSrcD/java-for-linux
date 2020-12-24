@@ -92,24 +92,28 @@ public class PassportController extends BaseController {
 //        userResult = setNullProperty(userResult);
 
         // 实现用户的redis会话
-        String uniqueToken = UUID.randomUUID().toString().trim();
-        redisOperator.set(REDIS_USER_TOKEN + ":" + userResult.getId(),
-                uniqueToken);
-
-        UsersVO usersVO = new UsersVO();
-        BeanUtils.copyProperties(userResult, usersVO);
-        usersVO.setUserUniqueToken(uniqueToken);
+        UsersVO usersVO = conventUsersVO(userResult);
 
         CookieUtils.setCookie(request, response, "user",
-                JsonUtils.objectToJson(userResult), true);
+                JsonUtils.objectToJson(usersVO), true);
 
-
-        // TODO 生成用户token，存入redis会话
         // 同步购物车数据
         synchShopcartData(userResult.getId(), request, response);
 
         return IMOOCJSONResult.ok();
 
+    }
+
+    private UsersVO conventUsersVO(Users user) {
+        // 实现用户的redis会话
+        String uniqueToken = UUID.randomUUID().toString().trim();
+        redisOperator.set(REDIS_USER_TOKEN + ":" + user.getId(),
+                uniqueToken);
+
+        UsersVO usersVO = new UsersVO();
+        BeanUtils.copyProperties(user, usersVO);
+        usersVO.setUserUniqueToken(uniqueToken);
+        return usersVO;
     }
 
     @ApiOperation(value="用户登录",notes="用户登录",httpMethod="POST")
@@ -136,12 +140,14 @@ public class PassportController extends BaseController {
             return IMOOCJSONResult.errorMsg("用户名或密码不正确");
         }
 
-        userResult = setNullProperty(userResult);
+//        userResult = setNullProperty(userResult);
+
+        // 实现用户的redis会话
+        UsersVO usersVO = conventUsersVO(userResult);
 
         CookieUtils.setCookie(request,response,"user",
-                JsonUtils.objectToJson(userResult),true);
+                JsonUtils.objectToJson(usersVO),true);
 
-        // TODO 生成用户token，存入redis会话
         // 同步购物车数据
         synchShopcartData(userResult.getId(), request, response);
 
@@ -249,12 +255,15 @@ public class PassportController extends BaseController {
     public IMOOCJSONResult logout(@RequestParam String userId,
                                   HttpServletRequest request,
                                   HttpServletResponse response){
+
         // 清除用户的相关信息的cookie
         CookieUtils.deleteCookie(request,response,"user");
 
 
-        // TODO 分布式会话中需要清理用户数据
-        // 用户登录退出，需要清空购物车
+        // 用户退出登录，清除redis中user的会话信息
+        redisOperator.del(REDIS_USER_TOKEN + ":" + userId);
+
+        // 分布式会话中需要清理用户数据
         CookieUtils.deleteCookie(request, response, FOODIE_SHOPCART);
 
         return IMOOCJSONResult.ok();

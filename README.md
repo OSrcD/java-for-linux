@@ -241,11 +241,11 @@ Android 应用保护
 又学一会逆向工程，入门不要讲究全栈，什么都学，浪费时间，精通再讲究全栈。
 
 #### 白帽子与黑帽子的选择
+<font color=white>
 黑帽子是活在暗里的人，戴着不属于自己的面具而活，不真实的人，没血没肉，没灵魂，各种社工欺骗感情、钱财，还有伪装成女的去社工骗取男钱财的各种都有，只会去伤害别人。
 
 白帽子就是跟黑帽子相反，活生生、有血有肉、真实、有灵魂的人，正是因为有黑帽子，这个世界才需要更多的白帽子，防御黑帽子伤害自己，防御黑帽子伤害别人，保护自己、如果有能力还可以保护需要保护的人，所以学安全要去做白帽子。
-
-
+</font>
 ### Java 基础
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-20.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-21.png)

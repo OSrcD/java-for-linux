@@ -153,7 +153,7 @@ C 语言的经典是指针，我看了很多书都是说指针就是地址，这
 ### Linux 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-11.png)
 
-### CTF 基础
+### Web 安全基础
 Web 服务器基础
 
 Google Hacking

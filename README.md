@@ -155,7 +155,7 @@ C 语言的经典是指针，我看了很多书都是说指针就是地址，这
 ### Linux 基础
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-11.png)
 
-### CTF 基础
+### Web 安全基础
 Web 服务器基础
 
 Google Hacking
@@ -235,6 +235,11 @@ Android 应用保护
 审计学院内部开发的人脸签到微信小程序
 
 ......
+
+#### 关于Web安全与逆向工程方向的选择
+不是什么都要学的，其实吧，精一门样样精，觉得Web安全入门没逆向工程更加有意思，如果能入门的Web安全，可以继续学，后面就会涉及到浏览器安全了，自然就涉及到逆向工程了，这个就是你精通Web安全的方向过程了，Web安全深入进去就是浏览器内核逆向安全了，如果精通了浏览器内核安全，借鉴浏览器内核安全的通用知识去搞逆向工程不就是很简单的事了，精通了Web安全照样玩逆向，所以没有必要学一会Web安全，
+又学一会逆向工程，入门不要讲究全栈，什么都学，浪费时间，精通再讲究全栈。
+
 ### Java 基础
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-20.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-21.png)

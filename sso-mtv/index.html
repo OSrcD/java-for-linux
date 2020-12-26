@@ -63,7 +63,7 @@
 							});
 					} else {
 						// 如果没有tmpTicket临时票据，说明用户从没登录过，那么就可以跳转至cas做统一登录认证了
-						// window.location.href = app.SSOServerUrl + "/login?returnUrl=http://www.mtv.com:8080/sso-mtv/index.html";
+						window.location.href = app.SSOServerUrl + "/login?returnUrl=http://www.mtv.com:8080/sso-mtv/index.html";
 					}
 
 					console.log(app.SSOServerUrl + "/login?returnUrl=" + window.location);

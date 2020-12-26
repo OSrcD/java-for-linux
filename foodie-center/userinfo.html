@@ -143,15 +143,15 @@
 					<!--底部-->
 					<div class="footer ">
 						<div class="footer-hd ">
-							<p><a href="https://www.imooc.com/" target="_blank">慕课网</a> <b>|</b> <a
+							<!-- <p><a href="https://www.imooc.com/" target="_blank">慕课网</a> <b>|</b> <a
 									href="https://coding.imooc.com/class/217.html" target="_blank">分布式架构仿抖音短视频</a> <b>|</b>
 								<a href="https://coding.imooc.com/class/261.html" target="_blank">Netty仿微信聊天</a> <b>|</b> <a
 									href="https://coding.imooc.com/class/201.html" target="_blank">Zookeeper与dubbo入门</a>
-								<b>|</b> <a href="https://coding.imooc.com/class/293.html" target="_blank">支付宝小程序</a></p>
+								<b>|</b> <a href="https://coding.imooc.com/class/293.html" target="_blank">支付宝小程序</a></p> -->
 						</div>
-						<div class="footer-bd ">
+						<!-- <div class="footer-bd ">
 							<p><em>© 2019 imooc.com 京ICP备12003892号-11 北京奥鹏文化传媒有限公司 版权所有</em></p>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
@@ -306,7 +306,7 @@
 						// 请求后端获得最新数据
 						var serverUrl = app.serverUrl;
 						axios.defaults.withCredentials = true;
-						axios.get(
+						axios.post(
 								serverUrl + '/userInfo/update?userId=' + userInfo.id, 
 								userInfoMore, 
 								{
@@ -335,8 +335,7 @@
 						var serverUrl = app.serverUrl;
 						axios.defaults.withCredentials = true;
 						axios.get(
-								serverUrl + '/center/userInfo?userId=' + userInfo.id, {}, 
-								{
+								serverUrl + '/center/userInfo?userId=' + userInfo.id, {
 									headers: {
 										'headerUserId': userInfo.id,
 										'headerUserToken': userInfo.userUniqueToken

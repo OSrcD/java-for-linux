@@ -41,7 +41,21 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry){
 
         registry.addInterceptor(userTokenInterceptor())
-                .addPathPatterns("/hello");
+                .addPathPatterns("/hello")
+                .addPathPatterns("/shopcart/add")
+                .addPathPatterns("/shopcart/del")
+                .addPathPatterns("/address/list")
+                .addPathPatterns("/address/add")
+                .addPathPatterns("/address/update")
+                .addPathPatterns("/address/setDefault")
+                .addPathPatterns("/address/delete")
+                .addPathPatterns("/orders/*")
+                .addPathPatterns("/center/*")
+                .addPathPatterns("/userInfo/*")
+                .addPathPatterns("/myorders/*")
+                .addPathPatterns("/mycomments/*")
+                .excludePathPatterns("/myorders/deliver")
+                .excludePathPatterns("/orders/notifyMerchantOrderPaid");
 
         WebMvcConfigurer.super.addInterceptors(registry);
     }

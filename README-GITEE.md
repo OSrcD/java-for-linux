@@ -238,7 +238,7 @@ Android 应用保护
 ......
 
 #### 白帽子
-白帽子就是跟黑帽子相反，活生生、有血有肉、真实、有灵魂的人，正是因为有黑帽子，这个世界才需要更多的白帽子，只能防御黑帽子伤害自己，只能保护自己，所以学安全要去做白帽子。
+......
 
 ### Java 基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)

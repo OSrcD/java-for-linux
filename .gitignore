@@ -1,1 +1,14 @@
 .idea/
+/foodie-dev/foodie-dev-api/target/
+/foodie-dev/foodie-dev-common/target/
+/foodie-dev/foodie-dev-mapper/target/
+/foodie-dev/foodie-sso/target/
+/foodie-dev/foodie-dev-service/target/
+/foodie-dev/foodie-sso/foodie-sso.iml
+/foodie-dev/foodie-dev-service/foodie-dev-service.iml
+/foodie-dev/foodie-dev-pojo/foodie-dev-pojo.iml
+/foodie-dev/foodie-dev-mapper/foodie-dev-mapper.iml
+/foodie-dev/foodie-dev.iml
+/foodie-dev/foodie-dev-api/foodie-dev-api.iml
+/foodie-dev/foodie-dev-common/foodie-dev-common.iml
+/foodie-dev/foodie-dev-pojo/target/

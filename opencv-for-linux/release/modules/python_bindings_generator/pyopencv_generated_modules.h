@@ -1,0 +1,14 @@
+CVPY_MODULE("", cv);
+CVPY_MODULE(".Error", Error);
+CVPY_MODULE(".cuda", cuda);
+CVPY_MODULE(".detail", detail);
+CVPY_MODULE(".dnn", dnn);
+CVPY_MODULE(".fisheye", fisheye);
+CVPY_MODULE(".flann", flann);
+CVPY_MODULE(".ipp", ipp);
+CVPY_MODULE(".ml", ml);
+CVPY_MODULE(".ocl", ocl);
+CVPY_MODULE(".ogl", ogl);
+CVPY_MODULE(".samples", samples);
+CVPY_MODULE(".utils", utils);
+CVPY_MODULE(".videoio_registry", videoio_registry);

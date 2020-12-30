@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rdparty/quirc/include/quirc.h
+stdint.h
+-
+
+../3rdparty/quirc/include/quirc_internal.h
+quirc.h
+-
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/3rdparty/quirc/src/decode.c
+quirc_internal.h
+-
+string.h
+-
+stdlib.h
+-
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/3rdparty/quirc/src/quirc.c
+stdlib.h
+-
+string.h
+-
+quirc_internal.h
+-
+
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/3rdparty/quirc/src/version_db.c
+quirc_internal.h
+-
+

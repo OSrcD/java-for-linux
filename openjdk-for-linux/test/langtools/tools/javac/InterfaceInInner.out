@@ -1,0 +1,2 @@
+InterfaceInInner.java:12:13: compiler.err.static.declaration.not.allowed.in.inner.classes
+1 error

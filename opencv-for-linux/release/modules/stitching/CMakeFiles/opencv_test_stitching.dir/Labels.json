@@ -1,0 +1,69 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/ocl/test_warpers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/test_blenders.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/test_blenders.cuda.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/test_matchers.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_stitching",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_stitching",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_stitching"
+	}
+}

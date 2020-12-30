@@ -1,0 +1,33 @@
+# Target labels
+ Main
+ opencv_stitching
+ PerfTest
+# Source files and their labels
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/opencl/perf_stitch.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/opencl/perf_warpers.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/perf_estimators.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/perf_main.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/perf_matchers.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/perf_stich.cpp
+ Main
+ opencv_stitching
+ PerfTest
+/Users/virtualman/Downloads/MySource/opencv-4.3.0/modules/stitching/perf/perf_precomp.hpp
+ Main
+ opencv_stitching
+ PerfTest

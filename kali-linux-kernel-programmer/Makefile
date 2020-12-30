@@ -1,7 +1,7 @@
 KERNEL_VER = $(shell uname -r)
   
 # the file to compile
-obj-m += hello.o
+obj-m += KaliLinuxKernelProgrammer.o
 
 # specify flags for the module compilation
 EXTRA_CFLAGS = -g -O0

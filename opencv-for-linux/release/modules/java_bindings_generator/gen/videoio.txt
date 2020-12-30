@@ -1,0 +1,52 @@
+PORTED FUNCs LIST (26 of 32):
+
+  cv::VideoWriter::VideoWriter(String filename, int apiPreference, int fourcc, double fps, Size frameSize, bool isColor = true)
+  cv::VideoWriter::VideoWriter(String filename, int fourcc, double fps, Size frameSize, bool isColor = true)
+  cv::VideoWriter::VideoWriter()
+ String cv::VideoWriter::getBackendName()
+ bool cv::VideoWriter::isOpened()
+ bool cv::VideoWriter::open(String filename, int apiPreference, int fourcc, double fps, Size frameSize, bool isColor = true)
+ bool cv::VideoWriter::open(String filename, int fourcc, double fps, Size frameSize, bool isColor = true)
+ bool cv::VideoWriter::set(int propId, double value)
+ double cv::VideoWriter::get(int propId)
+static int cv::VideoWriter::fourcc(char c1, char c2, char c3, char c4)
+ void cv::VideoWriter::release()
+ void cv::VideoWriter::write(Mat image)
+ String cv::videoio_registry::getBackendName(VideoCaptureAPIs api)
+  cv::VideoCapture::VideoCapture()
+ String cv::VideoCapture::getBackendName()
+ bool cv::VideoCapture::getExceptionMode()
+ bool cv::VideoCapture::grab()
+ bool cv::VideoCapture::isOpened()
+ bool cv::VideoCapture::open(String filename, int apiPreference = CAP_ANY)
+ bool cv::VideoCapture::open(int index, int apiPreference = CAP_ANY)
+ bool cv::VideoCapture::read(Mat& image)
+ bool cv::VideoCapture::retrieve(Mat& image, int flag = 0)
+ bool cv::VideoCapture::set(int propId, double value)
+ double cv::VideoCapture::get(int propId)
+ void cv::VideoCapture::release()
+ void cv::VideoCapture::setExceptionMode(bool enable)
+
+SKIPPED FUNCs LIST (6 of 32):
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getCameraBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getStreamBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ vector_VideoCaptureAPIs cv::videoio_registry::getWriterBackends()
+// Return type 'vector_VideoCaptureAPIs' is not supported, skipping the function
+
+ explicit cv::VideoCapture::VideoCapture(String filename, int apiPreference = CAP_ANY)
+// Return type 'explicit' is not supported, skipping the function
+
+ explicit cv::VideoCapture::VideoCapture(int index, int apiPreference = CAP_ANY)
+// Return type 'explicit' is not supported, skipping the function
+
+
+0 def args - 23 funcs
+1 def args - 9 funcs

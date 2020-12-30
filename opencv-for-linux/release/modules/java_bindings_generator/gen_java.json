@@ -1,0 +1,22 @@
+{
+  "rootdir": "/Users/virtualman/Downloads/MySource/opencv-4.3.0",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "ml", "location": "modules/ml" },
+    { "name": "photo", "location": "modules/photo" },
+    { "name": "dnn", "location": "modules/dnn" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "videoio", "location": "modules/videoio" },
+    { "name": "calib3d", "location": "modules/calib3d" },
+    { "name": "highgui", "location": "modules/highgui" },
+    { "name": "objdetect", "location": "modules/objdetect" },
+    { "name": "video", "location": "modules/video" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in", "target": "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/configured/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java" },
+    { "src": "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in", "target": "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/configured/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java" },
+    { "src": "modules/core/misc/java/src/java/core+Core.jcode.in", "target": "/Users/virtualman/Downloads/MySource/opencv-4.3.0/release/configured/modules/core/misc/java/src/java/core+Core.jcode" }
+  ]
+}

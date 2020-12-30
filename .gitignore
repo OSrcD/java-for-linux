@@ -1,4 +1,7 @@
 .idea/
+target/
+chromedriver
+*.iml
 /foodie-dev/foodie-dev-api/target/
 /foodie-dev/foodie-dev-common/target/
 /foodie-dev/foodie-dev-mapper/target/

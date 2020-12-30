@@ -1,3 +1,0 @@
-/root/Dowloads/MySource/AlgorithmLibrary/build/CMakeFiles/rebuild_cache.dir
-/root/Dowloads/MySource/AlgorithmLibrary/build/CMakeFiles/edit_cache.dir
-/root/Dowloads/MySource/AlgorithmLibrary/build/CMakeFiles/AlgorithmLibrary.dir

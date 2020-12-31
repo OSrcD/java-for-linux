@@ -3,6 +3,7 @@ package com.imooc.controller;
 import com.imooc.pojo.Users;
 import com.imooc.pojo.vo.UsersVO;
 import com.imooc.service.UserService;
+import com.imooc.utils.IMOOCJSONResult;
 import com.imooc.utils.JsonUtils;
 import com.imooc.utils.MD5Utils;
 import com.imooc.utils.RedisOperator;
@@ -19,6 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Random;
 import java.util.UUID;
+
 
 @Controller
 public class SSOController {
@@ -102,19 +104,56 @@ public class SSOController {
         // 5. 生成临时票据，回跳到调用端网站，是由CAS端所签发的一个一次性的临时ticket
         String tmpTicket = createTicket();
 
-        return "login";
-//        return "redirect:" + returnUrl + "?tmpTicket=" + tmpTicket;
+        /**
+         * userTicket: 用于表示用户在CAS端的一个登录状态：已经登录
+         * tmpTicket：用于颁发给用户进行一次性的验证的票据，有时效性
+         */
+
+        /**
+         * 举例：
+         *      我们去动物园玩耍，大门口买了一张统一的门票，这个就是CAS系统的全局门票和用户全局会话。
+         *      动物园里有一些小的景点，需要凭你的门票去领取一次性的票据，有了这张票据以后就能去一些小的景点游玩了。
+         *      这样的一个个的小景点其实就是我们这里所对应的一个个的站点。
+         *      当我们使用完毕这张临时票据以后，就需要销毁。
+         */
+
+//        return "login";
+        return "redirect:" + returnUrl + "?tmpTicket=" + tmpTicket;
     }
+
+    @PostMapping("/verifyTmpTicket")
+    public IMOOCJSONResult verifyTmpTicket(String tmpTicket,
+                                           HttpServletRequest request,
+                                           HttpServletResponse response) throws Exception {
+
+        // 使用一次性临时票据来验证用户是否登录，如果登录过，把用户会话信息返回给站点
+        // 使用完毕后，需要销毁临时票据
+        String tmpTicketValue = redisOperator.get(REDIS_TMP_TICKET + ":" + tmpTicket);
+        if (StringUtils.isBlank(tmpTicketValue)) {
+            return IMOOCJSONResult.errorUserTicket("用户票据异常");
+        }
+
+        // 0. 如果临时票据OK，则需要销毁，并且拿到CAS端cookie的全局userTicket，以此再获取用户会话
+        if (!(tmpTicketValue.equals(MD5Utils.getMD5Str(tmpTicket)))) {
+            return IMOOCJSONResult.errorUserTicket("用户票据异常");
+        } else {
+            redisOperator.del(REDIS_TMP_TICKET + ":" + tmpTicket);
+        }
+
+        return IMOOCJSONResult.ok();
+    }
+
 
     /**
      * 创建临时票据
      * @return
      */
     private String createTicket() {
+
         String tmpTicket = UUID.randomUUID().toString().trim();
         try {
             redisOperator.set(REDIS_TMP_TICKET + ":" + tmpTicket,
-                    MD5Utils.getMD5Str(tmpTicket),600);
+                    MD5Utils.getMD5Str(tmpTicket), 600);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -118,7 +118,7 @@ public class SSOController {
          */
 
 //        return "login";
-        return "redirect:" + returnUrl + "?cookie_user_ticket="+userTicket;
+        return "redirect:" + returnUrl + "?tmpTicket="+tmpTicket;
     }
 
     @PostMapping("/verifyTmpTicket")
@@ -208,12 +208,5 @@ public class SSOController {
 
     }
 
-    /**
-     * 测试获取cookie
-     */
-    @PostMapping("/testCookie")
-    private void testCookie(HttpServletRequest request,HttpServletResponse resposne) {
-        Cookie[] cookies = request.getCookies();
-    }
 
 }

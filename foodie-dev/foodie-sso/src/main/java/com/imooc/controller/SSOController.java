@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Random;
 import java.util.UUID;
 
 
@@ -46,11 +45,46 @@ public class SSOController {
 
         model.addAttribute("returnUrl", returnUrl);
 
-        // TODO 后续完善校验是否登录
+        // 1. 获取userTicket门票，如果cookie中能获取到，证明用户登录过，此时签发一个一次性的临时票据并且回跳
+        String userTicket = getCookie(request, COOKIE_USER_TICKET);
 
-        // 用户从未登录过，第一次进入侧跳转到CAS的统一登录页面
+        boolean isVerified = verifyUserTicket(userTicket);
+        if (isVerified) {
+            String tmpTicket = createTmpTicket();
+            return "redirect:" + returnUrl + "?tmpTicket=" + tmpTicket;
+        }
 
+        // 2. 用户从未登录过，第一次进入侧跳转到CAS的统一登录页面
         return "login";
+    }
+
+    /**
+     * 校验CAS全局用户门票
+     * @param userTicket
+     * @return
+     */
+    private boolean verifyUserTicket(String userTicket) {
+
+        // 0. 验证CAS门票不能为空
+        if (StringUtils.isBlank(userTicket)) {
+            return false;
+        }
+
+        // 1. 验证CAS门票是否有效
+        String userId = redisOperator.get(REDIS_USER_TICKET + ":" + userTicket);
+        if (StringUtils.isBlank(userTicket)) {
+            return false;
+        }
+
+        // 2. 验证门票对应的user会话是否存在
+        String userRedis = redisOperator.get(REDIS_USER_TOKEN + ":" + userId);
+        if (StringUtils.isBlank(userRedis)) {
+            return false;
+        }
+
+
+        return true;
+
     }
 
     /**
@@ -102,7 +136,7 @@ public class SSOController {
         redisOperator.set(REDIS_USER_TICKET + ":" + userTicket,userResult.getId());
 
         // 5. 生成临时票据，回跳到调用端网站，是由CAS端所签发的一个一次性的临时ticket
-        String tmpTicket = createTicket();
+        String tmpTicket = createTmpTicket();
 
         /**
          * userTicket: 用于表示用户在CAS端的一个登录状态：已经登录
@@ -164,7 +198,7 @@ public class SSOController {
      * 创建临时票据
      * @return
      */
-    private String createTicket() {
+    private String createTmpTicket() {
 
         String tmpTicket = UUID.randomUUID().toString().trim();
         try {

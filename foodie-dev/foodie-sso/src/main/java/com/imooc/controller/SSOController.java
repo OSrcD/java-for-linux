@@ -14,6 +14,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -97,7 +98,6 @@ public class SSOController {
 
         // 3.1 用户全局门票需要放入CAS端的cookie中
         setCookie(COOKIE_USER_TICKET,userTicket,response);
-
         // 4. userTicket关联用户id，并且放入redis中，代表这个用户有门票了，可以在各个景区游玩
         redisOperator.set(REDIS_USER_TICKET + ":" + userTicket,userResult.getId());
 
@@ -118,10 +118,11 @@ public class SSOController {
          */
 
 //        return "login";
-        return "redirect:" + returnUrl + "?tmpTicket=" + tmpTicket;
+        return "redirect:" + returnUrl + "?cookie_user_ticket="+userTicket;
     }
 
     @PostMapping("/verifyTmpTicket")
+    @ResponseBody
     public IMOOCJSONResult verifyTmpTicket(String tmpTicket,
                                            HttpServletRequest request,
                                            HttpServletResponse response) throws Exception {
@@ -134,13 +135,28 @@ public class SSOController {
         }
 
         // 0. 如果临时票据OK，则需要销毁，并且拿到CAS端cookie的全局userTicket，以此再获取用户会话
-        if (!(tmpTicketValue.equals(MD5Utils.getMD5Str(tmpTicket)))) {
+        if (!tmpTicketValue.equals(MD5Utils.getMD5Str(tmpTicket))) {
             return IMOOCJSONResult.errorUserTicket("用户票据异常");
         } else {
+            // 销毁临时票据
             redisOperator.del(REDIS_TMP_TICKET + ":" + tmpTicket);
         }
 
-        return IMOOCJSONResult.ok();
+        // 1. 验证并且获取用户的userTicket
+        String userTicket = getCookie(request, COOKIE_USER_TICKET);
+        String userId = redisOperator.get(REDIS_USER_TICKET + ":" + userTicket);
+        if (StringUtils.isBlank(userId)) {
+            IMOOCJSONResult.errorUserTicket("用户票据异常");
+        }
+
+        // 2. 验证门票对应的user会话是否存在
+        String userRedis = redisOperator.get(REDIS_USER_TOKEN + ":" + userId);
+        if (StringUtils.isBlank(userRedis)) {
+            IMOOCJSONResult.errorUserTicket("用户票据异常");
+        }
+
+        // 验证成功，返回OK，携带用户会话
+        return IMOOCJSONResult.ok(JsonUtils.jsonToPojo(userRedis,UsersVO.class));
     }
 
 
@@ -166,9 +182,38 @@ public class SSOController {
 
         Cookie cookie = new Cookie(key,val);
         cookie.setDomain("sso.com");
+//        cookie.setDomain("mtv.com");
         cookie.setPath("/");
         response.addCookie(cookie);
 
+    }
+
+    private String getCookie(HttpServletRequest request, String key) {
+        Cookie[] cookieList = request.getCookies();
+
+        if (cookieList == null || StringUtils.isBlank(key)) {
+            return null;
+        }
+
+        String cookieValue = null;
+
+        for (Cookie cookie : cookieList) {
+            if (cookie.getName().equals(key)) {
+                cookieValue = cookie.getValue();
+                break;
+            }
+        }
+
+        return cookieValue;
+
+    }
+
+    /**
+     * 测试获取cookie
+     */
+    @PostMapping("/testCookie")
+    private void testCookie(HttpServletRequest request,HttpServletResponse resposne) {
+        Cookie[] cookies = request.getCookies();
     }
 
 }

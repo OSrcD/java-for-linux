@@ -1,6 +1,5 @@
 ## 欢迎大家一起来协作写（ Pull requests ）慕课网 Java 架构师直通车笔记
 ![img.png](image/java-alibaba-p7-01.png)
-![img.png](image/java-alibaba-p7-00.png)
 
 ## 我的开源课程
 

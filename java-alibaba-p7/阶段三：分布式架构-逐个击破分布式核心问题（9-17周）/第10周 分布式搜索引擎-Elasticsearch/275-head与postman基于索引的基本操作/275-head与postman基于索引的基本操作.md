@@ -6,12 +6,6 @@
   * [主分配的是10个](#主分配的是10个)
   * [10 25 15](#10-25-15)
   * [带有列名](#带有列名)
-  * [开源笔记](#开源笔记)
-  * [开源视频](#开源视频)
-  * [开源博客](#开源博客)
-  * [开源项目](#开源项目)
-  * [开源赞赏](#开源赞赏)
-  * [请勿相信图片中任何联系方式](#请勿相信图片中任何联系方式)
 
 
 ![](https://tcs.teambition.net/storage/3121d4b3ed881360ee9dba95213e4019b47e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDI5NTA1OSwiaWF0IjoxNjA5NjkwMjU5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFkNGIzZWQ4ODEzNjBlZTlkYmE5NTIxM2U0MDE5YjQ3ZSJ9.OhpVruGMI1OfisFz81NaiuUhpWw0AEEbjTc48jqq0w4&download=image1.png "")
@@ -101,7 +95,9 @@
 
 
 
-## 开源笔记
+
+
+开源笔记
 
 可 Pull requests 协作写开源笔记
 
@@ -111,26 +107,29 @@
 
 > [__Teambition__](https://tburl.in/lPhmsyaa)
 
-## 开源视频
+开源视频
 
 [OSrcD的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili](https://space.bilibili.com/77266754)
 
-## 开源博客
+开源博客
 
 [全部博文 - OpenDevel的个人空间 - OSCHINA](https://my.oschina.net/u/4675154?tab=newest&catalogId=0)
 
-## 开源项目
+开源项目
 
 [OSrcD (OpenDevel) - Gitee.com](https://gitee.com/OpenDevel)
 
 [OSrcD - Overview](https://github.com/OSrcD)
 
-## 开源赞赏
+开源赞赏
 
 ![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDI5NTE5MCwiaWF0IjoxNjA5NjkwMzkwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.v5u4616lgunKEHA4AO9uLbV_U6czHC4F7lFmo151vHY&download=image.png "")
 
-谢谢
-
-## 请勿相信图片中任何联系方式
+请勿相信图片中任何联系方式
 
 图片来源于视频 作者拿到视频学习已被第三方打码 没办法 截图也没时间去修改图片 请勿相信图片里的任何联系方式
+
+谢谢
+
+
+

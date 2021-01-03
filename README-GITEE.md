@@ -275,7 +275,7 @@ Android 应用保护
 
 [GitHub 提供代码托管服务](https://github.com/OpenSrcDeveloper) 
 
-[Thoughts 提供记笔记服务](https://suosi.teambition.net/site))
+[Thoughts 提供记笔记服务](https://suosi.teambition.net/site)
 
 [Teambition 提供云盘服务](https://www.teambition.com)
 

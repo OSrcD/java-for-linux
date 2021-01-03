@@ -1,7 +1,0 @@
-<template name="1b6a4b98">
-  <view class="_div data-v-a5cf62bc header">
-    <image src="{{user.avatarUrl}}" class="_img data-v-a5cf62bc img"></image> <label class="_span data-v-a5cf62bc span">{{user.nickname}}</label> <label class="_span data-v-a5cf62bc span" value="{{user.bonus}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">积分:{{user.bonus}}</label> <label class="_span data-v-a5cf62bc span">
-      <van-button size="mini" type="primary" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-button data-v-a5cf62bc">签到</van-button>
-    </label>
-  </view>
-</template>

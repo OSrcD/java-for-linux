@@ -1,8 +1,21 @@
 
 
-![](https://tcs.teambition.net/storage/312135cffc77ed8b20d2f2e875f9de333bcf?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDI3Nzk4MywiaWF0IjoxNjA5NjczMTgzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEzNWNmZmM3N2VkOGIyMGQyZjJlODc1ZjlkZTMzM2JjZiJ9.NGay1Xs136n2m3WgFPSCotU3tTWSH6dw8483X0DS-FU&download=image.png "")
+  * [什么是 mapping](#什么是-mapping)
+    * [类似数据库的表结构](#类似数据库的表结构)
+    * [相当于是一种表设置](#相当于是一种表设置)
+    * [text 是字符串](#text-是字符串)
+    * [需要被索引就写 true 就会被查询到](#需要被索引就写-true-就会被查询到)
+    * [doc 代表文档](#doc-代表文档)
+    * [kerword 是 String 类型](#kerword-是-string-类型)
+    * [text 是一些文字类型内容要被分词 倒排索引](#text-是一些文字类型内容要被分词-倒排索引)
+    * [keyword 是不会被分词 倒排索引的 精确匹配的搜索](#keyword-是不会被分词-倒排索引的-精确匹配的搜索)
+  * [**请勿相信图片中任何联系方式**](#请勿相信图片中任何联系方式)
+  * [开源笔记](#开源笔记)
+  * [开源视频](#开源视频)
+  * [开源博客](#开源博客)
+  * [开源项目](#开源项目)
+  * [开源赞赏](#开源赞赏)
 
-![](https://tcs.teambition.net/storage/31215f02f597f1325bd38b2a6bf0853b29b1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDI3Nzk5MCwiaWF0IjoxNjA5NjczMTkwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE1ZjAyZjU5N2YxMzI1YmQzOGIyYTZiZjA4NTNiMjliMSJ9.CWZjfuujfFNZa-lPK3Jh6MN4VhjV3GCygDuCwFifmLw&download=image.png "")
 
 ![](https://tcs.teambition.net/storage/3121418ca014cc26fda3015a904f7746ce16?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDI3ODAwMCwiaWF0IjoxNjA5NjczMjAwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0MThjYTAxNGNjMjZmZGEzMDE1YTkwNGY3NzQ2Y2UxNiJ9.hJc4pxEq7a8MI0Zg-Y4cPAMUtoFsuNMCEG1HSo_tMVQ&download=image.png "")
 
@@ -74,13 +87,36 @@
 
 
 
+## **请勿相信图片中任何联系方式**
 
+图片来源于视频 作者拿到视频已被第三方打码 没办法 截图也没时间去修改图片 请勿相信图片里的任何联系方式 
 
-## 欢迎一起来协作写开源笔记
+## 开源笔记
 
-### [__gitee__](https://gitee.com/opendevel/java-for-linux)
+可 Pull requests 协作写开源笔记
 
-### [__github__](https://github.com/OSrcD/java-for-linux)
+> [__gitee__](https://gitee.com/opendevel/java-for-linux)
 
-### [__Teambition__](https://tburl.in/lPhmsyaa)
+> [__github__](https://github.com/OSrcD/java-for-linux)
 
+> [__Teambition__](https://tburl.in/lPhmsyaa)
+
+## 开源视频
+
+[OSrcD的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili](https://space.bilibili.com/77266754)
+
+## 开源博客
+
+[全部博文 - OpenDevel的个人空间 - OSCHINA](https://my.oschina.net/u/4675154?tab=newest&catalogId=0)
+
+## 开源项目
+
+[OSrcD (OpenDevel) - Gitee.com](https://gitee.com/OpenDevel)
+
+[OSrcD - Overview](https://github.com/OSrcD)
+
+## 开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDI4NjMwNywiaWF0IjoxNjA5NjgxNTA3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.k6Y7AOfFSZpao78N2B2BKrEOOfCZAJu2Gwe5-6pa3KY&download=image.png "")
+
+谢谢

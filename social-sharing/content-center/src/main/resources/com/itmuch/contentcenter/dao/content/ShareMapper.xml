@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itmuch.contentcenter.dao.content.ShareMapper">
+  <resultMap id="BaseResultMap" type="com.itmuch.contentcenter.domain.entity.content.Share">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_original" jdbcType="BIT" property="isOriginal" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="cover" jdbcType="VARCHAR" property="cover" />
+    <result column="summary" jdbcType="VARCHAR" property="summary" />
+    <result column="price" jdbcType="INTEGER" property="price" />
+    <result column="download_url" jdbcType="VARCHAR" property="downloadUrl" />
+    <result column="buy_count" jdbcType="INTEGER" property="buyCount" />
+    <result column="show_flag" jdbcType="BIT" property="showFlag" />
+    <result column="audit_status" jdbcType="VARCHAR" property="auditStatus" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+  <select id="selectByParam" resultType="com.itmuch.contentcenter.domain.entity.content.Share">
+    select * from share
+    <where>
+        <if test="title != null and title != ''">
+            title like CONCAT('%',#{title},'%')
+        </if>
+        and audit_status = 'PASS'
+    </where>
+  </select>
+
+</mapper>

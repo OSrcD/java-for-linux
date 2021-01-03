@@ -1,0 +1,9 @@
+<template name="0dfe6dba">
+  <view class="_div data-v-53a47075">
+    <view class="_ul data-v-53a47075">
+      <view wx:key="index" key="{{index}}" wx:for="{{contributions}}" wx:for-index="index" wx:for-item="contribution" class="_li data-v-53a47075">
+        <van-cell icon="records" title="{{contribution.title}}" value="{{contribution.auditStatus}}" label="{{contribution.reason}}" is-link size="large" title-width="70%" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_van-cell data-v-53a47075"></van-cell>
+      </view>
+    </view>
+  </view>
+</template>

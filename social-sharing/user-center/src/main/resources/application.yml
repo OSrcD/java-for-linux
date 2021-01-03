@@ -1,0 +1,69 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_center
+    hikari:
+      username: root
+      password: SocialPG
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  cloud:
+    nacos:
+      discovery:
+        # 指定nacos server的地址
+        server-addr: localhost:8848
+        # 指定namespace
+#        namespace: 2e8b5d31-f7b0-43fd-ae4e-b228b1e8f063
+        # 指定集群名称
+        cluster-name: BJ
+
+        metadata:
+          instance: c
+          haha: hehe
+          version: v1
+
+    stream:
+      rocketmq:
+        binder:
+          name-server: 127.0.0.1:9876
+      bindings:
+        input:
+          destination: add-bonus
+          # 如果用的是RocketMQ，一定要设置
+          # 如果用的是其他MQ，可留空
+          group: binder-group
+
+  application:
+    # 服务名称
+    name: user-center
+  zipkin:
+    base-url: http://localhost:9411/
+    discoveryClientEnabled: false
+  sleuth:
+    sampler:
+      probability: 1.0
+
+server:
+  port: 8082
+
+
+
+logging:
+  level:
+    com.alibaba.nacos: error
+    org.springframework.cloud.sleuth: debug
+
+jwt:
+  secret: aaaaadkmwkkdwqdjaflfjlfjkfjxdkvdaaaaadkmwkkdwqdjaflfjlfjkfjxdkvdaaaaadkmwkkdwqdjaflfjlfjkfjxdkvd
+  expire-time-in-second: 1209600
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+  endpoint:
+    health:
+      show-details: always
+

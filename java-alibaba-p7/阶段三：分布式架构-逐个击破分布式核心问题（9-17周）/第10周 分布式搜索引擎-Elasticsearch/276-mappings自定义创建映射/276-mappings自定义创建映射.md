@@ -9,12 +9,13 @@
     * [kerword 是 String 类型](#kerword-是-string-类型)
     * [text 是一些文字类型内容要被分词 倒排索引](#text-是一些文字类型内容要被分词-倒排索引)
     * [keyword 是不会被分词 倒排索引的 精确匹配的搜索](#keyword-是不会被分词-倒排索引的-精确匹配的搜索)
-  * [请勿相信图片中任何联系方式](#请勿相信图片中任何联系方式)
+  * [](#)
   * [开源笔记](#开源笔记)
   * [开源视频](#开源视频)
   * [开源博客](#开源博客)
   * [开源项目](#开源项目)
   * [开源赞赏](#开源赞赏)
+  * [请勿相信图片中任何联系方式](#请勿相信图片中任何联系方式)
 
 
 ![](https://tcs.teambition.net/storage/3121418ca014cc26fda3015a904f7746ce16?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDI4NDM3NCwiaWF0IjoxNjA5Njc5NTc0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0MThjYTAxNGNjMjZmZGEzMDE1YTkwNGY3NzQ2Y2UxNiJ9.5m4zC18M_yhIzId8wzZhoeGrlAYLZrXlr66ZbJWm2eg&download=image.png "")
@@ -87,9 +88,7 @@
 
 
 
-## 请勿相信图片中任何联系方式
-
-图片来源于视频 作者拿到视频已被第三方打码 没办法 截图也没时间去修改图片 请勿相信图片里的任何联系方式 
+## 
 
 ## 开源笔记
 
@@ -120,3 +119,8 @@
 ![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDI4NjMwNywiaWF0IjoxNjA5NjgxNTA3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.k6Y7AOfFSZpao78N2B2BKrEOOfCZAJu2Gwe5-6pa3KY&download=image.png "")
 
 谢谢
+
+## 请勿相信图片中任何联系方式
+
+图片来源于视频 作者拿到视频已被第三方打码 没办法 截图也没时间去修改图片 请勿相信图片里的任何联系方式 
+

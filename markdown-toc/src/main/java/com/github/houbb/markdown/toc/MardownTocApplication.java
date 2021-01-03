@@ -3,7 +3,7 @@ package com.github.houbb.markdown.toc;
 import com.github.houbb.markdown.toc.constant.TocConstant;
 import com.github.houbb.markdown.toc.core.impl.AtxMarkdownToc;
 
-public class MardownTocMain {
+public class MardownTocApplication {
 
     public static void main(String[] args) {
         TocConstant.DEFAULT_TOC_HEAD = "# 目录";

@@ -89,7 +89,7 @@
 
 开源笔记
 
-可 Pull requests 协作写开源笔记
+可 Pull Requests 协作写开源笔记
 
 > [__gitee__](https://gitee.com/opendevel/java-for-linux)
 

@@ -267,9 +267,9 @@ Android 应用保护
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-25.png)
 
 
-### 该开源项目由 JetBrains Bilibili 我的珍贵粉丝 Gitee GitHub 提供支持
+### 该开源项目由 JetBrains Bilibili 我的珍贵粉丝 Gitee GitHub Thoughts Teambition 提供免费云支持
 
-![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/JetBrains-04.png) [JetBrains](https://www.jetbrains.com/?from=java-for-linux) [Bilibili](https://space.bilibili.com/77266754) [我的珍贵粉丝](https://space.bilibili.com/77266754/fans/fans) [Gitee](https://gitee.com/OpenDevel) [GitHub](https://github.com/OpenSrcDeveloper)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/JetBrains-04.png) [JetBrains 提供开发&团队工具服务](https://www.jetbrains.com/?from=java-for-linux) [Bilibili 提供自媒体服务](https://space.bilibili.com/77266754) [我的珍贵粉丝](https://space.bilibili.com/77266754/fans/fans) [Gitee 提供代码托管服务](https://gitee.com/OpenDevel) [GitHub 提供代码托管服务](https://github.com/OpenSrcDeveloper) [Thoughts 提供记笔记服务](https://suosi.teambition.net/site)) [Teambition 提供云盘服务](https://www.teambition.com)
 
 
 ### 微信赞赏码

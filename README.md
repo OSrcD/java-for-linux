@@ -275,7 +275,7 @@ Android 应用保护
 
 [Bilibili 提供自媒体服务](https://space.bilibili.com/77266754)
 
-[我的珍贵粉丝](https://space.bilibili.com/77266754/fans/fans)
+[我的珍贵粉丝提供持续支持服务](https://space.bilibili.com/77266754/fans/fans)
 
 [Gitee 提供代码托管服务](https://gitee.com/OpenDevel)
 

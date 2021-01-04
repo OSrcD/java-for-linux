@@ -11,6 +11,6 @@ public class MardownTocApplication {
                 .charset("UTF-8")
                 .write(true)
                 .subTree(true).
-                genTocFile("java-alibaba-p7/阶段三：分布式架构-逐个击破分布式核心问题（9-17周）/第10周 分布式搜索引擎-Elasticsearch/276-mappings自定义创建映射/276-mappings自定义创建映射.md");
+                genTocFile("开源笔记/java-alibaba-p7/阶段三：分布式架构-逐个击破分布式核心问题（9-17周）/第10周 分布式搜索引擎-Elasticsearch/278-文档的基本操作 - 添加文档与自动映射.md");
     }
 }

@@ -11,6 +11,6 @@ public class MardownTocApplication {
                 .charset("UTF-8")
                 .write(true)
                 .subTree(true).
-                genTocFile("/Users/virtualman/IdeaProjects/java-for-linux/README-GITEE.md");
+                genTocFile("开源笔记/java-alibaba-p7/阶段三：分布式架构-逐个击破分布式核心问题（9-17周）/第10周 分布式搜索引擎-Elasticsearch/283-建立ik中文分词器.md");
     }
 }

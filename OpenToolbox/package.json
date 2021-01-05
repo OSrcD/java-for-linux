@@ -1,9 +1,9 @@
 {
-  "name": "terminal",
+  "name": "OpenToolbox",
   "productName": "OpenToolbox",
   "version": "0.0.1",
-  "author": "OpenSrcDeveloper <OpenDeveloper@mywiz.cn>",
-  "description": "An electron-vue project",
+  "author": "OpenDevel <OpenDevel@126.com>",
+  "description": "An OpenToolbox Project",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -22,8 +22,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^4.5.3",
     "element-ui": "2.4.11",
+    "jquery": "^3.5.1",
     "node-pty": "^0.9.0",
+    "popper.js": "^1.16.1",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",

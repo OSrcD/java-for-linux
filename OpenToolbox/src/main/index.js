@@ -1,4 +1,4 @@
-import { app, BrowserWindow} from 'electron'
+import {app, BrowserWindow, ipcMain,Menu} from 'electron';
 
 if (process.env.NODE_ENV !== 'development') {
   global.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
@@ -10,7 +10,7 @@ const winURL = process.env.NODE_ENV === 'development'
   : `file://${__dirname}/index.html`
 
 /**
- * 实例化一个窗口
+ * 实例化一个主窗口
  */
 function createWindow () {
   mainWindow = new BrowserWindow({
@@ -22,10 +22,73 @@ function createWindow () {
       nodeIntegration: true, // 集成node框架
       enableRemoteModule: true 
     },
-    
-    
+
+
  
   })
+
+  /**
+   * 开启一个子窗口
+   */
+  function subWindow() {
+    var subWindow = new BrowserWindow({
+      height: 568, // 窗口高度
+      useContentSize: true,
+      width: 905, // 窗口宽度
+      center: true, // 窗口居中
+      webPreferences:{
+        nodeIntegration: true, // 集成node框架
+        enableRemoteModule: true
+      },
+    })
+
+    // 加载路由
+    subWindow.loadURL(winURL);
+
+    // 监听关闭事件
+    subWindow.on('closed', () => {
+      subWindow = null;
+    });
+
+    // 关闭子窗口开发者工具
+    subWindow.webContents.closeDevTools()
+  }
+
+  /**
+   * 自定义菜单
+   */
+  const Menus = [
+    {
+      label:'Files',
+      submenu:[
+        {
+          label: 'window',
+          role: 'help',
+          submenu: [{
+            label: 'Open Sub Window',
+            click: function () {
+              subWindow();
+            }
+          }]
+        },
+      ]
+    }
+  ];
+
+
+  /**
+   * 加载自定义菜单
+   * @type {Electron.Menu}
+   */
+  const mainMenu = Menu.buildFromTemplate(Menus);
+  Menu.setApplicationMenu(mainMenu);
+
+  /**
+   * 主进程监听打开窗口事件
+   */
+  ipcMain.on('openSubWindow', e => {
+
+  });
 
   // 窗口居中
 
@@ -39,22 +102,36 @@ function createWindow () {
 
   // 加载index.html文件
   mainWindow.loadURL(winURL)
-  
+
+  /**
+   * 监听关闭窗口
+   */
   mainWindow.on('closed', () => {
     mainWindow = null
   })
 
 }
 
-  
+/**
+ * 监听 ready 事件 创建主窗口
+ */
 app.on('ready', createWindow)
 
+
+
+
+/**
+ * 监听所有窗口都关闭，程序退出
+ */
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
   }
 })
 
+/**
+ * 监听 activate 如果主窗口为空 创建主窗口对象
+ */
 app.on('activate', () => {
   if (mainWindow === null) {
     
@@ -69,4 +146,5 @@ app.on('activate', () => {
 function appProperties (){
   app.allowRendererProcessReuse = false;
 }
+
 

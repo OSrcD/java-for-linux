@@ -2,19 +2,19 @@
 
 ### 默认效果
 
-![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/OpenToolbox-00.png)
+![image](https://gitee.com/OpenDevel/OpenToolbox/raw/master/static/OpenToolbox-00.png)
 
-![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/TerminalDemo01.png)
+![image](https://gitee.com/OpenDevel/OpenToolbox/raw/master/static/TerminalDemo01.png)
 
 ### 全屏效果
 
-![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/OpenToolbox-01.png)
+![image](https://gitee.com/OpenDevel/OpenToolbox/raw/master/static/OpenToolbox-01.png)
 
-![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/TerminalDemo02.png)
+![image](https://gitee.com/OpenDevel/OpenToolbox/raw/master/static/TerminalDemo02.png)
 
 ### 背景图片来自于 Anonymous-OS
 
-![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/Anonymous-OS.png)
+![image](https://gitee.com/OpenDevel/OpenToolbox/raw/master/static/Anonymous-OS.png)
 
 ### 如何安装
 
@@ -113,5 +113,6 @@ sudo open build/terminal-darwin-x64/terminal.app 或 sudo open /Applications/Ter
 
 ### 微信赞赏码
 
-![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/赞赏码.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/赞赏码.png)
+
 

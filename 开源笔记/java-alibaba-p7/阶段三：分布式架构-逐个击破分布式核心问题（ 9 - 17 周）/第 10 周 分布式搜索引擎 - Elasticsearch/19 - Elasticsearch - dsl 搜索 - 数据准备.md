@@ -1,3 +1,11 @@
+# 目录
+
+  * [新建索引](#新建索引)
+  * [type 为 text 增加文档数据的时候 会把nickname里面的内容去做一个分词 做一个倒排索引](#type-为-text-增加文档数据的时候-会把nickname里面的内容去做一个分词-做一个倒排索引)
+  * [创建成功](#创建成功)
+  * [创建数据](#创建数据)
+
+
 
 
 ![](https://tcs.teambition.net/storage/312168804b330655c4d5e4cb48fafeea1410?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDQ3NTA2NiwiaWF0IjoxNjA5ODcwMjY2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE2ODgwNGIzMzA2NTVjNGQ1ZTRjYjQ4ZmFmZWVhMTQxMCJ9.4FRuGdA4xGYfZbrBoukCNFzpeUy6MnI4CC7ZcK6tPw4&download=2020-09-17%20174724.png "")

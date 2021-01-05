@@ -13,7 +13,7 @@
 
 ![](https://tcs.teambition.net/storage/3121463d42af7f84365ec5cdd5f13bdd0eb1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMDQ0MDU4MSwiaWF0IjoxNjA5ODM1NzgxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0NjNkNDJhZjdmODQzNjVlYzVjZGQ1ZjEzYmRkMGViMSJ9.xZvDef_Sa_wrZOtUjvMTB8eWCe-HzCpByUrXVQbOJA0&download=image.png "")
 
-## 骚年被解析成了骚 我们需要解析为骚年
+## 骚年被解析成了骚 我们需要解析为骚年
 
 ```json
 {
@@ -168,7 +168,7 @@
 
 开源笔记
 
-此笔记在学习的时候做的笔记 所以 没有那么多时间写的很细致或整理排版问题 采用关键帧图片与关键帧文字进行书写 
+此笔记在学习的时候做的笔记 所以 没有那么多时间写的很细致或整理排版问题 采用关键帧图片与关键帧文字进行书写 
 
 可 Pull Requests 协作写开源笔记
 

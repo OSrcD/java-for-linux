@@ -96,7 +96,7 @@ export default {
        * xterm监听键盘数据
        */
       this.xterm.onData(send => {
-        // console.log("send = " + send);
+        console.log("send = " + send);
 
         // if (send.indexOf('OTB.SW') != -1) {
         //   send = '';
@@ -110,7 +110,7 @@ export default {
        * node-pty监听xterm发送过来数据
        */
       this.ptyProcess.onData(recv => {
-        // console.log("recv = " + recv);
+        console.log("recv = " + recv);
         // console.log(recv.indexOf("OTB.SW"));
         // if (recv.indexOf('OTB.SW') != -1) {
         //   ipcRenderer.send('openSubWindow')
@@ -121,7 +121,6 @@ export default {
          * 回显数据给xterm
          */
         this.xterm.write(recv);
-
       });
 
 

@@ -272,11 +272,11 @@
 
 可 Pull Requests 协作写开源笔记
 
-[__gitee__](https://gitee.com/opendevel/java-for-linux)
+[gitee](https://gitee.com/opendevel/java-for-linux)
 
-[__github__](https://github.com/OSrcD/java-for-linux)
+[github](https://github.com/OSrcD/java-for-linux)
 
-[__teambition__](https://www.teambition.com/project/5ff1a6330b58d3e798744991?from=invite)
+[teambition](https://www.teambition.com/project/5ff1a6330b58d3e798744991?from=invite)
 
 开源视频
 

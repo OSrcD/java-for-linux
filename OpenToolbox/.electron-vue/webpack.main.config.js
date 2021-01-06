@@ -43,7 +43,9 @@ let mainConfig = {
   resolve: {
     extensions: ['.js', '.json', '.node']
   },
-  target: 'electron-main'
+  target: 'electron-main',
+  // 发布为生产模式
+  mode: 'production'
 }
 
 /**

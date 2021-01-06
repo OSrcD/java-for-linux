@@ -4,22 +4,20 @@ if (process.env.NODE_ENV !== 'development') {
     global.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
 }
 
-let mainWindow
+let mainWindow;
+let subWindows;
 const winURL = process.env.NODE_ENV === 'development'
     ? `http://localhost:9080`
     : `file://${__dirname}/index.html`
-
-
-
 
 /**
  * 开启一个子窗口
  */
 function subWindow() {
-    var subWindow = new BrowserWindow({
-        height: 568, // 窗口高度
+        subWindows = new BrowserWindow({
+        height: 746, // 窗口高度
         useContentSize: true,
-        width: 905, // 窗口宽度
+        width: 1156, // 窗口宽度
         center: true, // 窗口居中
         webPreferences: {
             nodeIntegration: true, // 集成node框架
@@ -28,18 +26,21 @@ function subWindow() {
     })
 
     // 加载路由
-    subWindow.loadURL(winURL);
+    subWindows.loadURL(winURL);
 
     // 监听关闭事件
-    subWindow.on('closed', () => {
-        subWindow = null;
+    subWindows.on('closed', () => {
+        subWindows = null;
+
     });
 
     // 关闭子窗口开发者工具
-    subWindow.webContents.closeDevTools()
+    subWindows.webContents.closeDevTools()
 }
 
-
+/**
+ * 菜单
+ */
 const template = [
     {
         label: 'File',
@@ -133,18 +134,17 @@ if (process.platform === 'darwin') {
         {role: 'zoom'},
         {type: 'separator'},
         {role: 'front'},
-
     ];
 
 
 }
 
+/**
+ * 应用菜单
+ *
+ */
 const menu = Menu.buildFromTemplate(template);
 Menu.setApplicationMenu(menu);
-
-
-app.on('ready', function () {
-});
 
 
 
@@ -158,9 +158,9 @@ app.on('ready', function () {
  */
 function createWindow() {
     mainWindow = new BrowserWindow({
-        height: 568, // 窗口高度
+        height: 746, // 窗口高度
         useContentSize: true,
-        width: 905, // 窗口宽度
+        width: 1156, // 窗口宽度
         center: true, // 窗口居中
         webPreferences: {
             nodeIntegration: true, // 集成node框架
@@ -169,27 +169,6 @@ function createWindow() {
 
 
     })
-
-    /**
-     * 加载自定义菜单
-     * @type {Electron.Menu}
-     */
-    // const mainMenu = Menu.buildFromTemplate(Menus);
-    // Menu.setApplicationMenu(mainMenu);
-
-
-
-
-
-    /**
-     * 主进程监听打开窗口事件
-     */
-    ipcMain.on('openSubWindow', e => {
-
-    });
-
-    // 窗口居中
-
 
     // 关闭开发者工具
     mainWindow.webContents.closeDevTools()
@@ -230,9 +209,7 @@ app.on('window-all-closed', () => {
  */
 app.on('activate', () => {
     if (mainWindow === null) {
-
         createWindow();
-
     }
 })
 

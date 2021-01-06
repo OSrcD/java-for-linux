@@ -1,5 +1,5 @@
 <template>
-    <div id="xterm" :style="{backgroundImage: 'url(' + background + ')'} " >
+    <div id="xterm" @keydown.alt="DefaultWindowColor()" @keydown.ctrl="ChangeWindowColor()" :style="{backgroundImage: 'url(' + background + ')'} " >
     </div>
 </template>
 
@@ -57,7 +57,7 @@ export default {
         theme: {
 
           foreground: 'lightgray', // 前景色
-          background: "#0004", // 背景色
+          background: "#0000", // 背景色
 
 
         },
@@ -95,12 +95,6 @@ export default {
        * xterm监听键盘数据
        */
       this.xterm.onData(send => {
-        // console.log("send = " + send);
-
-        // if (send.indexOf('OTB.SW') != -1) {
-        //   send = '';
-        // }
-        // 向node-pty发送数据
         this.ptyProcess.write(send);
 
       });
@@ -109,13 +103,7 @@ export default {
        * node-pty监听xterm发送过来数据
        */
       this.ptyProcess.onData(recv => {
-        // console.log("recv = " + recv);
-        // console.log(recv.indexOf("OTB.SW"));
-        // if (recv.indexOf('OTB.SW') != -1) {
-        //   ipcRenderer.send('openSubWindow')
-        //   recv='';
-        //   console.log("test = " + recv);
-        // }
+
         /**
          * 回显数据给xterm
          */
@@ -131,7 +119,6 @@ export default {
 
       function resizeScreen() {
         that.fitAddon.fit();
-
       }
 
       /**
@@ -141,19 +128,40 @@ export default {
         that.ptyProcess.resize(size.cols, size.rows);
       })
 
-    }
+    },
+
+    /**
+     * 改变颜色
+     */
+    ChangeWindowColor: function () {
+      this.xterm.setOption('theme',{
+        foreground: 'lightgray', // 前景色
+        background: "#0004", // 背景色
+      });
+    },
+
+    /**
+     * 还原默认颜色
+     */
+    DefaultWindowColor: function () {
+      this.xterm.setOption('theme',{
+        foreground: 'lightgray', // 前景色
+        background: "#0000", // 背景色
+      });
+    },
 
   },
 
+
   mounted() {
-
+    // 调用初始化函数
     this.initializeTerminal();
-    remote.getCurrentWindow().setSize(905, 568);
-
-
-  }
+    // 重新设置大小
+    remote.getCurrentWindow().setSize(1156, 746);
+  },
 
 
 }
+
 
 </script>

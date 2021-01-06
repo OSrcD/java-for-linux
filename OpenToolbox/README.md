@@ -1,5 +1,9 @@
 # 开源工具箱（Open Source Toolbox）
 
+### 使用 nano 工具看不清字体问题
+
+可使用 ctrl 快捷键改变字体颜色 alt 快捷键还原默认颜色
+
 ### 默认效果
 
 ![image](https://github.com/OpenSrcDeveloper/terminal/blob/master/static/OpenToolbox-00.png)

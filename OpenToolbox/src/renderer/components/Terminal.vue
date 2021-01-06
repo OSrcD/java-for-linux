@@ -1,11 +1,10 @@
 <template>
-  <div id="xterm" :style="{backgroundImage: 'url(' + background + ')'} ">
-  </div>
+    <div id="xterm" :style="{backgroundImage: 'url(' + background + ')'} " >
+    </div>
 </template>
 
 <style scoped>
 #xterm {
-
   margin-left: 8.6px;
   height: 100%;
   width: 100%;

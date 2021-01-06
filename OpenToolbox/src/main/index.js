@@ -42,6 +42,11 @@ function subWindow() {
 
 const template = [
     {
+        label: 'File',
+        submenu: [
+        ]
+    },
+    {
         label: 'Edit',
         submenu: [
             {role: 'undo'},
@@ -104,7 +109,7 @@ if (process.platform === 'darwin') {
     });
 
     // Edit menu
-    template[1].submenu.push(
+    template[2].submenu.push(
         {type: 'separator'},
         {
             label: 'Speech',
@@ -116,18 +121,19 @@ if (process.platform === 'darwin') {
     );
 
     // Window menu
-    template[3].submenu = [
+    template[4].submenu = [
+        {
+            label: 'New Window',
+            click: function () {
+                subWindow();
+            }
+        },
         {role: 'close'},
         {role: 'minimize'},
         {role: 'zoom'},
         {type: 'separator'},
         {role: 'front'},
-        {
-            label: 'Open Sub Window',
-            click: function () {
-                subWindow();
-            }
-        }
+
     ];
 
 

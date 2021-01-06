@@ -1,5 +1,5 @@
 <template>
-    <div id="xterm" @keydown.alt="DefaultWindowColor()" @keydown.ctrl="ChangeWindowColor()" :style="{backgroundImage: 'url(' + background + ')'} " >
+    <div id="xterm" @keydown.ctrl.alt.50="DefaultWindowColor()" @keydown.ctrl.alt.51="ChangeWindowColor()" :style="{backgroundImage: 'url(' + background + ')'} " >
     </div>
 </template>
 

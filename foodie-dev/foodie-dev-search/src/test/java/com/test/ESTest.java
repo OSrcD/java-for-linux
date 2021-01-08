@@ -3,15 +3,21 @@ package com.test;
 import com.imooc.Application;
 import com.imooc.es.pojo.Stu;
 import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
+import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.*;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RunWith(SpringRunner.class)
@@ -36,10 +42,10 @@ public class ESTest {
         Stu stu = new Stu();
         stu.setStuId(1003L);
         stu.setName("spider man");
-        stu.setAge(22);
-        stu.setMoney(15.5f);
-        stu.setSign("i am spider man");
-        stu.setDescription("I wish i am spider man");
+        stu.setAge(28);
+        stu.setMoney(99.8f);
+        stu.setSign("i am super woman's husband");
+        stu.setDescription("save world");
         // spring boot 会自动帮我们创建IndexQuery 只要把对象传入进行就行了
         IndexQuery indexQuery = new IndexQueryBuilder().withObject(stu).build();
         // 创建索引
@@ -88,6 +94,30 @@ public class ESTest {
     @Test
     public void deleteStuDoc() {
         elasticsearchTemplate.delete(Stu.class, "1003");
+    }
+
+
+    @Test
+    public void searchStuDoc() {
+
+
+
+        Pageable pageable = PageRequest.of(0, 10);
+
+        SearchQuery searchQuery = new NativeSearchQueryBuilder()
+                .withQuery(QueryBuilders.matchQuery("description", "save man"))
+                .withPageable(pageable)
+                .build();
+
+        AggregatedPage<Stu> pagedStu = elasticsearchTemplate.queryForPage(searchQuery,Stu.class);
+
+        System.out.println(pagedStu.getTotalPages());
+
+        List<Stu> stuList = pagedStu.getContent();
+
+        for (Stu stu : stuList) {
+            System.out.println(stu);
+        }
     }
 
 }

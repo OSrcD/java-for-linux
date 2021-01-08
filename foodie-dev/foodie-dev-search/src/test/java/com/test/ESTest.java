@@ -73,9 +73,9 @@ public class ESTest {
 
         // 构建元数据
         Map<String, Object> sourceMap = new HashMap<>();
-        sourceMap.put("sign", "I am not super man");
-        sourceMap.put("money", 88.6f);
-        sourceMap.put("age", "33");
+//        sourceMap.put("sign", "I am not super man");
+        sourceMap.put("money", 99.8f);
+//        sourceMap.put("age", 33);
 
         // 构建请求
         IndexRequest indexRequest = new IndexRequest();
@@ -84,7 +84,7 @@ public class ESTest {
 
         UpdateQuery updateQuery = new UpdateQueryBuilder()
                 .withClass(Stu.class) // 2. 使用Stu类型
-                .withId("1003") // 1.先找到Id
+                .withId("1004") // 1.先找到Id
                 .withIndexRequest(indexRequest) // 3.请求
                 .build(); // 4.构建UpdateQuery
 
@@ -133,10 +133,8 @@ public class ESTest {
 
         Pageable pageable = PageRequest.of(0, 10);
 
-        SortBuilder sortBuilder = new FieldSortBuilder("money")
-                .order(SortOrder.DESC);
-        SortBuilder sortBuilderAge = new FieldSortBuilder("age")
-                .order(SortOrder.ASC);
+        SortBuilder sortBuilder = new FieldSortBuilder("money").order(SortOrder.DESC);
+        SortBuilder sortBuilderAge = new FieldSortBuilder("age").order(SortOrder.ASC);
 
         SearchQuery query = new NativeSearchQueryBuilder()
                 .withQuery(QueryBuilders.matchQuery("description", "save man"))

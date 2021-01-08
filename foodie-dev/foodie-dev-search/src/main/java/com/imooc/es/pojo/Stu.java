@@ -76,4 +76,16 @@ public class Stu {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "stuId=" + stuId +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", sign='" + sign + '\'' +
+                ", description='" + description + '\'' +
+                ", money=" + money +
+                '}';
+    }
 }

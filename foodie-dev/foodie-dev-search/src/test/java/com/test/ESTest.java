@@ -2,14 +2,17 @@ package com.test;
 
 import com.imooc.Application;
 import com.imooc.es.pojo.Stu;
+import org.elasticsearch.action.index.IndexRequest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
-import org.springframework.data.elasticsearch.core.query.IndexQuery;
-import org.springframework.data.elasticsearch.core.query.IndexQueryBuilder;
+import org.springframework.data.elasticsearch.core.query.*;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.HashMap;
+import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
@@ -47,6 +50,44 @@ public class ESTest {
     @Test
     public void deleteIndexStu() {
         elasticsearchTemplate.deleteIndex(Stu.class);
+    }
+
+    @Test
+    public void updateStuDoc() {
+
+        // 构建元数据
+        Map<String, Object> sourceMap = new HashMap<>();
+        sourceMap.put("sign", "I am not super man");
+        sourceMap.put("money", 88.6f);
+        sourceMap.put("age", "33");
+
+        // 构建请求
+        IndexRequest indexRequest = new IndexRequest();
+        indexRequest.source(sourceMap);
+
+
+        UpdateQuery updateQuery = new UpdateQueryBuilder()
+                .withClass(Stu.class) // 2. 使用Stu类型
+                .withId("1003") // 1.先找到Id
+                .withIndexRequest(indexRequest) // 3.请求
+                .build(); // 4.构建UpdateQuery
+
+        // update stu set sign='abc',age=33,money=88.6 where docId='1002'
+        elasticsearchTemplate.update(updateQuery);
+    }
+
+
+    @Test
+    public void getStuDoc() {
+        GetQuery getQuery = new GetQuery();
+        getQuery.setId("1003");
+        Stu stu = elasticsearchTemplate.queryForObject(getQuery, Stu.class);
+        System.out.println(stu);
+    }
+
+    @Test
+    public void deleteStuDoc() {
+        elasticsearchTemplate.delete(Stu.class, "1003");
     }
 
 }

@@ -5,7 +5,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
-@Document(indexName = "foodie-items-ik", type = "doc", createIndex = false)
+@Document(indexName = "foodie-items-ik", type = "_doc", createIndex = false)
 public class Items {
 
     @Id

@@ -1,3 +1,5 @@
+server:
+  port: 8033
 spring:
   datasource:                                           # 数据源的相关配置
     type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
@@ -13,5 +15,5 @@ spring:
     password: imooc
   data:
     elasticsearch:
-      cluster-nodes: 192.168.245.147:9300
+      cluster-nodes: 192.168.245.151:9300
       cluster-name: es6

@@ -41,6 +41,17 @@ public class ItemsESServiceImpl implements ItemsESService {
 
         Pageable pageable = PageRequest.of(page, pageSize);
 
+        SortBuilder sortBuilder = null;
+        if (sort.equals("c")) {
+            sortBuilder = new FieldSortBuilder("sellCounts")
+                    .order(SortOrder.DESC);
+        } else if (sort.equals("p")) {
+            sortBuilder = new FieldSortBuilder("price")
+                    .order(SortOrder.ASC);
+        } else {
+            sortBuilder = new FieldSortBuilder("itemName.keyword")
+                    .order(SortOrder.ASC);
+        }
 
         String itemNameFiled = "itemName";
 
@@ -50,6 +61,8 @@ public class ItemsESServiceImpl implements ItemsESService {
 //                        .preTags(preTag)
 //                        .postTags(postTag)
                 )
+                .withSort(sortBuilder)
+//                .withSort(sortBuilderAge)
                 .withPageable(pageable)
                 .build();
         AggregatedPage<Items> pagedItems = esTemplate.queryForPage(query, Items.class, new SearchResultMapper() {

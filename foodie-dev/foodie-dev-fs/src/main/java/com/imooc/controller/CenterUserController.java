@@ -3,6 +3,7 @@ package com.imooc.controller;
 import com.github.pagehelper.util.StringUtil;
 import com.imooc.pojo.Users;
 import com.imooc.pojo.vo.UsersVO;
+import com.imooc.resource.FileResource;
 import com.imooc.service.FdfsService;
 import com.imooc.service.center.CenterUserService;
 import com.imooc.utils.CookieUtils;
@@ -20,8 +21,13 @@ import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("fdfs")
-public class CenterUserController {
+public class CenterUserController extends BaseController{
 
+    @Autowired
+    private FileResource fileResource;
+
+    @Autowired
+    private CenterUserService centerUserService;
 
     @Autowired
     private FdfsService fdfsService;
@@ -60,19 +66,19 @@ public class CenterUserController {
             return IMOOCJSONResult.errorMsg("文件不能为空！");
         }
 
-//        if (StringUtils.isNotBlank(path)) {
-////            String finalUserFaceUrl = fileResource.getHost() + path;
+        if (StringUtils.isNotBlank(path)) {
+            String finalUserFaceUrl = fileResource.getHost() + path;
 //            String finalUserFaceUrl = fileResource.getOssHost() + path;
-//
-//            Users userResult = centerUserService.updateUserFace(userId, finalUserFaceUrl);
-//
-//            UsersVO usersVO = conventUsersVO(userResult);
-//
-//            CookieUtils.setCookie(request, response, "user",
-//                    JsonUtils.objectToJson(usersVO), true);
-//        } else {
-//            return IMOOCJSONResult.errorMsg("上传头像失败");
-//        }
+
+            Users userResult = centerUserService.updateUserFaceUrl(userId, finalUserFaceUrl);
+
+            UsersVO usersVO = conventUsersVO(userResult);
+
+            CookieUtils.setCookie(request, response, "user",
+                    JsonUtils.objectToJson(usersVO), true);
+        } else {
+            return IMOOCJSONResult.errorMsg("上传头像失败");
+        }
 
         return IMOOCJSONResult.ok();
     }

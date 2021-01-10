@@ -1,0 +1,78 @@
+
+
+![](https://tcs.teambition.net/storage/3121274521eb9f3c68d36c1c76e9e88d08e7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEyNzQ1MjFlYjlmM2M2OGQzNmMxYzc2ZTllODhkMDhlNyJ9.6pZXW936n6e05yoGT7KYKGshPK3aDeLLuVX4cFdyKHg&download=2020-09-17%20174130.png "")
+
+## 通信端口号
+
+![](https://tcs.teambition.net/storage/3121e6d5a0ad900b386f8bc447da93447faf?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFlNmQ1YTBhZDkwMGIzODZmOGJjNDQ3ZGE5MzQ0N2ZhZiJ9.60Eh_UDzFi1J3ClrlDhr0ebQIa8I8YoSytUW6oYw8tk&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121e43e0d58a442307d20b6eb210eafa30c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFlNDNlMGQ1OGE0NDIzMDdkMjBiNmViMjEwZWFmYTMwYyJ9.7AHzfS0BBQZSeU-ljCdcclxvX3N_y7HmF2CSUoomonk&download=image.png "")
+
+## data 相当于上传成功的虚拟路径  00 是真实路径
+
+![](https://tcs.teambition.net/storage/3121fe4b4d52b47fcd8d189b616c1c5ce70e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFmZTRiNGQ1MmI0N2ZjZDhkMTg5YjYxNmMxYzVjZTcwZSJ9.12YjujBlswuS26UTbpg7OJI0RUEQS-4RhiSJyL7rbRM&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121f75014cdee03ac8294868189b4eeb8e0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFmNzUwMTRjZGVlMDNhYzgyOTQ4NjgxODliNGVlYjhlMCJ9.9tHqK7plrFPXOZNwiQPitzUxkqyIW7EBF1MsBWWuZI0&download=image.png "")
+
+## 上传成功之后的图片
+
+![](https://tcs.teambition.net/storage/312181e4b75ea192c5470ace6e9b1c669c0c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4MWU0Yjc1ZWExOTJjNTQ3MGFjZTZlOWIxYzY2OWMwYyJ9.wesPCRGKEmM_BStJqkr0VCiCoxc7iwNUXt-pjVnBqkM&download=image.png "")
+
+## 再拼接一下图片名称
+
+![](https://tcs.teambition.net/storage/31213cdf336ea1dc6809ad85d83da28515e1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEzY2RmMzM2ZWExZGM2ODA5YWQ4NWQ4M2RhMjg1MTVlMSJ9.AP08Jkr2plo5ViakTNimtzIJjjqRhmwl12QEg186nyQ&download=image.png "")
+
+## 组名 文件名
+
+![](https://tcs.teambition.net/storage/312127bacf8605461772820402309a797ac2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEyN2JhY2Y4NjA1NDYxNzcyODIwNDAyMzA5YTc5N2FjMiJ9.qXrC7ozwi1Cpi1GLbdsY0V_7K5Przpnt3YXPRv6A5BU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121663bedab3b78b5df7a87c32079cda338?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE2NjNiZWRhYjNiNzhiNWRmN2E4N2MzMjA3OWNkYTMzOCJ9.1-BWdXE-zIEPOxkjUy-AKrTnUUnf2okWCaU48uu4Ot4&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121477f415b8b5c07e36cb46737269332c3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0NzdmNDE1YjhiNWMwN2UzNmNiNDY3MzcyNjkzMzJjMyJ9.WzgeK558kCmlsDk_I8FuzT9Ckd8MwrUTHFxAnwRaQOY&download=image.png "")
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA3NiwiaWF0IjoxNjEwMjkwMjc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.TVppdZoQOLtKLRSEbMmwREZXBcjsq72tsy64nrtFMyM&download=image.png "")
+

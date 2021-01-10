@@ -1,0 +1,101 @@
+![](https://tcs.teambition.net/storage/3121ca23b0358ce6c2139da185ecb6135ad2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFjYTIzYjAzNThjZTZjMjEzOWRhMTg1ZWNiNjEzNWFkMiJ9.SEccsyeIZIN_Kmoeql7_CaQ_zR-vBcBtMApx2zsjsQk&download=2020-09-17%20174207.png "")
+
+![](https://tcs.teambition.net/storage/312154c2e2fd2ea6e6b4243885d2d9abe946?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE1NGMyZTJmZDJlYTZlNmI0MjQzODg1ZDJkOWFiZTk0NiJ9.fzKoRQT4OWsjLOa6ncuh-tDuPNDgrTJbc09g27ScOeY&download=image.png "")
+
+## 头文件的内容被放到了这里
+
+## 安装Nginx 创建这个目录
+
+![](https://tcs.teambition.net/storage/31211702b43985cab4eff51b337bb5cef3cc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjExNzAyYjQzOTg1Y2FiNGVmZjUxYjMzN2JiNWNlZjNjYyJ9.3PkVitQ3AueHQltMaDGLWiY5k4-DmeDjRwz5WEFm7hA&download=image.png "")
+
+## 这个目录需要加载到Nginx里面去的
+
+![](https://tcs.teambition.net/storage/31214f7c56cdee70447adb9da2846274a531?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0ZjdjNTZjZGVlNzA0NDdhZGI5ZGEyODQ2Mjc0YTUzMSJ9.UOrfO0DJ-01kwIKtYOo7R3HVNLgeFWLirwAtp_rbsdc&download=image.png "")
+
+## 添加到Nginx模块
+
+![](https://tcs.teambition.net/storage/31211e0bb107dc86a5b7fab9866eedaf02ba?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjExZTBiYjEwN2RjODZhNWI3ZmFiOTg2NmVlZGFmMDJiYSJ9.UNyqb026_T6TmYuUP74w_Ks_uGf8YZjo8zT6vNzeRfw&download=image.png "")
+
+## 存储日志文件
+
+![](https://tcs.teambition.net/storage/31217333756106d840b8ae4988343cf4e46a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE3MzMzNzU2MTA2ZDg0MGI4YWU0OTg4MzQzY2Y0ZTQ2YSJ9.ezxwYVLf4Nb0xjMoj5nqb1wy0gGeBFRsZitDGhNoz_4&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312170a441825ce709a06932821ef3658016?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE3MGE0NDE4MjVjZTcwOWEwNjkzMjgyMWVmMzY1ODAxNiJ9.BVUSmnFOTKprMf2dDoLJVlP8iohgpOkFqr4S-L8fIQY&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121b0f692bf8b4c37aaf846c5d2d0245ca0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFiMGY2OTJiZjhiNGMzN2FhZjg0NmM1ZDJkMDI0NWNhMCJ9.SpI5eW2P2tkoFMh231vKhtpL2ZRQ6wcBX8gXzNRqTPU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121c97f30f66957316b62bf39ddb0c3e33a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFjOTdmMzBmNjY5NTczMTZiNjJiZjM5ZGRiMGMzZTMzYSJ9.NlOmeUyZ10qPBG9V1X5OZCP1jaCaGKSZ3P_65TZZjZM&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31211a2e3df1dba1bd6497f7259bc90f4f8f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjExYTJlM2RmMWRiYTFiZDY0OTdmNzI1OWJjOTBmNGY4ZiJ9.TgxKujt7I7KfVtfBl_lYl2J43cXPL7UyieYsuDmtqLc&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31213792f723870353b852d8a0207e2420bd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEzNzkyZjcyMzg3MDM1M2I4NTJkOGEwMjA3ZTI0MjBiZCJ9.8t6ig4vOUnJtWXLGHs7KuBd5mc84UWEeGsSJ4VvE0TQ&download=image.png "")
+
+```text
+/home/software/fastdfs-nginx-module-1.22/src
+
+```
+
+```shell
+./configure \
+--prefix=/usr/local/nginx \
+--pid-path=/var/run/nginx/nginx.pid \
+--lock-path=/var/lock/nginx.lock \
+--error-log-path=/var/log/nginx/error.log \
+--http-log-path=/var/log/nginx/access.log \
+--with-http_gzip_static_module \
+--http-client-body-temp-path=/var/temp/nginx/client \
+--http-proxy-temp-path=/var/temp/nginx/proxy \
+--http-fastcgi-temp-path=/var/temp/nginx/fastcgi \
+--http-uwsgi-temp-path=/var/temp/nginx/uwsgi \
+--http-scgi-temp-path=/var/temp/nginx/scgi \
+--add-module=/home/software/fastdfs-nginx-module-1.22/src
+```
+
+![](https://tcs.teambition.net/storage/3121e660fee2f25c6e00287d626a73f15939?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFlNjYwZmVlMmYyNWM2ZTAwMjg3ZDYyNmE3M2YxNTkzOSJ9.EQTbMVZehyFl5jshkuzYbPOB7hVRJ8lPfXm1esSzkKE&download=image.png "")
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTA4MiwiaWF0IjoxNjEwMjkwMjgyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.jvbhg2SYB-uHiIXHuzydqaVnVJPKh486o-G8XEiThfI&download=image.png "")
+

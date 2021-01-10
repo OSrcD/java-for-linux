@@ -1,0 +1,78 @@
+![](https://tcs.teambition.net/storage/31212ed2dac37263cd4af02446a5b560cff6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEyZWQyZGFjMzcyNjNjZDRhZjAyNDQ2YTViNTYwY2ZmNiJ9.hrZtCA21EU2VcjkcglPrtuot7z27Eh_-_Mq-UwxMM-A&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121751437057a3d38592931f075bb1dd45e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE3NTE0MzcwNTdhM2QzODU5MjkzMWYwNzViYjFkZDQ1ZSJ9.3Dk8COmv0XlJUxKbnplgyc99E7tmXVg2GhCWYDCJ8e8&download=image.png "")
+
+## Tomcat 目录虚拟化
+
+
+
+![](https://tcs.teambition.net/storage/3121e5339d317d7ddec370f63dd1ad350084?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFlNTMzOWQzMTdkN2RkZWMzNzBmNjNkZDFhZDM1MDA4NCJ9.pjxQUumOOKcln9kBx7ZvQvls2XEHDurdQ2u2aCpjUnY&download=image.png "")
+
+## 是集群 高可用的概念
+
+![](https://tcs.teambition.net/storage/3121369ce4b8a9e31d17087356a6523aefc1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEzNjljZTRiOGE5ZTMxZDE3MDg3MzU2YTY1MjNhZWZjMSJ9.fRnmlNADjQYCtllZUiKqxTooC0pHL2UUd8v_JirXfLQ&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121b41a613a0934ad0c74461b0f6971d668?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFiNDFhNjEzYTA5MzRhZDBjNzQ0NjFiMGY2OTcxZDY2OCJ9.fuqiGLV3a9xx0c5jmlr-aIhhC2SjyMRR5O1DzZD6Grg&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312189986b40ce6335c1a57ec14d54dd6898?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4OTk4NmI0MGNlNjMzNWMxYTU3ZWMxNGQ1NGRkNjg5OCJ9.XC1BWAL5EpngVH6A4Njw8h1UfFRN-ns61uWWLAvMUqU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121f39e1761ae4ed71813755e8b69501cf3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFmMzllMTc2MWFlNGVkNzE4MTM3NTVlOGI2OTUwMWNmMyJ9.uPtckI6Qz0ftSdLUCCvbts6t4NLQ5oji5oeGYfWFrMM&download=image.png "")
+
+## 读取不到文件
+
+![](https://tcs.teambition.net/storage/3121dab4abebbdffda41c21aafda818e3ae4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFkYWI0YWJlYmJkZmZkYTQxYzIxYWFmZGE4MThlM2FlNCJ9.MNevkL2mFLpU0cVbgRigd9rlRl0jz6R2bqhljH5bin8&download=image.png "")
+
+
+
+
+
+
+
+
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMDg5NTAzNiwiaWF0IjoxNjEwMjkwMjM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.FlkTiZp_TW9sjJqlR2cJHjJz5aIV8XvqJRXlXCHIbFM&download=image.png "")
+

@@ -9,6 +9,11 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "file")
 public class FileResource {
     private String host;
+    private String endpoint;
+    private String accessKeyId;
+    private String accessKeySecret;
+    private String bucketName;
+    private String objectName;
 
     public String getHost() {
         return host;

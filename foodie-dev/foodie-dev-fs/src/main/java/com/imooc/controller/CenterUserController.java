@@ -58,8 +58,8 @@ public class CenterUserController extends BaseController{
                     return IMOOCJSONResult.errorMsg("图片格式不正确！");
                 }
 
-                path = fdfsService.upload(file, suffix);
-
+//                path = fdfsService.upload(file, suffix);
+                path = fdfsService.uploadOSS(file, userId, suffix);
                 System.out.println(path);
             }
         } else {
@@ -67,8 +67,8 @@ public class CenterUserController extends BaseController{
         }
 
         if (StringUtils.isNotBlank(path)) {
+//            String finalUserFaceUrl = fileResource.getHost() + path;
             String finalUserFaceUrl = fileResource.getHost() + path;
-//            String finalUserFaceUrl = fileResource.getOssHost() + path;
 
             Users userResult = centerUserService.updateUserFaceUrl(userId, finalUserFaceUrl);
 

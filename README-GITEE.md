@@ -8,7 +8,7 @@
   * [JNI 基于 Linux 动态函数注册](#jni-基于-linux-动态函数注册)
   * [Kali Linux 内核编程](#kali-linux-内核编程)
   * [开源工具箱项目](#开源工具箱项目)
-  * [天天吃货大型电商通用平台核心主项目](#天天吃货大型电商通用平台核心主项目)
+  * [天天吃货电商项目](#天天吃货电商项目)
   * [天天吃货 WebRTC 一对多直播子项目](#天天吃货-webrtc-一对多直播子项目)
   * [在线教育项目](#在线教育项目)
   * [社交分享项目](#社交分享项目)
@@ -93,7 +93,7 @@ JVM源码之写Java测试代码
 
 <https://github.com/OpenSrcDeveloper/OpenToolbox>
 
-## 天天吃货大型电商通用平台核心主项目 
+## 天天吃货电商项目 
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/FoodieShopping.jpg)
 

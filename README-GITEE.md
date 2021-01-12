@@ -1,7 +1,6 @@
 # 目录
 
 * [java-for-linux](#java-for-linux)
-  * [欢迎大家一起来协作写（ Pull requests ）慕课网 Java 架构师直通车笔记](#欢迎大家一起来协作写-pull-requests-慕课网-java-架构师直通车笔记)
   * [我的开源课程](#我的开源课程)
   * [我的开源项目](#我的开源项目)
   * [在 JVM 源码内嵌写 Native 函数给 Java 层调用](#在-jvm-源码内嵌写-native-函数给-java-层调用)
@@ -40,9 +39,6 @@
 
 
 # java-for-linux
-
-## 欢迎大家一起来协作写（ Pull requests ）慕课网 Java 架构师直通车笔记
-![img.png](image/java-alibaba-p7-01.png)
 
 ## 我的开源课程
 

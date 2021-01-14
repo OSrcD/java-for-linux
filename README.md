@@ -295,7 +295,7 @@ Android 应用保护
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-23.png)
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/OSrcD-24.png)
 ### JVM 基础
-可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/cppmm))。
+可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm))。
 
 微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了。
 

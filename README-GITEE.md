@@ -4,7 +4,6 @@
 
 # 目录
 
-* [java-for-linux](#java-for-linux)
   * [我的开源课程](#我的开源课程)
   * [我的开源项目](#我的开源项目)
   * [在 JVM 源码内嵌写 Native 函数给 Java 层调用](#在-jvm-源码内嵌写-native-函数给-java-层调用)
@@ -42,8 +41,7 @@
     * [微信赞赏码](#微信赞赏码)
 
 
-# java-for-linux
-
+  
 ## 我的开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)

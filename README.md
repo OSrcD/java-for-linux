@@ -2,9 +2,8 @@
 # java-for-linux: *Op*en *So*urce *Ed*ucation *Pr*oject
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-# 目录
+## 目录
 
-* [java-for-linux](#java-for-linux)
   * [我的开源课程](#我的开源课程)
   * [我的开源项目](#我的开源项目)
   * [在 JVM 源码内嵌写 Native 函数给 Java 层调用](#在-jvm-源码内嵌写-native-函数给-java-层调用)
@@ -40,10 +39,7 @@
     * [JVM 基础](#jvm-基础)
     * [该开源项目由 JetBrains Bilibili 我的珍贵粉丝 Gitee GitHub Teambition 提供免费云服务支持](#该开源项目由-jetbrains-bilibili-我的珍贵粉丝-gitee-github-teambition-提供免费云服务支持)
     * [微信赞赏码](#微信赞赏码)
-
-
-# java-for-linux
-
+  
 ## 我的开源课程
 
 ![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/bilibili.jpg)

@@ -1,6 +1,6 @@
-<img align="center" src="image/java-for-linux.png" width="50%" syt height="50%" />
-
-# java-for-linux: *Op*en *So*urce *Ed*ucation *Pr*oject
+<div align="center"><img width="200" src="image/java-for-linux.png"/>
+<h1> java-for-linux: Open Source Education Project</h1>
+</div>
 
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 

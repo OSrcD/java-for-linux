@@ -1,5 +1,5 @@
 ![image](/image/java-for-linux.png)
-# *ja*va-*fo*r-*li*nux: *Op*en *So*urce *Ed*ucation *Pr*oject
+# java-for-linux: Open Source Education Project
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 目录

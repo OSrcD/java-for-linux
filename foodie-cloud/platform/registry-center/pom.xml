@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>foodie-cloud</artifactId>
+        <groupId>com.imooc</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>registry-center</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!-- 指定 Spring Boot 启动时的 main 方法 主类 -->
+    <!-- 可以在描述文件中指定 也可以在运行时指定 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.imooc.EurekaServerApplication</mainClass>
+                </configuration>
+                <!-- 指定动作 -->
+                <executions>
+                    <execution>
+                        <goals>
+                            <!-- 指定执行目标重新打包 只不过在重新打包过程中 在描述文件中的 主类被mainclass标签替换掉 -->
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

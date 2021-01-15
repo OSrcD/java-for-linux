@@ -2,7 +2,7 @@
 # java-for-linux: *Op*en *So*urce *Ed*ucation *Pr*oject
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-# 目录
+## 目录
 
   * [我的开源课程](#我的开源课程)
   * [我的开源项目](#我的开源项目)

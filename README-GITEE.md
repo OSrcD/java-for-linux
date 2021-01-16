@@ -1,4 +1,4 @@
-![image](/image/java-for-linux.png)
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-for-linux.png)
 # java-for-linux: Open Source Education Project
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
@@ -44,7 +44,6 @@
   
 ## 我的开源课程
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
 <https://space.bilibili.com/77266754>

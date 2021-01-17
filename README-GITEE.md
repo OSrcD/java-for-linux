@@ -4,15 +4,15 @@
 
 ## 目录
 
-  * [我的开源课程](#我的开源课程)
-  * [我的开源项目](#我的开源项目)
+  * [开源课程](#开源课程)
+  * [开源项目](#开源项目)
   * [在 JVM 源码内嵌写 Native 函数给 Java 层调用](#在-jvm-源码内嵌写-native-函数给-java-层调用)
   * [Java 游戏安全](#java-游戏安全)
   * [JNI 基于 Linux 动态函数注册](#jni-基于-linux-动态函数注册)
   * [Kali Linux 内核编程](#kali-linux-内核编程)
   * [开源工具箱项目](#开源工具箱项目)
-  * [天天吃货电商项目](#天天吃货电商项目)
-  * [天天吃货 WebRTC 一对多直播子项目](#天天吃货-webrtc-一对多直播子项目)
+  * [电商项目](#电商项目)
+  * [WebRTC 一对多直播子项目](#webrtc-一对多直播子项目)
   * [在线教育项目](#在线教育项目)
   * [社交分享项目](#社交分享项目)
   * [电影预告项目](#电影预告项目)
@@ -22,7 +22,7 @@
   * [基于 Java For OpenCV 的百度云失效链接自动分享](#基于-java-for-opencv-的百度云失效链接自动分享)
   * [OSrcD的英语小抄](#osrcd的英语小抄)
   * [开源项目福利](#开源项目福利)
-  * [我的开源技术自学之路](#我的开源技术自学之路)
+  * [开源技术自学之路](#开源技术自学之路)
     * [计算机数学基础](#计算机数学基础)
     * [计算机物理基础](#计算机物理基础)
     * [计算机英语基础](#计算机英语基础)
@@ -56,22 +56,22 @@
 
 ## 在 JVM 源码内嵌写 Native 函数给 Java 层调用
 
-JVM源码之写Java层代码
+### JVM 源码之写 Java 层代码
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
-导出模块
+### JVM 源码之导出模块
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
-JVM源码之写C++层代码
+### JVM 源码 之写 C++ 层代码
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-03.png)
-JVM源码之注册Java&C++层代码
+### JVM 源码之注册 Java & C++ 层代码
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-04.png)
-JVM源码之写Makefile文件
+### JVM 源码之写 MakeFile 文件
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-05.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-06.png)
-JVM源码之编译生成的文件
+### JVM 源码之编译生成的文件
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-07.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-08.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-09.png)
-JVM源码之写Java测试代码
+### JVM 源码之写 Java 测试代码
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
@@ -94,13 +94,9 @@ JVM源码之写Java测试代码
 
 <https://github.com/OpenSrcDeveloper/OpenToolbox>
 
-## 天天吃货电商项目 
+## 电商项目 
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/FoodieShopping.jpg)
-
-<http://120.77.47.215:8080/foodie-shop/>
-
-## 天天吃货 WebRTC 一对多直播子项目
+## WebRTC 一对多直播子项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
 
@@ -110,20 +106,11 @@ JVM源码之写Java测试代码
 
 ## 在线教育项目
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-00.jpg)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-vue-separation-of-front-end-and-back-end-development-of-enterprise-level-online-video-01.jpg)
-
 ## 社交分享项目
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/spring-cloud-alibaba-microservices-from-entry-to-advanced-00.png)
 
 ## 电影预告项目
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/movie-trailer.png)
-
 ## OA办公项目
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/oa.png)
 
 ## Java泡泡堂项目
 
@@ -164,7 +151,7 @@ add exagear-desktop-rpi3 project
 
 <https://www.jetbrains.com/shop/eform/opensource?product=ALL>
 
-## 我的开源技术自学之路
+## 开源技术自学之路
 
 ### 计算机数学基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-00.png)
@@ -179,7 +166,7 @@ add exagear-desktop-rpi3 project
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-05.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-06.png)
 
-### 软件&硬件基础
+### 软件 & 硬件基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
 
 ### 汇编基础

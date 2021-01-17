@@ -42,13 +42,13 @@
 
 
   
-## 我的开源课程
+## 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
 <https://space.bilibili.com/77266754>
 
-## 我的开源项目
+## 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 

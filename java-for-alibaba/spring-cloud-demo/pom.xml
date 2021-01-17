@@ -14,6 +14,7 @@
         <module>eureka/eureka-consumer</module>
         <module>eureka/eureka-server-peer</module>
         <module>eureka/eureka-server-peer2</module>
+        <module>ribbon/ribbon-consumer</module>
     </modules>
 
     <properties>

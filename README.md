@@ -37,7 +37,7 @@
       * [白帽子](#白帽子)
     * [Java 基础](#java-基础)
     * [JVM 基础](#jvm-基础)
-    * [该开源项目由 JetBrains Bilibili 我的珍贵粉丝 Gitee GitHub Teambition 提供免费云服务支持](#该开源项目由-jetbrains-bilibili-我的珍贵粉丝-gitee-github-teambition-提供免费云服务支持)
+    * [该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持](#该开源项目由-jetbrains-bilibili-粉丝-gitee-github-teambition-提供免费云服务支持)
     * [微信赞赏码](#微信赞赏码)
   
 ## 开源课程

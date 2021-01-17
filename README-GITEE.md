@@ -1,5 +1,5 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-for-linux.png)
-# java-for-linux: Open Source Education Project
+# java-for-linux: Open source education project
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 目录
@@ -286,7 +286,7 @@ Android 应用保护
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-25.png)
 
 
-### 该开源项目由 JetBrains Bilibili 我的珍贵粉丝 Gitee GitHub Teambition 提供免费云服务支持
+### 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-04.png) 
 
@@ -294,7 +294,7 @@ Android 应用保护
 
 [Bilibili 提供自媒体服务](https://space.bilibili.com/77266754) 
 
-[我的珍贵粉丝提供开源项目持续支持服务](https://space.bilibili.com/77266754/fans/fans) 
+[粉丝提供开源项目持续支持服务](https://space.bilibili.com/77266754/fans/fans) 
 
 [Gitee 提供代码托管服务](https://gitee.com/OpenDevel) 
 

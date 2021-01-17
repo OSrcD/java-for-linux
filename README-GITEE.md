@@ -26,7 +26,7 @@
     * [计算机数学基础](#计算机数学基础)
     * [计算机物理基础](#计算机物理基础)
     * [计算机英语基础](#计算机英语基础)
-    * [软件 & 硬件基础](#软件硬件基础)
+    * [软件&硬件基础](#软件&硬件基础)
     * [汇编基础](#汇编基础)
     * [C&C++ 基础](#cc-基础)
     * [算法基础](#算法基础)
@@ -176,7 +176,7 @@ add exagear-desktop-rpi3 project
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-05.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-06.png)
 
-### 软件 & 硬件基础
+### 软件&硬件基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
 
 ### 汇编基础

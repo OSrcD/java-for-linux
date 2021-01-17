@@ -18,7 +18,7 @@ public class BaseController {
     public static final String REDIS_USER_TOKEN = "redis_user_token";
 
     // 支付中心的调用地址
-    public String paymenUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
+    public String paymentUrl = "http://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
 
     // 微信支付成功 -> 支付中心 -> 天天吃货平台
     //                       -> 回调通知的url

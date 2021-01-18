@@ -18,6 +18,7 @@ import game.element.vo.GamePlay;
 import game.element.vo.GamePlay1;
 import game.element.vo.MapElement;
 import game.element.vo.SuperElement;
+import game.frame.GameMain;
 
 /**
  * @说明 负责加载元素资源-图片等等
@@ -41,21 +42,25 @@ public class GameLoad {
 //	资源加载
 	public void load(/***/){
 //		如果是第1关，就加载。。。。第2关。。。。
+
 		Image img=new ImageIcon
-				("img/1.png").getImage();
+				(GameMain.class.getClassLoader().getResource("img/1.png").getPath()).getImage();
 		Image mapImg=new ImageIcon
-				("img/map.png").getImage();
+				(GameMain.class.getClassLoader().getResource("img/map.png").getPath()).getImage();
 		Image bodyImg=new ImageIcon
-				("img/body.png").getImage();//玩家2
-		Image Bubble = new ImageIcon("img/bubble.png").getImage();
-		Image over = new ImageIcon("img/Gameovers.png").getImage();
-		Image BaoZha = new ImageIcon("img/baozha.png").getImage();
-		Image fast = new ImageIcon("img/add.png").getImage();
-		Image box = new ImageIcon("img/box.png").getImage();
-		Image bgimg=new ImageIcon("img/beijin.png").getImage();//背景
-		Image overimg=new ImageIcon("img/Gameovers.png").getImage();//背景
-		Image Titles=new ImageIcon("img/Titles.png").getImage();//背景
-		Image myfast=new ImageIcon("img/fast.png").getImage();//背景
+				(GameMain.class.getClassLoader().getResource("img/body.png").getPath()).getImage();//玩家2
+		Image Bubble = new ImageIcon(GameMain.class.getClassLoader().getResource("img/bubble.png").getPath()).getImage();
+
+		Image over = new ImageIcon(GameMain.class.getClassLoader().getResource("img/Gameovers.png").getPath()).getImage();
+
+
+		Image BaoZha = new ImageIcon(GameMain.class.getClassLoader().getResource("img/baozha.png").getPath()).getImage();
+		Image fast = new ImageIcon(GameMain.class.getClassLoader().getResource("img/add.png").getPath()).getImage();
+		Image box = new ImageIcon(GameMain.class.getClassLoader().getResource("img/box.png").getPath()).getImage();
+		Image bgimg=new ImageIcon(GameMain.class.getClassLoader().getResource("img/beijin.png").getPath()).getImage();//背景
+		Image overimg=new ImageIcon(GameMain.class.getClassLoader().getResource("img/Gameovers.png").getPath()).getImage();//背景
+		Image Titles=new ImageIcon(GameMain.class.getClassLoader().getResource("img/Titles.png").getPath()).getImage();//背景
+		Image myfast=new ImageIcon(GameMain.class.getClassLoader().getResource("img/fast.png").getPath()).getImage();//背景
 		map.put("body", bodyImg);//玩家2
 		map.put("birdPlay", img);
 		map.put("map", mapImg);
@@ -75,7 +80,7 @@ public class GameLoad {
 	/**
 	 * 工厂：专门用于生产所有的元素对象
 	 * 本次开发省略 配置文件读取元素基本数据
-	 * @param string
+	 * @param key
 	 * @return
 	 */
 	public SuperElement elementFactory(String key) {		

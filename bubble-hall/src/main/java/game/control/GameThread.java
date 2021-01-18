@@ -22,6 +22,7 @@ import game.element.vo.MapElement;
 import game.element.vo.SuperElement;
 import game.element.vo.audio;
 import game.element.vo.audionorepeat;
+import game.frame.GameMain;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 
@@ -91,7 +92,7 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 	}
 //	关卡结束时
 	private void over() {
-	audionorepeat bubbleAudio  = new audionorepeat(new File("audio/ByeBye.mp3")); 
+	audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/ByeBye.mp3").getPath()));
 	bubbleAudio.start();
 	int x = JOptionPane.showConfirmDialog(null,"想重新开始吗？","游戏提示",JOptionPane.YES_NO_OPTION);
 		//java 对话框api函数 直接拿来用，不需要知道原理
@@ -150,7 +151,8 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 		if(GameManager.getGameManager().isplayDieFlag()){
 			boolean playPKplay = GameManager.getGameManager().getGamePlay1().PK(GameManager.getGameManager().getGamePlay());
 			if(playPKplay){
-				audionorepeat bubbleAudio  = new audionorepeat(new File("audio/die.mp3")); 
+
+				audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/die.mp3").getPath()));
 				bubbleAudio.start();			
 				GameManager.getGameManager().setGameoversflag(true);
 				
@@ -164,7 +166,8 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 		if(GameManager.getGameManager().isPlayDieflag1()){
 			boolean playPKplay = GameManager.getGameManager().getGamePlay().PK(GameManager.getGameManager().getGamePlay1());
 			if(playPKplay){
-				audionorepeat bubbleAudio  = new audionorepeat(new File("audio/die.mp3")); 
+
+				audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/die.mp3").getPath()));
 				bubbleAudio.start();
 				GameManager.getGameManager().setGameoversflag(true);
 				over();
@@ -234,8 +237,8 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 			GamePlay1 GamePlayDie1 = (GamePlay1)GameManager.getGameManager().getGamePlay1();
 			if(GameManager.getGameManager().isPlayDieflag1()){
 				if(GameManager.timeCount-GamePlayDie1.timedie>=30 ){
-					
-					audionorepeat bubbleAudio  = new audionorepeat(new File("audio/save.mp3")); 
+
+					audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/save.mp3").getPath()));
 					bubbleAudio.start();
 					
 					
@@ -246,8 +249,8 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 			
 			if(GameManager.getGameManager().isplayDieFlag()){
 				if(GameManager.timeCount-GamePlayDie.timedie>=30 ){
-					
-					audionorepeat bubbleAudio  = new audionorepeat(new File("audio/save.mp3")); 
+
+					audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/save.mp3").getPath()));
 					bubbleAudio.start();
 					
 					
@@ -278,12 +281,14 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 						if(gp.getSudu()==15){
 							gp.setSudu(gp.getSudu());
 							myFatst[2][2]=null;//鞋子图片对象消失
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 						}else{
 							gp.setSudu(gp.getSudu()+5); 
 							myFatst[2][2]=null;//鞋子图片对象消失
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 				 }
 				 }
@@ -294,12 +299,13 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 								if(gp1.getSudu()==15){
 									gp1.setSudu(gp1.getSudu());
 									myFatst[2][2]=null;//鞋子图片对象消失
-									audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+
+									audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 									bubbleAudio.start();
 								}else{
 									gp1.setSudu(gp1.getSudu()+5); 
 									myFatst[2][2]=null;//鞋子图片对象消失
-									audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+									audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 									bubbleAudio.start();
 						 }
 						
@@ -321,12 +327,12 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 						if(gp.getSudu()==15){
 							gp.setSudu(gp.getSudu());
 							myFatst[12][12]=null;
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 						}else{
 							gp.setSudu(gp.getSudu()+5); 
 							myFatst[12][12]=null;//鞋子图片对象消失
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 				 }
 				 }
@@ -337,12 +343,12 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 								if(gp1.getSudu()==15){
 									gp1.setSudu(gp1.getSudu());
 									myFatst[12][12]=null;
-									audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+									audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 									bubbleAudio.start();
 								}else{
 									gp1.setSudu(gp1.getSudu()+5); 
 									myFatst[12][12]=null;//鞋子图片对象消失
-									audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+									audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 									bubbleAudio.start();
 						 }
 						
@@ -383,7 +389,7 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 						
 						if(gp.getBubblenum()==18 ){	
 							gp.setBubblenum(gp.getBubblenum());
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 							myFatst[i][j]=null;
 						}else{
@@ -395,7 +401,7 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 	
 							
 							myFatst[i][j]=null;//鞋子图片对象消失
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 						}
 						
@@ -411,12 +417,12 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 						if(gp1.getBubblenum()==18){
 							gp1.setBubblenum(gp1.getBubblenum());
 							myFatst[i][j]=null;
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 						}else{
 							gp1.setBubblenum(gp1.getBubblenum()+1);
 							myFatst[i][j]=null;
-							audionorepeat bubbleAudio  = new audionorepeat(new File("audio/get.mp3")); 
+							audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/get.mp3").getPath()));
 							bubbleAudio.start();
 						}
 					}
@@ -668,8 +674,9 @@ public class GameThread extends Thread{//继承多线程的，我就拥有多线程的功能
 				   
 				GameManager.getGameManager().createBoomList().addAll(GameManager.getGameManager().getGLoad().
 				bigcreateBoomElement("BaoZha",x ,y,whobubble)); //生成波文
-				
-				audionorepeat bubbleAudio  = new audionorepeat(new File("audio/boom.mp3")); 
+
+
+				audionorepeat bubbleAudio  = new audionorepeat(new File(GameMain.class.getClassLoader().getResource("audio/boom.mp3").getPath()));
 				bubbleAudio.start();
 				
 				

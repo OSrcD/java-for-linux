@@ -13,7 +13,6 @@ import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 import game.element.vo.*;
 /**
- * @author 任我行
  * @说明： 只负责启动程序
  */
 public class GameMain {
@@ -45,8 +44,9 @@ public class GameMain {
 		//多线程在此
 //		gf.gameStart(my_audio);
 		gf.gameStart(gt);
-		
-		audio my_audio = new audio(new File("audio/tree.mp3"));
+		System.out.println();
+
+		audio my_audio = new audio(new File(GameMain.class.getClassLoader().getResource("audio/tree.mp3").getPath()));
 		my_audio.loop();
 		
 	

@@ -24,4 +24,9 @@ public class Controller {
         friend.setName("test");
         return service.sayHiPost(friend);
     }
+
+    @GetMapping("/retry")
+    public String retry(Integer timeout) {
+        return service.retry(timeout);
+    }
 }

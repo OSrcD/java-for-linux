@@ -36,7 +36,7 @@ public class GameFrame extends JFrame{
 	 */
 	public void init(){
 		
-		this.setSize(806, 634);//大小  后面改为变量
+		this.setSize(800, 610);//大小  后面改为变量
 		this.setTitle("泡泡堂");//标题
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//关闭状态
 		this.setResizable(false);//固定窗体大小

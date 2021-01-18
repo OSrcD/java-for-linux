@@ -233,9 +233,13 @@ Backtrack 高级渗透教程
 ......
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-13.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-14.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-15.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-16.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-17.png)
 
 Android Java 逆向基础
@@ -275,6 +279,7 @@ Android 应用保护
 ......
 
 #### Web 安全与逆向工程方向的选择
+
 不是什么都要学的，其实吧，精一门样样精，觉得Web安全入门没逆向工程更加有意思，如果能入门的Web安全，可以继续学，后面就会涉及到浏览器安全了，自然就涉及到逆向工程了，这个就是你精通Web安全的方向过程了，Web安全深入进去就是浏览器内核逆向安全了，如果精通了浏览器内核安全，借鉴浏览器内核安全的通用知识去搞逆向工程不就是很简单的事了，精通了Web安全照样玩逆向，所以没有必要学一会Web安全，
 又学一会逆向工程，入门不要讲究全栈，什么都学，浪费时间，精通再讲究全栈。
 
@@ -285,10 +290,15 @@ Android 应用保护
 ......
 
 ### Java 基础
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-20.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-21.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-22.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-23.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-24.png)
 ### JVM 基础
 可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm))。

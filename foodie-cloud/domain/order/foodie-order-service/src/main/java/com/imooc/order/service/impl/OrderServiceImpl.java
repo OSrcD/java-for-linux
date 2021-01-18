@@ -4,6 +4,7 @@ import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.YesOrNo;
 import com.imooc.item.pojo.Items;
 import com.imooc.item.pojo.ItemsSpec;
+import com.imooc.item.service.ItemService;
 import com.imooc.order.mapper.OrderItemsMapper;
 import com.imooc.order.mapper.OrderStatusMapper;
 import com.imooc.order.mapper.OrdersMapper;
@@ -20,6 +21,7 @@ import com.imooc.order.pojo.vo.OrderVO;
 //import com.imooc.item.service.ItemService;
 import com.imooc.order.service.OrderService;
 import com.imooc.user.pojo.UserAddress;
+import com.imooc.user.service.AddressService;
 import com.imooc.utils.DateUtil;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,15 +49,15 @@ public class OrderServiceImpl implements OrderService {
     private OrderStatusMapper orderStatusMapper;
 
     // TODO 学了Feign在来把注释打开
-//    @Autowired
-//    private AddressService addressService;
-//    @Autowired
-//    private ItemService itemService;
     @Autowired
-    private LoadBalancerClient client;
-
+    private AddressService addressService;
     @Autowired
-    private RestTemplate restTemplate;
+    private ItemService itemService;
+//    @Autowired
+//    private LoadBalancerClient client;
+//
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     @Autowired
     private Sid sid;
@@ -78,15 +80,15 @@ public class OrderServiceImpl implements OrderService {
         String orderId = sid.nextShort();
 
         // FIXME 等待feign章节再来简化
-//        UserAddress address = addressService.queryUserAddres(userId, addressId);
-        ServiceInstance instance = client.choose("FOODIE-USER-SERVICE");
-        String url = String.format("http://%s:%s/address-api/queryAddress" +
-                        "?userId=%s&addressId=%s",
-                instance.getHost(),
-                instance.getPort(),
-                userId, addressId);
-        // TODO 偷个懒，不判断返回status，等下个章节用Feign重写
-        UserAddress address = restTemplate.getForObject(url, UserAddress.class);
+        UserAddress address = addressService.queryUserAddress(userId, addressId);
+//        ServiceInstance instance = client.choose("FOODIE-USER-SERVICE");
+//        String url = String.format("http://%s:%s/address-api/queryAddress" +
+//                        "?userId=%s&addressId=%s",
+//                instance.getHost(),
+//                instance.getPort(),
+//                userId, addressId);
+//        // TODO 偷个懒，不判断返回status，等下个章节用Feign重写
+//        UserAddress address = restTemplate.getForObject(url, UserAddress.class);
 
         // 1. 新订单数据保存
         Orders newOrder = new Orders();
@@ -125,14 +127,14 @@ public class OrderServiceImpl implements OrderService {
             toBeRemovedShopcatdList.add(cartItem);
 
             // 2.1 根据规格id，查询规格的具体信息，主要获取价格
-            // FIXME 等待feign章节再来简化
-//            ItemsSpec itemSpec = itemService.queryItemSpecById(itemSpecId);
-            ServiceInstance itemApi = client.choose("FOODIE-ITEM-SERVICE");
-            url = String.format("http://%s:%s/item-api/singleItemSpec?specId=%s",
-                    itemApi.getHost(),
-                    itemApi.getPort(),
-                    itemSpecId);
-            ItemsSpec itemSpec = restTemplate.getForObject(url, ItemsSpec.class);
+            // FIXME 等待feign章节再来简化queryItemSpecById
+            ItemsSpec itemSpec = itemService.queryItemsSpecById(itemSpecId);
+//            ServiceInstance itemApi = client.choose("FOODIE-ITEM-SERVICE");
+//            url = String.format("http://%s:%s/item-api/singleItemSpec?specId=%s",
+//                    itemApi.getHost(),
+//                    itemApi.getPort(),
+//                    itemSpecId);
+//            ItemsSpec itemSpec = restTemplate.getForObject(url, ItemsSpec.class);
 
             totalAmount += itemSpec.getPriceNormal() * buyCounts;
             realPayAmount += itemSpec.getPriceDiscount() * buyCounts;
@@ -141,12 +143,12 @@ public class OrderServiceImpl implements OrderService {
             String itemId = itemSpec.getItemId();
             // FIXME 等待feign章节再来简化
             // TODO 作业 -同学们自己改造
-//            Items item = itemService.queryItemById(itemId);
-            Items item = null;
+            Items item = itemService.queryItemsById(itemId);
+//            Items item = null;
             // FIXME 等待feign章节再来简化
             // TODO 作业 -同学们自己改造
-//            String imgUrl = itemService.queryItemMainImgById(itemId);
-            String imgUrl = null;
+            String imgUrl = itemService.queryItemMainImgById(itemId);
+//            String imgUrl = null;
 
             // 2.3 循环保存子订单数据到数据库
             String subOrderId = sid.nextShort();
@@ -165,7 +167,7 @@ public class OrderServiceImpl implements OrderService {
             // 2.4 在用户提交订单以后，规格表中需要扣除库存
             // FIXME 等待feign章节再来简化
             // TODO 作业 -同学们自己改造
-//            itemService.decreaseItemSpecStock(itemSpecId, buyCounts);
+            itemService.decreaseItemSpecStock(itemSpecId, buyCounts);
         }
 
         newOrder.setTotalAmount(totalAmount);

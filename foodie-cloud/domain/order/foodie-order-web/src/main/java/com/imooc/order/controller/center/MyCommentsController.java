@@ -2,6 +2,7 @@ package com.imooc.order.controller.center;
 
 import com.imooc.controller.BaseController;
 import com.imooc.enums.YesOrNo;
+import com.imooc.item.service.ItemCommentsService;
 import com.imooc.order.pojo.OrderItems;
 import com.imooc.order.pojo.Orders;
 import com.imooc.order.pojo.bo.center.OrderItemsCommentBO;
@@ -34,10 +35,12 @@ public class MyCommentsController extends BaseController {
     private MyOrdersService myOrdersService;
 
     @Autowired
-    private LoadBalancerClient client;
-
-    @Autowired
-    private RestTemplate restTemplate;
+    private ItemCommentsService itemCommentsService;
+//    @Autowired
+//    private LoadBalancerClient client;
+//
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     @ApiOperation(value = "查询订单列表", notes = "查询订单列表", httpMethod = "POST")
     @PostMapping("/pending")
@@ -110,16 +113,20 @@ public class MyCommentsController extends BaseController {
         }
 
         // TODO 前方施工，学完Feign再来改造
-        ServiceInstance instance = client.choose("FOODIE-ITEM-SERVICE");
-        String target = String.format("http://%s:%s/item-comments-api/myComments" +
-                        "?userId=%s&page=%s&pageSize=%s",
-                instance.getHost(),
-                instance.getPort(),
-                userId,
+        PagedGridResult grid = itemCommentsService.queryMyComments(userId,
                 page,
                 pageSize);
-        // 偷个懒，不判断返回status，等下个章节用Feign重写
-        PagedGridResult grid = restTemplate.getForObject(target, PagedGridResult.class);
+//        ServiceInstance instance = client.choose("FOODIE-ITEM-SERVICE");
+//        String target = String.format("http://%s:%s/item-comments-api/myComments" +
+//                        "?userId=%s&page=%s&pageSize=%s",
+//                instance.getHost(),
+//                instance.getPort(),
+//                userId,
+//                page,
+//                pageSize);
+//        // 偷个懒，不判断返回status，等下个章节用Feign重写
+//        PagedGridResult grid = restTemplate.getForObject(target, PagedGridResult.class);
+//
         return IMOOCJSONResult.ok(grid);
 //
 //        PagedGridResult grid = myCommentsService.queryMyComments(userId,

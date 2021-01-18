@@ -5,10 +5,12 @@ import com.imooc.order.pojo.bo.PlaceOrderBO;
 import com.imooc.order.pojo.bo.SubmitOrderBO;
 import com.imooc.order.pojo.vo.OrderVO;
 import com.imooc.pojo.ShopcartBO;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@FeignClient("foodie-order-service")
 @RequestMapping("order-api")
 public interface OrderService {
 

@@ -2,10 +2,12 @@ package com.imooc.user.service;
 
 import com.imooc.user.pojo.UserAddress;
 import com.imooc.user.pojo.bo.AddressBO;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@FeignClient("foodie-user-service")
 @RequestMapping("address-api")
 public interface AddressService {
 

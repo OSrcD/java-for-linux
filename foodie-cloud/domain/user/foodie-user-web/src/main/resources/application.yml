@@ -18,6 +18,9 @@ server:
 spring:
   application:
     name: foodie-user-service # 微服务在注册中心的名字
+  ### Feign - 当 Bean 名字一样的时候，允许覆盖注册
+  main:
+    allow-bean-definition-overriding: true
   profiles:
     active: dev
   datasource:                                           # 数据源的相关配置

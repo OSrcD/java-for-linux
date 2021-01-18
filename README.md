@@ -137,8 +137,7 @@ add exagear-desktop-rpi3 project
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-02.png)
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-03.png)
 
-<https://www.jetbrains.com/shop/eform/opensource?product=ALL>
-
+[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
 
 ### 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持

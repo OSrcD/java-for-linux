@@ -144,7 +144,7 @@ add exagear-desktop-rpi3 project
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-02.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-03.png)
 
-<https://www.jetbrains.com/shop/eform/opensource?product=ALL>
+[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
 
 

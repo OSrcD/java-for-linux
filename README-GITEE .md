@@ -45,6 +45,7 @@
 ## 我的开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bilibili.jpg)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
 <https://space.bilibili.com/77266754>
@@ -174,24 +175,33 @@ add exagear-desktop-rpi3 project
 
 ### 计算机物理基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-03.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-04.png)
 
 ### 计算机英语基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-05.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-06.png)
 
 ### 软件&硬件基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-19.png)
 
 ### 汇编基础
+
 8086 汇编的经典是 16 位地址变为 20 位地址。
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-07.png)
 
 ### C&C++ 基础
+
 C 语言的经典是指针，我看了很多书都是说指针就是地址，这个没有错，但我觉得说对了一半，我觉得指针就是地址+类型，这个是我自学自己领悟出来的，书中也是有说的不全的，也有错误的。
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-08.png)
+
 ### 算法基础
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-09.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-10.png)
 
 ### Linux 基础

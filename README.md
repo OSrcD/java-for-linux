@@ -1,3 +1,5 @@
+# 该项目已迁移到 [Gitee](https://gitee.com/OpenDevel/java-for-linux) 中维护
+
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-for-linux.png)
 
 # java-for-linux: 综合型开源项目

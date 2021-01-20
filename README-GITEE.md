@@ -224,11 +224,11 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
-项目地址：
+[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
+
+JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
-
-[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
 
 ## Java 游戏安全 开源课程
 

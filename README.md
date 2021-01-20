@@ -67,7 +67,7 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/2048.png)
 
-## C++--
+## C++-- 开源项目
 
 可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm))。
 
@@ -75,7 +75,9 @@
 
 ## 开源笔记
 
-[Open Notes](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
+[Teambition 开源笔记](https://tburl.in/0jDNvpbK) 
+
+[Gitee 开源笔记](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
 
 ## OSrcD的英语小抄 开源笔记
 

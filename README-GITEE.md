@@ -172,7 +172,7 @@
 
 [开源课程地址](https://space.bilibili.com/77266754)
 
-## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
+## JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
 
 [课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
 

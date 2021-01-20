@@ -34,7 +34,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox-00.png)
 
-<<https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox>>
+<https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox>
 
 ## 电商项目 开源项目
 
@@ -60,15 +60,15 @@
 
 ......
 
-## OA办公项目 开源项目
+## OA 办公项目 开源项目
 
 ......
 
-## Java泡泡堂项目 开源项目
+## Java 泡泡堂项目 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
-## 2048小游戏项目 开源项目
+## 2048 小游戏项目 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 
@@ -84,7 +84,7 @@
 
 [Gitee 开源笔记](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
 
-## OSrcD的英语小抄 开源笔记
+## OSrcD 的英语小抄 开源笔记
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
 
@@ -160,7 +160,7 @@ add exagear-desktop-rpi3 project 其他开源项目
 
 集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
-可以免费使用JetBrains 全家桶所有产品
+可以免费使用 JetBrains 全家桶所有产品
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains.jpg)
 

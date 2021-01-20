@@ -28,7 +28,7 @@
 
 <https://gitee.com/OpenDevel/java-for-linux>
 
-## 开源工具箱项目 开源项目
+## 开源工具箱 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox.jpg)
 
@@ -36,7 +36,7 @@
 
 <https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox>
 
-## 电商项目 开源项目
+## 电商 开源项目
 
 ......
 
@@ -48,27 +48,27 @@
 
 主播端:<https://120.77.47.215:8443/admin.html>
 
-## 在线教育项目 开源项目
+## 在线教育 开源项目
 
 ......
 
-## 社交分享项目 开源项目
+## 社交分享 开源项目
 
 ......
 
-## 电影预告项目 开源项目
+## 电影预告 开源项目
 
 ......
 
-## OA 办公项目 开源项目
+## OA 办公 开源项目
 
 ......
 
-## Java 泡泡堂项目 开源项目
+## Java 泡泡堂 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
-## 2048 小游戏项目 开源项目
+## 2048 小游戏 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 

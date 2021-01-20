@@ -31,16 +31,15 @@
 
 <https://space.bilibili.com/77266754>
 
+## 开源笔记
+
+[Open Notes](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
+
 ## 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenProject.jpeg)
 
 <https://gitee.com/OpenDevel/java-for-linux>
-
-## 开源笔记
-
-[Open Notes](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
-
 
 ## 在 JVM 源码内嵌写 Native 函数给 Java 层调用
 

@@ -1,12 +1,14 @@
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-for-linux.png)
+
 # java-for-linux: 综合型开源项目
+
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 🤷‍♂️ 这个仓库是什么?
 
 这个仓库是 **综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护
 
-目前只有 **6 个开源项目**
+目前有 **6 个开源项目**
 
 1. **泡泡堂**项目（在 **bubble-hall** 文件夹）
 
@@ -37,7 +39,6 @@
 <https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox>
 
 ## 电商 开源项目 
-
 
 ## WebRTC 一对多直播 开源项目
 
@@ -177,7 +178,7 @@ add exagear-desktop-rpi3 project 其他开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-04.png)
 
-[JetBrains 提供开发&团队工具服务](https://www.jetbrains.com/?from=java-for-linux)
+[JetBrains 提供开发 & 团队工具服务](https://www.jetbrains.com/?from=java-for-linux)
 
 [Bilibili 提供自媒体服务](https://space.bilibili.com/77266754)
 
@@ -187,7 +188,7 @@ add exagear-desktop-rpi3 project 其他开源项目
 
 [GitHub 提供代码托管服务](https://github.com/OSrcD)
 
-[Teambition 提供云盘&记笔记服务](https://www.teambition.com)
+[Teambition 提供云盘 & 记笔记服务](https://www.teambition.com)
 
 ### 微信赞赏码
 

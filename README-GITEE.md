@@ -148,7 +148,7 @@
 
 项目地址：
 
-[C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
+[cppmm](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
 ## 开源笔记
 

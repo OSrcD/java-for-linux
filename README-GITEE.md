@@ -116,7 +116,7 @@
 
 [oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
 
-[课程观看地址](https://www.bilibili.com/video/BV1tK411L7Wo)
+[项目观看地址](https://www.bilibili.com/video/BV1tK411L7Wo)
 
 
 ## Java 泡泡堂 开源项目
@@ -128,7 +128,7 @@
 
 [bubble-hall](https://gitee.com/OpenDevel/java-for-linux/tree/master/bubble-hall)
 
-[课程观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
+[项目观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
 
 ## 2048 小游戏 开源项目
 
@@ -136,7 +136,7 @@
 
 [2048](https://gitee.com/OpenDevel/java-for-linux/tree/master/2048)
 
-[课程观看地址](https://www.bilibili.com/video/BV19e411x7F2)
+[项目观看地址](https://www.bilibili.com/video/BV19e411x7F2)
 
 ## C++-- 开源项目
 

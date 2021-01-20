@@ -21,53 +21,6 @@
 6. 开源**笔记**项目（在开源**笔记**文件夹）
 
 7. **其他**开源项目（在**其他**文件夹）
- 
-## 开源课程
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenCourse.jpeg)
-
-<https://space.bilibili.com/77266754>
-
-## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
-
-### JVM 源码之写 Java 层代码 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-01.png)
-### JVM 源码之导出模块 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-02.png)
-### JVM 源码之写 C++ 层代码 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-03.png)
-### JVM 源码之注册 Java & C++ 层代码 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-04.png)
-### JVM 源码之写 MakeFile 文件 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-05.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-06.png)
-### JVM 源码之编译生成的文件 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-07.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-08.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-09.png)
-### JVM 源码之写 Java 测试代码 开源课程
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-10.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-11.png)
-
-## Java 游戏安全 开源课程
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-game-security.png)
-
-## JNI 基于 Linux 动态函数注册 开源课程
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
-
-## Kali Linux 内核编程 开源课程
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
-
-
-## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)
-
 
 ## 开源项目
 
@@ -129,13 +82,77 @@
 
 <https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
-add exagear-desktop-rpi3 project
+## 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenCourse.jpeg)
+
+<https://space.bilibili.com/77266754>
+
+## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
+
+### JVM 源码之写 Java 层代码 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-01.png)
+
+### JVM 源码之导出模块 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-02.png)
+
+### JVM 源码之写 C++ 层代码 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-03.png)
+
+### JVM 源码之注册 Java & C++ 层代码 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-04.png)
+
+### JVM 源码之写 MakeFile 文件 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-05.png)
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-06.png)
+
+### JVM 源码之编译生成的文件 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-07.png)
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-08.png)
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-09.png)
+
+### JVM 源码之写 Java 测试代码 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-10.png)
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-11.png)
+
+## Java 游戏安全 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-game-security.png)
+
+## JNI 基于 Linux 动态函数注册 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
+
+## Kali Linux 内核编程 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
+
+## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/baidu-cloud-auto-share-link.png)
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)
+
+## 其他开源项目
+
+add exagear-desktop-rpi3 project 其他开源项目
 
 ## 开源项目福利
 
 集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
-可以免费使用JetBrains 全家桶所有产品
+可以免费使用 JetBrains 全家桶所有产品
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains.jpg)
 
@@ -148,7 +165,6 @@ add exagear-desktop-rpi3 project
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-03.png)
 
 [申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
-
 
 ### 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持
 

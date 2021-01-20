@@ -22,68 +22,6 @@
 
 7. **其他**开源项目（在**其他**文件夹）
 
-## 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
-
-<https://space.bilibili.com/77266754>
-
-## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
-
-### JVM 源码之写 Java 层代码 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
-
-### JVM 源码之导出模块 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
-
-### JVM 源码 之写 C++ 层代码 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-03.png)
-
-### JVM 源码之注册 Java & C++ 层代码 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-04.png)
-
-### JVM 源码之写 MakeFile 文件 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-05.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-06.png)
-
-### JVM 源码之编译生成的文件 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-07.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-08.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-09.png)
-
-### JVM 源码之写 Java 测试代码 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
-
-## Java 游戏安全 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
-
-## JNI 基于 Linux 动态函数注册 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
-
-## Kali Linux 内核编程 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
-
-## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
-
 ## 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
@@ -150,7 +88,71 @@
 
 <https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
-add exagear-desktop-rpi3 project
+## 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
+
+<https://space.bilibili.com/77266754>
+
+## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
+
+### JVM 源码之写 Java 层代码 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
+
+### JVM 源码之导出模块 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
+
+### JVM 源码 之写 C++ 层代码 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-03.png)
+
+### JVM 源码之注册 Java & C++ 层代码 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-04.png)
+
+### JVM 源码之写 MakeFile 文件 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-05.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-06.png)
+
+### JVM 源码之编译生成的文件 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-07.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-08.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-09.png)
+
+### JVM 源码之写 Java 测试代码 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
+
+## Java 游戏安全 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
+
+## JNI 基于 Linux 动态函数注册 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
+
+## Kali Linux 内核编程 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
+
+## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
+
+## 其他开源项目
+
+add exagear-desktop-rpi3 project 其他开源项目
 
 ## 开源项目福利
 

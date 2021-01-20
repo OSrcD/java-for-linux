@@ -48,22 +48,26 @@
 主播端:<https://120.77.47.215:8443/admin.html>
 
 ## 在线教育 开源项目
+
 ......
 
 ## 社交分享 开源项目
+
 ......
 
 ## 电影预告 开源项目
+
 ......
 
 ## OA办公 开源项目
+
 ......
 
-## Java泡泡堂 开源项目
+## Java 泡泡堂 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/bubble-hall.png)
 
-## 2048小游戏 开源项目
+## 2048 小游戏 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/2048.png)
 
@@ -79,7 +83,7 @@
 
 [Gitee 开源笔记](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
 
-## OSrcD的英语小抄 开源笔记
+## OSrcD 的英语小抄 开源笔记
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-01.png)
 

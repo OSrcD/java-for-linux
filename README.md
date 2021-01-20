@@ -32,7 +32,7 @@
   * [Kali Linux 内核编程](#kali-linux-内核编程)
   * [开源工具箱项目](#开源工具箱项目)
   * [电商项目](#电商项目)
-  * [WebRTC 一对多直播子项目](#webrtc-一对多直播子项目)
+  * [WebRTC 一对多直播项目](#webrtc-一对多直播项目)
   * [在线教育项目](#在线教育项目)
   * [社交分享项目](#社交分享项目)
   * [电影预告项目](#电影预告项目)
@@ -104,7 +104,7 @@
 ## 电商项目 
 
 
-## WebRTC 一对多直播子项目
+## WebRTC 一对多直播项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/WebRTC.png)
 

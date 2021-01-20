@@ -2,6 +2,26 @@
 # java-for-linux: *Op*en *So*urce *Co*urce *Pr*oject
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+## 🤷‍♂️ 这个仓库是什么?
+
+这个仓库是综合型开源项目 就是把自己开发的多个开源项目集成在一起维护
+
+目前只有 6 个开源项目
+
+1. 泡泡堂项目（在bubble-hall文件夹）
+
+2. 终端仿命令行工具项目（在OpenToolbox文件夹）
+
+3. WebRTC 直播项目（在WebRTC文件夹）
+
+4. 2048 小游戏项目（在2048文件夹里）
+
+5. 开源课程（在开源课程文件夹）
+
+6. 开源笔记（在开源笔记文件夹）
+
+7. 其他开源项目（在其他文件夹）
+
 ## 目录
 
   * [开源课程](#开源课程)

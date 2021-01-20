@@ -8,7 +8,7 @@
 
 这个仓库是 **综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护
 
-目前有 **6 个开源项目**
+目前有 **6+ 个开源项目**
 
 1. **泡泡堂**项目（在 **bubble-hall** 文件夹）
 
@@ -28,7 +28,9 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenProject.jpeg)
 
-<https://gitee.com/OpenDevel/java-for-linux>
+### 项目地址
+
+[java-for-linux](https://gitee.com/OpenDevel/java-for-linux)
 
 ## 开源工具箱 开源项目
 
@@ -36,9 +38,35 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenToolbox-00.png)
 
-<https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox>
+### 项目地址
 
-## 电商 开源项目 
+[课程观看地址](https://www.bilibili.com/video/BV1MK4y1L7nU)
+
+[OpenToolbox](https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox)
+
+## 电商 开源项目
+
+### 项目地址
+
+[foodie-center](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-center)
+
+[foodie-cloud](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-cloud)
+
+[foodie-dev](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-dev)
+
+[foodie-payment](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-payment)
+
+[foodie-shop](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-shop)
+
+[doc](https://gitee.com/OpenDevel/java-for-linux/tree/master/doc/db)
+
+[nginx-url-hash](https://gitee.com/OpenDevel/java-for-linux/tree/master/nginx-url-hash)
+
+[mybatis-generator](https://gitee.com/OpenDevel/java-for-linux/tree/master/mybatis-generator-for-imooc)
+
+[sso-mtv](https://gitee.com/OpenDevel/java-for-linux/tree/master/sso-mtv)
+
+[sso-music](https://gitee.com/OpenDevel/java-for-linux/tree/master/sso-music)
 
 ## WebRTC 一对多直播 开源项目
 
@@ -48,35 +76,78 @@
 
 主播端:<https://120.77.47.215:8443/admin.html>
 
-## 在线教育 开源项目
+### 项目地址
 
+[课程观看地址](https://www.bilibili.com/video/BV15t4y1e7PJ)
+
+[webrtc](https://gitee.com/OpenDevel/java-for-linux/tree/master/webrtc)
+
+Vue 重构版 还在开发当中
+
+[webrtc-live](https://gitee.com/OpenDevel/java-for-linux/tree/master/webrtc-live)
+
+## 在线教育 开源项目
 ......
+
+### 项目地址
+
+[online-education](https://gitee.com/OpenDevel/java-for-linux/tree/master/online-education/course)
 
 ## 社交分享 开源项目
 
 ......
 
+### 项目地址
+
+[social-sharing](https://gitee.com/OpenDevel/java-for-linux/tree/master/social-sharing)
+
 ## 电影预告 开源项目
 
 ......
+
+### 项目地址
+
+[movie-trailer](https://gitee.com/OpenDevel/java-for-linux/tree/master/movie-trailer)
 
 ## OA办公 开源项目
 
 ......
 
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/video/BV1tK411L7Wo)
+
+[oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
+
 ## Java 泡泡堂 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/bubble-hall.png)
 
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
+
+[bubble-hall](https://gitee.com/OpenDevel/java-for-linux/tree/master/bubble-hall)
+
 ## 2048 小游戏 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/2048.png)
+
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/video/BV19e411x7F2)
+
+[2048](https://gitee.com/OpenDevel/java-for-linux/tree/master/2048)
 
 ## C++-- 开源项目
 
 可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm))。
 
 微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了。
+
+### 项目地址
+
+[C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
 ## 开源笔记
 
@@ -88,37 +159,49 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-01.png)
 
-<https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
+[笔记地址](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
 
 ## 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenCourse.jpeg)
 
-<https://space.bilibili.com/77266754>
+[开源课程地址](https://space.bilibili.com/77266754)
 
 ## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
+
+[课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
 
 ### JVM 源码之写 Java 层代码 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-01.png)
 
+[课程观看地址](https://www.bilibili.com/video/BV1Zz4y1k7Mj)
+
 ### JVM 源码之导出模块 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-02.png)
+
+[课程观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160075)
 
 ### JVM 源码之写 C++ 层代码 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-03.png)
 
+[课程观看地址](https://www.bilibili.com/video/BV1xZ4y1g7A9)
+
 ### JVM 源码之注册 Java & C++ 层代码 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-04.png)
+
+[课程观看地址](https://www.bilibili.com/video/BV1mv411b7SE)
 
 ### JVM 源码之写 MakeFile 文件 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-05.png)
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-06.png)
+
+[课程观看地址](https://www.bilibili.com/video/BV1zV41187j7)
 
 ### JVM 源码之编译生成的文件 开源课程
 
@@ -128,23 +211,49 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-09.png)
 
+[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
+
 ### JVM 源码之写 Java 测试代码 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-10.png)
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jvm-library-extend-11.png)
 
+[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
+
+### 课程项目地址
+
+[openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
+
 ## Java 游戏安全 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-game-security.png)
+
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
+
+[java-game-securit](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-game-security)
 
 ## JNI 基于 Linux 动态函数注册 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/jni-dynamic-register-for-linux.png)
 
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/read/cv7893718)
+
+[jni-dynamic-register-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/jni-dynamic-register-for-linux)
+
 ## Kali Linux 内核编程 开源课程
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
+
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/read/cv8504716)
+
+[kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
 
 ## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
 
@@ -152,9 +261,23 @@
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/baidu-cloud-auto-share-link-02.png)
 
+### 项目地址
+
+[课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
+
+[openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
+
 ## 其他开源项目
 
 add exagear-desktop-rpi3 project 其他开源项目
+
+### 项目地址
+
+[文章地址](https://www.bilibili.com/read/cv8446499)
+
+[下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
+
+[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
 
 ## 开源项目福利
 

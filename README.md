@@ -115,11 +115,7 @@
 
 ## OSrcD的英语小抄
 
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-00.png)
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-01.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-02.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-03.png)
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-04.png)
 
 <https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
@@ -132,9 +128,13 @@ add exagear-desktop-rpi3 project
 可以免费使用JetBrains 全家桶所有产品
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains.jpg)
+
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-00.png)
+
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-01.png)
+
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-02.png)
+
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-03.png)
 
 [申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)

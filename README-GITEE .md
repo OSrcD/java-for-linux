@@ -42,22 +42,39 @@
 ## 在 JVM 源码内嵌写 Native 函数给 Java 层调用
 
 ### JVM 源码之写 Java 层代码
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
+
 ### JVM 源码之导出模块
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
+
 ### JVM 源码 之写 C++ 层代码
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-03.png)
+
 ### JVM 源码之注册 Java & C++ 层代码
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-04.png)
+
 ### JVM 源码之写 MakeFile 文件
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-05.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-06.png)
+
 ### JVM 源码之编译生成的文件
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-07.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-08.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-09.png)
+
 ### JVM 源码之写 Java 测试代码
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-10.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
 ## Java 游戏安全
@@ -75,6 +92,7 @@
 ## 开源工具箱项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox.jpg)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox-00.png)
 
 <https://github.com/OpenSrcDeveloper/OpenToolbox>
@@ -118,15 +136,12 @@
 ## 基于 Java For OpenCV 的百度云失效链接自动分享
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
 
 ## OSrcD的英语小抄
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-00.png)
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-02.png)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-03.png)
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-04.png)
 
 <https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh>
 
@@ -139,9 +154,13 @@ add exagear-desktop-rpi3 project
 可以免费使用JetBrains 全家桶所有产品
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains.jpg)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-00.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-01.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-02.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/JetBrains-03.png)
 
 [申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)

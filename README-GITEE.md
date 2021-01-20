@@ -28,7 +28,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 
-### 项目地址
+项目地址：
 
 [开源项目观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160074)
 
@@ -38,17 +38,17 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenToolbox-00.png)
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV1MK4y1L7nU)
+项目地址：
 
 [OpenToolbox](https://gitee.com/OpenDevel/java-for-linux/tree/master/OpenToolbox)
+
+[项目观看地址](https://www.bilibili.com/video/BV1MK4y1L7nU)
 
 ## 电商 开源项目
 
 ......
 
-### 项目地址
+项目地址：
 
 [foodie-center](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-center)
 
@@ -74,25 +74,23 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
 
-观众端:<https://120.77.47.215:8443/>
-
-主播端:<https://120.77.47.215:8443/admin.html>
-
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV15t4y1e7PJ)
+项目地址：
 
 [webrtc](https://gitee.com/OpenDevel/java-for-linux/tree/master/webrtc)
 
-Vue 重构版 还在开发当中
+[webrtc-live](https://gitee.com/OpenDevel/java-for-linux/tree/master/webrtc-live) (Vue 重构版 还在开发当中)
 
-[webrtc-live](https://gitee.com/OpenDevel/java-for-linux/tree/master/webrtc-live)
+[项目观看地址](https://www.bilibili.com/video/BV15t4y1e7PJ)
+
+观众端:<https://120.77.47.215:8443/>
+
+主播端:<https://120.77.47.215:8443/admin.html>
 
 ## 在线教育 开源项目
 
 ......
 
-### 项目地址
+项目地址：
 
 [online-education](https://gitee.com/OpenDevel/java-for-linux/tree/master/online-education/course)
 
@@ -100,7 +98,7 @@ Vue 重构版 还在开发当中
 
 ......
 
-### 项目地址
+项目地址：
 
 [social-sharing](https://gitee.com/OpenDevel/java-for-linux/tree/master/social-sharing)
 
@@ -108,7 +106,7 @@ Vue 重构版 还在开发当中
 
 ......
 
-### 项目地址
+项目地址：
 
 [movie-trailer](https://gitee.com/OpenDevel/java-for-linux/tree/master/movie-trailer)
 
@@ -116,42 +114,45 @@ Vue 重构版 还在开发当中
 
 ......
 
-### 项目地址
+项目地址：
+
+[oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
 
 [课程观看地址](https://www.bilibili.com/video/BV1tK411L7Wo)
 
-[oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
 
 ## Java 泡泡堂 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
+项目地址：
 
 [bubble-hall](https://gitee.com/OpenDevel/java-for-linux/tree/master/bubble-hall)
 
+[课程观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
+
 ## 2048 小游戏 开源项目
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV19e411x7F2)
+项目地址：
 
 [2048](https://gitee.com/OpenDevel/java-for-linux/tree/master/2048)
 
+[课程观看地址](https://www.bilibili.com/video/BV19e411x7F2)
+
 ## C++-- 开源项目
 
-可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧([C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm))。
+可以看第三方实现精简版的 JVM 1.2 虚拟机源码 只有一个 C++ 小项目的代码量 OpenJDK 源码太复杂 1.6 版本才开源 代码量很庞大 不利于研究 这是一种学习技巧。
 
 微软的 JVM 虚拟机是 1.1 版本的 不开源 被 SUN 公司起诉了 1.0 版本 JVM 源码 只有 SUN 公司有了。
 
-### 项目地址
+项目地址：
 
 [C++--](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
 ## 开源笔记
+
+项目地址：
 
 [Teambition 开源笔记](https://tburl.in/0jDNvpbK)
 
@@ -161,7 +162,9 @@ Vue 重构版 还在开发当中
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
 
-[笔记地址](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
+项目地址：
+
+[开发者英语](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
 
 ## 开源课程
 
@@ -223,7 +226,7 @@ Vue 重构版 还在开发当中
 
 [课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
 
-### 项目地址
+项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
@@ -231,31 +234,33 @@ Vue 重构版 还在开发当中
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
+项目地址：
 
 [java-game-securit](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-game-security)
+
+[课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
 
 ## JNI 基于 Linux 动态函数注册 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/read/cv7893718)
+项目地址：
 
 [jni-dynamic-register-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/jni-dynamic-register-for-linux)
+
+
+[课程观看地址](https://www.bilibili.com/read/cv7893718)
 
 ## Kali Linux 内核编程 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/read/cv8504716)
+项目地址：
 
 [kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
+
+
+[课程观看地址](https://www.bilibili.com/read/cv8504716)
 
 ## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
 
@@ -263,23 +268,23 @@ Vue 重构版 还在开发当中
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
 
-### 项目地址
-
-[课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
+项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
+[课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
+
 ## 其他开源项目
 
-add exagear-desktop-rpi3 project 其他开源项目
+exagear-desktop-rpi3 project 其他开源项目
 
-### 项目地址
+项目地址：
+
+[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
 
 [文章地址](https://www.bilibili.com/read/cv8446499)
 
 [下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
-
-[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
 
 ## 开源项目福利
 

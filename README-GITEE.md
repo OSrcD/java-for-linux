@@ -68,6 +68,8 @@
 
 [sso-music](https://gitee.com/OpenDevel/java-for-linux/tree/master/sso-music)
 
+[java-for-alibaba](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-for-alibaba)
+
 ## WebRTC 一对多直播项目 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
@@ -266,13 +268,17 @@ JVM 系列的项目地址：
 
 项目地址：
 
-[openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
+[baidu-cloud-auto-share-link](https://gitee.com/OpenDevel/java-for-linux/tree/master/baidu-cloud-auto-share-link)
+
+[opencv-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/opencv-for-linux)
+
+[tesseract-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/tesseract-for-linux)
 
 [该课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
 
-## 其他开源项目
+## 其他开源项目（暂时不介绍用来做什么的）
 
-exagear-desktop-rpi3 project 其他开源项目
+## exagear-desktop-rpi3 project 其他开源项目
 
 项目地址：
 
@@ -281,6 +287,13 @@ exagear-desktop-rpi3 project 其他开源项目
 [文章地址](https://www.bilibili.com/read/cv8446499)
 
 [下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
+
+## auto-homework 其他开源项目
+
+项目地址：
+
+[auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
+
 
 ## 开源项目福利
 

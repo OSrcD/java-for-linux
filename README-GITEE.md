@@ -28,8 +28,6 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 
-项目地址：
-
 [开源项目观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160074)
 
 ## 开源工具箱 开源项目

@@ -30,7 +30,7 @@
 
 ### 项目地址
 
-[java-for-linux](https://gitee.com/OpenDevel/java-for-linux)
+[开源项目观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160074)
 
 ## 开源工具箱 开源项目
 

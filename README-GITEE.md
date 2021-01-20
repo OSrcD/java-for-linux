@@ -87,7 +87,6 @@
 [主播端线上体验地址](https://120.77.47.215:8443/admin.html)
 
 ## 在线教育 开源项目
-
 ......
 
 项目地址：
@@ -125,7 +124,6 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)
 
-
 项目地址：
 
 [bubble-hall](https://gitee.com/OpenDevel/java-for-linux/tree/master/bubble-hall)
@@ -133,6 +131,8 @@
 [项目观看地址](https://www.bilibili.com/video/BV1Xa4y1t7sS)
 
 ## 2048 小游戏 开源项目
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/2048.png)
 
 项目地址：
 
@@ -293,7 +293,6 @@ JVM 系列的项目地址：
 项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
-
 
 ## 开源项目福利
 

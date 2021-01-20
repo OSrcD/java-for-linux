@@ -168,35 +168,35 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 
-[开源课程地址](https://space.bilibili.com/77266754)
+[开源课程观看地址](https://space.bilibili.com/77266754)
 
 ## JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
 
-[课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
+[该课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
 
 ### JVM 源码之写 Java 层代码 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-01.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1Zz4y1k7Mj)
+[该课程观看地址](https://www.bilibili.com/video/BV1Zz4y1k7Mj)
 
 ### JVM 源码之导出模块 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-02.png)
 
-[课程观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160075)
+[该课程观看地址](https://space.bilibili.com/77266754/channel/detail?cid=160075)
 
 ### JVM 源码 之写 C++ 层代码 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-03.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1xZ4y1g7A9)
+[该课程观看地址](https://www.bilibili.com/video/BV1xZ4y1g7A9)
 
 ### JVM 源码之注册 Java & C++ 层代码 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-04.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1mv411b7SE)
+[该课程观看地址](https://www.bilibili.com/video/BV1mv411b7SE)
 
 ### JVM 源码之写 MakeFile 文件 开源课程
 
@@ -204,7 +204,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-06.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1zV41187j7)
+[该课程观看地址](https://www.bilibili.com/video/BV1zV41187j7)
 
 ### JVM 源码之编译生成的文件 开源课程
 
@@ -214,7 +214,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-09.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
+[该课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
 
 ### JVM 源码之写 Java 测试代码 开源课程
 
@@ -222,7 +222,7 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jvm-library-extend-11.png)
 
-[课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
+[该课程观看地址](https://www.bilibili.com/video/BV1Ff4y1i72H)
 
 JVM 系列的项目地址：
 
@@ -236,7 +236,7 @@ JVM 系列的项目地址：
 
 [java-game-securit](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-game-security)
 
-[课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
+[该课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
 
 ## JNI 基于 Linux 动态函数注册 开源课程
 
@@ -246,8 +246,7 @@ JVM 系列的项目地址：
 
 [jni-dynamic-register-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/jni-dynamic-register-for-linux)
 
-
-[课程观看地址](https://www.bilibili.com/read/cv7893718)
+[该课程观看地址](https://www.bilibili.com/read/cv7893718)
 
 ## Kali Linux 内核编程 开源课程
 
@@ -257,8 +256,7 @@ JVM 系列的项目地址：
 
 [kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
 
-
-[课程观看地址](https://www.bilibili.com/read/cv8504716)
+[该课程观看地址](https://www.bilibili.com/read/cv8504716)
 
 ## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
 
@@ -270,7 +268,7 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-[课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
+[该课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
 
 ## 其他开源项目
 

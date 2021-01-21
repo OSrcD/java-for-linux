@@ -24,7 +24,7 @@
 
 7. **其他**开源项目（在**其他**文件夹）
 
-## 开源项目
+# 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenProject.jpeg)
 
@@ -150,7 +150,7 @@
 
 [cppmm](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
-## 开源笔记
+# 开源笔记
 
 项目地址：
 
@@ -166,7 +166,7 @@
 
 [开发者英语](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
 
-## 开源课程
+# 开源课程
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OpenCourse.jpeg)
 

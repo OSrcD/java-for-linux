@@ -159,7 +159,15 @@
 
 ## OSrcD 的英语小抄 开源笔记
 
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/programmer-for-english-01.png)
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-00.png)
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-01.png)
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-02.png)
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-03.png)
+
+![image](https://github.com/OpenSrcDeveloper/java-for-linux/blob/master/image/programmer-for-english-04.png)
 
 项目地址：
 

@@ -163,7 +163,7 @@
 
 项目地址：
 
-[开发者英语](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
+[开发者英语笔记](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
 
 # 开源课程
 
@@ -218,7 +218,7 @@
 [该课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
 
 ## 在 JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
-
+ 
 [JVM 系列课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
 
 ### JVM 源码之写 Java 层代码 开源课程

@@ -293,7 +293,7 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-## 开源项目福利
+# 开源项目福利
 
 集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
@@ -311,7 +311,7 @@ JVM 系列的项目地址：
 
 [申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
 
-### 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持
+## 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-04.png)
 
@@ -327,6 +327,6 @@ JVM 系列的项目地址：
 
 [Teambition 提供云盘 & 记笔记服务](https://www.teambition.com)
 
-### 微信赞赏码
+## 微信赞赏码
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/赞赏码.png)

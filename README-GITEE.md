@@ -160,7 +160,15 @@
 
 ## OSrcD 的英语小抄 开源笔记
 
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-00.png)
+
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-02.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-03.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-04.png)
 
 项目地址：
 

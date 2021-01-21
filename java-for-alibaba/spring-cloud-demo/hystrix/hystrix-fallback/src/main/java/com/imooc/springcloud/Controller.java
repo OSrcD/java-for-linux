@@ -17,5 +17,10 @@ public class Controller {
         return myService.error();
     }
 
+    @GetMapping("/timeout")
+    public String timeout(Integer timeout) {
+        return myService.retry(timeout);
+    }
+
 
 }

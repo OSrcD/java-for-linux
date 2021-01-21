@@ -164,7 +164,7 @@
 
 项目地址：
 
-[开发者英语](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
+[开发者英语笔记](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)
 
 # 开源课程
 

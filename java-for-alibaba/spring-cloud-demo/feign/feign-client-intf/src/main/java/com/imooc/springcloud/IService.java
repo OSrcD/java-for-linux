@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient("feign-client")
 public interface IService {
 
+    @GetMapping("/error")
+    public String error();
+
     @GetMapping("/sayHi")
     public String sayHi();
 

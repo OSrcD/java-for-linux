@@ -19,6 +19,7 @@
         <module>feign/feign-client-intf</module>
         <module>feign/feign-consumer-advanced</module>
         <module>feign/feign-client</module>
+        <module>hystrix/hystrix-fallback</module>
     </modules>
 
     <properties>

@@ -37,4 +37,10 @@ public class Controller implements IService {
         log.info("retry " + port);
         return port;
     }
+
+    @Override
+    public String error() {
+        throw new RuntimeException("black sheep");
+    }
+
 }

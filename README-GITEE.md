@@ -172,6 +172,52 @@
 
 [开源课程观看地址](https://space.bilibili.com/77266754)
 
+## Java 游戏安全 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
+
+项目地址：
+
+[java-game-securit](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-game-security)
+
+[该课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
+
+## JNI 基于 Linux 动态函数注册 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
+
+项目地址：
+
+[jni-dynamic-register-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/jni-dynamic-register-for-linux)
+
+[该课程观看地址](https://www.bilibili.com/read/cv7893718)
+
+## Kali Linux 内核编程 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
+
+项目地址：
+
+[kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
+
+[该课程观看地址](https://www.bilibili.com/read/cv8504716)
+
+## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
+
+项目地址：
+
+[baidu-cloud-auto-share-link](https://gitee.com/OpenDevel/java-for-linux/tree/master/baidu-cloud-auto-share-link)
+
+[opencv-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/opencv-for-linux)
+
+[tesseract-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/tesseract-for-linux)
+
+[该课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
+
 ## JVM 源码内嵌写 Native 函数给 Java 层调用 开源课程
 
 [JVM 系列课程观看地址](https://www.bilibili.com/video/BV1DD4y1U7k6)
@@ -230,53 +276,7 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-## Java 游戏安全 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-game-security.png)
-
-项目地址：
-
-[java-game-securit](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-game-security)
-
-[该课程观看地址](https://www.bilibili.com/video/BV1nQ4y1T7yp)
-
-## JNI 基于 Linux 动态函数注册 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/jni-dynamic-register-for-linux.png)
-
-项目地址：
-
-[jni-dynamic-register-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/jni-dynamic-register-for-linux)
-
-[该课程观看地址](https://www.bilibili.com/read/cv7893718)
-
-## Kali Linux 内核编程 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/kali-linux-kernel-programmer.png)
-
-项目地址：
-
-[kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
-
-[该课程观看地址](https://www.bilibili.com/read/cv8504716)
-
-## 基于 Java For OpenCV 的百度云失效链接自动分享 开源课程
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/baidu-cloud-auto-share-link-02.png)
-
-项目地址：
-
-[baidu-cloud-auto-share-link](https://gitee.com/OpenDevel/java-for-linux/tree/master/baidu-cloud-auto-share-link)
-
-[opencv-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/opencv-for-linux)
-
-[tesseract-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/tesseract-for-linux)
-
-[该课程观看地址](https://www.bilibili.com/video/BV1po4y1f7eq)
-
-## 其他开源项目（暂时不介绍用来做什么的）
+# 其他开源项目（暂时不介绍用来做什么的）
 
 ## exagear-desktop-rpi3 project 其他开源项目
 

@@ -1,0 +1,6 @@
+export enum MutationTypes {
+    ADD_PROCESS = "ADD_PROCESS",
+    DEL_PROCESS = "DEL_PROCESS",
+    SET_PROCESS = "SET_PROCESS",
+    RESET_PROCESS = "RESET_PROCESS"
+}

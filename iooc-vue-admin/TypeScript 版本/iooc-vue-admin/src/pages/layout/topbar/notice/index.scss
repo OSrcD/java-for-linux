@@ -1,0 +1,11 @@
+.app-tools-notice {
+  position: relative;
+
+  .el-icon-message-solid {
+    font-size: 20px;
+  }
+
+  /deep/.el-badge {
+    transform: scale(0.8);
+  }
+}

@@ -1,0 +1,33 @@
+.app-topbar-menu {
+  /deep/.el-menu {
+    height: 50px;
+    background: transparent;
+    border-bottom: 0;
+    overflow: hidden;
+
+    .el-menu-item {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border-bottom: 0;
+      padding: 0 30px;
+
+      span {
+        font-size: 12px;
+        margin-left: 3px;
+        line-height: normal;
+      }
+
+      &.is-active {
+        background: rgba(255, 255, 255, 0.13);
+      }
+
+      /deep/.icon-svg {
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.popper-dropdown-menu-user {
+  width: 120px;
+}
+
+.layout-topbar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  background-color: #fff;
+
+  &__collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+    .icon-svg {
+      height: 22px;
+      width: 22px;
+    }
+  }
+
+  .flex1 {
+    flex: 1;
+  }
+
+  &__tools {
+    margin-right: 20px;
+
+    ::v-deep li {
+      list-style: none;
+      height: 45px;
+      width: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      i {
+        font-size: 16px;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  &__user {
+    margin-right: 10px;
+    cursor: pointer;
+
+    .el-dropdown-link {
+      display: flex;
+      align-items: center;
+    }
+
+    .avatar {
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+    }
+
+    .name {
+      white-space: nowrap;
+      margin-right: 15px;
+    }
+
+    .el-icon-arrow-down {
+      margin-left: 10px;
+    }
+  }
+}

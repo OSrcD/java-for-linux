@@ -99,7 +99,7 @@
 ## 在线教育
 ......
 
-项目地址：
+文件夹：
 
 [online-education](https://gitee.com/OpenDevel/java-for-linux/tree/master/online-education/course)
 
@@ -107,7 +107,7 @@
 
 ......
 
-项目地址：
+文件夹：
 
 [social-sharing](https://gitee.com/OpenDevel/java-for-linux/tree/master/social-sharing)
 
@@ -115,7 +115,7 @@
 
 ......
 
-项目地址：
+文件夹：
 
 [movie-trailer](https://gitee.com/OpenDevel/java-for-linux/tree/master/movie-trailer)
 
@@ -123,7 +123,7 @@
 
 ......
 
-项目地址：
+文件夹：
 
 [oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
 
@@ -291,11 +291,11 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-# 其他开源项目（暂时不介绍用来做什么的）
+# 其他（暂时不介绍用来做什么的）
 
-## exagear-desktop-rpi3 project 其他开源项目
+## exagear-desktop-rpi3 project 其他
 
-项目地址：
+文件夹：
 
 [exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
 

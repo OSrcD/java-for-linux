@@ -56,7 +56,7 @@
 
 ## 电商
 
-项目地址：
+文件夹：
 
 [foodie-center](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-center)
 
@@ -291,9 +291,9 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-# 其他（暂时不介绍用来做什么的）
+# 其他开源项目（暂时不介绍用来做什么的）
 
-## exagear-desktop-rpi3 project 其他
+## exagear-desktop-rpi3
 
 文件夹：
 
@@ -311,7 +311,7 @@ JVM 系列的项目地址：
 
 # 开源项目福利
 
-集成开源课程&项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
+集成开源课程 & 项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
 
 可以免费使用 JetBrains 全家桶所有产品
 

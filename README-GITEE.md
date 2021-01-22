@@ -291,9 +291,9 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-# 其他（暂时不介绍用来做什么的）
+# 其他开源项目（暂时不介绍用来做什么的）
 
-## exagear-desktop-rpi3 project 其他
+## exagear-desktop-rpi3
 
 文件夹：
 

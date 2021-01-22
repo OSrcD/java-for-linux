@@ -127,9 +127,6 @@
 
 [oa](https://gitee.com/OpenDevel/java-for-linux/tree/master/oa)
 
-[项目观看地址](https://www.bilibili.com/video/BV1tK411L7Wo)
-
-
 ## Java 泡泡堂 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/bubble-hall.png)

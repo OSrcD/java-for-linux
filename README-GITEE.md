@@ -336,6 +336,13 @@ JVM 系列的项目地址：
 
 [Teambition 提供云盘 & 记笔记服务](https://www.teambition.com)
 
+## java-for-linux & iooc-admin 开源项目 交流群
+
+**QQ 群**号 : **741396149**
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/group.png)
+
+
 ## 微信赞赏码
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/赞赏码.png)

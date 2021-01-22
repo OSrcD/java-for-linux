@@ -44,13 +44,15 @@
 
 ## TS JS 双版本前端通用后台权限管理系统开源项目（Vue 3.x TypeScript element-plus）
 
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/iooc-admin.png)
+
 项目地址：
 
 [iooc-admin](https://github.com/MyJacking/iooc-vue-admin)
 
 [项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
 
-## 电商 开源项目
+## 电商
 
 ......
 
@@ -94,14 +96,14 @@
 
 [主播端线上体验地址](https://120.77.47.215:8443/admin.html)
 
-## 在线教育 开源项目
+## 在线教育
 ......
 
 项目地址：
 
 [online-education](https://gitee.com/OpenDevel/java-for-linux/tree/master/online-education/course)
 
-## 社交分享 开源项目
+## 社交分享
 
 ......
 
@@ -109,7 +111,7 @@
 
 [social-sharing](https://gitee.com/OpenDevel/java-for-linux/tree/master/social-sharing)
 
-## 电影预告 开源项目
+## 电影预告
 
 ......
 
@@ -117,7 +119,7 @@
 
 [movie-trailer](https://gitee.com/OpenDevel/java-for-linux/tree/master/movie-trailer)
 
-## OA 办公 开源项目
+## OA 办公
 
 ......
 

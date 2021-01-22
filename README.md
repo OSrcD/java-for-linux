@@ -44,6 +44,14 @@
 
 [项目观看地址](https://www.bilibili.com/video/BV1MK4y1L7nU)
 
+## TS JS 双版本前端通用后台权限管理系统开源项目（Vue 3.x TypeScript element-plus）
+
+项目地址：
+
+[iooc-admin](https://github.com/MyJacking/iooc-vue-admin)
+
+[项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
+
 ## 电商 开源项目
 
 项目地址：
@@ -335,11 +343,15 @@ JVM 系列的项目地址：
 
 [Teambition 提供云盘 & 记笔记服务](https://www.teambition.com)
 
+# 开源项目交流群
+
 ## java-for-linux & iooc-admin 开源项目 交流群
 
 **QQ 群**号 : **741396149**
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/group.png)
+
+# 开源赞赏
 
 ## 微信赞赏码
 

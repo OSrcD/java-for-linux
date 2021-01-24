@@ -100,7 +100,7 @@ hystrix.command.default.circuitBreaker.requestVolumeThreshold=5
 hystrix.command.default.circuitBreaker.errorThresholdPercentage=50
 # 当熔断开启以后，经过多少秒再进入半开状态
 hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds=15000
-# 配置时间窗口
+# 配置时间窗口 metrics 翻译为 度量 指标
 hystrix.command.default.metrics.rollingStats.timeInMilliseconds=20000
 
 

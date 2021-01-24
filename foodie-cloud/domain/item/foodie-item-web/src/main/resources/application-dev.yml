@@ -27,3 +27,19 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+
+## 开启所有actuator-endpoint
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  #        include: health,info,xxx
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN

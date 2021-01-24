@@ -20,6 +20,8 @@
         <module>feign/feign-consumer-advanced</module>
         <module>feign/feign-client</module>
         <module>hystrix/hystrix-fallback</module>
+        <module>hystrix/hystrix-turbine</module>
+        <module>hystrix/hystrix-dashboard</module>
     </modules>
 
     <properties>

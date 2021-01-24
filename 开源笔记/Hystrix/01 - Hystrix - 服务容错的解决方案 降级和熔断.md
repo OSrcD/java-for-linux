@@ -1,0 +1,210 @@
+![](https://tcs.teambition.net/storage/31218078093cf706bbcf69447ea6dfc947e1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4MDc4MDkzY2Y3MDZiYmNmNjk0NDdlYTZkZmM5NDdlMSJ9.CTwDO27KloQeYLetBXDrsajWSHf9MvSSL02pczT7yH0&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31210c239b0b9e4ac6e9f8ff60b2c4471d3b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEwYzIzOWIwYjllNGFjNmU5ZjhmZjYwYjJjNDQ3MWQzYiJ9.TdXh9MKJ9mVxH30KbyA6iBzNyh38m3VqPHwAHbwO958&download=image.png "")
+
+Hystrix服务熔断
+
+【图文】熔断器工作原理
+
+【Demo】集成Hystrix熔断器
+
+![](https://tcs.teambition.net/storage/3121c8123f166df2862d346f86f5370dc484?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFjODEyM2YxNjZkZjI4NjJkMzQ2Zjg2ZjUzNzBkYzQ4NCJ9.4-kKp2ZuV5oYR5z78IcKrQyFQbqRc6-mTCNX09zxpls&download=image.png "")
+
+线程隔离方案（线程池 & 信号量）
+
+![](https://tcs.teambition.net/storage/31214a9afb3b439ce9e434b67d4605d8de9c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0YTlhZmIzYjQzOWNlOWU0MzRiNjdkNDYwNWQ4ZGU5YyJ9.MmfTV0C-x05pyQfo5pZMsOtTF-Ic_zxMNHwY3P101KI&download=image.png "")
+
+课程小结与作业
+
+![](https://tcs.teambition.net/storage/312181ab816be06424bdbf3ff84923338f63?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4MWFiODE2YmUwNjQyNGJkYmYzZmY4NDkyMzMzOGY2MyJ9.MgcsHttHQpwI9RQ-n8Gwq7zb26gqnOS7ber3ArZvWjE&download=image.png "")
+
+如果服务C 因为某些原因 数据库的连接池被耗光了 导致查询语句 写入语句特别慢
+
+其他调用服务C的服务可能会发生timeout超时
+
+
+
+整条服务链路 没有对timeout 很好的管控
+
+
+
+![](https://tcs.teambition.net/storage/31218c072942c577e3545c4ab68d41252a0c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4YzA3Mjk0MmM1NzdlMzU0NWM0YWI2OGQ0MTI1MmEwYyJ9.Wu2KDYsOUO0_Ai10EouF0IblpLsfbA5Cx5zSexTceUU&download=%E6%9C%AA%E6%A0%87%E9%A2%98-1.png "")
+
+Request 团灭
+
+![](https://tcs.teambition.net/storage/31214ec9b122b3c4f27e446c5a9b60d39345?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0ZWM5YjEyMmIzYzRmMjdlNDQ2YzVhOWI2MGQzOTM0NSJ9.VPgsaeHn6hNuTxq0eyLJL8vmxTrgoj-HbMgDN6B7R18&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121f35d4441a60d06d21c5c49afa0138abe?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFmMzVkNDQ0MWE2MGQwNmQyMWM1YzQ5YWZhMDEzOGFiZSJ9.S7O1P0gIR4SbAw7W81VDSXZBQL_-MzMxQFQ4VYohpTA&download=image.png "")
+
+当前的Request 变红少了 Timeout 退出了 还有新请求 没有用
+
+后台的服务集群瘫痪了
+
+来新的请求无非就是增加压力
+
+就要用到降级了
+
+熔断相对降级来说 
+
+熔断建立在降级之上的
+
+
+
+
+
+这里的服务C处于半死不活的状态 
+
+还可以处理请求 但响应慢了
+
+发过去的请求有可能长时间不返回
+
+连累了调用服务方了
+
+![](https://tcs.teambition.net/storage/3121443a9f47442f3cbc4074634579adc3db?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE0NDNhOWY0NzQ0MmYzY2JjNDA3NDYzNDU3OWFkYzNkYiJ9.F2vk5i789T2cWpQdiFD7vKRsz9Ls0ClqOI_kP_tvXvo&download=%E6%9C%AA%E6%A0%87%E9%A2%98-1.png "")
+
+
+
+![](https://tcs.teambition.net/storage/3121c7a6dc31549d432a87b1c037e4879997?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFjN2E2ZGMzMTU0OWQ0MzJhODdiMWMwMzdlNDg3OTk5NyJ9.jIttBBT8iaSnPM8jWQJkNHL8I3S8nMKX9oPH69jU1VU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3121c34c840404051d5eff264812b79d1751?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFjMzRjODQwNDA0MDUxZDVlZmYyNjQ4MTJiNzlkMTc1MSJ9._E7ZvgGod9M1_uDlxOab3o8K465HwdfomPQe-gaIU3w&download=image.png "")
+
+C 消耗的时间更长
+
+所有访问服务C的Request都处于挂机状态
+
+Tomcat 容器线程池会被耗尽
+
+服务其他的请求就无法接待了
+
+
+
+解决方案 线程隔离方案
+
+
+
+![](https://tcs.teambition.net/storage/3121382bd6b52a96e43496a443ff35e106a5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjEzODJiZDZiNTJhOTZlNDM0OTZhNDQzZmYzNWUxMDZhNSJ9.lcaMp7G2_V13qkTaJHY9Tyfw0JpXJiaWHIQV6lPBRZk&download=%E6%9C%AA%E6%A0%87%E9%A2%98-1.png "")
+
+如果你在商品详情页面 商品评论模块的服务 挂掉了 没啥影响
+
+下单接口挂掉了 挂一分钟 资损相当大的 
+
+
+
+ 这里我有引入了主链路的概念 商品详情页的用户评论服务 并不是一个主链路的服务
+
+而下单是却是一个主链路上核心服务 
+
+熔断和降级 保证系统的可用性 主链路保卫战
+
+
+
+![](https://tcs.teambition.net/storage/31218605b4d6bf58f0249440e8cbc5936b47?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE4NjA1YjRkNmJmNThmMDI0OTQ0MGU4Y2JjNTkzNmI0NyJ9.HY3BMWfE1vx9cmuwleWILBKdBjr-BZMTOU9LOlrHXL0&download=image.png "")
+
+在容器级别 给每个不同的服务  分配一个特定的线程池 不管这个服务发生什么情况
+
+你所能影响的线程数 永远是我给你指定那个线程池中的最大线程数 不会干扰到其他线程
+
+![](https://tcs.teambition.net/storage/3121700f4ad914b05299645af79378678ade?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE3MDBmNGFkOTE0YjA1Mjk5NjQ1YWY3OTM3ODY3OGFkZSJ9.ZWTjZjjMLg4aHL-d6rHSCPWJevOLoAXpRfW5VYUVQio&download=image.png "")
+
+有可能你接下来的访问请求
+
+压垮了最后一根稻草
+
+对于已经发生故障异常的服务 
+
+减少访问请求
+
+熔断的含义是快速失败
+
+当这个服务打上熔断标签
+
+在一定时间内 我将采取快速失败
+
+直接把用户来方请求导向降级流程
+
+而不是实际发起一起远程调用
+
+这里我说的情况是熔断开启的时候
+
+![](https://tcs.teambition.net/storage/3121bd1b622f03485ffb3a760a34de7876d7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFiZDFiNjIyZjAzNDg1ZmZiM2E3NjBhMzRkZTc4NzZkNyJ9.8GPjkrEdskENTmcuRgdzIuUDP78KZrscRECMDwPgkCo&download=%E6%9C%AA%E6%A0%87%E9%A2%98-1.png "")
+
+降到系统最小的可用性
+
+确保主链路正常情况下  我整个系统提供最小限度可用性服务
+
+只是为了活下去 保证系统的可用性
+
+![](https://tcs.teambition.net/storage/312150862b2d8d6978dd2c8c2637247ab619?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjE1MDg2MmIyZDhkNjk3OGRkMmM4YzI2MzcyNDdhYjYxOSJ9.5GZWdbrWISgLIJKBpFfxocCe6vlUsudeqvTCOV2nSeU&download=%E6%9C%AA%E6%A0%87%E9%A2%98-1.png "")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjA3MDQ5MywiaWF0IjoxNjExNDY1NjkzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.hGBcAYZbYHZPNk_RDTTTKRAB2KnqD14Y_HLmGpSfZZA&download=image.png "")
+

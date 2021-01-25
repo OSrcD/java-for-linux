@@ -42,7 +42,10 @@ foodie-user-service:
     OkToRetryOnAllOperations: true
 
 # Feign 超时判定 优先级高于Ribbon
+# 可以通过这里控制Feign 接口上 降级 是否开启 或者是关闭
 feign:
+  hystrix:
+    enabled: true
   client:
     config:
       # 全局配置
@@ -69,3 +72,32 @@ management:
       name: gitee
       password: gitee
       roles: ADMIN
+
+hystrix:
+  command:
+    # 有的属性是默认值，写不写都行
+    default:
+      fallback:
+        enabled: true
+      circuitBreaker:
+        enabled: true
+        # 超过50%错误，那么开启熔断
+        errorThresholdPercentage: 50
+        # 5个request之后才进行统计
+        requestVolumeThreshold: 5
+        # 10秒之后进入半开状态
+        sleepWindowInMilliseconds: 10000
+        # forceClosed, forceOpen 强制关闭/开启熔断开关
+      execution:
+        timeout:
+          enabled: true
+        # 可以指定隔离方式是线程池还是信号量
+        isolation:
+          thread:
+            interruptOnTimeout: true
+            interruptOnFutureCancel: true
+            timeoutInMilliseconds: 10000
+      metrics:
+        rollingStats:
+          # 时间窗口统计
+          timeInMilliseconds: 20000

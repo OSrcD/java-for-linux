@@ -5,6 +5,14 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
+
+
+/**
+ * 内部的降级（商品中心） 放到item-server里面实现
+ * 调用方降级（订单中心，调用商品中心服务） 由订单中心定义降级逻辑
+ */
+
+
 @FeignClient("foodie-item-service")
 @RequestMapping("item-comments-api")
 public interface ItemCommentsService {

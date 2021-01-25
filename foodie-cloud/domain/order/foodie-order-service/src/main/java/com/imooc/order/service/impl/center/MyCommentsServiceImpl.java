@@ -1,7 +1,7 @@
 package com.imooc.order.service.impl.center;
 
 import com.imooc.enums.YesOrNo;
-import com.imooc.item.service.ItemCommentsService;
+import com.imooc.order.fallback.itemservice.ItemCommentsFeignClient;
 import com.imooc.order.mapper.OrderItemsMapper;
 import com.imooc.order.mapper.OrderStatusMapper;
 import com.imooc.order.mapper.OrdersMapper;
@@ -10,17 +10,13 @@ import com.imooc.order.pojo.OrderStatus;
 import com.imooc.order.pojo.Orders;
 import com.imooc.order.pojo.bo.center.OrderItemsCommentBO;
 import com.imooc.order.service.center.MyCommentsService;
-import com.imooc.pojo.PagedGridResult;
 import com.imooc.service.BaseService;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -41,7 +37,7 @@ public class MyCommentsServiceImpl extends BaseService implements MyCommentsServ
     @Autowired
     public OrderStatusMapper orderStatusMapper;
 
-//    @Autowired
+    //    @Autowired
 //    public ItemsCommentsMapperCustom itemsCommentsMapperCustom;
     // TODO feign章节里改成item-api
 //    @Autowired
@@ -49,7 +45,8 @@ public class MyCommentsServiceImpl extends BaseService implements MyCommentsServ
 //    @Autowired
 //    private RestTemplate restTemplate;
     @Autowired
-    private ItemCommentsService itemCommentsService;
+//    private ItemCommentsService itemCommentsService;
+    private ItemCommentsFeignClient itemCommentsService;
 
     @Autowired
     private Sid sid;

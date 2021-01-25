@@ -1,5 +1,10 @@
 package com.imooc.order;
 
+import com.imooc.item.service.ItemService;
+import com.imooc.order.fallback.itemservice.ItemCommentsFeignClient;
+import com.imooc.user.service.AddressService;
+import com.imooc.user.service.UserService;
+import feign.Client;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -19,10 +24,21 @@ import tk.mybatis.spring.annotation.MapperScan;
 @EnableDiscoveryClient
 @EnableScheduling
 // TODO feign注解
-@EnableFeignClients(basePackages = {
-        "com.imooc.user.service",
-        "com.imooc.item.service"
-})
+@EnableFeignClients(
+
+        // 加载指定的 FeignClient 注解的接口
+       clients = {
+               ItemCommentsFeignClient.class,
+               ItemService.class,
+               UserService.class,
+               AddressService.class
+        }
+//        basePackages = {
+//        "com.imooc.user.service",
+//        "com.imooc.item.service",
+//        "com.imooc.order.fallback.itemservice"
+//    }
+)
 public class OrderApplication {
 
     public static void main(String[] args) {

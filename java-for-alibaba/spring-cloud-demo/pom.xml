@@ -22,6 +22,7 @@
         <module>hystrix/hystrix-fallback</module>
         <module>hystrix/hystrix-turbine</module>
         <module>hystrix/hystrix-dashboard</module>
+        <module>config/config-server</module>
     </modules>
 
     <properties>

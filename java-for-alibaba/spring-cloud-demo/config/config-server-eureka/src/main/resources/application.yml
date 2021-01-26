@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-server-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/OSrcD/config-repo.git
+          force-pull: true
+
+
+eureka:
+  client:
+    # 如果写错 会默认访问 localhost:87 几的端口 去访问注册中心
+    service-url:
+      defaultZone: http://localhost:20000/eureka/
+
+server:
+  port: 60001
+
+

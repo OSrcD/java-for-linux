@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    # 配置 config 属性
+    config:
+      server:
+        # 基于 git 的配置属性 配置
+        git:
+          # 指定 git 仓库
+          uri: https://github.com/OSrcD/config-repo.git
+          force-pull: true
+          # git 下面可能存放的子目录 子目录下才是你存放配置文件的地方
+          # 比如说 你有很多个项目 共用同一个代码 仓库来管理配置文件 每个项目就可以使用不同的文件夹
+          # 可以配置多是目录
+#          search-paths: abc, def*
+#          username:
+#          password:
+
+server:
+  port: 60000

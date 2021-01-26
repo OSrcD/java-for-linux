@@ -5,8 +5,10 @@ spring:
   datasource:                                           # 数据源的相关配置
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+#    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+#    password: SocialPG
+    url: ${mariadb.url}
+    password: ${mariadb.password}
   redis:
     # Redis 单机单实例
     database: 0
@@ -29,20 +31,21 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 ## 开启所有actuator-endpoint
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-#        include: health,info,xxx
-  security:
-    user:
-      name: gitee
-      password: gitee
-      roles: ADMIN
+# 第一步去配置中心 拉取这些属性 自动的加载到上下文当中 是有一样的key
+# 我们这里可以直接把它删掉
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  security:
+#    user:
+#      name: gitee
+#      password: gitee
+#      roles: ADMIN
 
 hystrix:
   command:

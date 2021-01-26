@@ -20,3 +20,18 @@ server:
 # 自定义属性 myWords ${words} 从 git 仓库获取的 words
 myWords: ${words}
 
+
+management:
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
+  endpoints:
+    web:
+      exposure:
+        # 使用"" 才能识别 *
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

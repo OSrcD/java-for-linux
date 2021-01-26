@@ -1,0 +1,39 @@
+server:
+  port: 20003
+
+
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        overrides:
+          # 属性重载 也就是把属性覆盖掉吧
+          test: mytest
+        git:
+          uri: https://github.com/OSrcD/foodie-cloud-config.git
+          force-pull: true
+          # 在主目录创建不同的文件夹 管理配置文件
+          # 将配置文件放到接入方服务名称对应文件夹下
+          search-paths: '{application}'
+          # username:
+          # password:
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
+
+## 开启所有actuator-endpoint
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false

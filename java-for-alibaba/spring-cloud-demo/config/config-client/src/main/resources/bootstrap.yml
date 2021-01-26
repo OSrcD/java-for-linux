@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      # 覆盖 上面的name 指定 git 远端 Repository
+      name: config-consumer
+      # 指向config server 的端口
+      uri: http://localhost:60000
+      # 真实项目中 可以配置操作系统环境变量
+      # 或者在启动 Tomcat 的时候 给它指定一些属性 参数 注入进来
+      # 这样 profile 就跟 环境挂钩起来了 比方说 我们在日常测试的机器上
+      # 启动项里面 profile 注入的是 dev
+      # 真正生产环境注入 production 就可以根据动态转入的profile 去github拉取到正确的文件
+      profile: prod
+      label: main
+server:
+  port: 61000
+
+# 自定义属性 myWords ${words} 从 git 仓库获取的 words
+myWords: ${words}
+

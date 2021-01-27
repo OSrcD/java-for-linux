@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      # 利用服务发现机制 自动创建路由规则 跟 Eureka 相关
+      discovery:
+        # 定位器 通过 discovery 的服务发现 把你的服务 在 Eureka 注册中心
+        # 注册好的 所有服务 统统的给它定位到 怎么定位好的 gateway 的问题
+        locator:
+          # 自动创建服务路由开关给它打开
+          enabled: true
+          # 小写 路由寻址 调用服务 大写失效
+          lower-case-service-id: true
+
+
+
+
+server:
+  port: 65000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
+
+management:
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

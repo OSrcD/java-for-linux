@@ -27,6 +27,7 @@
         <module>config/config-server-eureka</module>
         <module>bus/config-bus-server</module>
         <module>bus/config-bus-client</module>
+        <module>gateway/gateway-sample</module>
     </modules>
 
     <properties>

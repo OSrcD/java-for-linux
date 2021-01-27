@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: config-bus-client
+  # rabbitmq 连接字符串
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      # 默认 绑定器 用于与消息中间件通信的组件 引入了多个binder 一定要设置
+      default-binder: rabbit
+    config:
+      # spring.application.name 与 github 的 文件夹或文件不一致的时候
+      # 可以强制指定一个 name
+      name: config-consumer
+#      uri: http://localhost:60000
+      discovery:
+        enabled: true
+        service-id: config-bus-server
+      profile: prod
+      label: main
+
+server:
+  port: 61001
+
+myWords: ${words}
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
+
+management:
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
+  endpoints:
+    web:
+      exposure:
+        # 使用"" 才能识别 *
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+
+
+
+
+
+

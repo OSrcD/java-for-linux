@@ -25,6 +25,7 @@
         <module>config/config-server</module>
         <module>config/config-client</module>
         <module>config/config-server-eureka</module>
+        <module>bus/config-bus-server</module>
     </modules>
 
     <properties>

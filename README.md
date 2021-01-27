@@ -211,11 +211,11 @@
 
 ## Kali Linux 内核编程 开源课程
 
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/kali-linux-kernel-programmer.png)
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/kali-linux-kernel-programming.png)
 
 项目地址：
 
-[kali-linux-kernel-programmer](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programmer)
+[kali-linux-kernel-programming](https://gitee.com/OpenDevel/java-for-linux/tree/master/kali-linux-kernel-programming)
 
 [该课程观看地址](https://www.bilibili.com/read/cv8504716)
 

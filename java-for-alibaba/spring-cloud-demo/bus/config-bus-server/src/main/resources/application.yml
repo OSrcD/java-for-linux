@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: config-bus-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/OSrcD/config-repo.git
+          force-pull: true
+          # 强制拉取资源文件
+#          search-paths:
+#          username:
+#          password:
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
+
+server:
+  port: 60002
+
+
+management:
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
+  endpoints:
+    web:
+      exposure:
+        # 使用"" 才能识别 *
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

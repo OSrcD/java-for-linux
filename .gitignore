@@ -72,7 +72,7 @@ NashornProfile.txt
 # ignore local configuration
 config.*
 config/*
-Makefile
+# Makefile
 Makefile.in
 *.m4
 

@@ -37,6 +37,26 @@
             <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
         </dependency>
 
+        <!-- 因为spring cloud gateway是基于webflux的，
+        如果非要web支持的话需要导入spring-boot-starter-webflux而不是spring-boot-start-web-->
+        <dependency>
+            <groupId>com.imooc</groupId>
+            <artifactId>auth-service-api</artifactId>
+            <version>${project.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+        </dependency>
 
     </dependencies>
 

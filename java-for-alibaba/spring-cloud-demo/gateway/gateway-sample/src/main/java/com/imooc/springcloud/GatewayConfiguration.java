@@ -17,6 +17,10 @@ public class GatewayConfiguration {
     @Autowired
     private TimerFilter timerFilter;
 
+
+    @Autowired
+    private AuthFilter authFilter;
+
     /**
      * RouteLocator 地址定位
      * Bean 注解 会作为初始化的一部分 自然有一个在当前上下文中已经初始化好的 builder 传给你
@@ -37,6 +41,7 @@ public class GatewayConfiguration {
                                  */
                                 .filter(timerFilter)
 //                                .filter(timerFilter)
+                                .filter(authFilter)
                         )
                         .uri("lb://FEIGN-CLIENT")
                 )

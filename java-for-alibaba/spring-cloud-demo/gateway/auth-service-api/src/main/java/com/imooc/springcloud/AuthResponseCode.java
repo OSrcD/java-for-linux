@@ -1,6 +1,6 @@
 package com.imooc.springcloud;
 
-public class ErrorCode {
+public class AuthResponseCode {
     
     public static final Long SUCCESS = 1L;
 

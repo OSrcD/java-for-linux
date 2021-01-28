@@ -1,5 +1,6 @@
 package com.imooc.springcloud;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +12,10 @@ import java.time.ZonedDateTime;
 
 @Configuration
 public class GatewayConfiguration {
+
+
+    @Autowired
+    private TimerFilter timerFilter;
 
     /**
      * RouteLocator 地址定位
@@ -27,24 +32,29 @@ public class GatewayConfiguration {
                         .and().header("name")
                         .filters(f -> f.stripPrefix(1)
                                 .addResponseHeader("java-param", "gateway-config")
+                                /**
+                                 * 添加自定义 filter
+                                 */
+                                .filter(timerFilter)
+//                                .filter(timerFilter)
                         )
                         .uri("lb://FEIGN-CLIENT")
                 )
                 .route(r -> r.path("/seckill/**")
-                        .and()
-                        /**
-                         * 告诉 Gateway 当前的这个路由规则 只在某个时间点以后生效
-                         * now 也就是当前的时间点
-                         * 它是说 当你服务启动加载完成以后 往后推迟一分钟生效
-                         * 也就是 一分钟后才生效的秒杀场景
-                         * before 是说在某个时间点以前 路由规则才生效 过了这个时间点就生效
-                         * between 这个路由规则 会在这两个时间段生效
-                         */
-                        .after(ZonedDateTime.now().plusMinutes(1))
+                                .and()
+                                /**
+                                 * 告诉 Gateway 当前的这个路由规则 只在某个时间点以后生效
+                                 * now 也就是当前的时间点
+                                 * 它是说 当你服务启动加载完成以后 往后推迟一分钟生效
+                                 * 也就是 一分钟后才生效的秒杀场景
+                                 * before 是说在某个时间点以前 路由规则才生效 过了这个时间点就生效
+                                 * between 这个路由规则 会在这两个时间段生效
+                                 */
+                                .after(ZonedDateTime.now().plusMinutes(1))
 //                        .and().before()
 //                        .and().between()
-                        .filters(f -> f.stripPrefix(1))
-                        .uri("lb://FEIGN-CLIENT")
+                                .filters(f -> f.stripPrefix(1))
+                                .uri("lb://FEIGN-CLIENT")
                 )
                 // 把当前 builder 所有的属性全部组装最终返回一个完整的 RouteLocator 对象
                 .build();

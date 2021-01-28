@@ -31,7 +31,7 @@ spring:
 
 
 server:
-  port: 65000
+    port: 65000
 
 eureka:
   client:

@@ -12,8 +12,22 @@ spring:
           enabled: true
           # 小写 路由寻址 调用服务 大写失效
           lower-case-service-id: true
-
-
+      # 定义 路由 过滤器
+      routes:
+        # yml 格式 一个 list 元素 或 数组 以什么开头 以一个短横杆开头
+        # id 当前路由的唯一标识
+        - id: feignclient
+          # 如果匹配上了所有的断言 那么这个用户请求将要转发到哪里
+          uri: lb://FEIGN-CLIENT
+          # 配置断言集合
+          predicates:
+            # 配置匹配的路径 ** 表示所有以 yml开头的都转发到这里
+            - Path=/yml/**
+          # 定义过滤器集合 也是一个数组
+          filters:
+            # //localhost:9000/yml/sayHi 切断它的前缀 //localhost:9000/sayHi
+            # 转发到的地址会变成 //FEIGN-CLIENT/sayHi
+            - StripPrefix=1
 
 
 server:

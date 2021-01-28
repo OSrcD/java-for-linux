@@ -28,6 +28,8 @@
         <module>bus/config-bus-server</module>
         <module>bus/config-bus-client</module>
         <module>gateway/gateway-sample</module>
+        <module>gateway/auth-service-api</module>
+        <module>gateway/auth-service</module>
     </modules>
 
     <properties>

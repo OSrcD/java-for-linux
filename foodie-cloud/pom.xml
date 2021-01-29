@@ -33,6 +33,8 @@
         <module>platform/hystrix-dashboard</module>
         <module>platform/config-server</module>
         <module>platform/gateway</module>
+        <module>domain/auth/foodie-auth-api</module>
+        <module>domain/auth/foodie-auth-service</module>
     </modules>
     <packaging>pom</packaging>
 

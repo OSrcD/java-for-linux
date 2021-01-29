@@ -10,6 +10,31 @@ spring:
     allow-bean-definition-overriding: true
   cloud:
     gateway:
+      # 全局跨域配置
+      globalcors:
+        # 配置各个不同的路径
+        cors-configurations:
+          # 全部路径
+          '[/**]':
+            # 返回的资源共享给请求来源
+            allowed-origins:
+            # - 配置多个属性
+            - "http://localhost:8080"
+            - "http://shop.z.mukewang.com:8080"
+            - "http://center.z.mukewang.com:8080"
+            - "http://shop.z.mukewang.com"
+            - "http://center.z.mukewang.com"
+            - "*"
+            # 允许携带一些认证信息 比如 cookie authorization之类的认证信息 是否可以暴露给前端页面
+            allow-credentials: true
+            # 可以允许接收那些 header * 所有 header都可以
+            allowed-headers: "*"
+            # 允许调用的方法
+            allowed-methods: "*"
+            # 可以暴露给前端用户 给它返回回去的 headers
+            expose-headers: "*"
+            # 单位是秒 600 秒 10分钟 表示Options可以在浏览器缓存多长时间
+            max-age: 600
       locator:
         # 在生产环境下会关闭 不会自动创建默认路由规则
         enabled: false

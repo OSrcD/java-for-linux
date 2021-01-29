@@ -28,12 +28,15 @@ eureka:
 
 ## 开启所有actuator-endpoint
 management:
-  endpoint:
-    health:
-      show-details: always
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
   endpoints:
     web:
       exposure:
-        include: '*'
-  security:
-    enabled: false
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

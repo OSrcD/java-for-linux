@@ -1,5 +1,9 @@
 package com.imooc.user.controller;
 
+import com.imooc.auth.service.AuthService;
+import com.imooc.auth.service.pojo.Account;
+import com.imooc.auth.service.pojo.AuthCode;
+import com.imooc.auth.service.pojo.AuthResponse;
 import com.imooc.controller.BaseController;
 import com.imooc.pojo.IMOOCJSONResult;
 import com.imooc.pojo.ShopcartBO;
@@ -39,6 +43,18 @@ public class PassportController extends BaseController {
 
     @Autowired
     private UserApplicationProperties userApplicationProperties;
+
+    @Autowired
+    private AuthService authService;
+
+    /**
+     * 定义 header 存储的值叫什么名字
+     */
+    private static final String AUTH_HEADER = "Authorization";
+
+    private static final String REFRESH_TOKEN_HEADER = "refresh-token";
+
+    private static final String UID_HEADER = "imooc-user-id";
 
     @ApiOperation(value = "用户名是否存在",notes = "用户名是否存在",httpMethod = "GET") // value是接口名称，可在导航标题下面显示 notes是说明
     @GetMapping("/usernameIsExist")
@@ -162,6 +178,7 @@ public class PassportController extends BaseController {
             return IMOOCJSONResult.errorMsg("用户名或密码不能为空");
         }
 
+
         // 1.实现登录
         Users userResult = userService.queryUserForLogin(username,
                 MD5Utils.getMD5Str(password));
@@ -169,6 +186,19 @@ public class PassportController extends BaseController {
         if(userResult == null){
             return IMOOCJSONResult.errorMsg("用户名或密码不正确");
         }
+
+        /**
+         * 生成token
+         */
+        AuthResponse token = authService.tokenize(userResult.getId());
+
+        // 判断 token
+        if (!AuthCode.SUCCESS.getCode().equals(token.getCode())) {
+            log.error("Token error - uid={}", userResult.getId());
+            return IMOOCJSONResult.errorMsg("Token error");
+        }
+
+        // 将token添加到Header当中
 
         userResult = setNullProperty(userResult);
 
@@ -304,6 +334,17 @@ public class PassportController extends BaseController {
         CookieUtils.deleteCookie(request, response, FOODIE_SHOPCART);
 
         return IMOOCJSONResult.ok();
+
+    }
+
+    // TODO 修改前端js代码
+    // 在前端页面里拿到Authorization，refresh-token和imooc-user-id。
+    // 前端每次请求服务，都把这几个参数带上
+    private void addAuth2Header(HttpServletResponse response, Account token) {
+
+        response.setHeader(AUTH_HEADER, token.getToken());
+        response.setHeader(REFRESH_TOKEN_HEADER,token.getRefreshToken());
+        response.setHeader(UID_HEADER, token.getUserId());
 
     }
 

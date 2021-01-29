@@ -1,0 +1,35 @@
+# 可以尝试集成config-server来配置
+spring:
+  application:
+    name: platform-gateway
+  cloud:
+    gateway:
+      locator:
+        # 在生产环境下会关闭 不会自动创建默认路由规则
+        enabled: false
+        lower-case-service-id: true
+
+
+server:
+  port: 20004
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:20000/eureka/
+
+## 开启所有actuator-endpoint
+management:
+  security:
+    user:
+      name: gitee
+      password: gitee
+      roles: ADMIN
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

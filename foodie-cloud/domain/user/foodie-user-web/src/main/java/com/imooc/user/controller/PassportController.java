@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 @Api(value="注册登录",tags = {"用于注册登录的相关接口"}) // tags是导航的标题 value不知道
@@ -199,6 +200,8 @@ public class PassportController extends BaseController {
         }
 
         // 将token添加到Header当中
+        addAuth2Header(response,token.getAccount());
+
 
         userResult = setNullProperty(userResult);
 
@@ -323,6 +326,19 @@ public class PassportController extends BaseController {
                                   HttpServletRequest request,
                                   HttpServletResponse response){
 
+        // 清理 token
+        Account account = Account.builder()
+                .token(request.getHeader(AUTH_HEADER))
+                .refreshToken(request.getHeader(REFRESH_TOKEN_HEADER))
+                .userId(userId)
+                .build();
+        AuthResponse auth = authService.delete(account);
+        if (!AuthCode.SUCCESS.getCode().equals(auth.getCode())) {
+            log.error("Token error - uid={}",userId);
+            return IMOOCJSONResult.errorMsg("Token error");
+        }
+
+
         // 清除用户的相关信息的cookie
         CookieUtils.deleteCookie(request,response,"user");
 
@@ -345,6 +361,14 @@ public class PassportController extends BaseController {
         response.setHeader(AUTH_HEADER, token.getToken());
         response.setHeader(REFRESH_TOKEN_HEADER,token.getRefreshToken());
         response.setHeader(UID_HEADER, token.getUserId());
+        /**
+         * Token 签发后 过一天就会过期了
+         * 让前端感知到，过期时间一天，这样可以在临近过期的时候refresh token
+         */
+        Calendar expTime = Calendar.getInstance();
+        expTime.add(Calendar.DAY_OF_MONTH, 1);
+        // + "" 强转为字符串
+        response.setHeader("token-exp-time",expTime.getTimeInMillis() + "");
 
     }
 

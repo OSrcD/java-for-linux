@@ -57,6 +57,10 @@ public class RoutesConfiguration {
 //                        .filters(f -> f.filter(authFilter))
                         .uri("lb://FOODIE-USER-SERVICE")
                 )
+                // 给前端调用刷新接口
+                .route(r -> r.path("/auth-service/refresh")
+                    .uri("lb://FOODIE-AUTH-SERVICE")
+                )
 
                 .route(r -> r.path("/search/**", "/index/**", "/items/search", "/items/catItems")
 

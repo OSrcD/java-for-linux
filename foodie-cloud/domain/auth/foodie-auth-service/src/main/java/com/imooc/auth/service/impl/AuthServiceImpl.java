@@ -2,6 +2,7 @@ package com.imooc.auth.service.impl;
 
 import com.imooc.auth.service.AuthService;
 import com.imooc.auth.service.pojo.Account;
+import com.imooc.auth.service.pojo.AuthCode;
 import com.imooc.auth.service.pojo.AuthResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +11,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
-
-import static com.imooc.auth.service.pojo.AuthCode.SUCCESS;
-import static com.imooc.auth.service.pojo.AuthCode.USER_NOT_FOUND;
 
 
 @RestController
@@ -41,7 +39,7 @@ public class AuthServiceImpl implements AuthService {
 
         return AuthResponse.builder()
                 .account(account)
-                .code(SUCCESS.getCode())
+                .code(AuthCode.SUCCESS.getCode())
                 .build();
     }
 
@@ -50,7 +48,7 @@ public class AuthServiceImpl implements AuthService {
         boolean success = jwtService.verify(account.getToken(), account.getUserId());
         return AuthResponse.builder()
                 // TODO 此处最好用invalid token之类的错误信息
-                .code(success ? SUCCESS.getCode() : USER_NOT_FOUND.getCode())
+                .code(success ? AuthCode.SUCCESS.getCode() : AuthCode.USER_NOT_FOUND.getCode())
                 .build();
     }
 
@@ -60,7 +58,7 @@ public class AuthServiceImpl implements AuthService {
         String userId = (String) redisTemplate.opsForValue().get(refreshToken);
         if (StringUtils.isBlank(userId)) {
             return AuthResponse.builder()
-                    .code(USER_NOT_FOUND.getCode())
+                    .code(AuthCode.USER_NOT_FOUND.getCode())
                     .build();
         }
 
@@ -72,12 +70,12 @@ public class AuthServiceImpl implements AuthService {
     public AuthResponse delete(@RequestBody Account account) {
         AuthResponse token = verify(account);
         AuthResponse resp = new AuthResponse();
-        if (SUCCESS.getCode().equals(token.getCode())) {
+        if (AuthCode.SUCCESS.getCode().equals(token.getCode())) {
             redisTemplate.delete(USER_TOKEN + account.getUserId());
             redisTemplate.delete(account.getRefreshToken());
-            resp.setCode(SUCCESS.getCode());
+            resp.setCode(AuthCode.SUCCESS.getCode());
         } else {
-            resp.setCode(USER_NOT_FOUND.getCode());
+            resp.setCode(AuthCode.USER_NOT_FOUND.getCode());
         }
         return resp;
     }

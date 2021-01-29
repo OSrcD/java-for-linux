@@ -206,7 +206,14 @@ public final class CookieUtils {
             if (cookieMaxage > 0)
                 cookie.setMaxAge(cookieMaxage);
             if (null != request) {// 设置域名的cookie
-            	String domainName = getDomainName(request);
+                // FIXME 上线之前改回来（仅限在localhost访问）
+                /**
+                 * 本地使用 localhost 为了防止浏览器前面的域名
+                 * 和最终经过 网关转发 到达 咱们 后台微服务 这个domainName
+                 * 有不一致的情况 在本地测试可以直接改成 localhost
+                 */
+//            	String domainName = getDomainName(request);
+                String domainName = "localhost";
                 logger.info("========== domainName: {} ==========", domainName);
                 if (!"localhost".equals(domainName)) {
                 	cookie.setDomain(domainName);

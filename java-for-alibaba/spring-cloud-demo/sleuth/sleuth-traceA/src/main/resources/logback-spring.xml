@@ -26,9 +26,52 @@
         </encoder>
     </appender>
 
+    <!-- 在log 文件 每一个输出都是一个appender -->
+    <!-- Logstash -->
+    <!-- 为logstash输出的JSON格式的Appender -->
+    <appender name="logstash"
+              class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <!-- appender 目标地址 Logstash 的端口 -->
+        <destination>127.0.0.1:5044</destination>
+        <!-- 日志输出编码 对log信息做一个encoder -->
+        <encoder
+                class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp>
+                    <!--标准的 UTC timeZone-->
+                    <timeZone>UTC</timeZone>
+                </timestamp>
+                <pattern>
+
+                    <pattern>
+                        {
+                        <!-- log的级别 -->
+                        "severity": "%level",
+                        <!-- service的名称 -->
+                        "service": "${springAppName:-}",
+                        <!-- trace id -->
+                        "trace": "%X{X-B3-TraceId:-}",
+                        <!-- span id -->
+                        "span": "%X{X-B3-SpanId:-}",
+                        "exportable": "%X{X-Span-Export:-}",
+                        "pid": "${PID:-}",
+                        <!-- 线程的名称 -->
+                        "thread": "%thread",
+                        "class": "%logger{40}",
+                        <!-- 真实的log信息 -->
+                        "rest": "%message"
+                        }
+                    </pattern>
+                </pattern>
+            </providers>
+        </encoder>
+    </appender>
+
     <!-- 日志输出级别 -->
     <root level="INFO">
         <appender-ref ref="console" />
+        <!-- 让logstash 起作用 输出到root节点下 -->
+        <appender-ref ref="logstash" />
     </root>
 
 </configuration>

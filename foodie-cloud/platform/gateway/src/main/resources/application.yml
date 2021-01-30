@@ -8,6 +8,23 @@ spring:
     database: 0
   main:
     allow-bean-definition-overriding: true
+  # 链路追踪
+  zipkin:
+    # 基于服务发现的机制
+    discoveryClientEnabled: true
+    # 基于高可用
+    base-url: http://ZIPKIN-SERVER/
+    # 关闭 zipkin
+    #    enabled: false
+    # 模仿配置
+    locator:
+      discovery:
+        # 通过服务发现 定位 它的 hostname
+        enabled: true
+  sleuth:
+    sampler:
+      probability: 1
+  # 跨域配置
   cloud:
     gateway:
       # 全局跨域配置

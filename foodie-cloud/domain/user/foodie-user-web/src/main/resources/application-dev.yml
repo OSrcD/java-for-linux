@@ -25,7 +25,32 @@ spring:
 #    password: imooc
 #    cluster:
 #      nodes: 192.168.245.141:6379,192.168.245.142:6379,192.168.245.143:6379,192.168.245.144:6379,192.168.245.145:6379,192.168.245.146:6379
-
+  #
+  zipkin:
+    # 基于服务发现的机制
+    discoveryClientEnabled: true
+    # 基于高可用
+    base-url: http://ZIPKIN-SERVER/
+    # 关闭 zipkin
+    #    enabled: false
+    # 模仿配置
+    locator:
+      discovery:
+        # 通过服务发现 定位 它的 hostname
+        enabled: true
+      # 以Http方式上传数据到zipkin
+      # WHY？ bus依赖项会导入rabbitmq的依赖项，zipkin会默认使用mq
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
+    ### 推送变更的时候用
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

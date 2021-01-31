@@ -1,5 +1,6 @@
 package com.imooc.springcloud.biz;
 
+import com.imooc.springcloud.topic.DelayedTopic;
 import com.imooc.springcloud.topic.GroupTopic;
 import com.imooc.springcloud.topic.MyTopic;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +28,8 @@ import org.springframework.cloud.stream.messaging.Sink;
          */
         Sink.class,
         MyTopic.class,
-        GroupTopic.class
+        GroupTopic.class,
+        DelayedTopic.class
     }
 )
 public class StreamConsumer {
@@ -51,15 +53,20 @@ public class StreamConsumer {
 
         log.info("message consumed successfully，payload={}", payload);
     }
-    @StreamListener(MyTopic.INPUT) // 这里的值就是 "input"
+    @StreamListener(MyTopic.INPUT)
     public void consumeMyMessage(Object payload) {
 
         log.info("My message consumed successfully，payload={}", payload);
     }
 
-    @StreamListener(GroupTopic.INPUT) // 这里的值就是 "input"
+    @StreamListener(GroupTopic.INPUT)
     public void consumeGroupMyMessage(Object payload) {
         log.info("Group message consumed successfully，payload={}", payload);
+    }
+
+    @StreamListener(DelayedTopic.INPUT)
+    public void consumeDelayedMessage(MessageBean bean) {
+        log.info("Delayed message consumed successfully，payload={}", bean.getPayload());
     }
 
 

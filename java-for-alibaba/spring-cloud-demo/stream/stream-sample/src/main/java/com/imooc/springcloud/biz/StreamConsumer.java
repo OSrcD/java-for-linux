@@ -1,5 +1,6 @@
 package com.imooc.springcloud.biz;
 
+import com.imooc.springcloud.topic.MyTopic;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
@@ -8,6 +9,7 @@ import org.springframework.cloud.stream.messaging.Sink;
 @Slf4j
 /**
  * 启动绑定信道
+ * 就是说 Binder与中间件之间绑定的信道接口 接口可以理解为规定好的行为类型的地址
  */
 @EnableBinding(value = {
 
@@ -22,8 +24,8 @@ import org.springframework.cloud.stream.messaging.Sink;
          * 并且把它加入到上下文当中
          *
          */
-        Sink.class
-
+        Sink.class,
+        MyTopic.class
     }
 )
 public class StreamConsumer {
@@ -37,10 +39,18 @@ public class StreamConsumer {
      * 通道的名称就是 Sink.INPUT  指定的值 默认为input
      * @StreamListener 将信道绑定到当前的这个方法上 和 RabbitMQ中的主题进行关联
      * 我们的方法体也就能够监听这个信道生成的消息去进行消费
-     * 默认信道接口 Sink
+     * 默认目的地信道接口 Sink 翻译为目的地
+     * 被注解之后通道与这个类通过反射绑定起来 从应用程序绑定到一起 多个
+     * 当binder与消息中间件通信 发送消息过来 通过反射实例化对象执行这些方法
+     *
      */
-    @StreamListener(Sink.INPUT)
+    @StreamListener(Sink.INPUT) // 这里的值就是 "input"
     public void consume(Object payload) {
+
+        log.info("message consumed successfully，payload={}", payload);
+    }
+    @StreamListener(MyTopic.INPUT) // 这里的值就是 "input"
+    public void consumeMyMessage(Object payload) {
 
         log.info("message consumed successfully，payload={}", payload);
     }

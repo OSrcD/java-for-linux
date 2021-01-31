@@ -1,4 +1,6 @@
-## 开源内卷技术
+# 开源内卷技术
+
+## 能跟上计算机前沿技术的人都是人才
 
 ### 计算机数学基础
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/OSrcD-00.png)

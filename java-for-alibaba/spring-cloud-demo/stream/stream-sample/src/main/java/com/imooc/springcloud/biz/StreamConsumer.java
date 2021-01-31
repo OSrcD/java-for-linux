@@ -1,5 +1,6 @@
 package com.imooc.springcloud.biz;
 
+import com.imooc.springcloud.topic.GroupTopic;
 import com.imooc.springcloud.topic.MyTopic;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.EnableBinding;
@@ -25,7 +26,8 @@ import org.springframework.cloud.stream.messaging.Sink;
          *
          */
         Sink.class,
-        MyTopic.class
+        MyTopic.class,
+        GroupTopic.class
     }
 )
 public class StreamConsumer {
@@ -52,6 +54,13 @@ public class StreamConsumer {
     @StreamListener(MyTopic.INPUT) // 这里的值就是 "input"
     public void consumeMyMessage(Object payload) {
 
-        log.info("message consumed successfully，payload={}", payload);
+        log.info("My message consumed successfully，payload={}", payload);
     }
+
+    @StreamListener(GroupTopic.INPUT) // 这里的值就是 "input"
+    public void consumeGroupMyMessage(Object payload) {
+        log.info("Group message consumed successfully，payload={}", payload);
+    }
+
+
 }

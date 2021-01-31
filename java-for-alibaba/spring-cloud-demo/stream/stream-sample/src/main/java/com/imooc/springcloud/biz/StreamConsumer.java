@@ -12,6 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 启动绑定信道
  * 就是说 Binder与中间件之间绑定的信道接口 接口可以理解为规定好的行为类型的地址
+ * 单纯的配置项 不定义在这里也可以 定义到启动类里面都可以
  */
 @EnableBinding(value = {
 
@@ -31,7 +32,8 @@ import java.util.concurrent.atomic.AtomicInteger;
         GroupTopic.class,
         DelayedTopic.class,
         ErrorTopic.class,
-        RequeueTopic.class
+        RequeueTopic.class,
+        DlqTopic.class
     }
 )
 public class StreamConsumer {
@@ -108,5 +110,21 @@ public class StreamConsumer {
         }
         throw new RuntimeException("I'm not OK");
     }
+
+    // 死信队列
+    @StreamListener(DlqTopic.INPUT)
+    public void consumeDlqMessage(MessageBean bean) {
+        log.info("Dlq - Are you OK?");
+
+        // 自增 1 如果能被 3 整除 才能消费这条消息
+        if (count.incrementAndGet() % 3 == 0) {
+            log.info("Dlq - Fine, thank you. And you?");
+        } else {
+            log.info("Dlq - What's your problem?");
+            throw new RuntimeException("I'm not OK");
+        }
+
+    }
+
 
 }

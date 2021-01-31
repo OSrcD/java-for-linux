@@ -5,6 +5,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
+import org.springframework.integration.annotation.ServiceActivator;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.handler.annotation.Header;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -33,7 +36,8 @@ import java.util.concurrent.atomic.AtomicInteger;
         DelayedTopic.class,
         ErrorTopic.class,
         RequeueTopic.class,
-        DlqTopic.class
+        DlqTopic.class,
+        FallbackTopic.class
     }
 )
 public class StreamConsumer {
@@ -124,6 +128,36 @@ public class StreamConsumer {
             throw new RuntimeException("I'm not OK");
         }
 
+    }
+
+    // Fallback + 升级版本
+    @StreamListener(FallbackTopic.INPUT)
+    public void goodbyeBadGuy(MessageBean bean,
+                              // 接收从上游传下来的version
+                              @Header("version")String version) {
+        log.info("Fallback - Are you OK?");
+
+        if ("1.0".equalsIgnoreCase(version)) {
+            log.info("Fallback - Fine, thank you. And you?");
+        } else if ("2.0".equalsIgnoreCase(version)) {
+            log.info("unsupported version");
+            throw new RuntimeException("I'm not OK");
+        } else {
+            log.info("Fallback - version={}", version);
+        }
+
+    }
+
+    /**
+     * 使用 spring intergration 组件
+     * 指定一个 input channel 信道的名称
+     * 降级逻辑
+     * goodbyeBadGuy 业务请求抛出异常 并且重试次数 达到上限了 以后
+     * 就会转到fallback 逻辑里面
+     */
+    @ServiceActivator(inputChannel = "fallback-topic.fallback-group.errors")
+    public void fallback(Message<?> message) {
+        log.info("fallback entered");
     }
 
 

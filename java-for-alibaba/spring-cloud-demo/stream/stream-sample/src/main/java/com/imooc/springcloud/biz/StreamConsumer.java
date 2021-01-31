@@ -1,9 +1,6 @@
 package com.imooc.springcloud.biz;
 
-import com.imooc.springcloud.topic.DelayedTopic;
-import com.imooc.springcloud.topic.ErrorTopic;
-import com.imooc.springcloud.topic.GroupTopic;
-import com.imooc.springcloud.topic.MyTopic;
+import com.imooc.springcloud.topic.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
@@ -33,7 +30,8 @@ import java.util.concurrent.atomic.AtomicInteger;
         MyTopic.class,
         GroupTopic.class,
         DelayedTopic.class,
-        ErrorTopic.class
+        ErrorTopic.class,
+        RequeueTopic.class
     }
 )
 public class StreamConsumer {
@@ -96,6 +94,19 @@ public class StreamConsumer {
             throw new RuntimeException("I'm not OK");
         }
 
+    }
+
+    /**
+     * 异常重试（联机版-重新入队）
+     */
+    @StreamListener(RequeueTopic.INPUT)
+    public void requeueErrorMessage(MessageBean bean) {
+        log.info("Are you OK?");
+        try {
+            Thread.sleep(3000L);
+        } catch (Exception e) {
+        }
+        throw new RuntimeException("I'm not OK");
     }
 
 }

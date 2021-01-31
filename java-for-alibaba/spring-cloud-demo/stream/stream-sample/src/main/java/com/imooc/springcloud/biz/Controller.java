@@ -1,9 +1,6 @@
 package com.imooc.springcloud.biz;
 
-import com.imooc.springcloud.topic.DelayedTopic;
-import com.imooc.springcloud.topic.ErrorTopic;
-import com.imooc.springcloud.topic.GroupTopic;
-import com.imooc.springcloud.topic.MyTopic;
+import com.imooc.springcloud.topic.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
@@ -26,6 +23,9 @@ public class Controller {
 
     @Autowired
     private ErrorTopic errorTopicProducer;
+
+    @Autowired
+    private RequeueTopic requeueTopicProducer;
 
     @PostMapping("send")
     public void sendMessage(@RequestParam(value = "body") String body) {
@@ -64,6 +64,14 @@ public class Controller {
         errorTopicProducer.output().send(MessageBuilder.withPayload(msg).build());
     }
 
-
+    /**
+     * 异常重试（联机版 - 重新入队）
+     */
+    @PostMapping("requeue")
+    public void sendErrorMessageToMQ(@RequestParam(value = "body") String body) {
+        MessageBean msg = new MessageBean();
+        msg.setPayload(body);
+        requeueTopicProducer.output().send(MessageBuilder.withPayload(msg).build());
+    }
 
 }

@@ -27,6 +27,9 @@ public class Controller {
     @Autowired
     private RequeueTopic requeueTopicProducer;
 
+    @Autowired
+    private DlqTopic dlqTopicProducer;
+
     @PostMapping("send")
     public void sendMessage(@RequestParam(value = "body") String body) {
         producer.output().send(MessageBuilder.withPayload(body).build());
@@ -73,5 +76,17 @@ public class Controller {
         msg.setPayload(body);
         requeueTopicProducer.output().send(MessageBuilder.withPayload(msg).build());
     }
+
+    /**
+     * 死信队列测试
+     */
+    @PostMapping("dlq")
+    public void sendMessageToDlq(@RequestParam(value = "body") String body) {
+        MessageBean msg = new MessageBean();
+        msg.setPayload(body);
+        dlqTopicProducer.output().send(MessageBuilder.withPayload(msg).build());
+    }
+
+
 
 }

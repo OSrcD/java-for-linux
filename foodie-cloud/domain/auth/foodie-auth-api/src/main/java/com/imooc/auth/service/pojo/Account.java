@@ -20,4 +20,7 @@ public class Account implements Serializable {
 
     private String refreshToken;
 
+    // 机关
+    private boolean skipVerification = false;
+
 }

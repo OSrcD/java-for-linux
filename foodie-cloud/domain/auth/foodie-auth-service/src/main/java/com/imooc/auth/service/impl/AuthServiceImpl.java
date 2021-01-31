@@ -45,6 +45,7 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public AuthResponse verify(Account account) {
+        // TODO 检查redis中当前token是否还生效
         boolean success = jwtService.verify(account.getToken(), account.getUserId());
         return AuthResponse.builder()
                 // TODO 此处最好用invalid token之类的错误信息
@@ -68,15 +69,22 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public AuthResponse delete(@RequestBody Account account) {
-        AuthResponse token = verify(account);
         AuthResponse resp = new AuthResponse();
-        if (AuthCode.SUCCESS.getCode().equals(token.getCode())) {
+        resp.setCode(AuthCode.SUCCESS.getCode());
+
+        if (account.isSkipVerification()) {
             redisTemplate.delete(USER_TOKEN + account.getUserId());
-            redisTemplate.delete(account.getRefreshToken());
-            resp.setCode(AuthCode.SUCCESS.getCode());
-        } else {
-            resp.setCode(AuthCode.USER_NOT_FOUND.getCode());
+        }else{
+            AuthResponse token = verify(account);
+            if (AuthCode.SUCCESS.getCode().equals(token.getCode())) {
+                redisTemplate.delete(USER_TOKEN + account.getUserId());
+                redisTemplate.delete(account.getRefreshToken());
+            } else {
+                resp.setCode(AuthCode.USER_NOT_FOUND.getCode());
+            }
         }
         return resp;
+
+
     }
 }

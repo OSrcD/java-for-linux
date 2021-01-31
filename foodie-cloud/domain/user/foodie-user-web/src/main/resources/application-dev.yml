@@ -51,6 +51,21 @@ spring:
     port: 5672
     username: guest
     password: guest
+  ############################################################
+  # Stream配置
+  ############################################################
+  cloud:
+    stream:
+      bindings:
+        force-logout-consumer:
+          destination: force-logout-topic
+          group: force-logout-group
+          consumer:
+            # 默认重试次数就是 3次
+            max-attempts: 2
+        force-logout-producer:
+          destination: force-logout-topic
+
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

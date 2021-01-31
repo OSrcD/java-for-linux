@@ -1,12 +1,15 @@
 package com.imooc.springcloud.biz;
 
 import com.imooc.springcloud.topic.DelayedTopic;
+import com.imooc.springcloud.topic.ErrorTopic;
 import com.imooc.springcloud.topic.GroupTopic;
 import com.imooc.springcloud.topic.MyTopic;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j
 /**
@@ -29,10 +32,15 @@ import org.springframework.cloud.stream.messaging.Sink;
         Sink.class,
         MyTopic.class,
         GroupTopic.class,
-        DelayedTopic.class
+        DelayedTopic.class,
+        ErrorTopic.class
     }
 )
 public class StreamConsumer {
+
+    // 线程安全的计数器变量
+    private AtomicInteger count = new AtomicInteger(1); // 起始值
+
 
     /**
      * 怎么知道 该去rabbitmq 拿那个消息信道中的消息呢？给它指示
@@ -69,5 +77,25 @@ public class StreamConsumer {
         log.info("Delayed message consumed successfully，payload={}", bean.getPayload());
     }
 
+
+
+
+
+    // 异常重试（单机版）
+    @StreamListener(ErrorTopic.INPUT)
+    public void consumeErrorMessage(MessageBean bean) {
+        log.info("Are you OK?");
+
+        // 自增 1 如果能被 3 整除 才能消费这条消息
+        if (count.incrementAndGet() % 3 == 0) {
+            log.info("Fine, thank you. And you?");
+            // 成功消息以后 计数器 清 0
+            count.set(0);
+        } else {
+            log.info("What's your problem?");
+            throw new RuntimeException("I'm not OK");
+        }
+
+    }
 
 }

@@ -1,6 +1,7 @@
 package com.imooc.springcloud.biz;
 
 import com.imooc.springcloud.topic.DelayedTopic;
+import com.imooc.springcloud.topic.ErrorTopic;
 import com.imooc.springcloud.topic.GroupTopic;
 import com.imooc.springcloud.topic.MyTopic;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,8 @@ public class Controller {
     @Autowired
     private DelayedTopic delayedTopicProducer;
 
+    @Autowired
+    private ErrorTopic errorTopicProducer;
 
     @PostMapping("send")
     public void sendMessage(@RequestParam(value = "body") String body) {
@@ -50,8 +53,16 @@ public class Controller {
     }
 
 
-
-
+    /**
+     * 异常重试（单机版）
+     * 只会在本机重试 也就是说是在Consumer 范围内的重试
+     */
+    @PostMapping("sendError")
+    public void sendErrorMessage(@RequestParam(value = "body") String body) {
+        MessageBean msg = new MessageBean();
+        msg.setPayload(body);
+        errorTopicProducer.output().send(MessageBuilder.withPayload(msg).build());
+    }
 
 
 

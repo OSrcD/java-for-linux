@@ -16,9 +16,7 @@ import java.util.List;
 
 import static com.imooc.controller.BaseController.FOODIE_SHOPCART;
 
-/**
- * Created by 半仙.
- */
+
 @RestController
 @Slf4j
 public class CartServiceImpl implements CartService {

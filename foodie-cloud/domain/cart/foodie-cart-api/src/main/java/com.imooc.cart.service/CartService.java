@@ -6,9 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * Created by 半仙.
- */
+
 @RequestMapping("cart-api")
 public interface CartService {
 

@@ -11,9 +11,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Created by 半仙.
- */
+
 @SpringBootApplication
 @EnableDiscoveryClient
 public class RibbonConsumerApplication {

@@ -13,9 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import tk.mybatis.spring.annotation.MapperScan;
 
-/**
- * Created by 半仙.
- */
+
 @SpringBootApplication
 // 扫描 mybatis 通用 mapper 所在的包
 @MapperScan(basePackages = "com.imooc.order.mapper")

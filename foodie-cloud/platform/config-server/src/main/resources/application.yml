@@ -5,7 +5,12 @@ server:
 spring:
   application:
     name: config-server
-
+  ## rabbitMQ用于Bus推送 生产环境
+  rabbitmq:
+    host: 10.34.96.3
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     config:
       server:
@@ -20,19 +25,30 @@ spring:
           search-paths: '{application}'
           # username:
           # password:
-
+# 本地环境
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:20000/eureka/
+# 生产环境
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:20000/eureka/
+      defaultZone: http://10.34.96.3:20000/eureka/
+  # 生产环境
+  # 使用 ip 地址形式注册 希望以ip地址是形式在Eureka里面进行互通
+  instance:
+    # IP 地址部署默认容器的 ip 地址 容器会起一个自己内部的私有ip地址
+    # 这个ip地址外网不能访问的 所以我们要指定服务器的地址 端口还是容器的端口
+    # 10.34.96.3:20003
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+    ip-address: 10.34.96.3
+    prefer-ip-address: true
 
 ## 开启所有actuator-endpoint
 management:
   security:
-    user:
-      name: gitee
-      password: gitee
-      roles: ADMIN
+    enabled: false
   endpoints:
     web:
       exposure:

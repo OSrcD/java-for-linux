@@ -1,24 +1,4 @@
-## 系统层防御
-
-- Iptables
-
-## 应用层防御
-
-### 负载均衡
-
-- Nginx
-
-### 缓存
-
-- Redis
-
-### 限流
-
-- Sentinel
-
-- Spring Cloud Gateway
-
-- Redis & Lua
+find . -type d -empty -exec touch {}/.gitignore \;
 
 
 
@@ -68,5 +48,5 @@ github
 
 开源赞赏
 
-![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMTQ3MTE4MSwiaWF0IjoxNjEwODY2MzgxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9._sQWUrabNDTaMMtft80povnUzzxrZKjNuxPA4pLbMUI&download=image.png "")
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzQ1MDI3NiwiaWF0IjoxNjEyODQ1NDc2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.muHCV5hq3NsjTS1LSPaUk8sTpoACGYWNIsFPFRFkZ6w&download=image.png "")
 

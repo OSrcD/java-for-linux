@@ -1,18 +1,28 @@
-Hash 算法
+## 系统层防御
 
-- Hash 一致性算法
+- Iptables
 
-- Hash URL 算法
+## 应用层防御
 
-负载均衡算法
+### 负载均衡
 
-CAS 算法
+- Nginx
 
-HashMap 算法
+### 缓存
 
-SHA 256 算法
+- Redis
 
-HMAC 256 算法
+### 限流
+
+- Sentinel
+
+- Spring Cloud Gateway
+
+- Redis & Lua
+
+
+
+
 
 开源笔记
 
@@ -58,5 +68,5 @@ github
 
 开源赞赏
 
-![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjc5NTgzOSwiaWF0IjoxNjEyMTkxMDM5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.0ggqeVIT75ERrzxMvnu-gsNf3Q1e3H1JtxlFVY_GzuM&download=image.png "")
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzQ1MDI0MSwiaWF0IjoxNjEyODQ1NDQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.AoTQVdBQsIWRcmXGmsGHOyG8gl_bfk_hFnMwEZTY9ZI&download=image.png "")
 

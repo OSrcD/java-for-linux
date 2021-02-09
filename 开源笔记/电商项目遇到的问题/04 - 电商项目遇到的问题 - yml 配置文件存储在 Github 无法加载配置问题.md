@@ -1,4 +1,6 @@
-find . -type d -empty -exec touch {}/.gitignore \;
+github 语法格式错误
+
+修正格式即可
 
 
 
@@ -7,6 +9,8 @@ find . -type d -empty -exec touch {}/.gitignore \;
 开源笔记
 
 可 Pull Requests 协作写开源笔记
+
+如果笔记图片无法访问 请访问 [teambition](https://tburl.in/0jDNvpbK) 原版开源笔记
 
 gitee
 
@@ -48,5 +52,5 @@ github
 
 开源赞赏
 
-![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjc5NjA1OSwiaWF0IjoxNjEyMTkxMjU5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.wliUYubDPo3gy7jVLkMnX8UVtDLS6rc3mKcPzlYZ93Y&download=image.png "")
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzQ0OTkzMSwiaWF0IjoxNjEyODQ1MTMxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.mY8DH44HFQEgBQcJTZ9AFMUVrvk5IXRwef7o7SYMN70&download=image.png "")
 

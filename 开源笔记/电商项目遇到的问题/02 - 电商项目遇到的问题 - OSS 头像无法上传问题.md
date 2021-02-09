@@ -1,20 +1,8 @@
-单列设计模式
+# Spring Boot 调用讲师提供的 阿里云OSS 服务器 非法访问密钥
 
-工厂设计模式
+## 解决方案
 
-装饰器设计模式
-
-Builder 设计模式
-
-动态代理设计模式
-
-观察者设计模式
-
-责任链设计模式
-
-构造器设计模式
-
-模板设计模式
+### 自己购买阿里云OSS 服务器 重新生成密钥
 
 
 
@@ -62,5 +50,5 @@ github
 
 开源赞赏
 
-![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjc5NTg1NCwiaWF0IjoxNjEyMTkxMDU0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.XeOgfAHiFav2giyNBSKvLcPqDZ0rWjkxGW3gSZzBggM&download=image.png "")
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzQ0OTkzNiwiaWF0IjoxNjEyODQ1MTM2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.uDNjKgwpGsNgJks56iLBgSoeab7MeHL6GfO3yeU5U3U&download=image.png "")
 

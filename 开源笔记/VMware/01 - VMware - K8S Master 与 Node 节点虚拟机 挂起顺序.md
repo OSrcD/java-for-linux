@@ -1,14 +1,24 @@
-# Spring Boot 调用讲师提供的 阿里云OSS 服务器 非法访问密钥
+挂起
 
-## 解决方案
+先挂起 Master 节点
 
-### 自己购买阿里云OSS 服务器 重新生成密钥
+后挂起 Node 节点
+
+
+
+恢复
+
+先恢复 Node 节点
+
+后恢复 Master 节点
 
 
 
 开源笔记
 
 可 Pull Requests 协作写开源笔记
+
+如果笔记图片无法访问 请访问 [teambition](https://tburl.in/0jDNvpbK) 原版开源笔记
 
 gitee
 
@@ -50,5 +60,5 @@ github
 
 开源赞赏
 
-![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMjc5NjcwMywiaWF0IjoxNjEyMTkxOTAzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.T9HMqn31XilDa-tHJ50kIZihjlXAc1-B5Hy_1RzkZW4&download=image.png "")
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzQ0OTY4NywiaWF0IjoxNjEyODQ0ODg3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.Z1X4aM3j4cBIxhbo1vJrwXSHdo7aNJ0vTpj1UMSTkrM&download=image.png "")
 

@@ -1,0 +1,62 @@
+![](https://tcs.teambition.net/storage/3122e4ea38dd4237d9119b0a6dc718843b9b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMzY1OTY4NSwiaWF0IjoxNjEzMDU0ODg1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjJlNGVhMzhkZDQyMzdkOTExOWIwYTZkYzcxODg0M2I5YiJ9.4GMjsYvX6xppk0ddI3QPEniEw5xsFv79g0novRI1iKQ&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312235051f394fd4b6740ab9dcf27d528fac?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMzY1OTcwMCwiaWF0IjoxNjEzMDU0OTAwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjIzNTA1MWYzOTRmZDRiNjc0MGFiOWRjZjI3ZDUyOGZhYyJ9.E6aLeLjbSZN10Wh2w1vsLYE86msp3gMhky7lggN43Tw&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31222337be29af467ea25d3a3f93111432a8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMzY1OTcyMSwiaWF0IjoxNjEzMDU0OTIxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjIyMzM3YmUyOWFmNDY3ZWEyNWQzYTNmOTMxMTE0MzJhOCJ9.zOXtxZEACkjP0CxTFlmx9-ASeSlO29ab_oYvxahTsuU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31229e45855b29aba39b6dfd4e75b1bcc0f3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMzY1OTczNywiaWF0IjoxNjEzMDU0OTM3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjI5ZTQ1ODU1YjI5YWJhMzliNmRmZDRlNzViMWJjYzBmMyJ9.KCOeOJUfFxVhZBflVQd8Ek8hCTc0HT4ar5O9VpjfLWY&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31228e3d7dbc5af63e340ce95cc692cf1896?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IjVmNTQ2ZDkyODI1NWU3ZjU1MzkxZmUwOSIsImV4cCI6MTYxMzY1OTc1MiwiaWF0IjoxNjEzMDU0OTUyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjI4ZTNkN2RiYzVhZjYzZTM0MGNlOTVjYzY5MmNmMTg5NiJ9.esoENmQvB5f-VLnSJqJxYgAFZ0Sse9Ac2-D_8jFa36E&download=image.png "")
+
+
+
+
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+如果笔记图片无法访问 请访问 [teambition](https://tburl.in/0jDNvpbK) 原版开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxMzY1OTY4NCwiaWF0IjoxNjEzMDU0ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.__54CEA5CKpEIJ2fqtEg2p82ubXxUKwQI82WRmhzv3o&download=image.png "")
+

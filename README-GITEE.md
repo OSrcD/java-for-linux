@@ -1,6 +1,6 @@
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-for-linux.png)
 
-# java-for-linux: 综合型开源项目
+# java-for-linux: Welcome to Internet
 
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 

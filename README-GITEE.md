@@ -173,14 +173,6 @@
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-00.png)
 
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-01.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-02.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-03.png)
-
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/programmer-for-english-04.png)
-
 项目地址：
 
 [开发者英语笔记](https://www.wiz.cn/wapp/pages/applyJoinGroup?code=glfvvh)

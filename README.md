@@ -36,8 +36,6 @@
 
 ## 开源工具箱 开源项目
 
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenToolbox.jpg)
-
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenToolbox-00.png)
 
 项目地址：

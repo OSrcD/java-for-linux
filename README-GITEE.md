@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-## 🤷‍♂️ 仓库简介
+## 🤷‍️ 仓库简介
 
 这个仓库是 **综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护
 

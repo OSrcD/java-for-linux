@@ -11,3 +11,4 @@ http://activation.eltechs.com/cl/activation/activate2
 下载地址如下：
 
 https://www.dropbox.com/s/6c7gq1af1bs5mcp/rpi3%2B.tar.gz?dl=0
+

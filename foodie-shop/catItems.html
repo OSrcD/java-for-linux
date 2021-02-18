@@ -356,7 +356,7 @@
 								// console.log(itemsList);
 							} else if (res.data.status == 500) {
 								alert(res.data.msg);
-								return;
+
 							}
 						});
 			},
@@ -365,8 +365,8 @@
 				var serverUrl = app.serverUrl;
 				axios.defaults.withCredentials = true;
 
-				// var searchHost = serverUrl + '/items/search?keywords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
-				var searchHost = 'http://localhost:8033/items/es/search?keywords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
+				var searchHost = serverUrl + '/items/search?keywords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
+				// var searchHost = 'http://localhost:8033/items/es/search?keywords=' + keywords + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
 				axios.get(searchHost, {})
 						.then(res => {
 							if (res.data.status == 200) {
@@ -383,7 +383,7 @@
 								// console.log(itemsList);
 							} else if (res.data.status == 500) {
 								alert(res.data.msg);
-								return;
+
 							}
 						});
 			},
@@ -423,7 +423,7 @@
 								window.location.href = "index.html";
 							} else if (res.data.status == 500) {
 								alert(res.data.msg);
-								return;
+
 							}
 						});
 			}

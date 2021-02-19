@@ -42,15 +42,18 @@
     WHERE
         ii.is_main = 1
         <if test="paramsMap.keywords != null and paramsMap.keywords != ''">
+            /* &quot 为双引号 "" */
             AND i.item_name like '%${paramsMap.keywords}%'
         </if>
         ORDER BY
         <choose>
             <when test="paramsMap.sort == &quot;c&quot;">
+                 /* desc 从高到低排序 */
                 i.sell_counts desc
             </when>
 
             <when test="paramsMap.sort == &quot;p&quot;">
+                /* asc 从低到高排序 自然排序*/
                 tempSpec.price_discount asc
             </when>
             <otherwise>

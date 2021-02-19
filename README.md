@@ -12,23 +12,23 @@
 
 ### 综合型**开源项目子项目**：
 
-开源**课程**子项目：Java 写游戏外挂、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
+**开源课程子项目**：Java 写游戏外挂、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
-开源**笔记**子项目：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、V2Ray 搭建 VPN、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、V2Ray 搭建 VPN、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **OpenToolbox 仿黑客命令行终端工具子项目**：一个辅助编程小工具、是一款终端命令小工具、用于敲 Linux 命令、敲各种软件的命令行命令、使用 SSH 命令连接服务器、可以多开窗口（在 **OpenToolbox** 文件夹）。
 
-开源指北子项目：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。
+**开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。
 
-**iooc-admin 后台权限管理系统开源**子项目：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
+**iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
-**WebRTC 直播**子项目：（在 **WebRTC** 文件夹）。
+**WebRTC 直播子项目**：（在 **WebRTC** 文件夹）。
 
-**泡泡堂**子项目：（在 **bubble-hall** 文件夹）。
+**泡泡堂子项目**：（在 **bubble-hall** 文件夹）。
 
-**2048 小游戏**子项目：（在 **2048** 文件夹里）。
+**2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
-**其他开源**子项目：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**其他**文件夹）。
+**其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**其他**文件夹）。
 
 ### 负责子项目：
 

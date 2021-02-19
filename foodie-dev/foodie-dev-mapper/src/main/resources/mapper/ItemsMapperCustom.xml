@@ -46,14 +46,14 @@
         </if>
         ORDER BY
         <choose>
-            /* &quot 为双引号 "" */
+            <!-- &quot 为双引号 "" -->
             <when test="paramsMap.sort == &quot;c&quot;">
-                 /* desc 从高到低排序 */
+                 <!-- desc 从高到低排序 -->
                 i.sell_counts desc
             </when>
 
             <when test="paramsMap.sort == &quot;p&quot;">
-                /* asc 从低到高排序 自然排序*/
+                <!-- asc 从低到高排序 自然排序 -->
                 tempSpec.price_discount asc
             </when>
             <otherwise>

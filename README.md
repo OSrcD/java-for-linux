@@ -28,7 +28,7 @@
 
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
-**其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**其他**文件夹）。
+**其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**cppmm**文件夹 **auto-homework**文件夹 **其他**文件夹）。
 
 ### 负责子项目：
 
@@ -63,13 +63,13 @@ Clion TeamCity 等 使用 JetBrains 各种工具集成到 IntelliJ IDEA 工具�
 
 ### 开源项目链接：
 
-https://gitee.com/opendevel/java-for-linux (综合型开源项目)
+[综合型开源项目](https://gitee.com/opendevel/java-for-linux)
 
-https://space.bilibili.com/77266754 (综合型开源项目创作号)
+[综合型开源项目创作号](https://space.bilibili.com/77266754)
 
-https://gitee.com/gitee-community/opensource-guide (开源指北开源项目)
+[开源指北开源项目](https://gitee.com/gitee-community/opensource-guide)
 
-https://github.com/MyJacking/iooc-vue-admin ( iooc-admin后台权限管理系统开源项目)
+[iooc-admin后台权限管理系统开源项目](https://github.com/MyJacking/iooc-vue-admin)
 
 ### 开源项目资格证书
 

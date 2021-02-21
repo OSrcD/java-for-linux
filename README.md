@@ -24,6 +24,10 @@
 
 **OpenToolbox 主要功能模块：**
 
+命令行输入输出组件。
+
+多开窗口。
+
 自定义黑色的标题栏，不要系统自带的标题栏。
 
 hacker工具箱。
@@ -31,6 +35,20 @@ hacker工具箱。
 爬虫、爬取最新的网络安全新闻显示到GUI。
 
 Hacker学习路线、hacking指令搜索。
+
+**负责系统模块：**
+
+1. 负责实现命令行输入输出组件。
+
+2. 负责实现多开窗口。
+
+**OpenToolbox 核心技术栈：**
+
+node-pty、electron、vue、xterm。
+
+**业绩：**
+
+成为更加专业的开发者
 
 **开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。
 
@@ -122,16 +140,16 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、IntelliJ IDEA、WebStorm、Mac OS 10.15 操作系统、OpenToolbox、百度搜索引擎、Google 搜索引擎、维基百科。
 
-### java-for-linux 综合型开源项业绩：
+### java-for-linux 综合型开源项目业绩：
 
 1. 获得 JetBrains 开源许可证 可以免费使用 JetBrains 全家桶所有产品 IntelliJ IDEA DataGrip WebStorm
    Clion TeamCity 等 使用 JetBrains 各种工具集成到 IntelliJ IDEA 工具里。
 
 2. 获得 Gitee 官方开源指北项目贡献纸质证书 T恤 并在开源指北电子书编写成员栏署名 成为该项目的优质贡献者 成为其他开源爱好者的开源项目贡献者。
 
-3. 收获了一群开源爱好者朋友 开源赞赏。
+3. 开源的收入来源 开源赞赏。
 
-4. 与其他开源爱好者的开源项目合作。
+4. 与其他开源爱好者的开源项目合作 收获了一群开源爱好者朋友 。
 
 5. 学习 Git Gitee 版本控制软件的使用 方便复习代码。
 
@@ -154,7 +172,6 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 **JetBrains 开源许可证**认证者
 
 **Gitee 官方开源指北项目**贡献者
-
 
 # 开源项目
 

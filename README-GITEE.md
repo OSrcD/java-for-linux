@@ -16,7 +16,7 @@
 
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、V2Ray 搭建 VPN、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
-**OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）
+**OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 
 **简介：**
 

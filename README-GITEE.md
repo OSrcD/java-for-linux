@@ -114,7 +114,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 2. 负责实现开源笔记子项目。
 
-3. 负责实现 OpenToolbox 仿黑客命令行终端工具子项目。
+3. 负责实现 OpenToolbox 子项目。
 
 4. 负责实现其他开源子项目。
 
@@ -151,9 +151,9 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ### java-for-linux 综合型开源项目资格证书
 
-JetBrains 开源许可证认证者
+**JetBrains 开源许可证**认证者
 
-Gitee 官方开源指北项目贡献者
+**Gitee 官方开源指北项目**贡献者
 
 # 开源项目
 

@@ -120,7 +120,7 @@ public class LiveController extends TextWebSocketHandler {
 
 
             /**
-             * 注册IceCandidate监听器 用于监听生成的候选人信息 并发送给主播客户端
+             * p4 注册IceCandidate监听器 用于监听生成的候选人信息 并发送给主播客户端
              * 实现基于IceCandidate监听器事件监听器
              */
             presenterWebRtc.addIceCandidateFoundListener(new EventListener<IceCandidateFoundEvent>() {
@@ -151,7 +151,8 @@ public class LiveController extends TextWebSocketHandler {
                 }
             });
 
-            // 开始处理客户端传过来的SdpOffer
+
+            // p1 开始处理主播客户端传过来的SdpOffer
             String sdpOffer = jsonMessage.getAsJsonPrimitive("sdpOffer").getAsString();
 
             // 处理SdpOffer并从KMS服务端返回Sdp应答信息
@@ -164,7 +165,8 @@ public class LiveController extends TextWebSocketHandler {
             response.addProperty("sdpAnswer", sdpAnswer);
 
 
-            // 同步线程发送sdpAnswer应答
+
+            // p2 同步线程发送sdpAnswer应答
             synchronized (session) {
 
               presenterUserSession.sendMessage(response);
@@ -185,7 +187,7 @@ public class LiveController extends TextWebSocketHandler {
 
     }
 
-    // 处理客户端发来的候选人信息
+    // p3 v3 处理客户端发来的候选人信息
     public void onIceCandidate(WebSocketSession session,JsonObject jsonMessage) {
 
         // 拿到客户端发来候选信息
@@ -219,7 +221,7 @@ public class LiveController extends TextWebSocketHandler {
                     candidate.get("candidate").getAsString(),
                     candidate.get("sdpMid").getAsString(),
                     candidate.get("sdpMLineIndex").getAsInt());
-            // 开始会user添加候选人信息
+            // 开始向user添加候选人信息
             user.addCandidate(cand);
         }
 
@@ -227,7 +229,7 @@ public class LiveController extends TextWebSocketHandler {
     }
 
     /**
-     * 处理观众端发来的SdpOffer
+     * v1 处理观众端发来的SdpOffer
      * @param session
      * @param jsonMessage
      */
@@ -273,7 +275,7 @@ public class LiveController extends TextWebSocketHandler {
                 JsonObject response = new JsonObject();
                 response.addProperty("id","iceCandidate");
 
-                // kms收集到自己的候选信息
+                // v4 kms 收集到自己的候选信息 发送给观众端
                 response.add("candidate", JsonUtils.toJsonObject(event.getCandidate()));
                 try{
                     synchronized(session){
@@ -288,15 +290,16 @@ public class LiveController extends TextWebSocketHandler {
         // 设置观众对象自己的WebRtcEndpoint元素
         viewer.setWebRtcEndpoint(nextWebRtc);
 
-        // 从主播端媒体元素的src端连接到当前观众端元素的sink端进行输，必须要媒体管道
+        // 从主播端媒体元素的src端连接到当前观众端元素的sink端进行流通，必须要媒体管道，形成一个管道
         presenterUserSession.getWebRtcEndpoint().connect(nextWebRtc);
 
         // 处理sdpOffer提供
         String sdpOffer = jsonMessage.getAsJsonPrimitive("sdpOffer").getAsString();
+
         // 处理并拿到sdp应答
         String sdpAnswer = nextWebRtc.processOffer(sdpOffer);
 
-        // 发送kms端的媒体元素的sdpAnswer应答
+        // v2 发送kms端的媒体元素的sdpAnswer应答
         JsonObject response = new JsonObject();
         response.addProperty("id", "viewerResponse");
         response.addProperty("response", "accepted");

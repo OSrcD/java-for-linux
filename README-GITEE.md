@@ -115,12 +115,15 @@ sudo open build/terminal-darwin-x64/terminal.app 或 sudo open /Applications/Ter
 **WebRTC 直播子项目**：（在 **WebRTC** 文件夹）。
 
 **简介:**
+
 此项目为小野美食直播购的子项目，主要是为客户提供直播指导用户购物，解答用户购物的问题，主播可以进行直播导购，客户可以观看直播导购优质服务。
 
 **WebRTC 核心系统模块：**
+
 内容中心核心系统：开始直播核心模块、直播权限控制模块、观看直播核心模块、WebSocket 信令服务器模块、Bootstrap 前端直播模板模块。
 
 **负责系统模块：**
+
 1. 负责实现 Java 信令服务器接收 KMS 流媒体服务器或客户端发来的 WebRTC 数据核心模块。
 2. 负责实现封装用户会话与流媒体元素、流媒体管道进行一对多直播核心模块。
 3. 负责实现直播权限控制模块。
@@ -139,6 +142,7 @@ sudo open build/terminal-darwin-x64/terminal.app 或 sudo open /Applications/Ter
 开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、V2RayX、PostMan、Mac OS 10.15 操作系统
 
 **业绩：**
+
 1. 重构前后端分离 Kurento 的 Client 客户端通信问题。三层跨域问题。前后端开启 HTTPS 服务器问题。Chrome 浏览器无法访问 HTTPS 问题，Spring Security 登录接口返回数据格式问题。
 2. 重构项目为前后端分离项目、前端使用 Vue 框架、前后端使用 STOMP 子协议通信。
 3. 阅读 WebRTC 开源技术英文文档。
@@ -173,6 +177,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 开发环境：IntelliJ IDEA开发工具、Windows 7
 
 **业绩：**
+
 通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目
 
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。

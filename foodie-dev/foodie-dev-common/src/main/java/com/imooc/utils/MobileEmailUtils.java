@@ -12,12 +12,8 @@ public class MobileEmailUtils {
         boolean isMatch = m.matches();
         return isMatch;
     }
-
     public static boolean checkEmailIsOk(String email) {
-        boolean isMatch = true;
-        if (!email.matches("[\\w\\.\\-]+@([\\w\\-]+\\.)+[\\w\\-]+")) {
-            isMatch = false;
-        }
+        boolean isMatch = email.matches("[\\w\\.\\-]+@([\\w\\-]+\\.)+[\\w\\-]+");
         return isMatch;
     }
 }

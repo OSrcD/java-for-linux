@@ -21,6 +21,7 @@
 **简介：**
 
 仿黑客命令行终端工具 一个辅助编程小工具 是一款终端命令小工具 用于敲 Linux 命令 敲各种软件的命令行命令 使用 SSH 命令连接服务器 可以多开窗口。
+
 **OpenToolbox 主要功能模块：**
 
 自定义黑色的标题栏，不要系统自带的标题栏。
@@ -150,9 +151,9 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ### java-for-linux 综合型开源项目资格证书
 
-JetBrains 开源许可证认证者
+**JetBrains 开源许可证**认证者
 
-Gitee 官方开源指北项目贡献者
+**Gitee 官方开源指北项目**贡献者
 
 
 # 开源项目

@@ -16,7 +16,97 @@
 
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、V2Ray 搭建 VPN、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
-**OpenToolbox 仿黑客命令行终端工具子项目**：一个辅助编程小工具、是一款终端命令小工具、用于敲 Linux 命令、敲各种软件的命令行命令、使用 SSH 命令连接服务器、可以多开窗口（在 **OpenToolbox** 文件夹）。
+**OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）
+
+**简介：**
+
+仿黑客命令行终端工具，一个辅助编程小工具、是一款终端命令小工具、用于敲 Linux 命令、敲各种软件的命令行命令、使用 SSH 命令连接服务器、可以多开窗口。
+
+**OpenToolbox 主要功能模块：**
+
+自定义黑色的标题栏，不要系统自带的标题栏
+
+hacker工具箱
+
+爬虫、爬取最新的网络安全新闻显示到GUI
+
+Hacker学习路线、hacking指令搜索
+
+**使用 nano 工具看不清字体问题**
+
+可使用 ctrl+alt+3 快捷键改变字体颜色 ctrl+alt+2 快捷键还原默认颜色
+
+背景图片来自于 Anonymous-OS
+
+**如何安装**
+
+**安装依赖：**
+
+``` shell
+# 需要安装 node.js 和 npm 这两个自行百度 怎么安装
+
+# 我的 node.js 版本是 v12.18.3
+
+sudo npm install -g cnpm
+
+sudo cnpm install -g yarn
+
+sudo sh npm_install.sh
+
+# 运行
+sudo yarn run dev
+
+# 编译
+sudo yarn run build
+
+sudo open build/Terminal-darwin-x64/Terminal.app/
+```
+
+**中文乱码问题：**
+
+``` shell
+
+在vim ~/.bash_profile添加以下配置
+
+export LANG="zh_CN.UTF-8"
+
+LANGUAGE="zh_CN.UTF-8"
+
+LC_CTYPE="zh_CN.UTF-8"
+
+LC_NUMERIC="zh_CN.UTF-8"
+
+LC_TIME="zh_CN.UTF-8"
+
+LC_COLLATE="zh_CN.UTF-8"
+
+LC_MONETARY="zh_CN.UTF-8"
+
+LC_MESSAGES="zh_CN.UTF-8"
+
+LC_PAPER="zh_CN.UTF-8"
+
+LC_NAME="zh_CN.UTF-8"
+
+LC_ADDRESS="zh_CN.UTF-8"
+
+LC_TELEPHONE="zh_CN.UTF-8"
+
+LC_MEASUREMENT="zh_CN.UTF-8"
+
+LC_IDENTIFICATION="zh_CN.UTF-8"
+
+LC_ALL=
+
+```
+
+**编辑器无法输入中文问题：**
+``` shell
+
+# 用sudo命令打开应用
+sudo open build/terminal-darwin-x64/terminal.app 或 sudo open /Applications/Terminal.app
+
+```
 
 **开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。
 
@@ -24,7 +114,66 @@
 
 **WebRTC 直播子项目**：（在 **WebRTC** 文件夹）。
 
+**简介:**
+此项目为小野美食直播购的子项目，主要是为客户提供直播指导用户购物，解答用户购物的问题，主播可以进行直播导购，客户可以观看直播导购优质服务。
+
+**WebRTC 核心系统模块：**
+内容中心核心系统：开始直播核心模块、直播权限控制模块、观看直播核心模块、WebSocket 信令服务器模块、Bootstrap 前端直播模板模块。
+
+**负责系统模块：**
+1. 负责实现 Java 信令服务器接收 KMS 流媒体服务器或客户端发来的 WebRTC 数据核心模块。
+2. 负责实现封装用户会话与流媒体元素、流媒体管道进行一对多直播核心模块。
+3. 负责实现直播权限控制模块。
+4. 负责实现 Bootstrap 前端直播模板改造整合作为前端页面模块。
+
+**WebRTC 核心技术栈：**
+
+采用前后端从不分离到分离单体架构开发模式。
+
+后端：Spring Boot 2.2.4、Spring、Spring MVC、Spring Security、Spring WebSocket 核心技术、Kurento Client 6.14.1、Tomcat 9.0.24、JDK 8、Maven、Kurento Media Server、Coturn。
+
+服务器系统：CentOS 7.4。
+
+前端：Bootstrap、Html、Css、JavaScript、JQuery、Vue、Kurento-utils、Sockjs-client、Stompjs、Webpack。
+
+开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、V2RayX、PostMan、Mac OS 10.15 操作系统
+
+**业绩：**
+1. 重构前后端分离 Kurento 的 Client 客户端通信问题。三层跨域问题。前后端开启 HTTPS 服务器问题。Chrome 浏览器无法访问 HTTPS 问题，Spring Security 登录接口返回数据格式问题。
+2. 重构项目为前后端分离项目、前端使用 Vue 框架、前后端使用 STOMP 子协议通信。
+3. 阅读 WebRTC 开源技术英文文档。
+4. 云服务器项目搭建开源 KMS 流媒体服务器、开源 Coturn 穿透服务器部署与上线。
+5. 为未来结合 5G 时代的高带宽、超低延时的特性做准备，赋予 WebRTC 低延时性能。
+6. 传统的 WebRTC 直播，只适合一对一直播，不适合一对多直播。只有在服务器端搭建流媒体服务器把客户端流量转发到流媒体服务器，才适合一对多直播。
+
 **泡泡堂子项目**：（在 **bubble-hall** 文件夹）。
+
+**简介：**
+
+该项目是基于C/S架构休闲类型泡泡堂游戏，是一种由键盘操作的休闲小游戏，游戏控制简便，只要使用一个方向键控制方向，再加上一个空格键放置泡泡，5个按键就可以进行游戏了。
+
+**主要功能模块：**
+
+Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块包含元素加载、管理元素，元素类型，Frame模块包含窗口显示，元素图像渲染等模块。
+
+**责任描述：**
+
+1. 负责小组之间合理的分配任务，检查小组任务完成情况。
+2. 负责实现泡泡炸弹爆炸。
+3. 负责实现泡泡炸弹转换为泡泡波纹数组。
+4. 负责实现箱子与泡泡炸弹碰撞摧毁。
+5. 负责实现泡泡波纹与泡泡炸弹碰撞形成连爆。
+
+**技术描述：**
+
+采用Java SE 核心架构开发模式。
+
+项目主要利用的技术有Java SE 1.8 核心技术、JLayer，Swing，MSpaint、Photoshop。
+
+开发环境：IntelliJ IDEA开发工具、Windows 7
+
+**业绩：**
+通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目
 
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
@@ -32,13 +181,13 @@
 
 ### 负责子项目：
 
-负责实现开源课程子项目。
+1. 负责实现开源课程子项目。
 
-负责实现开源笔记子项目。
+2. 负责实现开源笔记子项目。
 
-负责实现 OpenToolbox 仿黑客命令行终端工具子项目。
+3. 负责实现 OpenToolbox 仿黑客命令行终端工具子项目。
 
-负责实现其他开源子项目。
+4. 负责实现其他开源子项目。
 
 ### 综合型开源项目技术栈：
 
@@ -46,20 +195,20 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ### 开源项目业绩：
 
-获得 JetBrains 开源许可证 可以免费使用 JetBrains 全家桶所有产品 IntelliJ IDEA DataGrip WebStorm
+1. 获得 JetBrains 开源许可证 可以免费使用 JetBrains 全家桶所有产品 IntelliJ IDEA DataGrip WebStorm
 Clion TeamCity 等 使用 JetBrains 各种工具集成到 IntelliJ IDEA 工具里。
 
-获得 Gitee 官方开源指北项目贡献纸质证书 T恤 并在开源指北电子书编写成员栏署名 成为该项目的优质贡献者 成为其他开源爱好者的开源项目贡献者。
+2. 获得 Gitee 官方开源指北项目贡献纸质证书 T恤 并在开源指北电子书编写成员栏署名 成为该项目的优质贡献者 成为其他开源爱好者的开源项目贡献者。
 
-收获了一群开源爱好者朋友 开源赞赏。
+3. 收获了一群开源爱好者朋友 开源赞赏。
 
-与其他开源爱好者的开源项目合作。
+4. 与其他开源爱好者的开源项目合作。
 
-学习 Git Gitee 版本控制软件的使用 方便复习代码。
+5. 学习 Git Gitee 版本控制软件的使用 方便复习代码。
 
-自媒体开源课程与开源项目结合 建立交流群 传播开源入门知识 贡献自己一点点的开源贡献。
+6. 自媒体开源课程与开源项目结合 建立交流群 传播开源入门知识 贡献自己一点点的开源贡献。
 
-制作专业 Logo 头像 开发专业开发者小工具 成为更加专业的开发者。
+7. 制作专业 Logo 头像 开发专业开发者小工具 成为更加专业的开发者。
 
 ### 开源项目链接：
 

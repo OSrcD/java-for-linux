@@ -36,32 +36,6 @@ Hacker学习路线、hacking指令搜索
 
 可使用 ctrl+alt+3 快捷键改变字体颜色 ctrl+alt+2 快捷键还原默认颜色
 
-背景图片来自于 Anonymous-OS
-
-**如何安装**
-
-**安装依赖：**
-
-``` shell
-# 需要安装 node.js 和 npm 这两个自行百度 怎么安装
-
-# 我的 node.js 版本是 v12.18.3
-
-sudo npm install -g cnpm
-
-sudo cnpm install -g yarn
-
-sudo sh npm_install.sh
-
-# 运行
-sudo yarn run dev
-
-# 编译
-sudo yarn run build
-
-sudo open build/Terminal-darwin-x64/Terminal.app/
-```
-
 **中文乱码问题：**
 
 ``` shell
@@ -106,6 +80,28 @@ LC_ALL=
 # 用sudo命令打开应用
 sudo open build/terminal-darwin-x64/terminal.app 或 sudo open /Applications/Terminal.app
 
+```
+
+**如何安装**
+
+``` shell
+# 需要安装 node.js 和 npm 这两个自行百度 怎么安装
+
+# 我的 node.js 版本是 v12.18.3
+
+sudo npm install -g cnpm
+
+sudo cnpm install -g yarn
+
+sudo sh npm_install.sh
+
+# 运行
+sudo yarn run dev
+
+# 编译
+sudo yarn run build
+
+sudo open build/Terminal-darwin-x64/Terminal.app/
 ```
 
 **开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。

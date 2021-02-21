@@ -32,6 +32,8 @@ hacker工具箱
 
 Hacker学习路线、hacking指令搜索
 
+**问题集**
+
 **使用 nano 工具看不清字体问题**
 
 可使用 ctrl+alt+3 快捷键改变字体颜色 ctrl+alt+2 快捷键还原默认颜色

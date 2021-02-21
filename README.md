@@ -36,6 +36,8 @@ Hacker学习路线、hacking指令搜索
 
 可使用 ctrl+alt+3 快捷键改变字体颜色 ctrl+alt+2 快捷键还原默认颜色
 
+**问题集**
+
 **中文乱码问题：**
 
 ``` shell

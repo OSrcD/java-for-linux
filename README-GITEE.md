@@ -50,7 +50,7 @@ node-pty、electron、vue、xterm。
 
 成为更加专业的开发者。
 
-**开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验。
+**开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与媒体结合实战经验（在**开源指北**文件夹）。
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
@@ -81,7 +81,7 @@ node-pty、electron、vue、xterm。
 
 前端：Bootstrap、Html、Css、JavaScript、JQuery、Vue、Kurento-utils、Sockjs-client、Stompjs、Webpack。
 
-开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、V2RayX、PostMan、Mac OS 10.15 操作系统
+开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、V2RayX、PostMan、Mac OS 10.15 操作系统。
 
 **业绩：**
 
@@ -99,7 +99,7 @@ node-pty、electron、vue、xterm。
 该项目是基于C/S架构休闲类型泡泡堂游戏，是一种由键盘操作的休闲小游戏，游戏控制简便，只要使用一个方向键控制方向，再加上一个空格键放置泡泡，5个按键就可以进行游戏了。
 
 **主要功能模块：**
-
+   
 Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块包含元素加载、管理元素，元素类型，Frame模块包含窗口显示，元素图像渲染等模块。
 
 **责任描述：**
@@ -116,15 +116,15 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 项目主要利用的技术有Java SE 1.8 核心技术、JLayer，Swing，MSpaint、Photoshop。
 
-开发环境：IntelliJ IDEA开发工具、Windows 7
+开发环境：IntelliJ IDEA开发工具、Windows 7。
 
 **业绩：**
 
-通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目
+通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目。
 
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
-**其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**cppmm**文件夹 **auto-homework**文件夹 **其他**文件夹）。
+**其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用 Selenium 库自动选择试卷选项题答题考卷（在 **cppmm** 文件夹 **auto-homework** 文件夹 **其他**文件夹）。
 
 ### 负责 java-for-linux 综合型开源项目子项目：
 
@@ -159,15 +159,15 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ### java-for-linux 综合型开源项目链接：
 
-[综合型开源项目](https://gitee.com/opendevel/java-for-linux)
+[java-for-linux 综合型开源项目](https://gitee.com/opendevel/java-for-linux)
 
-[综合型开源项目创作号](https://space.bilibili.com/77266754)
+[java-for-linux 综合型开源项目创作号](https://space.bilibili.com/77266754)
 
 [开源指北开源项目](https://gitee.com/gitee-community/opensource-guide)
 
 [iooc-admin后台权限管理系统开源项目](https://github.com/MyJacking/iooc-vue-admin)
 
-### java-for-linux 综合型开源项目资格证书
+### java-for-linux 综合型开源项目资格证书：
 
 **JetBrains 开源许可证**认证者
 

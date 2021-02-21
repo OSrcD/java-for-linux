@@ -6,11 +6,11 @@
 
 ## 🤷‍️ 仓库简介
 
-这个仓库是 **综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 **为什么**要集成在**一起维护** 因为玩 **10 个开源项目仓库** 还不如**精一个 开源项目仓库**
+这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 **为什么**要集成在**一起维护** 因为玩 **10 个开源项目仓库** 还不如**精一个 开源项目仓库**
 与编程相关的内容都会存放到 这个仓库里 目前有 **6+ 个开源项目** 涉及一直要不断复习 开发 改造 维护 两个主要项目 写一些开源笔记 开发或维护一些辅助编程小工具 录制一些开源课程
 与其他开源项目合作 一直要研究的 JVM JDK 相关源码等。
 
-### 综合型**开源项目子项目**：
+### java-for-linux 综合型开源项目子项目：
 
 **开源课程子项目**：Java 写游戏外挂、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
@@ -107,7 +107,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 **其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用Selenium 库自动选择试卷选项题答题考卷（在**cppmm**文件夹 **auto-homework**文件夹 **其他**文件夹）。
 
-### 负责子项目：
+### 负责 java-for-linux 综合型开源项目子项目：
 
 1. 负责实现开源课程子项目。
 
@@ -117,11 +117,11 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 4. 负责实现其他开源子项目。
 
-### 综合型开源项目技术栈：
+### java-for-linux 综合型开源项目技术栈：
 
 Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、IntelliJ IDEA、WebStorm、Mac OS 10.15 操作系统、OpenToolbox、百度搜索引擎、Google 搜索引擎、维基百科。
 
-### 开源项目业绩：
+### java-for-linux 综合型开源项业绩：
 
 1. 获得 JetBrains 开源许可证 可以免费使用 JetBrains 全家桶所有产品 IntelliJ IDEA DataGrip WebStorm
    Clion TeamCity 等 使用 JetBrains 各种工具集成到 IntelliJ IDEA 工具里。
@@ -138,7 +138,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 7. 制作专业 Logo 头像 开发专业开发者小工具 成为更加专业的开发者。
 
-### 开源项目链接：
+### java-for-linux 综合型开源项目链接：
 
 [综合型开源项目](https://gitee.com/opendevel/java-for-linux)
 
@@ -148,7 +148,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [iooc-admin后台权限管理系统开源项目](https://github.com/MyJacking/iooc-vue-admin)
 
-### 开源项目资格证书
+### java-for-linux 综合型开源项目资格证书
 
 JetBrains 开源许可证认证者
 

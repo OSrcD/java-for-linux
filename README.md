@@ -42,7 +42,8 @@ Hacker学习路线、hacking指令搜索
 
 ``` shell
 
-在vim ~/.bash_profile添加以下配置
+# 添加以下配置
+vim ~/.bash_profile
 
 export LANG="zh_CN.UTF-8"
 

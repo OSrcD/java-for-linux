@@ -151,7 +151,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 4. 与其他开源爱好者的开源项目合作 收获了一群开源爱好者朋友 。
 
-5. 学习 Git Gitee 版本控制软件的使用 方便复习代码。
+5. 学习 Git Gitee 版本控制软件的使用 代码托管到 Git Gitee 方便复习代码。
 
 6. 自媒体开源课程与开源项目结合 建立交流群 传播开源入门知识 贡献自己一点点的开源贡献。
 

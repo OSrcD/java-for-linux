@@ -452,32 +452,6 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-# 开源项目福利
-
-集成开源课程 & 项目免费申请 JetBrains 全家桶 IDEA 开源许可证认证者
-
-可以免费使用 JetBrains 全家桶所有产品
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains.jpg)
-
-[申请地址](https://www.jetbrains.com/shop/eform/opensource?product=ALL)
-
-## 该开源项目由 JetBrains Bilibili 粉丝 Gitee GitHub Teambition 提供免费云服务支持
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/JetBrains-04.png)
-
-[JetBrains 提供开发 & 团队工具服务](https://www.jetbrains.com/?from=java-for-linux)
-
-[Bilibili 提供自媒体服务](https://space.bilibili.com/77266754)
-
-[粉丝提供开源项目持续支持服务](https://space.bilibili.com/77266754/fans/fans)
-
-[Gitee 提供代码托管服务](https://gitee.com/OpenDevel)
-
-[GitHub 提供代码托管服务](https://github.com/OSrcD)
-
-[Teambition 提供云盘 & 记笔记服务](https://www.teambition.com)
-
 # 开源项目交流群
 
 ## java-for-linux & iooc-admin 开源项目 交流群

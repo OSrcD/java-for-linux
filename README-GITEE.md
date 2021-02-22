@@ -171,7 +171,14 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 **JetBrains 开源许可证**认证者。
 
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/01-证书.png)
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/02-证书.png)
+
 **Gitee 官方开源指北项目**贡献者。
+
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/03-证书.png)
+
 
 # 开源项目
 

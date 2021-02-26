@@ -179,6 +179,11 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/03-证书.png)
 
+# 黑苹果
+
+![image](https://github.com/OSrcD/java-for-linux/blob/master/image/lattepanda.png)
+
+
 # 开源项目
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/OpenProject.jpeg)

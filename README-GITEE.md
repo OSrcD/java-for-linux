@@ -14,7 +14,7 @@
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
-**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建加速器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 
@@ -105,10 +105,10 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 **责任描述：**
 
 1. 负责小组之间合理的分配任务，检查小组任务完成情况。
-2. 负责实现泡泡炸弹爆炸。
-3. 负责实现泡泡炸弹转换为泡泡波纹数组。
-4. 负责实现箱子与泡泡炸弹碰撞摧毁。
-5. 负责实现泡泡波纹与泡泡炸弹碰撞形成连爆。
+2. 负责实现泡泡爆炸。
+3. 负责实现泡泡爆炸转换为泡泡波纹数组。
+4. 负责实现箱子与泡泡爆炸碰撞摧毁。
+5. 负责实现泡泡波纹与泡泡爆炸碰撞形成连爆。
 
 **技术描述：**
 

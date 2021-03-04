@@ -30,7 +30,7 @@
 - node版本 > v8.6.0
 
 # 克隆项目
-git clone https://github.com/MyJacking/iooc-admin.git
+git clone https://gitee.com/OpenDevel/java-for-linux.git
 # 进入项目目录
 cd iooc-admin
 # 安装依赖

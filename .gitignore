@@ -82,7 +82,7 @@ libtool
 stamp-h1
 tesseract.pc
 config_auto.h
-/doc/html/*
+/foodie-dev/src/main/resources/static/doc/html/*
 /doc/*.1
 /doc/*.5
 /doc/*.html

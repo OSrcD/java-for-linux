@@ -2,10 +2,6 @@
 <h1>java-for-linux: Welcome to Internet</h1>
 </div>
 
-
-
-[![License](https://img.shields.io/badge/license-apache%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-
 ## 仓库简介
 
 这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 **为什么**要集成在**一起维护** 因为玩 **10 个开源项目仓库** 还不如**精一个 开源项目仓库**

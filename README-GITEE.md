@@ -448,7 +448,7 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-## iooc-admin 后台权限管理系统开源子项目
+## iooc-admin 后台权限管理系统开源项目
 
 ## 演示地址（数据库五分钟重置一次）
 

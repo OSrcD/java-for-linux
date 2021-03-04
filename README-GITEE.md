@@ -1,4 +1,4 @@
-<div align="center"><img width="200" src="https://gitee.com/OpenDevel/java-for-linux/raw/master/image/java-for-linux.png"/>
+<div align="center"><img width="200" src="https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png"/>
 <h1> java-for-linux: Welcome to Internet </h1>
 </div>
 
@@ -9,7 +9,7 @@
 与编程相关的内容都会存放到 这个仓库里 目前有 **6+ 个开源项目** 涉及一直要不断复习 开发 改造 维护 两个主要项目 写一些开源笔记 开发或维护一些辅助编程小工具 录制一些开源课程
 与其他开源项目合作 一直要研究的 JVM JDK 相关源码等。
 
-### java-for-linux 综合型开源项目子项目：
+### java-for-linux 综合型开源子项目：
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
@@ -49,7 +49,7 @@ node-pty、electron、vue、xterm。
 
 成为更加专业的开发者。
 
-**开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验（在**开源指北**文件夹）。
+**开源指北开源项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验。
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
@@ -125,7 +125,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 **其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用 Selenium 库自动选择试卷选项题答题考卷（在 **cppmm** 文件夹 **auto-homework** 文件夹 **其他**文件夹）。
 
-### 负责 java-for-linux 综合型开源项目子项目：
+### 负责实现 java-for-linux 综合型开源子项目：
 
 1. 负责实现开源课程子项目。
 
@@ -135,9 +135,17 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 4. 负责实现其他开源子项目。
 
+5. 负责在开源指北项目贡献开源项目与自媒体结合实战经验
+
+6. 负责实现 WebRTC 直播子项目
+
+7. 负责实现 泡泡堂子项目
+
+8. 负责实现 2048 小游戏子项目
+
 ### java-for-linux 综合型开源项目技术栈：
 
-Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、IntelliJ IDEA、WebStorm、Mac OS 10.15 操作系统、OpenToolbox、百度搜索引擎、Google 搜索引擎、维基百科。
+Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、IntelliJ IDEA、WebStorm、Mac OS 10.15 操作系统、OpenToolbox、百度搜索引擎、Google 搜索引擎。
 
 ### java-for-linux 综合型开源项目业绩：
 

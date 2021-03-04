@@ -239,6 +239,16 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [java-for-alibaba](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-for-alibaba)
 
+## exagear-desktop-rpi3
+
+文件夹：
+
+[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
+
+[文章地址](https://www.bilibili.com/read/cv8446499)
+
+[下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
+
 ## WebRTC 一对多直播项目 开源项目
 
 ![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/WebRTC.png)
@@ -442,17 +452,7 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-# 其他开源项目（暂时不介绍用来做什么的）
-
-## exagear-desktop-rpi3
-
-文件夹：
-
-[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
-
-[文章地址](https://www.bilibili.com/read/cv8446499)
-
-[下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
+# 其他开源项目
 
 ## auto-homework 其他开源项目
 

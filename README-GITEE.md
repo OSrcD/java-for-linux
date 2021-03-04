@@ -510,7 +510,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [开源指北开源项目。](https://gitee.com/gitee-community/opensource-guide)
 
-[iooc-admin后台权限管理系统开源项目。](https://github.com/MyJacking/iooc-vue-admin)
+[iooc-admin后台权限管理系统开源项目。](https://gitee.com/OpenDevel/java-for-linux/tree/master/iooc-vue-admin)
 
 ### java-for-linux 综合型开源项目资格证书：
 

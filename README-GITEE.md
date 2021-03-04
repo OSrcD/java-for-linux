@@ -1,9 +1,10 @@
 <div align="center"><img width="200" src="https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png"/>
+<h1>java-for-linux: Welcome to Internet</h1>
 </div>
 
-# java-for-linux: Welcome to Internet
 
-[![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+[![License](https://img.shields.io/badge/license-apache%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 仓库简介
 

@@ -1,9 +1,8 @@
-<div align="center"><img width="200" src="https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png"/>
-</div>
+![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png)
 
 # java-for-linux: Welcome to Internet
 
-[![License](https://img.shields.io/badge/license-apache%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## 仓库简介
 
@@ -222,8 +221,6 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 [foodie-payment](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-payment)
 
 [foodie-shop](https://gitee.com/OpenDevel/java-for-linux/tree/master/foodie-shop)
-
-[doc](https://gitee.com/OpenDevel/java-for-linux/tree/master/doc/db)
 
 [nginx-url-hash](https://gitee.com/OpenDevel/java-for-linux/tree/master/nginx-url-hash)
 

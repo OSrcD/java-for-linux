@@ -448,7 +448,7 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-## TS JS 双版本前端通用后台权限管理系统开源项目（Vue 3.x TypeScript element-plus）
+## iooc-admin 后台权限管理系统开源子项目
 
 ## 演示地址（数据库五分钟重置一次）
 
@@ -469,7 +469,8 @@ JVM 系列的项目地址：
 # 克隆项目
 git clone https://gitee.com/OpenDevel/java-for-linux.git
 # 进入项目目录
-cd iooc-admin
+cd iooc-vue-admin
+cd iooc-vue-admin
 # 安装依赖
 yarn
 # 本地开发 启动项目

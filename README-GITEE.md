@@ -448,7 +448,7 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-## TS JS 双版本前端通用后台权限管理系统开源项目（Vue 3.x TypeScript element-plus）
+## iooc-admin 前端通用后台权限管理系统开源项目
 
 项目地址：
 

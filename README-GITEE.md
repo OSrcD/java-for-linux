@@ -1,4 +1,5 @@
-![image](https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png)
+<div align="center"><img width="200" src="https://gitee.com/OpenDevel/java-for-linux/raw/master/image/logo.png"/>
+</div>
 
 # java-for-linux: Welcome to Internet
 

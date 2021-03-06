@@ -5,7 +5,7 @@
 
 ## 仓库简介
 
-这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 **为什么**要集成在**一起维护** 因为玩 **10 个开源项目仓库** 还不如**精一个 开源项目仓库**
+这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 还不如**精一个 开源项目仓库**
 与编程相关的内容都会存放到 这个仓库里 目前有 **6+ 个开源项目** 涉及一直要不断复习 开发 改造 维护 两个主要的子项目 写一些开源笔记 开发或维护一些辅助编程小工具 录制一些开源课程
 与其他开源项目合作 一直要研究的 JVM JDK 相关源码等。
 
@@ -13,7 +13,7 @@
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
-**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建加速器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 

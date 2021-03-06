@@ -166,13 +166,13 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 ### java-for-linux 综合型开源项目链接：
 
-[java-for-linux 综合型开源项目。](https://gitee.com/opendevel/java-for-linux)
+[java-for-linux 综合型开源项目](https://gitee.com/opendevel/java-for-linux)
 
-[java-for-linux 综合型开源项目创作号。](https://space.bilibili.com/77266754)
+[java-for-linux 综合型开源项目创作号](https://space.bilibili.com/77266754)
 
-[开源指北开源项目。](https://gitee.com/gitee-community/opensource-guide)
+[开源指北开源项目](https://gitee.com/gitee-community/opensource-guide)
 
-[iooc-admin后台权限管理系统开源项目。](https://gitee.com/OpenDevel/java-for-linux/tree/master/iooc-vue-admin)
+[iooc-admin后台权限管理系统开源项目](https://gitee.com/OpenDevel/java-for-linux/tree/master/iooc-vue-admin)
 
 ### java-for-linux 综合型开源项目资格证书：
 

@@ -1,0 +1,1 @@
+[tesseract-for-linux 开源子仓库](https://gitee.com/OpenDevel/tesseract-for-linux)

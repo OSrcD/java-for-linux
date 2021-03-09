@@ -12,7 +12,20 @@
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
+**使用说明：**
+
+[Bilibili 课程观看地址](https://space.bilibili.com/77266754/video)
+
+[Bilibili 专栏阅读地址](https://space.bilibili.com/77266754/article)
+
+
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+
+**使用说明：**
+
+[Teambition 原版笔记阅读地址](https://tburl.in/0jDNvpbK)
+
+[Gitee 笔记阅读地址](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 
@@ -48,9 +61,50 @@ node-pty、electron、vue、xterm。
 
 成为更加专业的开发者。
 
+**使用说明：**
+
+```shell
+# 克隆项目
+git clone https://gitee.com/OpenDevel/java-for-linux.git
+# 进入 OpenToolbox 子项目文件夹
+cd OpenToolbox
+# 安装 npm
+sudo npm install -g cnpm
+# 安装 cnpm
+sudo cnpm install -g yarn
+# 安装依赖
+sudo sh npm_install.sh
+# 运行
+sudo yarn run dev
+# 编译
+sudo yarn run build
+# 启动（Mac OS X）
+sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
+```
+
 **开源指北开源项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验。
 
+**使用说明：**
+
+[开源指北 1.0 版本阅读地址](https://gitee.com/opensource-guide/)
+
+[开源指北仓库](https://gitee.com/gitee-community/opensource-guide)
+
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
+
+**使用说明：**
+
+```shell
+- node版本 > v8.6.0
+# 克隆项目
+git clone https://gitee.com/OpenDevel/iooc-vue-admin
+# 进入项目目录
+cd iooc-admin
+# 安装依赖
+yarn
+# 本地开发 启动项目
+yarn dev
+```
 
 **WebRTC 直播子项目**：（在 **WebRTC** 文件夹）。
 
@@ -90,6 +144,46 @@ node-pty、electron、vue、xterm。
 5. 为未来结合 5G 时代的高带宽、超低延时的特性做准备，赋予 WebRTC 低延时性能。
 6. 传统的 WebRTC 直播，只适合一对一直播，不适合一对多直播。只有在服务器端搭建流媒体服务器把客户端流量转发到流媒体服务器，才适合一对多直播。
 
+**使用说明：**
+
+```shell
+# 克隆项目
+git clone https://gitee.com/OpenDevel/java-for-linux.git
+# 进入 webrtc子项目文件夹
+cd webrtc
+# 安装依赖
+mvn clean install
+# 安装 KMS 流媒体服务器
+docker pull kurento/kurento-media-server
+# 运行 KMS 并把本地 8888 端口 映射到容器 8888 端口
+docker run -itd --name kms --network host --restart always -p 8888:8888 kurento/kurento-media-server
+# 安装 Coturn 服务器
+git clong https://github.com/konoui/kurento-coturn-docker.git
+cd kurento-coturn-docker     
+cd  coturn
+sudo docker build --tag coturn .
+sudo docker run --name coturn -p 3478:3478 -p 3478:3478/udp coturn
+docker exec -it kms /bin/bash
+apt-get update
+apt-get install vim
+cd /etc/kurento/modules/kurento/
+# 修改配置文件
+vim WebRtcEndpoint.conf.ini
+# 找到以下配置 并修改为
+stunServerAddress=127.0.0.1
+stunServerPort=3478
+turnURL=kurento:kurento@127.0.0.1?transport=tcp
+# 回到 webrtc 子项目目录 
+cd java-for-linux
+cd webrtc
+cd target
+# 启动项目
+java -jar webrtc-6.14.1-SNAPSHOT.jar
+# 打开 Chrome 浏览器访问
+https://127.0.0.1:8443/admin.html
+https://127.0.0.1:8443/admin.html
+```
+
 **泡泡堂子项目**：（在 **bubble-hall** 文件夹）。
 
 **简介：**
@@ -120,9 +214,40 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目。
 
+**使用说明：**
+
+```shell
+# 克隆项目
+git clone https://gitee.com/OpenDevel/java-for-linux.git
+cd bubble-hall
+mvn clean install
+cd target
+# 启动项目
+java -jar bubble-hall-1.0-SNAPSHOT.jar
+```
+
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
+**使用说明：**
+
+```shell
+# 克隆项目
+git clone https://gitee.com/OpenDevel/java-for-linux.git
+cd 2048
+mvn clean install
+cd target
+# 启动项目
+java -jar 2048-1.0-SNAPSHOT.jar
+```
+
 **其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用 Selenium 库自动选择试卷选项题答题考卷（在 **cppmm** 文件夹 **auto-homework** 文件夹 **其他**文件夹）。
+
+**使用说明：**
+
+```shell
+阅读 cppmm 子项目
+https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm
+```
 
 ### 负责实现 java-for-linux 综合型开源子项目：
 

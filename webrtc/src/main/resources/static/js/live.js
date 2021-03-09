@@ -10,11 +10,11 @@ var webRtcPeer; // 点对点通信对象
 var iceServers={
     "iceServers":[
         {
-            urls:"stun:120.77.47.215:3478"
+            urls:"stun:127.0.0.1:3478"
         },
         {
             urls:[
-                "turn:120.77.47.215:3478"
+                "turn:127.0.0.1:3478"
             ],
             username:"kurento",
             credential:"kurento"

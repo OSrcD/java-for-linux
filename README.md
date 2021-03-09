@@ -12,7 +12,7 @@
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 课程观看地址：https://space.bilibili.com/77266754/video
 
@@ -20,7 +20,7 @@
 
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 笔记阅读地址：https://tburl.in/dClenu1t
 
@@ -58,7 +58,7 @@ node-pty、electron、vue、xterm。
 
 成为更加专业的开发者。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 ```shell
 # 克隆项目
@@ -81,13 +81,13 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 **开源指北开源项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 阅读地址：https://gitee.com/opensource-guide/
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 ```shell
 # 克隆项目
@@ -138,7 +138,7 @@ yarn dev
 5. 为未来结合 5G 时代的高带宽、超低延时的特性做准备，赋予 WebRTC 低延时性能。
 6. 传统的 WebRTC 直播，只适合一对一直播，不适合一对多直播。只有在服务器端搭建流媒体服务器把客户端流量转发到流媒体服务器，才适合一对多直播。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 ```shell
 # 克隆项目
@@ -207,7 +207,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 通过这个项目锻炼了Java面向对象分散式逻辑思维，排除不符合逻辑的编程思想，不同的类，在不同的包、不同的模块编写，而不是一个类写出所有游戏模块功能；借鉴Spring框架IOC、DL思想，编写游戏元素对象加载类，元素对象管理器类，如何以高内聚低耦合的方式管理、加载游戏里各种对象资源；当然作为组长最为重要的是，小组之间如何合理的分配任务了，共同的去完成这个项目。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 ```shell
 # 克隆项目
@@ -221,7 +221,7 @@ java -jar bubble-hall-1.0-SNAPSHOT.jar
 
 **2048 小游戏子项目**：（在 **2048** 文件夹里）。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 ```shell
 # 克隆项目
@@ -235,7 +235,7 @@ java -jar 2048-1.0-SNAPSHOT.jar
 
 **其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用 Selenium 库自动选择试卷选项题答题考卷（在 **cppmm** 文件夹 **auto-homework** 文件夹 **其他**文件夹）。
 
-**📎 使用说明：**
+**💡 使用说明：**
 
 阅读地址：https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm
 

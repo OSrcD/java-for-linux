@@ -1,20 +1,18 @@
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/java-for-linux.png)
-
-# java-for-linux: Welcome to Internet
-
-[![License](https://img.shields.io/badge/license-MIT%20-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+<div align="center"><img width="200" src="https://github.com/OSrcD/java-for-linux/blob/master/image/logo.png"/>
+<h1> java-for-linux: Welcome to Internet </h1>
+</div>
 
 ## 仓库简介
 
-这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护 开源项目仓库**
-与编程相关的内容都会存放到 这个仓库里 目前有 **6+ 个开源项目** 涉及一直要不断复习 开发 改造 维护 两个主要项目 写一些开源笔记 开发或维护一些辅助编程小工具 录制一些开源课程
+这个仓库是 **java-for-linux 综合型开源项目** 就是把自己开发的**多个开源项目集成**在一起维护
+与编程相关的内容都会存放到 这个仓库里 目前有 **6+ 个开源项目** 涉及一直要不断复习 开发 改造 维护 两个主要的子项目 写一些开源笔记 开发或维护一些辅助编程小工具 录制一些开源课程
 与其他开源项目合作 一直要研究的 JVM JDK 相关源码等。
 
-### java-for-linux 综合型开源项目子项目：
+### java-for-linux 综合型开源子项目：
 
 **开源课程子项目**：Java 写游戏安全、基于 Linux 的 JNI 动态函数注册、Kali Linux 内核编程、基于 Java For OpenCV 的百度云失效链接自动分享、在 JVM 源码内嵌写 Native 函数给 Java 层调用、C 语言指针、Java 泛型反编译（在开源**课程**文件夹）。
 
-**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 
@@ -50,7 +48,7 @@ node-pty、electron、vue、xterm。
 
 成为更加专业的开发者。
 
-**开源指北子项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验（在**开源指北**文件夹）。
+**开源指北开源项目**：参与 Gitee 官方开源项目 贡献开源项目与自媒体结合实战经验。
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
@@ -81,7 +79,7 @@ node-pty、electron、vue、xterm。
 
 前端：Bootstrap、Html、Css、JavaScript、JQuery、Vue、Kurento-utils、Sockjs-client、Stompjs、Webpack。
 
-开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、V2RayX、PostMan、Mac OS 10.15 操作系统。
+开发环境：IntelliJ IDEA 开发工具、FileZilla、SecureCRT、PostMan、Mac OS 10.15 操作系统。
 
 **业绩：**
 
@@ -106,7 +104,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 1. 负责小组之间合理的分配任务，检查小组任务完成情况。
 2. 负责实现泡泡爆炸。
-3. 负责实现泡泡转换为泡泡波纹数组。
+3. 负责实现泡泡爆炸转换为泡泡波纹数组。
 4. 负责实现箱子与泡泡爆炸碰撞摧毁。
 5. 负责实现泡泡波纹与泡泡爆炸碰撞形成连爆。
 
@@ -126,7 +124,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 **其他开源子项目**：cppmm 子项目搜集了市面上 JVM 源码 所有研究资料、auto-homework 子项目使用 Selenium 库自动选择试卷选项题答题考卷（在 **cppmm** 文件夹 **auto-homework** 文件夹 **其他**文件夹）。
 
-### 负责 java-for-linux 综合型开源项目子项目：
+### 负责实现 java-for-linux 综合型开源子项目：
 
 1. 负责实现开源课程子项目。
 
@@ -135,6 +133,14 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 3. 负责实现 OpenToolbox 子项目。
 
 4. 负责实现其他开源子项目。
+
+5. 负责在开源指北项目贡献开源项目与自媒体结合实战经验
+
+6. 负责实现 WebRTC 直播子项目
+
+7. 负责实现 泡泡堂子项目
+
+8. 负责实现 2048 小游戏子项目
 
 ### java-for-linux 综合型开源项目技术栈：
 
@@ -196,16 +202,6 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [项目观看地址](https://www.bilibili.com/video/BV1MK4y1L7nU)
 
-## TS JS 双版本前端通用后台权限管理系统开源项目（Vue 3.x TypeScript element-plus）
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/iooc-admin.png)
-
-项目地址：
-
-[iooc-admin](https://github.com/MyJacking/iooc-vue-admin)
-
-[项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
-
 ## 电商
 
 文件夹：
@@ -231,6 +227,16 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 [sso-music](https://gitee.com/OpenDevel/java-for-linux/tree/master/sso-music)
 
 [java-for-alibaba](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-for-alibaba)
+
+## exagear-desktop-rpi3
+
+文件夹：
+
+[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
+
+[文章地址](https://www.bilibili.com/read/cv8446499)
+
+[下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
 
 ## WebRTC 一对多直播 开源项目
 
@@ -435,23 +441,19 @@ JVM 系列的项目地址：
 
 [openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
 
-# 其他开源项目（暂时不介绍用来做什么的）
-
-## exagear-desktop-rpi3
-
-文件夹：
-
-[exagear-desktop-rpi3](https://gitee.com/OpenDevel/java-for-linux/tree/master/exagear-desktop-rpi3)
-
-[文章地址](https://www.bilibili.com/read/cv8446499)
-
-[下载地址](https://github.com/OSrcD/java-for-linux/releases/tag/0.0.3)
-
-## auto-homework 其他开源项目
+## auto-homework
 
 项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
+
+## iooc-admin 前端通用后台权限管理系统开源项目
+
+项目地址：
+
+[iooc-admin](https://github.com/MyJacking/iooc-vue-admin)
+
+[项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
 
 # 开源项目交流群
 
@@ -466,3 +468,7 @@ JVM 系列的项目地址：
 ## 微信赞赏码
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/赞赏码.png)
+
+## LICENSE
+
+使用 Apache2.0 开源许可协议

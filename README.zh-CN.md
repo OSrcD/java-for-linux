@@ -15,18 +15,20 @@
 
 **开源课程子项目使用说明：**
 
-[Bilibili 课程观看地址](https://space.bilibili.com/77266754/video)
+```text
+Bilibili 课程观看地址：https://space.bilibili.com/77266754/video
 
-[Bilibili 专栏阅读地址](https://space.bilibili.com/77266754/article)
+Bilibili 专栏阅读地址：https://space.bilibili.com/77266754/article
+```
 
 
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **开源笔记子项目使用说明：**
 
-[Teambition 原版笔记阅读地址](https://tburl.in/0jDNvpbK)
-
-[Gitee 笔记阅读地址](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0)
+```text
+Teambition 笔记阅读地址：https://tburl.in/0jDNvpbK
+```
 
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。

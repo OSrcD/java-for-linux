@@ -1,1 +1,0 @@
-@..\..\bin\dsvm_lite HelloWorld

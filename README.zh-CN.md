@@ -84,7 +84,7 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 **💡 使用说明：**
 
-[阅读地址](https://gitee.com/opensource-guide/)
+[开源指北阅读地址](https://gitee.com/opensource-guide/)
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
@@ -238,7 +238,7 @@ java -jar 2048-1.0-SNAPSHOT.jar
 
 **💡 使用说明：**
 
-[阅读地址](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
+[cppmm 子项目阅读地址](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
 ### 负责实现 java-for-linux 综合型开源子项目：
 

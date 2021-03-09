@@ -16,9 +16,9 @@
 **开源课程使用说明：**
 
 ```text
-Bilibili 课程观看地址：https://space.bilibili.com/77266754/video
+课程观看地址：https://space.bilibili.com/77266754/video
 
-Bilibili 专栏阅读地址：https://space.bilibili.com/77266754/article
+专栏阅读地址：https://space.bilibili.com/77266754/article
 ```
 
 
@@ -27,7 +27,7 @@ Bilibili 专栏阅读地址：https://space.bilibili.com/77266754/article
 **开源笔记使用说明：**
 
 ```text
-Teambition 笔记阅读地址：https://tburl.in/0jDNvpbK
+笔记阅读地址：https://tburl.in/dClenu1t
 ```
 
 
@@ -92,7 +92,7 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 ```text
 
-开源指北 1.0 版本阅读地址：https://gitee.com/opensource-guide/
+开源指北阅读地址：https://gitee.com/opensource-guide/
 
 开源指北仓库：https://gitee.com/gitee-community/opensource-guide
 
@@ -103,7 +103,6 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 **iooc-admin 使用说明：**
 
 ```shell
-- node版本 > v8.6.0
 # 克隆项目
 git clone https://gitee.com/OpenDevel/iooc-vue-admin
 # 进入项目目录

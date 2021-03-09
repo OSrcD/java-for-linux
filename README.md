@@ -171,7 +171,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [开源指北开源项目](https://gitee.com/gitee-community/opensource-guide)
 
-[iooc-admin后台权限管理系统开源项目](https://github.com/MyJacking/iooc-vue-admin)
+[iooc-admin后台权限管理系统开源项目](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)
 
 ### java-for-linux 综合型开源项目资格证书：
 
@@ -439,7 +439,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 JVM 系列的项目地址：
 
-[openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/openjdk-for-linux)
+[openjdk-for-linux](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/openjdk-for-linux)
 
 ## auto-homework
 
@@ -451,7 +451,7 @@ JVM 系列的项目地址：
 
 项目地址：
 
-[iooc-admin](https://github.com/MyJacking/iooc-vue-admin)
+[iooc-admin](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)
 
 [项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
 

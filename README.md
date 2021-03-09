@@ -16,6 +16,7 @@
 
 ```text
 Bilibili 课程观看地址：https://space.bilibili.com/77266754/video
+
 Bilibili 专栏阅读地址：https://space.bilibili.com/77266754/article
 ```
 
@@ -88,6 +89,7 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 ```text
 开源指北 1.0 版本阅读地址：https://gitee.com/opensource-guide/
+
 开源指北仓库：https://gitee.com/gitee-community/opensource-guide
 ```
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
@@ -181,7 +183,6 @@ cd target
 java -jar webrtc-6.14.1-SNAPSHOT.jar
 # 打开 Chrome 浏览器访问
 https://127.0.0.1:8443/admin.html
-https://127.0.0.1:8443/admin.html
 ```
 
 **泡泡堂子项目**：（在 **bubble-hall** 文件夹）。
@@ -245,7 +246,6 @@ java -jar 2048-1.0-SNAPSHOT.jar
 **其他开源子项目使用说明：**
 
 ```shell
-阅读 cppmm 子项目
 https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm
 ```
 

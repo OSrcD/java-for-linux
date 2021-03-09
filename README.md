@@ -14,15 +14,15 @@
 
 **💡 使用说明：**
 
-课程观看地址：https://space.bilibili.com/77266754/video
+[课程观看地址](https://space.bilibili.com/77266754/video)
 
-专栏阅读地址：https://space.bilibili.com/77266754/article
+[专栏阅读地址](https://space.bilibili.com/77266754/article)
 
 **开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
 
 **💡 使用说明：**
 
-笔记阅读地址：https://tburl.in/dClenu1t
+[笔记阅读地址](https://tburl.in/dClenu1t)
 
 **OpenToolbox 子项目：**（在 **OpenToolbox** 文件夹）。
 
@@ -83,7 +83,7 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 **💡 使用说明：**
 
-阅读地址：https://gitee.com/opensource-guide/
+[阅读地址](https://gitee.com/opensource-guide/)
 
 **iooc-admin 后台权限管理系统开源子项目**：与其他开源爱好者合作、贡献开源项目宣传、开源项目介绍教程、开源项目文档、开源项目入门（在 **iooc-vue-admin** 文件夹）。
 
@@ -237,7 +237,7 @@ java -jar 2048-1.0-SNAPSHOT.jar
 
 **💡 使用说明：**
 
-阅读地址：https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm
+[阅读地址](https://gitee.com/OpenDevel/java-for-linux/tree/master/cppmm)
 
 ### 负责实现 java-for-linux 综合型开源子项目：
 

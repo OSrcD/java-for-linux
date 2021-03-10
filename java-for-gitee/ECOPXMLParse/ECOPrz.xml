@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Shift-JIS"?>
+<User>
+	<PointTx></PointTx>
+	<site_id>S0000</site_id>
+	<CompanyID>1234</CompanyID>
+	<DeptID>1234</DeptID>
+	<StoreID>1234</StoreID>
+	<TxType>7999</TxType>
+	<Date>2018-10-21T17:11:00.000+09:00</Date>
+	<Status>0</Status>
+	<ErrorMsg></ErrorMsg>
+	<Param1>123456789012</Param1>
+	<Param2>フジツウ</Param2>
+	<Param3>タロウ</Param3>
+	<Param4>1990/01/04</Param4>
+	<Param5>0312345678</Param5>
+</User>

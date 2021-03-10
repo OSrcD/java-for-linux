@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>indexServlet</servlet-name>
+        <servlet-class>org.imooc.servlet.IndexServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>indexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>importExcelInit</servlet-name>
+        <servlet-class>org.imooc.servlet.ImportExcelInitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>importExcelInit</servlet-name>
+        <url-pattern>/importExcelInit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>importExcel</servlet-name>
+        <servlet-class>org.imooc.servlet.ImportExcelServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>importExcel</servlet-name>
+        <url-pattern>/importExcel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exportExcelInit</servlet-name>
+        <servlet-class>org.imooc.servlet.ExportExcelInitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportExcelInit</servlet-name>
+        <url-pattern>/exportExcelInit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exportExcel</servlet-name>
+        <servlet-class>org.imooc.servlet.ExportExcelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportExcel</servlet-name>
+        <url-pattern>/exportExcel</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ImportWordServlet</servlet-name>
+        <servlet-class>org.imooc.servlet.ImportWordInitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ImportWordServlet</servlet-name>
+        <url-pattern>/importWordInit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImportWord</servlet-name>
+        <servlet-class>org.imooc.servlet.ImportWordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ImportWord</servlet-name>
+        <url-pattern>/importWord</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>exportWordInit</servlet-name>
+        <servlet-class>org.imooc.servlet.ExportWordInitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportWordInit</servlet-name>
+        <url-pattern>/exportWordInit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exportWord</servlet-name>
+        <servlet-class>org.imooc.servlet.ExportWordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exportWord</servlet-name>
+        <url-pattern>/exportWord1</url-pattern>
+    </servlet-mapping>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/jsp/common.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
+
+</web-app>

@@ -1,0 +1,24 @@
+
+debug: false
+
+logging:
+  level:
+    root: info
+  file: /local/user/app-prd.log
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://155.32.55.88:3307/prd
+    username: root
+    password: 3313@#!
+
+
+mall:
+  config:
+    name: 优美商城
+    description: 这是一个化妆品特卖网站
+    hot-sales: 20
+    show-advert: true
+server:
+  port: 80

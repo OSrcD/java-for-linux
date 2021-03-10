@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="userService" class="com.imooc.ioc.demo1.UserServiceImpl">-->
+<!--        <property name="name" value="李四" />-->
+<!--    </bean>-->
+
+<!--    <bean id="bean1" class="com.imooc.ioc.demo2.Bean1" />-->
+
+<!--    <bean name="bean2" class="com.imooc.ioc.demo2.Bean2Factory" factory-method="createBean2" />-->
+
+<!--    <bean id="bean3Factory" class="com.imooc.ioc.demo2.Bean3Factory" />-->
+
+<!--    <bean name="bean3" factory-bean="bean3Factory" factory-method="createBean3" />-->
+
+<!--    <bean id="person" class="com.imooc.ioc.demo3.Person" scope="prototype" />-->
+
+<!--    <bean id="man" class="com.imooc.ioc.demo3.Man" scope="singleton" init-method="setup" destroy-method="teardown" >-->
+<!--        <property name="name" value="张三" />-->
+<!--    </bean>-->
+
+    <bean class="com.imooc.ioc.demo3.MyBeanPostProcessor"></bean>
+
+    <bean id="userDao" class="com.imooc.ioc.demo3.UserDaoImpl" >
+
+    </bean>
+
+<!--    <bean id="user" class="com.imooc.ioc.demo4.User">-->
+<!--        <constructor-arg name="name" value="张三" />-->
+<!--        <constructor-arg name="age" value="23" />-->
+<!--    </bean>-->
+
+<!--    <bean id="person" class="com.imooc.ioc.demo4.Person">-->
+<!--        <property name="name" value="李四" />-->
+<!--        <property name="age" value="32" />-->
+<!--        <property name="cat" ref="cat" />-->
+<!--    </bean>-->
+
+<!--    <bean id="cat" class="com.imooc.ioc.demo4.Cat">-->
+<!--        <property name="name" value="ketty" />-->
+<!--    </bean>-->
+
+
+    <bean id="person" class="com.imooc.ioc.demo4.Person" p:name="大黄" p:age="34" p:cat-ref="cat" />
+
+    <bean id="cat" class="com.imooc.ioc.demo4.Cat" p:name="小黄" />
+
+    <bean id="category" class="com.imooc.ioc.demo4.Category">
+        <property name="name" value="#{'服装'}" />
+    </bean>
+
+    <bean id="productInfo" class="com.imooc.ioc.demo4.ProductInfo"/>
+
+    <bean id="product" class="com.imooc.ioc.demo4.Product">
+        <property name="name" value="#{'男装'}" />
+        <property name="price" value="#{productInfo.calculatePrice()}" />
+        <property name="category" value="#{category}"/>
+    </bean>
+
+    <bean id="collectionBean" class="com.imooc.ioc.demo5.CollectionBean">
+
+        <property name="arrs">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>111</value>
+                <value>222</value>
+                <value>333</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>eee</value>
+                <value>fff</value>
+                <value>ggg</value>
+            </set>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="aaa" value="111"></entry>
+                <entry key="bbb" value="222"></entry>
+                <entry key="ccc" value="333"></entry>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="username">root</prop>
+                <prop key="password">123</prop>
+            </props>
+        </property>
+
+
+    </bean>
+
+</beans>

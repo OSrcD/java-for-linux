@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="studentDao" class="com.imooc.aop.demo3.StudentDaoImpl" />
+
+
+
+    <bean id="myBeforeAdvice" class="com.imooc.aop.demo3.MyBeforeAdvice"/>
+
+
+    <bean id="studentDaoProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="studentDao"/>
+        <property name="proxyInterfaces" value="com.imooc.aop.demo3.StudentDao" />
+        <property name="interceptorNames" value="myBeforeAdvice" />
+        <property name="optimize" value="true"></property>
+    </bean>
+
+
+</beans>

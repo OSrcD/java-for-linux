@@ -1,0 +1,179 @@
+@charset "utf-8";
+/*reset*/
+html { -webkit-text-size-adjust:none; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td { margin:0; padding:0; }
+table { border-collapse:collapse; border:0; }
+img { border:0; }
+li { list-style:none; }
+h1, h2, h3, h4, h5, h6 { font-size:100%;}
+input { border:0; font-size:100%; }
+strong { font-weight:700; }
+/* end reset */
+/*clear float*/
+.fix { clear:both; zoom:1; }
+.fix:after{ display:block; clear:both; height:0; overflow:hidden; visibility:hidden; content:"."; } 
+/* =body= */
+body { font:12px/18px Arial, Helvetica, sans-serif,"宋体"; color:#6e6e6e; background:#1b5799 url(../images/bodybg.png) repeat-x;}
+a { color:#266392; text-decoration:none;}
+a:hover { text-decoration:underline;}
+input, select, teatarea { font:12px Arial, Helvetica, sans-serif; }
+.check_city { margin-left: 10px;}
+.checked_city { margin-left: 10px;}
+/*color*/
+
+/*header*/
+#header { width:100%; overflow:hidden;}
+.login_top { width:100%; padding-top:20px; text-align:right; line-height:18px; height:18px;}
+.login_top a, .h_info .help, .h_info .first { float:right; height:18px; padding-left:25px; background:url(../images/icon.png) no-repeat; color:#dbdbdb;}
+.login_top .first, .h_info .first { background-position:0 2px; background-position:0 0px\9;}
+.login_top .help, .h_info .help { background-position:0 -23px; background-position:0 -24px\9; display:inline; margin-right:20px;}
+.login_top .line, .h_info .line {float:right; display:inline; width:2px; height:18px; margin:0 10px; background:url(../images/line.gif) no-repeat;}
+.iheader { width:100%; height:97px; background:url(../images/icon.png) repeat-x 0 -120px; overflow:hidden;}
+.logo { float:left; display:inline; margin-left:35px; margin-top:6px;}
+.wuxianlogo { float:left; display:inline; margin:15px 0 0 35px;}
+.h_info { float:right; color:#fff; margin-top:20px; margin-bottom:5px; text-align:right; padding-right:15px; }
+.h_info a { color:#fff;}
+.h_info .first { margin-left:30px;}
+.nav { float:left; margin-top:22px; padding-left:20px;}
+.nav li { float:left; margin-right:10px; background:url(../images/icon.png) repeat-x 0 -224px;}
+.nav li a { display:block; padding-left:15px; height:32px; line-height:32px; color:#fff;}
+.nav li a span { cursor:pointer; display:block; padding-right:15px; height:32px; line-height:32px; font-size:14px; font-weight:700;}
+.nav li a:hover, .nav li.on a { background:url(../images/navbg.png) no-repeat left top; color:#2777ad; text-decoration:none;}
+.nav li a:hover span, .nav li.on a span { background:url(../images/navbg.png) no-repeat right top;}
+.selectBox { float:right; margin-top:25px; display:inline; margin-right:30px;}
+/*footer*/
+#footer { width:100%; text-align:center; padding-top:20px; color:#dbdbdb;}
+/*left*/
+.left { width:150px;}
+.ileft { width:143px; margin-left:1px;}
+.left h2 { font-size:14px; padding-left:20px; height:36px; line-height:36px; border-bottom:1px solid #dce4e6;}
+.left h3 {cursor:pointer; color:#266392; font-size:14px; font-weight:normal; padding-top:10px; padding-left:20px; margin-bottom:10px; border-top:1px solid #fff;}
+.left h3 a { display:block; width:155px; position:relative; margin-left:-20px; padding-left:20px; height:35px; line-height:32px;color:#266392;}
+.leftTd { background:url(../images/tdbg.png) repeat-y 0 0;}
+.left li a {cursor:pointer; display:block; width:120px; padding-left:35px; position:relative; height:35px; line-height:32px; color:#266392;}
+.left li a:hover, .left li.on a,.left h3 a:hover,.left h3 a.on{background:url(../images/liabg.gif) no-repeat; color:#fff; text-decoration:none;}
+.logout { margin:40px 0 0 20px; padding-left:20px; line-height:22px; background:url(../images/icon.png) no-repeat 0 -297px;}
+.logout a {color:#266392;}
+.pointer { position:relative; z-index:10; width:7px; height:100px; cursor:pointer; background:url(../images/pointer.gif) no-repeat;}
+.pointer2 {background:url(../images/pointer2.gif) no-repeat;}
+/*right*/
+.right { padding-right:20px; min-height:450px; _height:450px;}
+.current { padding-left:20px; line-height:34px; color:#494a4c; background:url(../images/icon.png) no-repeat 0 -315px;}
+.current a {color:#494a4c;}
+.rightCont { border:1px solid #ddd; padding:10px 30px; background:#fff;}
+.rightCont .title { padding-bottom:10px; border-bottom:2px solid #99c7f4;}
+.rightCont .title li { position:relative; float:left; border-left:1px solid #ddd;}
+.rightCont .title li.action { float:right; border:none;}
+.rightCont .title a { display:block; width:118px; height:24px; margin:0 10px; text-align:center; line-height:24px;}
+.rightCont .title .first {}
+.tab1 { margin-top:5px;}
+.tab1 td{ padding:5px 0;}
+.tab1 select { width:120px;}
+.allInput { width:120px; height:23px; line-height:23px; border:1px solid #c3ced0;}
+.w323 { width:323px;}
+.w110 { width:120px;}
+.radioIn { position:relative; top:2px; margin-left:20px; cursor:pointer;}
+.tab1 .date, .fabuzixun .date { position:relative; cursor:pointer; top:6px; *top:0; display:inline-block; width:20px; height:20px; margin:0 5px; background:url(../images/icon.png) no-repeat 0 -381px;}
+.tabSub { cursor:pointer; width:63px; height:27px; background:url(../images/btn03.gif) no-repeat; color:#333;}
+.tabSub:hover {color:#5d7731; background:url(../images/btn02.gif) no-repeat;}
+.zixun .title2 { height:31px; line-height:31px; padding-left:25px; background:url(../images/icon.png) repeat-x 0 -405px; border-bottom:1px solid #aec7e5;}
+.tab2 th { font-weight:normal; height:29px; line-height:29px; background:#e5f0ff; border-top:1px solid #fff; border-bottom:1px solid #ddd;}
+.tab2 td{ text-align:center; padding:5px 0; border-bottom:1px solid #ddd;}
+.tab2 .action td { background:#f5f5f5; text-align:left;}
+.tab2 .btn03, .fabuzixun .btn03, .tab3 .btn03, .y_btn .btn03, .bbtn03 { display:inline-block; width:63px; height:27px; margin-left:10px; text-align:center; line-height:27px; background:url(../images/btn03.gif) no-repeat; color:#333;}
+.tji .tabSub { float:left;}
+.bbtn03 { float:left; display:inline;}
+.tab2 .btn03:hover, .fabuzixun .btn03:hover, .tab3 .btn03:hover, .y_btn .btn03:hover, .bbtn03:hover {color:#5d7731; background:url(../images/btn02.gif) no-repeat; text-decoration:none;}
+.tab2 .tijiao, .tab2 select { float:right; display:inline; margin-right:10px;}
+.tab2 select  { margin-top:3px;}
+/*page*/
+.page { float:right; margin:10px 0; line-height:25px;}
+.w28 { width:28px; height:23px; line-height:23px; text-align:center;}
+.page a { display:inline-block;}
+.page .pre, .page .next { width:57px; height:23px; background:url(../images/page.gif) no-repeat; line-height:23px; text-indent:-9999px;border:1px solid #ccc; }
+.page .pre { margin:0 10px 0 0;}
+.page .next { background-position:left bottom; margin:0 2px 0 7px;}
+
+.page .first, .page .last { width:57px; height:23px; background:url(../images/page_be.gif) no-repeat; line-height:23px; text-indent:-9999px;border:1px solid #ccc; }
+.page .first { margin:0 10px 0 15px;}
+.page .last { background-position:left bottom; margin:0 20px 0 7px;}
+
+.page .num { width:25px; height:23px; line-height:23px; margin-right:3px; text-align:center; border:1px solid #ccc; color:#333;}
+.page .cur { display:inline-block; width:25px; height:23px; margin-right:3px; line-height:23px; text-align:center; border:1px solid #468bbe; color:#468bbe;}
+.page .num:hover { background:#4c8ccc; border:1px solid #4c8ccc; color:#fff; text-decoration:none;}
+.page .go { display:inline-block; width:25px; height:23px; line-height:23px; text-align:center; border:1px solid #ccc;}
+.page b{ color:#2979b4}
+
+/*快捷操作*/
+.k_title { font-size:14px; color:#6e6e6e; font-weight:700; } 
+.k_title span { font-size:12px; font-weight:normal; color:#f89832}
+.tab3 { border-collapse:collapse; border:1px solid #ccc; margin-top:20px;}
+.tab3 td { border:1px solid #ccc; padding:15px 0 15px 40px;}
+.tab3 .action a { color:#266392; margin-right:10px;}
+
+/*等级列表*/
+.tab4, .tab4 td { border-collapse:collapse; border:1px solid #ccc; text-align:center;}
+.tab4 td { padding:3px 0;}
+.tab4 th { height:29px; line-height:29px; background:#E5F0FF; border-right:1px solid #ccc;}
+.y_btn { margin-top:20px; padding-left:180px;}
+.y_btn .btn03 { margin-right:40px; margin-left:0; cursor:pointer;}
+.tec { text-align:center; }
+.haoma li { margin-bottom:20px;}
+.tab3 .fll { float:left; width:200px; margin-right:30px;}
+.tab3 .flr { float:left;}
+.tab3 .flr textarea { width:300px; height:80px; border:1px solid #ccc;}
+.radioBox { margin-bottom:20px;}
+.c_daoru { padding-left:30px;}
+.c_daoru textarea {width:800px; height:200px; border:1px solid #ccc; margin-top:20px;}
+.modelRadio .radioIn { margin-bottom:10px;}
+.modelRadio { float:left; margin-right:20px; margin-bottom:20px;}
+.hide, .hide2 { display:none;} 
+.fabuzixun select { width:190px;}
+.hide2 li { float:left; width:100%; margin-bottom:5px;}
+.hide2 label { float:left; width:80px; text-align:right; line-height:22px;}
+.mt10 { margin-top:10px;}
+
+/* 下拉多选框 */
+.l-text-wrapper{ position:relative;}
+/* 文本框 */
+.l-text
+{
+    position:relative;
+    border:1px solid #AECAF0; height:20px; line-height:20px;
+    width:130px; background:white;
+}
+.l-text-field
+{
+    position:absolute; top:0px; left:0px;
+    width:110px; 
+    border:0; margin:0; outline:none;
+}
+
+/* 下拉框 右侧那个可点击的区域 分别是普通、经过、按住状态 */
+.l-trigger,.l-trigger-hover,.l-trigger-pressed
+{
+    cursor:pointer;
+    position:absolute;
+    top:1px;right:1px;
+    width:16px;height:16px;
+    overflow:hidden;
+}
+/* 下拉面板 */
+.l-box-select
+{
+    display:none;
+    position:absolute; padding:0px;  
+    border:1px solid #AECAF0; background:white;
+    width:130px; height:120px;
+    margin-top:1px;
+    z-index:9300; font-size:12px; line-height:18px;
+}
+.l-box-select-absolute
+{
+    margin-top:0px;
+}
+.l-box-select-inner{ margin:0; padding:0; width:100%;overflow:auto; height:100%;color:#333;}
+.l-box-select-inner .l-box-select-table{margin:0; padding:0; width:100%; }
+.l-box-select .l-box-select-table td{ padding:2px; text-align:left;}
+.l-box-select .l-table-nocheckbox td.l-selected{ background-color:#FFBD69;}
+.l-box-select .l-table-nocheckbox td:hover,.l-box-select .l-table-nocheckbox td.l-over{ background-color:#FFE7A2; cursor:pointer;}

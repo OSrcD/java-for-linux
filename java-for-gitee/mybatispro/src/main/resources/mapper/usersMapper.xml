@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.damu.entity.Users">
+
+    <select id="findUsers" resultMap="forUsers">
+        select * from users
+        <if test="id != null">
+            where id = #{id};
+        </if>
+    </select>
+
+    <resultMap id="forUsers" type="com.damu.entity.Users">
+        <id property="id" column="id"></id>
+
+        <result column="username" property="name"></result>
+        <collection property="addresses"  column="id" ofType="com.damu.entity.Address" select="getAddress"></collection>
+    </resultMap>
+
+    <select id="getAddress" resultType="com.damu.entity.Address">
+        select * from address where userid = #{id}
+    </select>
+
+    <sql id="user_fields">
+        username,userpass,nickname,age,gender,email,phone,createTime,updateTime,lastLogin,userstatus,remark
+    </sql>
+    <!--<select id="findById" resultType="com.damu.entity.Users">-->
+        <!--select * from users where id = #{id};-->
+
+    <!--</select>-->
+    <insert id="addUser" useGeneratedKeys="true" keyProperty="id" >
+        insert into users(<include refid="user_fields"></include>)
+        value (#{name},#{userpass},#{nickname},#{age},#{gender},#{email},#{phone},#{createTime},#{updateTime},#{lastLogin},#{userStatus},#{remark})
+    </insert>
+
+    <update id="updateUser">
+        update users
+        <set>
+            <if test="name != null ">username = #{name},</if>
+            <if test="userpass != null">userpass = #{userpass},</if>
+            <if test="nickname != null">nickname = #{nickname},</if>
+            <if test="age != null">age = #{age},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="email != null">email = #{email},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="createTime != null">createTime = #{createTime},</if>
+            <if test="updateTime != null">updateTime = #{updateTime},</if>
+            <if test="lastLogin != null">lastlogin = #{lastLogin},</if>
+            <if test="userStatus != null">userStatus = #{userStatus},</if>
+            <if test="remark != null">remark = #{remark},</if>
+
+
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delUser">
+      delete from users where id = #{id}
+    </delete>
+
+
+</mapper>

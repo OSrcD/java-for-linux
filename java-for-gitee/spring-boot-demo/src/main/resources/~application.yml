@@ -1,0 +1,35 @@
+management:
+  endpoint:
+    health:
+      show-details: always
+
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  app-name: spring-boot-demo
+  author: OpenDev
+  email: xxx@email
+
+spring:
+  profiles:
+    active: prod
+
+
+---
+
+spring:
+  profiles: dev
+
+---
+
+spring:
+  profiles: prod
+
+
+server:
+  tomcat:
+    max-threads: 300
+    max-connections: 1000

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>LoginListenerWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+  	<filter-name>sessionFilter</filter-name>
+  	<filter-class>com.imooc.filter.SessionFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>sessionFilter</filter-name>
+  	<url-pattern>/main.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  <listener>
+  	<listener-class>com.imooc.listener.LoginSessionListener</listener-class>
+  </listener>
+  
+  
+</web-app>

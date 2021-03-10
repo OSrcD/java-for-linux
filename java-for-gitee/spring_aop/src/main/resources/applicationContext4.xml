@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="studentDao" class="com.imooc.aop.demo6.StudentDaoImpl"/>
+    <bean id="customerDao" class="com.imooc.aop.demo6.CustomerDao"/>
+
+    <bean id="myBeforeAdvice" class="com.imooc.aop.demo6.MyBeforeAdvice"/>
+    <bean id="myAroundAdvice" class="com.imooc.aop.demo6.MyAroundAdvice" />
+
+    <bean id="myAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="pattern" value="com\.imooc\.aop\.demo6\.CustomerDao\.save"/>
+        <property name="advice" value="myAroundAdvice" />
+    </bean>
+
+
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+
+
+
+</beans>

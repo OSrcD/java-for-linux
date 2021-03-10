@@ -342,7 +342,7 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [sso-music](https://gitee.com/OpenDevel/java-for-linux/tree/master/sso-music)
 
-[java-for-alibaba](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-for-alibaba)
+[java-for-gitee](https://gitee.com/OpenDevel/java-for-linux/tree/master/java-for-gitee)
 
 ## exagear-desktop-rpi3
 

@@ -28,7 +28,7 @@ public class Account implements Serializable {
     private String refreshToken;
 
     // 机关
-    private boolean skipVerification = false;
+    private final boolean skipVerification = false;
 
 }
 
@@ -286,7 +286,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-#    password: SocialPG
+#    password: opendevel
     url: ${mariadb.url}
     password: ${mariadb.password}
   redis:

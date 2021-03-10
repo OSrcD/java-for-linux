@@ -15,7 +15,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @ComponentScan(basePackages={"com.imooc","org.n3r.idworker"})
 @EnableScheduling       // 开启定时任务
 @EnableRedisHttpSession // 开启使用redis作为spring session
-public class Application {
+public class Application extends Object {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);

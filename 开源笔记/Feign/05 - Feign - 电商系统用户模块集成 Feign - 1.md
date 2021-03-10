@@ -77,7 +77,7 @@ public interface UserService {
      * @return
      */
     @GetMapping("user/exists")
-    public boolean queryUsernameIsExist(@RequestParam("username") String username);
+    boolean queryUsernameIsExist(@RequestParam("username") String username);
 
     /**
      * 创建用户
@@ -85,14 +85,14 @@ public interface UserService {
      * @return
      */
     @PostMapping("user")
-    public Users createUser(@RequestBody UserBO userBo);
+    Users createUser(@RequestBody UserBO userBo);
 
     /**
      * 检索用户名和密码是否匹配，用于登录
      */
     @GetMapping("verify")
-    public Users queryUserForLogin(@RequestParam("username") String username,
-                                   @RequestParam("password") String password);
+    Users queryUserForLogin(@RequestParam("username") String username,
+                            @RequestParam("password") String password);
 }
 
 ```
@@ -123,21 +123,21 @@ public interface AddressService {
      * @return
      */
     @GetMapping("addressList")
-    public List<UserAddress> queryAll(@RequestParam("userId") String userId);
+    List<UserAddress> queryAll(@RequestParam("userId") String userId);
 
     /**
      * 用户新增地址
      * @param addressBO
      */
     @PostMapping("address")
-    public void addNewUserAddress(@RequestBody AddressBO addressBO);
+    void addNewUserAddress(@RequestBody AddressBO addressBO);
 
     /**
      * 用户修改地址
      * @param addressBO
      */
     @PutMapping("address")
-    public void updateUserAddress(@RequestBody AddressBO addressBO);
+    void updateUserAddress(@RequestBody AddressBO addressBO);
 
     /**
      * 根据用户id和地址id，删除对应的用户地址信息
@@ -145,8 +145,8 @@ public interface AddressService {
      * @param addressId
      */
     @DeleteMapping("address")
-    public void deleteUserAddress(@RequestParam("userId") String userId,
-                                  @RequestParam("addressId") String addressId);
+    void deleteUserAddress(@RequestParam("userId") String userId,
+                           @RequestParam("addressId") String addressId);
 
     /**
      * 修改默认地址
@@ -154,8 +154,8 @@ public interface AddressService {
      * @param addressId
      */
     @PostMapping("setDefaultAddress")
-    public void updateUserAddressToBeDefault(@RequestParam("userId") String userId,
-                                             @RequestParam("addressId") String addressId);
+    void updateUserAddressToBeDefault(@RequestParam("userId") String userId,
+                                      @RequestParam("addressId") String addressId);
 
 
     /**
@@ -165,8 +165,8 @@ public interface AddressService {
      * @return
      */
     @GetMapping("queryAddress")
-    public UserAddress queryUserAddress(@RequestParam("userId") String userId,
-                                        @RequestParam(value = "addressId", required = false) String addressId);
+    UserAddress queryUserAddress(@RequestParam("userId") String userId,
+                                 @RequestParam(value = "addressId", required = false) String addressId);
 
 }
 
@@ -194,7 +194,7 @@ public interface CenterUserService {
      * @return
      */
     @GetMapping("profile")
-    public Users queryUserInfo(@RequestParam("userId") String userId);
+    Users queryUserInfo(@RequestParam("userId") String userId);
 
     /**
      * 修改用户信息
@@ -203,8 +203,8 @@ public interface CenterUserService {
      * @return
      */
     @PutMapping("profile/{userId}")
-    public Users updateUserInfo(@PathVariable("userId") String userId,
-                                @RequestBody CenterUserBO centerUserBO);
+    Users updateUserInfo(@PathVariable("userId") String userId,
+                         @RequestBody CenterUserBO centerUserBO);
 
 
     /**
@@ -214,8 +214,8 @@ public interface CenterUserService {
      * @return
      */
     @PostMapping("updatePhoto")
-    public Users updateUserFaceUrl(@RequestParam("userId") String userId,
-                                   @RequestParam("faceUrl") String faceUrl);
+    Users updateUserFaceUrl(@RequestParam("userId") String userId,
+                            @RequestParam("faceUrl") String faceUrl);
 
 }
 
@@ -256,7 +256,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver          # mysql驱动
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-#    password: SocialPG
+#    password: opendevel
     hikari:
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数
@@ -387,32 +387,28 @@ public interface ItemService {
      * @param itemId
      * @return
      */
-    @GetMapping("item")
-    public Items queryItemsById(@RequestParam("itemId") String itemId);
+    @GetMapping("item") Items queryItemsById(@RequestParam("itemId") String itemId);
 
     /**
      * 根据商品id查询商品图片列表
      * @param itemId
      * @return
      */
-    @GetMapping("itemImages")
-    public List<ItemsImg> queryItemsImgList(@RequestParam("itemId") String itemId);
+    @GetMapping("itemImages") List<ItemsImg> queryItemsImgList(@RequestParam("itemId") String itemId);
 
     /**
      * 根据商品id查询商品规格
      * @param itemId
      * @return
      */
-    @GetMapping("itemSpecs")
-    public List<ItemsSpec> queryItemsSpecList(@RequestParam("itemId") String itemId);
+    @GetMapping("itemSpecs") List<ItemsSpec> queryItemsSpecList(@RequestParam("itemId") String itemId);
 
     /**
      * 根据商品id查询商品参数
      * @param itemId
      * @return
      */
-    @GetMapping("itemParam")
-    public ItemsParam queryItemsParam(@RequestParam("itemId") String itemId);
+    @GetMapping("itemParam") ItemsParam queryItemsParam(@RequestParam("itemId") String itemId);
 
 
     /**
@@ -420,8 +416,7 @@ public interface ItemService {
      * @param itemId
      * @return
      */
-    @GetMapping("countComments")
-    public CommentsLevelCountsVO queryCommentsCounts(@RequestParam("itemId") String itemId);
+    @GetMapping("countComments") CommentsLevelCountsVO queryCommentsCounts(@RequestParam("itemId") String itemId);
 
     /**
      * 根据商品id查询商品的评价（分页）
@@ -429,8 +424,7 @@ public interface ItemService {
      * @param level
      * @return
      */
-    @GetMapping("pagedComments")
-    public PagedGridResult queryPagedComments(@RequestParam("itemId") String itemId,
+    @GetMapping("pagedComments") PagedGridResult queryPagedComments(@RequestParam("itemId") String itemId,
                                               @RequestParam(value = "level",required=false) Integer level,
                                               @RequestParam(value = "page",required=false) Integer page,
                                               @RequestParam(value = "pageSize",required = false) Integer pageSize);
@@ -463,32 +457,28 @@ public interface ItemService {
      * @param specIds
      * @return
      */
-    @GetMapping("getCartBySpecIds")
-    public List<ShopcartVO> queryItemsBySpecIds(@RequestParam("specIds") String specIds);
+    @GetMapping("getCartBySpecIds") List<ShopcartVO> queryItemsBySpecIds(@RequestParam("specIds") String specIds);
 
     /**
      * 根据商品规格id获取规格对象的具体信息
      * @param specId
      * @return
      */
-    @GetMapping("singleItemSpec")
-    public ItemsSpec queryItemsSpecById(@RequestParam("specId") String specId);
+    @GetMapping("singleItemSpec") ItemsSpec queryItemsSpecById(@RequestParam("specId") String specId);
 
     /**
      * 根据商品id获得商品图片主图url
      * @param itemId
      * @return
      */
-    @GetMapping("primaryImage")
-    public String queryItemMainImgById(@RequestParam("itemId") String itemId);
+    @GetMapping("primaryImage") String queryItemMainImgById(@RequestParam("itemId") String itemId);
 
     /**
      * 减少库存
      * @param specId
      * @param buyCounts
      */
-    @PostMapping("decreaseStock")
-    public void decreaseItemSpecStock(@RequestParam("specId") String specId,
+    @PostMapping("decreaseStock") void decreaseItemSpecStock(@RequestParam("specId") String specId,
                                       @RequestParam("buyCounts") int buyCounts);
 
 }
@@ -519,8 +509,7 @@ public interface ItemCommentsService {
      * @param pageSize
      * @return
      */
-    @GetMapping("myComments")
-    public PagedGridResult queryMyComments(@RequestParam("userId") String userId,
+    @GetMapping("myComments") PagedGridResult queryMyComments(@RequestParam("userId") String userId,
                                            @RequestParam(value = "page",required = false) Integer page,
                                            @RequestParam(value = "pageSize",required = false) Integer pageSize);
 
@@ -529,8 +518,7 @@ public interface ItemCommentsService {
      * 看订单中心的源代码
      * @param map
      */
-    @PostMapping("saveComments")
-    public void saveComments(@RequestBody Map<String, Object> map);
+    @PostMapping("saveComments") void saveComments(@RequestBody Map<String, Object> map);
 }
 
 ```
@@ -569,7 +557,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver          # mysql驱动
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-#    password: SocialPG
+#    password: opendevel
     hikari:
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数
@@ -690,8 +678,7 @@ public interface MyCommentsService {
      * @param orderId
      * @return
      */
-    @GetMapping("orderItems")
-    public List<OrderItems> queryPendingComment(@RequestParam("orderId") String orderId);
+    @GetMapping("orderItems") List<OrderItems> queryPendingComment(@RequestParam("orderId") String orderId);
 
     /**
      * 保存用户的评论
@@ -699,8 +686,7 @@ public interface MyCommentsService {
      * @param userId
      * @param commentList
      */
-    @PostMapping("saveOrderComments")
-    public void saveComments(@RequestParam("orderId") String orderId,
+    @PostMapping("saveOrderComments") void saveComments(@RequestParam("orderId") String orderId,
                              @RequestParam("userId") String userId,
                              @RequestBody List<OrderItemsCommentBO> commentList);
 
@@ -748,8 +734,7 @@ public interface MyOrdersService {
      * @param pageSize
      * @return
      */
-    @GetMapping("order/query")
-    public PagedGridResult queryMyOrders(@RequestParam("userId") String userId,
+    @GetMapping("order/query") PagedGridResult queryMyOrders(@RequestParam("userId") String userId,
                                          @RequestParam("orderStatus") Integer orderStatus,
                                          @RequestParam(value = "page", required = false) Integer page,
                                          @RequestParam(value = "pageSize", required = false) Integer pageSize);
@@ -757,8 +742,7 @@ public interface MyOrdersService {
     /**
      * @Description: 订单状态 --> 商家发货
      */
-    @PostMapping("order/delivered")
-    public void updateDeliverOrderStatus(@RequestParam("orderId") String orderId);
+    @PostMapping("order/delivered") void updateDeliverOrderStatus(@RequestParam("orderId") String orderId);
 
     /**
      * 查询我的订单
@@ -767,8 +751,7 @@ public interface MyOrdersService {
      * @param orderId
      * @return
      */
-    @GetMapping("order/details")
-    public Orders queryMyOrder(@RequestParam("userId") String userId,
+    @GetMapping("order/details") Orders queryMyOrder(@RequestParam("userId") String userId,
                                @RequestParam("orderId") String orderId);
 
     /**
@@ -776,8 +759,7 @@ public interface MyOrdersService {
      *
      * @return
      */
-    @PostMapping("order/received")
-    public boolean updateReceiveOrderStatus(@RequestParam("orderId") String orderId);
+    @PostMapping("order/received") boolean updateReceiveOrderStatus(@RequestParam("orderId") String orderId);
 
     /**
      * 删除订单（逻辑删除）
@@ -785,16 +767,14 @@ public interface MyOrdersService {
      * @param orderId
      * @return
      */
-    @DeleteMapping("order")
-    public boolean deleteOrder(@RequestParam("userId") String userId,
+    @DeleteMapping("order") boolean deleteOrder(@RequestParam("userId") String userId,
                                @RequestParam("orderId") String orderId);
 
     /**
      * 查询用户订单数
      * @param userId
      */
-    @GetMapping("order/counts")
-    public OrderStatusCountsVO getOrderStatusCounts(@RequestParam("userId") String userId);
+    @GetMapping("order/counts") OrderStatusCountsVO getOrderStatusCounts(@RequestParam("userId") String userId);
 
     /**
      * 获得分页的订单动向
@@ -803,13 +783,11 @@ public interface MyOrdersService {
      * @param pageSize
      * @return
      */
-    @GetMapping("order/trend")
-    public PagedGridResult getOrdersTrend(@RequestParam("userId") String userId,
+    @GetMapping("order/trend") PagedGridResult getOrdersTrend(@RequestParam("userId") String userId,
                                           @RequestParam("page") Integer page,
                                           @RequestParam("pageSize") Integer pageSize);
 
-    @GetMapping("checkUserOrder")
-    public IMOOCJSONResult checkUserOrder(@RequestParam("userId") String userId,
+    @GetMapping("checkUserOrder") IMOOCJSONResult checkUserOrder(@RequestParam("userId") String userId,
                                           @RequestParam("orderId") String orderId);
 
 }
@@ -840,16 +818,14 @@ public interface OrderService {
      * 用于创建订单相关信息
      * @param orderBO
      */
-    @PostMapping("placeOrder")
-    public OrderVO createOrder(@RequestBody PlaceOrderBO orderBO);
+    @PostMapping("placeOrder") OrderVO createOrder(@RequestBody PlaceOrderBO orderBO);
 
     /**
      * 修改订单状态
      * @param orderId
      * @param orderStatus
      */
-    @PostMapping("updateStatus")
-    public void updateOrderStatus(@RequestParam("orderId") String orderId,
+    @PostMapping("updateStatus") void updateOrderStatus(@RequestParam("orderId") String orderId,
                                   @RequestParam("orderStatus") Integer orderStatus);
 
     /**
@@ -857,14 +833,12 @@ public interface OrderService {
      * @param orderId
      * @return
      */
-    @GetMapping("orderStatus")
-    public OrderStatus queryOrderStatusInfo(@RequestParam("orderId") String orderId);
+    @GetMapping("orderStatus") OrderStatus queryOrderStatusInfo(@RequestParam("orderId") String orderId);
 
     /**
      * 关闭超时未支付订单
      */
-    @PostMapping("closePendingOrders")
-    public void closeOrder();
+    @PostMapping("closePendingOrders") void closeOrder();
 
 }
 
@@ -1234,9 +1208,9 @@ public class OrderServiceImpl implements OrderService {
         newOrder.setReceiverName(address.getReceiver());
         newOrder.setReceiverMobile(address.getMobile());
         newOrder.setReceiverAddress(address.getProvince() + " "
-                                    + address.getCity() + " "
-                                    + address.getDistrict() + " "
-                                    + address.getDetail());
+                + address.getCity() + " "
+                + address.getDistrict() + " "
+                + address.getDetail());
 
 //        newOrder.setTotalAmount();
 //        newOrder.setRealPayAmount();
@@ -1252,7 +1226,7 @@ public class OrderServiceImpl implements OrderService {
 
 
         // 2. 循环根据itemSpecIds保存订单商品信息表
-        String itemSpecIdArr[] = itemSpecIds.split(",");
+        String[] itemSpecIdArr = itemSpecIds.split(",");
         Integer totalAmount = 0;    // 商品原价累计
         Integer realPayAmount = 0;  // 优惠后的实际支付价格累计
         List<ShopcartBO> toBeRemovedShopcatdList = new ArrayList<>();
@@ -1633,7 +1607,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver          # mysql驱动
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-#    password: SocialPG
+#    password: opendevel
     hikari:
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数

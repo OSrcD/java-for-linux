@@ -532,7 +532,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-#    password: SocialPG
+#    password: opendevel
     url: ${mariadb.url}
     password: ${mariadb.password}
   redis:
@@ -859,7 +859,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0
@@ -978,7 +978,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0
@@ -1114,7 +1114,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0

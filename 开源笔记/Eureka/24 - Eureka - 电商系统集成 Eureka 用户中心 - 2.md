@@ -216,13 +216,13 @@ public class UserServiceImpl implements UserService {
         Example userExample = new Example(Users.class);
         Example.Criteria Usercriteria = userExample.createCriteria();
 
-        Usercriteria.andEqualTo("username",username);
+        Usercriteria.andEqualTo("username", username);
 
         Users result = usersMapper.selectOneByExample(userExample);
-        return result == null ? false : true;
+        return result != null;
     }
 
-    @Transactional(propagation=Propagation.REQUIRED)
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public Users createUser(UserBO userBO) {
 
@@ -271,8 +271,8 @@ public class UserServiceImpl implements UserService {
 
         Example.Criteria userCriteria = userExample.createCriteria();
 
-        userCriteria.andEqualTo("username",username);
-        userCriteria.andEqualTo("password",password);
+        userCriteria.andEqualTo("username", username);
+        userCriteria.andEqualTo("password", password);
 
         Users result = usersMapper.selectOneByExample(userExample);
 
@@ -1229,7 +1229,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver          # mysql驱动
 #    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-#    password: SocialPG
+#    password: opendevel
     hikari:
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数
@@ -1292,7 +1292,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0
@@ -1341,7 +1341,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0

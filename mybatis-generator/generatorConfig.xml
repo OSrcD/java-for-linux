@@ -17,7 +17,7 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/foodie-shop-dev"
                         userId="root"
-                        password="SocialPG">
+                        password="opendevel">
         </jdbcConnection>
 
         <!-- 对应生成的pojo所在包 -->

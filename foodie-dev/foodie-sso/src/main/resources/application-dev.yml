@@ -4,7 +4,7 @@ server:
 spring:
   datasource:                                           # 数据源的相关配置
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0

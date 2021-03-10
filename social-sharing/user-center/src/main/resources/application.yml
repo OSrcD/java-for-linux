@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/user_center
     hikari:
       username: root
-      password: SocialPG
+      password: opendevel
       driver-class-name: com.mysql.cj.jdbc.Driver
 
 

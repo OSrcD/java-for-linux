@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+
+    <bean id="customerDao" class="com.imooc.aspectj.demo2.CustomerDaoImpl" />
+
+    <bean id="myAspectXml" class="com.imooc.aspectj.demo2.MyAspectXml" />
+
+    <aop:config>
+
+        <aop:pointcut id="pointcut1" expression="execution(* com.imooc.aspectj.demo2.CustomerDao.save(..))" />
+        <aop:pointcut id="pointcut2" expression="execution(* com.imooc.aspectj.demo2.CustomerDao.update(..))" />
+        <aop:pointcut id="pointcut3" expression="execution(* com.imooc.aspectj.demo2.CustomerDao.delete(..))" />
+        <aop:pointcut id="pointcut4" expression="execution(* com.imooc.aspectj.demo2.CustomerDao.findOne(..))" />
+        <aop:pointcut id="pointcut5" expression="execution(* com.imooc.aspectj.demo2.CustomerDao.findAll(..))" />
+
+        <aop:aspect ref="myAspectXml">
+            <aop:before method="before" pointcut-ref="pointcut1" />
+            <aop:after-returning method="afterReturing" pointcut-ref="pointcut2" returning="result" />
+
+            <aop:around method="around" pointcut-ref="pointcut3" />
+
+            <aop:after-throwing method="afterThrowing" pointcut-ref="pointcut4" throwing="e" />
+
+            <aop:after method="after" pointcut-ref="pointcut5" />
+
+        </aop:aspect>
+
+
+
+    </aop:config>
+
+
+</beans>

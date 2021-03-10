@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="customerDao" class="com.imooc.aop.demo4.CustomerDao" />
+
+    <bean id="myAroundAdvice" class="com.imooc.aop.demo4.MyAroundAdvice" />
+
+
+    <bean id="myAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="patterns" value=".*save.*,.*delete.*" />
+        <property name="advice" ref="myAroundAdvice"/>
+    </bean>
+
+
+    <bean id="customerDaoProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="customerDao" />
+        <property name="proxyTargetClass" value="true" />
+        <property name="interceptorNames" value="myAdvisor" />
+    </bean>
+
+
+
+</beans>

@@ -26,7 +26,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver          # mysql驱动
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-    password: SocialPG
+    password: opendevel
     hikari:
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数

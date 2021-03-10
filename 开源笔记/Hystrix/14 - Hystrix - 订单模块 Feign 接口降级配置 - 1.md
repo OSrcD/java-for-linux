@@ -11,7 +11,7 @@ spring:
     # 拆分数据源到独立database instance，或者独立schema
 #    url: jdbc:mysql://localhost:3306/foodie-cloud-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    password: SocialPG
+    password: opendevel
   redis:
     # Redis 单机单实例
     database: 0
@@ -147,9 +147,9 @@ public interface ItemCommentsService {
      * @return
      */
     @GetMapping("myComments")
-    public PagedGridResult queryMyComments(@RequestParam("userId") String userId,
-                                           @RequestParam(value = "page",required = false) Integer page,
-                                           @RequestParam(value = "pageSize",required = false) Integer pageSize);
+    PagedGridResult queryMyComments(@RequestParam("userId") String userId,
+                                    @RequestParam(value = "page", required = false) Integer page,
+                                    @RequestParam(value = "pageSize", required = false) Integer pageSize);
 
     /**
      * 会被订单中心调用
@@ -157,7 +157,7 @@ public interface ItemCommentsService {
      * @param map
      */
     @PostMapping("saveComments")
-    public void saveComments(@RequestBody Map<String, Object> map);
+    void saveComments(@RequestBody Map<String, Object> map);
 }
 
 ```

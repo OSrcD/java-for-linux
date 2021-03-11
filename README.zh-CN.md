@@ -19,7 +19,7 @@
 
 [专栏阅读地址](https://space.bilibili.com/77266754/article)
 
-**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记**文件夹）。
+**开源笔记子项目**：阅读英文技术文档基础、Docker、Kubernetes、Elasticsearch、FastDFS、OSS、Spring Cloud、Vultr 搭建服务器、互联网视频高效率学习技巧、DDOS 防御、Nginx、Redis、RocketMQ、Java 语法基础、Web 入门、Java 后台数据库、Java SSM框架、Spring Boot 等（在开源**笔记** java-for-gitee 文件夹）。
 
 **💡 使用说明：**
 
@@ -200,7 +200,7 @@ Control模块包含游戏逻辑设计，游戏动作事件监听，Element模块
 
 采用Java SE 核心架构开发模式。
 
-项目主要利用的技术有Java SE 1.8 核心技术、JLayer，Swing，MSpaint、Photoshop。
+项目主要利用的技术有Java SE 1.8 核心技术、JLayer、Swing、MSpaint、Photoshop。
 
 开发环境：IntelliJ IDEA开发工具、Windows 7。
 
@@ -573,7 +573,7 @@ JVM 系列的项目地址：
 
 # 开源项目交流群
 
-## java-for-linux & iooc-admin 开源项目 交流群
+java-for-linux & iooc-admin 开源项目技术支持
 
 **QQ 群**号 : **741396149**
 

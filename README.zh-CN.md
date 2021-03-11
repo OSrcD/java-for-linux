@@ -86,7 +86,7 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 [开源指北阅读地址](https://gitee.com/opensource-guide/)
 
-**iooc-admin 后台权限管理系统开源子项目**：（在 **iooc-vue-admin** 文件夹）。
+**iooc-admin 后台权限管理系统开源子项目**：（在 **[iooc-vue-admin](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)** 文件夹）。
 
 **💡 使用说明：**
 

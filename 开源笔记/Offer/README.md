@@ -1,4 +1,4 @@
-# Java 复习笔记详细版&简化版原版地址
+# Java 简化版复习笔记原版地址
 
 Java 复习 - 1
 
@@ -20,7 +20,7 @@ MySQL 复习 - 5
 
 https://thoughts.teambition.com/share/604b522eb9c75100460c1333#title=19_-_Offer_-_MySQL_复习_-_5
 
-JDBC 反射 - 6
+JDBC 反射复习 - 6
 
 https://thoughts.teambition.com/share/604b522405d9b0004619d6dc#title=20_-_Offer_-_JDBC_反射_-_6
 

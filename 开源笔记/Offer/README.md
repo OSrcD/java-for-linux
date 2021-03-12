@@ -1,4 +1,4 @@
-# Java 简化版复习笔记原版地址
+## Java 简化版复习笔记原版地址
 
 Java 复习 - 1
 
@@ -52,6 +52,6 @@ https://thoughts.teambition.com/share/604b528aaa5de900464c6a7c#title=13_-_Offer_
 
 https://thoughts.teambition.com/share/604b529205d9b0004619d6dd#title=12_-_Offer_-_常见状态码
 
-# Java 复习笔记详细版&简化版下载地址
+## Java 详细版 & 简化版复习笔记下载地址
 
 链接:https://pan.baidu.com/s/13D0igOz2j4_pK7IXsIWaRQ  密码:3ovu

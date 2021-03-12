@@ -213,3 +213,5 @@ CREATE TABLE `pays`(
 	`created_time` datetime NOT NULL COMMENT '创建时间（成交时间）',
 	PRIMARY KEY(`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='支付表';
+
+ALTER TABLE pays COMMENT '支付表';;

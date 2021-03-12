@@ -1,0 +1,1190 @@
+![](https://tcs.teambition.net/storage/31238d85f0fc32a6939f2118619e6d193e66?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4ZDg1ZjBmYzMyYTY5MzlmMjExODYxOWU2ZDE5M2U2NiJ9.N3QAgHcv1vK7N8z7pajkw3gd4sxvy__SAfuaH2X3KMA&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31234edf21df45195cac2b4f827c30225dab?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0ZWRmMjFkZjQ1MTk1Y2FjMmI0ZjgyN2MzMDIyNWRhYiJ9.AUSITrUyIr1viG-omdKtIGhiIdIvUXiTEfpZxw4yqVw&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123dda1dedadcbec94cf0430166df42aa0d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkZGExZGVkYWRjYmVjOTRjZjA0MzAxNjZkZjQyYWEwZCJ9.nk9cUMmAferNMUmpfm4QHmkhPSOGjTbMxU8_mL1eHX0&download=image.png "")
+
+JRE支持.class文件，不能对.java .jsp编译为class文件
+
+
+
+标识符 _ $ 
+
+
+
+关键字
+
+transient volatile
+
+
+
+![](https://tcs.teambition.net/storage/31235da00224333f95ed7665fecfdd5e7399?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM1ZGEwMDIyNDMzM2Y5NWVkNzY2NWZlY2ZkZDVlNzM5OSJ9.Mog1QQ2lPQO0EYUK1y0RyBhjOqIrBfJdFFazCFzUyqY&download=image.png "")
+
+char 2个 字节 16位
+
+1.4E-14 = 1.4*10^-14
+
+
+
+八进制 0开头 包括0-7
+
+16进制 0x或0X 包括0-9 a-f A-F
+
+整形默认是 int
+
+l L
+
+浮点型默认是Double 
+
+D d
+
+F f
+
+![](https://tcs.teambition.net/storage/3123d9a4d68658e009ec8bb2713c32017c0b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkOWE0ZDY4NjU4ZTAwOWVjOGJiMjcxM2MzMjAxN2MwYiJ9.3qGmSwGA1b4rVKLlM5761MvhEuXCbv-uGAh5eLV-VGk&download=image.png "")
+
+字符型可以用 'A' '65' 'a' '97' '\uxxxx'
+
+
+
+7位标准ASCII码 128种字符 表示大小写字母、标点符号、美式英语控制字符
+
+8位扩展ASCII码 256种字符（后128位）表示特殊符号、外来语言字母
+
+Unicode编码 支持世界所有字符集
+
+'\uxxxx'
+
+
+
+![](https://tcs.teambition.net/storage/3123ff1f20da8d26cd0491f19af56f46b264?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmZjFmMjBkYThkMjZjZDA0OTFmMTlhZjU2ZjQ2YjI2NCJ9.O-S_6yhAb2udbm87EsC9M_QOlCN94odMGNVq0tccH-I&download=image.png "")
+
+数值型 + 字符型 = 字符型转换为数值型进行计算
+
+数值型 + 字符串型 = 连接运算
+
+字符串 + 数值型 / 数值型 = 由于/优先级更加高，先除后字符串连接
+
+变量可用中文表示
+
+科学计数法只能用于浮点型
+
+double d=1.23E5 // d=123000.0
+
+float f=1.23e5f
+
+
+
+double 转float会丢失精度
+
+int long 转 float会丢失精度
+
+long 转double会丢失精度
+
+浮点型位数过多输出会用科学计数法表示
+
+表示位数过多时精度不准确
+
+![](https://tcs.teambition.net/storage/3123e2e0f7d19d8d72b6595042875dc0c95f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNlMmUwZjdkMTlkOGQ3MmI2NTk1MDQyODc1ZGMwYzk1ZiJ9.K35Zw0roQmYTOZdsrqiU0O5mSvHzDpGWKeQ3clsbsGI&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312349e6aa1d1f742e8bedd00a16a9df9c6c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0OWU2YWExZDFmNzQyZThiZWRkMDBhMTZhOWRmOWM2YyJ9.RaPJDfo5LtidIteAmjc-7kIA-GuvyIRb1hXZr1Mq55k&download=image.png "")
+
+单精度的长度问题，最后一位的计算结果被忽略了
+
+不考虑最后一位
+
+小数点后最多保留7位
+
+这里是8位了
+
+因为精度不够造成了数据丢失
+
+需要使用BigDecimal类了
+
+
+
+局部变量必须初始化才能使用
+
+
+
+分子分母都是整形 商为整形
+
+13/5=2
+
+分子或分母有一个是浮点型 商为浮点型Double
+
+13.0/5=2.6
+
+求余数都有整形 结果为整形
+
+13%5=3
+
+求余数有一个浮点型 结果为浮点型
+
+1 3.5%5=3.5D
+
+![](https://tcs.teambition.net/storage/31234ac62674d15ee950c31e41324cfe3b7c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0YWM2MjY3NGQxNWVlOTUwYzMxZTQxMzI0Y2ZlM2I3YyJ9.WlepUmGeGvJiskJmYCxp9ddMQL1FOVCWEtCnpaqHHXw&download=image.png "")
+
+前++ 先自增后赋值
+
+后++ 先赋值后自增
+
+'A' > 'B' 为false  比较的是ASCII
+
+float f=5.0f
+
+long l=5
+
+f==l 结果为true 只要相等
+
+
+
+还要运算 所以n=4
+
+![](https://tcs.teambition.net/storage/31233ada963b9a5f7f1f4cc138efad11c58d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzYWRhOTYzYjlhNWY3ZjFmNGNjMTM4ZWZhZDExYzU4ZCJ9.jFfEsy2Qom87WpqHpyXOZMf6hlX46cA7u39fNpYf-DY&download=image.png "")
+
+不用运算 所以n=3
+
+![](https://tcs.teambition.net/storage/3123c0de4d99f6619af982652dbfd49cd7e2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNjMGRlNGQ5OWY2NjE5YWY5ODI2NTJkYmZkNDljZDdlMiJ9.HxTukzOX-wx92V58ZbO2aJS24O4GdWjPU7ryga8oZe8&download=image.png "")
+
+
+
+boolean?():()
+
+
+
+运算符优先级() ! ++ -- * / % + - >= <= > < == != && & || | = *= += -= %= /=
+
+()最高
+
+=最低
+
+![](https://tcs.teambition.net/storage/3123130d2728e4713f6147588e045664a684?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxMzBkMjcyOGU0NzEzZjYxNDc1ODhlMDQ1NjY0YTY4NCJ9.ckhWRAyoTXzw0NItYplrgvmdj8ZGk1FyISkWTZnNNaU&download=image.png "")
+
+
+
+switch是一个常量值
+
+char byte short int Character Byte Short Integer String enum
+
+new Scanner(System.in)
+
+scanner.next()
+
+
+
+
+
+(int)(Math.random()*10+1)
+
+![](https://tcs.teambition.net/storage/3123557c11fbe53e743a3f3f4f767129fe29?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM1NTdjMTFmYmU1M2U3NDNhM2YzZjRmNzY3MTI5ZmUyOSJ9.NfwmFoO3SrYI15d93axziNEbMPbUzalKzsdOymb9FqI&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123d9c4cc56d59ae5580ce302141624a037?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkOWM0Y2M1NmQ1OWFlNTU4MGNlMzAyMTQxNjI0YTAzNyJ9.IuDjIixZDEUP6nRXThMyU4K0NlVooCVpbB2scZ49vYg&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312314087fe42bf7f0b093509ca0b94d8bdf?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxNDA4N2ZlNDJiZjdmMGIwOTM1MDljYTBiOTRkOGJkZiJ9.Sxi7v7fzHAU8vSJBmP97MdDQhGukRqlmBEoEkmZyrIU&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31234551858b46e78b6ec01aba929ee6c6d8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0NTUxODU4YjQ2ZTc4YjZlYzAxYWJhOTI5ZWU2YzZkOCJ9.SLLiSAkZlwZFO3THvBqAu4f-hbjhdBX61Fy0PKbJERI&download=image.png "")
+
+
+
+一维数组
+
+int[] array;
+
+int array[];
+
+int[] array;
+
+array = new int[10];
+
+int[] array = new int[10];
+
+int[] array = new int[]{1,2,3,4}
+
+int[] array = new int[]{};
+
+int[] array = {1,2,3,4}
+
+int[] array = {};
+
+array.length
+
+array[array.length-1]
+
+
+
+增强型for循环
+
+for(:)
+
+冒泡排序
+
+![](https://tcs.teambition.net/storage/31233a5724d51fa7b7b35693d87f29a1b855?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzYTU3MjRkNTFmYTdiN2IzNTY5M2Q4N2YyOWExYjg1NSJ9.lkkdkwfUKp7RGJkSsBBBXPzMDB0Mmt6pz_tqswoda58&download=image.png "")
+
+二维数组
+
+int[][] array
+
+array = new int[3][3]
+
+
+
+int array[][]
+
+array = new int[3][] 只指定行数
+
+array[0] = new int[3]
+
+array[1]  = new int[4]
+
+
+
+int[] array[]
+
+
+
+int[][] array = new int[][]{{1,2,3},{1,2}}
+
+int[][] array = new int[][]{{},{},{},{}} 4行
+
+int[][] array = {{1,2},{1,2,3}}
+
+int[][] array = new int[][]{};无列
+
+int[][] array = {};
+
+
+
+array.length 行数
+
+array[0].length 第一行的列数
+
+
+
+可变参数不能定义在第一位 一个方法只能有一个可变参数
+
+可以将数组传递给可变参数
+
+数组作为参数不能传递可变参数
+
+
+
+(int,int...)
+
+(int,int[]) 报错 不能重载
+
+
+
+(int,int...)
+
+(int,int)
+
+(1,2)调用的不是可变参数
+
+
+
+scanner.nextInt()
+
+正确处理异常
+
+![](https://tcs.teambition.net/storage/31231df46133dec41cd2aaf4412cfe6f2cfd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxZGY0NjEzM2RlYzQxY2QyYWFmNDQxMmNmZTZmMmNmZCJ9.fSNCmNXNeakD8eXUNaBW4yaL_M3bjIr_YsnXACwGkcw&download=image.png "")
+
+声明对象时 栈空间为null
+
+new时堆空间开辟了内存 栈持有堆空间的地址引用
+
+
+
+
+
+没有指定构造方法 系统会自动添加构造方法
+
+进入构造方法名第一行 this实例对象产生
+
+
+
+赋值给本身了
+
+![](https://tcs.teambition.net/storage/312345ab1ae7879bf51ccd4e362ea5db03fb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0NWFiMWFlNzg3OWJmNTFjY2Q0ZTM2MmVhNWRiMDNmYiJ9.gOfxuehZ8RcD0ib3v-ACwjWLPOwbreoVnahigrjx_Gw&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312378fb4b2664c3ea18392a995360ba71f2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM3OGZiNGIyNjY0YzNlYTE4MzkyYTk5NTM2MGJhNzFmMiJ9.tfL98n5WMJMSxYz5FeN4fRo5Iy8lf6x1mOBzJ2b3q14&download=image.png "")
+
+可以定义与构造方法同名的普通方法
+
+
+
+在本类调用方法可加this 可不加
+
+构造方法可以调用构造方法
+
+this() 要放在构造方法第一行
+
+
+
+![](https://tcs.teambition.net/storage/3123d39d794bfd00bb8a3554b13b1a60be74?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkMzlkNzk0YmZkMDBiYjhhMzU1NGIxM2IxYTYwYmU3NCJ9.rjQet0bu9RlVfGCso2jiQBrjLovGrVY9ql68nPBC_a8&download=image.png "")
+
+封装增加了防御性编程
+
+package包需要放在第一行 只能有一个
+
+![](https://tcs.teambition.net/storage/312338cdc6ec2cab219ba7bcdc0f2acf61b2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzOGNkYzZlYzJjYWIyMTliYTdiY2RjMGYyYWNmNjFiMiJ9.6vO-XvHw-9Ty9QUi_lyxWKqmu2l_Hq5CTjeK9AC0ynQ&download=image.png "")
+
+报错
+
+![](https://tcs.teambition.net/storage/31232737c138ac92b91019121b3c3fffa12a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMyNzM3YzEzOGFjOTJiOTEwMTkxMjFiM2MzZmZmYTEyYSJ9.bfOqV2HH5mr7Tdeqw1UZBXW7K6rN28S9JaI0duwY9K4&download=image.png "")
+
+加载有指定Cat类的包
+
+*下有Cat类
+
+![](https://tcs.teambition.net/storage/31233aa8402d7a697ede05950d050914dc6f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzYWE4NDAyZDdhNjk3ZWRlMDU5NTBkMDUwOTE0ZGM2ZiJ9.YnWDHrPJnnTyX_Rp6yRa76VICqxUaXGWn8NjsBqCK-A&download=image.png "")
+
+跟顺序无关 还是加载有指定Cat类的包
+
+![](https://tcs.teambition.net/storage/31238cf3fb738ed152640c04646a0e0caaca?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4Y2YzZmI3MzhlZDE1MjY0MGMwNDY0NmEwZTBjYWFjYSJ9.Z9PEkLjaKJaC6zXt1YXEyr6rUYmbiQKMr6fk2yccqxQ&download=image.png "")
+
+
+
+只能显示的加载
+
+![](https://tcs.teambition.net/storage/3123ba275f726604e1fde50f56f4a371d831?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNiYTI3NWY3MjY2MDRlMWZkZTUwZjU2ZjRhMzcxZDgzMSJ9.SqW76wrdofxu4Q5HMXPsr6HdUoAMviKKobQhzjIYV-s&download=image.png "")
+
+
+
+![](https://tcs.teambition.net/storage/3123586ff61e66e7727ae4b6cff9791cb04b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM1ODZmZjYxZTY2ZTc3MjdhZTRiNmNmZjk3OTFjYjA0YiJ9.g5tbib7KVVkcPn3LC8AHKwkDygfx291eikTrEAqr3ak&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31239c4fed2445467f4a087b37ffd5ba6402?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM5YzRmZWQyNDQ1NDY3ZjRhMDg3YjM3ZmZkNWJhNjQwMiJ9.DMnfYNUc99oNuoQpPrnLSQQDUSP08d29H-XJUW8SkqM&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123d1a82a81974855ebcdb467476fb5e6d1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkMWE4MmE4MTk3NDg1NWViY2RiNDY3NDc2ZmI1ZTZkMSJ9.33rj3IqHUe9aWBQTnHIzmfuO_4wsIvbT11nImH_BGWo&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123aec1d88623b7927368c57bd47e916ba0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNhZWMxZDg4NjIzYjc5MjczNjhjNTdiZDQ3ZTkxNmJhMCJ9.m00NWRvSmMjL5QExX8Drnsq1WpnoMVVY3xi5zvcsrKQ&download=image.png "")
+
+定义静态成员属性为斜体
+
+可以用对象名访问静态成员
+
+但应该用类名访问
+
+静态就是静态地址 各个对象公用同一个静态地址
+
+局部变量不能加static  只能加final
+
+
+
+静态方法 不能调用非静态的 成员方法 成员属性不能使用 this不能使用
+
+需要使用就需要实例化
+
+{} 普通代码块 构造代码块
+
+构造代码块每次实例化都会调用
+
+static{}静态代码块只会调用一次
+
+
+
+局部变量在{} 作用域内
+
+
+
+-表示private
+
++表示public
+
+
+
+子 类中 this可以访问父类非private成员
+
+可以继承静态成员
+
+构造方法不能被继承 不能被重写
+
+不能重写静态方法
+
+
+
+![](https://tcs.teambition.net/storage/3123807b8e0f6c68037543136f394f9039c2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4MDdiOGUwZjZjNjgwMzc1NDMxMzZmMzk0ZjkwMzljMiJ9.fX2iIcqIUUx2AHW0TF73NEZPg1h5Emv8yU9I9kX-Lxo&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123860f446da766ff73ae20abcfba52aee8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4NjBmNDQ2ZGE3NjZmZjczYWUyMGFiY2ZiYTUyYWVlOCJ9.aRVgt163AXokyZC1o3iMW6lNoUrLl9hY3J-1Gvzitj8&download=image.png "")
+
+super 不能调用 private
+
+ClassLoader.loadClass(String name) 加载字节码到JVM中 形成一个Class类
+
+![](https://tcs.teambition.net/storage/3123267949317d851292b45ffdd561461fb6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMyNjc5NDkzMTdkODUxMjkyYjQ1ZmZkZDU2MTQ2MWZiNiJ9.-Kjzb5V-bFK-8x-mWDRcItF3TiVKzAWR4NEr2GG-gtk&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31237395df76c70b3a16a92fc420ff52b633?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM3Mzk1ZGY3NmM3MGIzYTE2YTkyZmM0MjBmZjUyYjYzMyJ9.DTiWdsrEQ88Pc8tHwkUtvQp50BcxBs3_gDY8aGVJQn0&download=image.png "")
+
+子类会默认调用父类的无参构造方法
+
+当父类定义了构造方法 没有了无参构造方法 所以默认要提供一个无参构造方法
+
+就要在子类显示 调用
+
+
+
+
+
+不能并存
+
+![](https://tcs.teambition.net/storage/3123fce3499ebf791e618697cc17af52905c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmY2UzNDk5ZWJmNzkxZTYxODY5N2NjMTdhZjUyOTA1YyJ9.Uj-WPDpK5EHrfl4Qt6MG1qRN3UmlOw0Zts6JqV1Xeg4&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123bddde07f5467638a572115e740e15806?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNiZGRkZTA3ZjU0Njc2MzhhNTcyMTE1ZTc0MGUxNTgwNiJ9.RVnE4Q3kFReg8_oUn-NgMIaz17BXNvbpgMwMnpceG9Q&download=image.png "")
+
+
+
+Object 类
+
+没有重写equals
+
+equals 就是 ==
+
+toString
+
+hashCode
+
+
+
+比较两个对象的属性是否相等
+
+![](https://tcs.teambition.net/storage/3123201f5f1f12e5acc3c654bebb09520565?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMyMDFmNWYxZjEyZTVhY2MzYzY1NGJlYmIwOTUyMDU2NSJ9.nPMv8IgKvbLhH9xtdKRxGTZbLyX-oG_iQgv-ZDuZ0IM&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123a66141d37d49112ab5f3531a4f83cf42?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNhNjYxNDFkMzdkNDkxMTJhYjVmMzUzMWE0ZjgzY2Y0MiJ9.WsoDrdSh6oxHSpH7ML5N2oynRYtW45K2LpBwL1Lfrzo&download=image.png "")
+
+
+
+final + 类 代表 没有子类
+
+final + 方法 不能被重写 可被继承
+
+final + 局部变量 不能被修改
+
+final + 成员基本类型属性 不能被修改
+
+final + 对象类型 引用不能被修改 内容可修改
+
+不能用在构造 方法
+
+final 修饰 只能在 定义时 构造代码块 构造方法赋值
+
+提高性能
+
+
+
+![](https://tcs.teambition.net/storage/3123a9245a31fa51700807f8b38b5ec9aade?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNhOTI0NWEzMWZhNTE3MDA4MDdmOGIzOGI1ZWM5YWFkZSJ9.HTSJnnGhmD2B21Z6ezkMpabje0mWF6P06o3Ee_aXL_I&download=image.png "")
+
+编译时去掉 @Override
+
+![](https://tcs.teambition.net/storage/3123dbc7e884b79373ca9cf42e1d1914d389?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkYmM3ZTg4NGI3OTM3M2NhOWNmNDJlMWQxOTE0ZDM4OSJ9.R9SXlp7AkgQir3XJ8aLQsBxmBoM-ZJVby3SEjzdi8uQ&download=image.png "")
+
+编译时注解 源码 .class文件都有
+
+@Autowired 运行时注解 
+
+元注解 注解的注解
+
+
+
+饿汉式
+
+![](https://tcs.teambition.net/storage/31239cc087bbc2a866cb1964f83d886c53a6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM5Y2MwODdiYmMyYTg2NmNiMTk2NGY4M2Q4ODZjNTNhNiJ9.qQ51iL5U3NoWqgpay6eEAHOSw2ZDvjKQTZ7a-12dMM8&download=image.png "")
+
+![](https://tcs.teambition.net/storage/31237ab1226299e51f5c820043f85b97ab25?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM3YWIxMjI2Mjk5ZTUxZjVjODIwMDQzZjg1Yjk3YWIyNSJ9.HHf7OacrqKEeAPcYwG5UhGIevHOjupxcw9ijGjYokRo&download=image.png "")
+
+懒汉式 线程不安全
+
+![](https://tcs.teambition.net/storage/3123eb8a246c0b5d7ad5a17137755e3b7a63?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNlYjhhMjQ2YzBiNWQ3YWQ1YTE3MTM3NzU1ZTNiN2E2MyJ9.WwQPgVA9hJ2yONccTGoV7JGSqnQW24bRTgJrxJ8lJaw&download=image.png "")
+
+可提高性能
+
+![](https://tcs.teambition.net/storage/3123f59f26d82ad576f8a74d55d5a694c160?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmNTlmMjZkODJhZDU3NmY4YTc0ZDU1ZDVhNjk0YzE2MCJ9.SnyCKpNbcJSbET6E_ZX1PgEhbonVT6B11RXdSmP4C00&download=image.png "")
+
+
+
+instanceof 运算符 只要这个类兼容这个 类型 就会返回true
+
+
+
+抽象类是JVM来 实例化的
+
+
+
+抽象方法不实现要变成抽象类 含接口
+
+包含抽象方法的类的抽象类
+
+抽象 可以没有抽象方法
+
+**static final private 不能与 abstract 并存**
+
+![](https://tcs.teambition.net/storage/312352df99a12380acc8af941c08a583b7b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM1MmRmOTlhMTIzODBhY2M4YWY5NDFjMDhhNTgzYjdiNSJ9.28J4ArBz6Hv8zAoAviTaZtB95tfPpwNzIUtDNsrL5Gk&download=image.png "")
+
+类外使用对象名访问private成员不能访问
+
+![](https://tcs.teambition.net/storage/312370411de814a2acae3f6e51464151d1d7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM3MDQxMWRlODE0YTJhY2FlM2Y2ZTUxNDY0MTUxZDFkNyJ9.RkaeFB-WvBg5uAWkPzqlNhnOhOHLxGQAmLBffEkWs9E&download=image.png "")
+
+
+
+
+
+
+
+接口中的 final 需要在定义的时候初始化
+
+接口成员属性 默认是 public static final 成员属性名 = 赋值 
+
+
+
+接口静态常量可通过 接口名 或者 接口变量名 调用
+
+**INet.TEMP**
+
+**net.TEMP**
+
+**可以在实现类中直接通过TEMP调用**
+
+public class ImplementsClass implements INet{
+
+{
+
+System.out.println(**TEMP**);
+
+}
+
+}
+
+
+
+**可以在实现类实例化的时候通过对象名.TEMP调用**
+
+ImplementsClass implementsClass;
+
+implementsClass.TEMP;
+
+**接口中的静态属性可以被实现类继承 因为这跟继承父类的时候 调用方式一样**
+
+
+
+没有重写属性这一说法
+
+静态方法不能被重写
+
+
+
+抽象方法只能被重写
+
+不重写必须子类定义为抽象类 被继承下去了
+
+
+
+接口默认方法可以带方法体 用 default 修饰
+
+接口静态方法可以带方法体
+
+
+
+默认方法可被子类重写
+
+**INet.super.connection(); 调用接口的默认方法**
+
+**接口中的默认方法可以被继承**
+
+
+
+接口静态方法可以使用 接口名.静态方法名调用
+
+**INet.stop(); 调用接口中的静态方法 父类也可以**
+
+**不能通过接口的变量名去调用静态方法 而父类可以**
+
+**接口不能通过实现类的对象名去调用 而父类通过子类对象名调用可以**
+
+**接口中不能通过在实现类里面直接用接口中的静态方法名调用 而父类通过在子类里面可以直接通过父类的静态方法名去调用**
+
+**接口中的静态方法 不能被实现类 和子接口 继承 **
+
+
+
+
+
+**一个类实现两个接口有默认同名的方法**
+
+类需要重写该默认同名方法 否则报错
+
+重写后调用的是类重写的
+
+父类成员方法有和两个接口同名的默认方法
+
+子类不用重写调用 父类的成员方法
+
+调用的是父类成员方法
+
+如果子类重写了该方法，那么调用的是子类的方法
+
+
+
+**子类继承一个父类和实现两个接口都定义了同名静态成员属性常量**
+
+直接访问同名静态成员属性常量名会报错
+
+而子类只继承一个父类的时候可以直接调用父类的静态成员属性常量
+
+子类实现单接口也是可以直接调用静态成员属性常量
+
+只能在子类重写同名静态成员属性常量名
+
+父类和两个接口的同名静态成员属性常量调用多种方式就失效了
+
+
+
+**一个子接口继承两个父接口有同名的默认方法**
+
+子接口需要重写同名的默认方法 单个就不用
+
+
+
+成员内部类 普通内部类
+
+![](https://tcs.teambition.net/storage/312347291b41982b63f76537eb24cf35f3ea?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0NzI5MWI0MTk4MmI2M2Y3NjUzN2ViMjRjZjM1ZjNlYSJ9.Qwy5vgLviYtDXoE6T99tB0KFIgEtw2codXkNEUK24BY&download=image.png "")
+
+在外部类方法内访问内部类
+
+{
+
+new Heart().temp = 12;
+
+}
+
+内部类实例化
+
+
+
+Person.Heart myHeart = new Person().new Heart();
+
+
+
+Person lili = new Person();
+
+Person.Heart myHeart2 = lili.new Heart();
+
+
+
+lili.getHeart();(在getHeart方法里面 return new 内部类名();)
+
+
+
+可以在内部直接调用父类成员（直接用名字）如果出现同名字就访问内部类的
+
+Person.this.age 直接访问外部类
+
+public class outerClass{
+
+int age;
+
+
+
+public class innerClass{
+
+public void method(){
+
+System.out.println(age);外部类
+
+}
+
+}
+
+
+
+public class innerClass{
+
+int age;
+
+public void method(){
+
+System.out.println(age);内部类
+
+System.out.println(Person.this.age);外部类
+
+}
+
+}
+
+}
+
+![](https://tcs.teambition.net/storage/31233254f578115475289ab29643eb23d9df?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzMjU0ZjU3ODExNTQ3NTI4OWFiMjk2NDNlYjIzZDlkZiJ9.JBOg9JmlmC2iiRSpgY9fnv4PTgNcnGJZ2CyjwaSq43s&download=image.png "")
+
+
+
+静态内部类
+
+
+
+new Person().eat() 静态内部类访问外部类非静态成员 必须用实例化的方式 
+
+Person.age 访问外部类的静态成员
+
+静态内部类访问静态内部类成员不需要静态修饰 外部访问需要
+
+![](https://tcs.teambition.net/storage/312395df7bbb83e1aa2c56bef6edb27a3e8e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM5NWRmN2JiYjgzZTFhYTJjNTZiZWY2ZWRiMjdhM2U4ZSJ9.54ji-zIZ5ru3u5REGaPWdZQFF1SO0OIVIUNySvdCeMM&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312313c9b031b4a4c87a119a81e1ee9b8841?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxM2M5YjAzMWI0YTRjODdhMTE5YTgxZTFlZTliODg0MSJ9.rPNbDRbaxResqXyU_aJpWDhdv-vG4BumzIEC6rTEu9o&download=image.png "")
+
+在外部类方法内访问静态内部类
+
+{
+
+new Heart().temp = 12;(在外部类方法内)
+
+}
+
+
+
+Person.Heart myHeart = new Person.Heart();
+
+Person.Heart myHeart2 = new Person().getHeart(); 在外部类方法 return new Heart();
+
+Person.Heart.say();访问静态内部类的静态成员方法
+
+
+
+
+
+方法内部类 局部内部类
+
+不能定义static 不能用访问修饰符
+
+在外部类的方法里面定义class 关键字
+
+可以使用 abstract final
+
+![](https://tcs.teambition.net/storage/312355befdf15e278d8c59d5fcae9a1256b3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM1NWJlZmRmMTVlMjc4ZDhjNTlkNWZjYWU5YTEyNTZiMyJ9.sSAN1ktYIWbag852_x7j5ueP7YaDWjCDkIWHuqMtd8k&download=image.png "")
+
+
+
+public Object getHeart() {
+
+abstract/final class Heart {
+
+public String beat() {
+
+new Person().eat();
+
+return Person.age;
+
+}
+
+}
+
+return new Heart().beat();
+
+}
+
+
+
+Person lili = new Person();
+
+lili.getHeart(); 只能使用Object里面的方法
+
+![](https://tcs.teambition.net/storage/312319331a0f4ab761139751188bb37e4d2e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxOTMzMWEwZjRhYjc2MTEzOTc1MTE4OGJiMzdlNGQyZSJ9.kVmEonUABsuWJ3SWaECQ8nyVuHJue_excwT8mSVmG2U&download=image.png "")
+
+
+
+匿名内部类
+
+![](https://tcs.teambition.net/storage/3123beaf131b2143ce014bf8a364b0e33c01?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNiZWFmMTMxYjIxNDNjZTAxNGJmOGEzNjRiMGUzM2MwMSJ9.hv4QcbysjtMtIXJ2hgESN3otHc0L38bYJYwZB5_LTz8&download=image.png "")
+
+不能使用构造方法
+
+可以使用构造代码块
+
+不能使用静态成员
+
+匿名内部类是在定义里的方法参数内部使用的
+
+需要在外部main方法中调用这个方法
+
+jdk7前需要final
+
+jdk8后匿名内部类访问外部局部变量不需要使用final 但在匿名内部类内部不可改变它
+
+![](https://tcs.teambition.net/storage/312395448e177309067b2945fbc562943ea8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM5NTQ0OGUxNzczMDkwNjdiMjk0NWZiYzU2Mjk0M2VhOCJ9.XVMaUNokp6G1GFIfuGW8FSI3bGfWPwOZG0f2Cba7HvU&download=image.png "")
+
+
+
+![](https://tcs.teambition.net/storage/3123c1862f86f2a527f032a36dcac9effaa5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNjMTg2MmY4NmYyYTUyN2YwMzJhMzZkY2FjOWVmZmFhNSJ9.jMTCbMO-448Nl7Y2-GC9ZdrSvqLl4gNPsxPSrN96Nqw&download=image.png "")
+
+
+
+
+
+![](https://tcs.teambition.net/storage/31236663f42c85b6307ffddf62af41000655?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM2NjYzZjQyYzg1YjYzMDdmZmRkZjYyYWY0MTAwMDY1NSJ9.wDR0PEkNB-PSoJElwy0BVP6hLf_SFpTMdCTYdJ6uq5A&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312380e6eae6ea9aef384d1727517a9ef9d1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4MGU2ZWFlNmVhOWFlZjM4NGQxNzI3NTE3YTllZjlkMSJ9.JrxIk7wcaZUOch2wlKANR0czB0LTpAzibmgTGtvR5qE&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123e926640570c8fe50a531a84dc0aef9e9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNlOTI2NjQwNTcwYzhmZTUwYTUzMWE4NGRjMGFlZjllOSJ9.yBqNANDpSidZCv_VR_Ewuu7PYbTSY3EfP7FPYiGJj8g&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123fed48305c6b0a347277721d548f0c48b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmZWQ0ODMwNWM2YjBhMzQ3Mjc3NzIxZDU0OGYwYzQ4YiJ9.Qinpu0I2CBLA8XaZqk7txt1UjhBobERHyjWu2RcCQFc&download=image.png "")
+
+finally也不能执行了
+
+
+
+finally 中有return 只会返回finally的
+
+当 try 或cache中有return
+
+finally中没有return 遇到return 会先执行完finally里的代码块 后执行 try cache中的return
+
+
+
+多个,
+
+![](https://tcs.teambition.net/storage/312393d8ee01d6e34e1bed62f84b4d55a8b1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM5M2Q4ZWUwMWQ2ZTM0ZTFiZWQ2MmY4NGI0ZDU1YThiMSJ9.-VZq5BTc1wc07gobvIgQbKUJt_o_aRZ35yARVqx7G1c&download=image.png "")
+
+
+
+抛出的异常两个 A I 无法捕获到
+
+![](https://tcs.teambition.net/storage/3123f547e5498f0278e74b558f1d2ea356b4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmNTQ3ZTU0OThmMDI3OGU3NGI1NThmMWQyZWEzNTZiNCJ9.tqYXCl502xPye7V9f427S7psMV3mQ3_VH3mYc5fTFVQ&download=image.png "")
+
+![](https://tcs.teambition.net/storage/312348724cb5514983e2765d92df1cb985a3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0ODcyNGNiNTUxNDk4M2UyNzY1ZDkyZGYxY2I5ODVhMyJ9.P1GQlpDJwXdo-9njYa_EusdHsNHRDYPYGrVDJZ3m4xk&download=image.png "")
+
+
+
+Throwable是Exception的父类
+
+只能是本类父类，不能是兄弟类
+
+不能是子类
+
+![](https://tcs.teambition.net/storage/312343e7f26d11da3830cf8cf626c0d3e27e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM0M2U3ZjI2ZDExZGEzODMwY2Y4Y2Y2MjZjMGQzZTI3ZSJ9.58MUSHr6fEcYlNPgdbLqGBgP2tEwcLIdBGceWTMcPto&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123157342db23e2cddc1530e9ca4826fdb2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMxNTczNDJkYjIzZTJjZGRjMTUzMGU5Y2E0ODI2ZmRiMiJ9.ucCWXUyyr7PFvQe5qcZDCRV_ivaBnpeoo4D1Tq8iUWk&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123a24b2f1640276d471f2362acb52d5f53?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNhMjRiMmYxNjQwMjc2ZDQ3MWYyMzYyYWNiNTJkNWY1MyJ9.QC1CieN7a34hPgZmg-e_PX3_oEoeBecgkmAZJiH8EWM&download=image.png "")
+
+
+
+
+
+
+
+
+
+throws只能是父类或者相同的类型
+
+![](https://tcs.teambition.net/storage/3123f674e39dd8f08fc2ac5dacc87865c97f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNmNjc0ZTM5ZGQ4ZjA4ZmMyYWM1ZGFjYzg3ODY1Yzk3ZiJ9.lbQPY_rbho6fbLg2e5qEcVqJViMhqYtACDXU2hUJv9s&download=image.png "")
+
+
+
+自定义异常 继承Exception 
+
+在构造方法 调用 super("异常描述")
+
+![](https://tcs.teambition.net/storage/312337da3f12465f1e1250278d7302ed8180?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzN2RhM2YxMjQ2NWYxZTEyNTAyNzhkNzMwMmVkODE4MCJ9.I7yUREPD1i61kmOIRcLlfydkd5ropfTDe9lfRacaSUk&download=image.png "")
+
+
+
+在要抛出的异常方法使用 throw new 自定义异常 类
+
+
+
+捕获异常使用自定义的异常类
+
+e.getMessage() 拿到自定义异常错误信息 Exception 以上的父类 方法
+
+
+
+
+
+异常链
+
+
+
+public static void main(args){
+
+在main方法调用异常尾部最后一个方法
+
+捕获异常 
+
+打印所有异常信息
+
+} 
+
+第一个方法抛出自定义异常
+
+
+
+被第二个方法调用第一个方法捕获到异常
+
+抛出一个新的异常
+
+throw new Exception("异常信息",e);
+
+
+
+被第三个方法调用第二个方法捕获 到异常
+
+抛出一个新的异常
+
+Exception e1 = new Exception("异常信息");
+
+e1.initCause(e);
+
+
+
+父类是自定义异常 继承 Exception
+
+方法 throws 自定义异常
+
+
+
+子类重写
+
+方法 throws 自定义异常
+
+方法 throws 继承Exception的子类 
+
+方法 throws 继承自定义异常的子类
+
+方法重写的throws 必须是兄弟类（继承同一个父类）或者本类 或者子类 不能是父类
+
+
+
+
+
+![](https://tcs.teambition.net/storage/3123362505ea73f257ea090fc3c09021cc8b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMzNjI1MDVlYTczZjI1N2VhMDkwZmMzYzA5MDIxY2M4YiJ9.4Pidtry5hS_CaM-C44qpj5DaZaEUqMIlM5ps1fL0AE0&download=image.png "")
+
+对象常量池
+
+int t1 = 5;
+
+Integer t2 = t1; 自动装箱 直接通过赋值 -128<=值<=127 隐式调用了 Integer.valueOf(); 否则隐式调用了new
+
+Integer t3 = new Integer(t1); 手动装箱 通过 new 的方式
+
+
+
+int t4 = t2; 自动拆箱 直接通过赋值 
+
+int t5 = t2.intValue(); 通过调用方法完成手动拆箱 
+
+double t6 = t2.dobuleValue(); 手动拆箱为double类型
+
+
+
+int t1 = 2;
+
+String t2 = Integer.toString(t1);  整形转换 为String
+
+
+
+int t3 = Integer.paseInt(t2) 字符串转换为整形
+
+
+
+int t4 = Integer.valueOf(t2) 字符串转换为包装类Integer 再自动拆箱为 整形
+
+
+
+-128<=值<=127
+
+![](https://tcs.teambition.net/storage/3123653b261ad5bc79df012051213f03dcc1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM2NTNiMjYxYWQ1YmM3OWRmMDEyMDUxMjEzZjAzZGNjMSJ9.h_pt9u4xNMmSQc0RI1zr776f_b_e76D6swXXD16tJ8I&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123dbe82b22b3e0d4a68c5d29015bdccc92?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNkYmU4MmIyMmIzZTBkNGE2OGM1ZDI5MDE1YmRjY2M5MiJ9.V5Qd8PrFUEu5t47cvsxGgrdGKlbU4gNJ28rjw3yRj8o&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123ab54a0ce704ed7acb5d460ee3d321fa9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNhYjU0YTBjZTcwNGVkN2FjYjVkNDYwZWUzZDMyMWZhOSJ9.jM9HlWE7gjPRX_lhU5chxQLOAiQja8i7i5UspP2huAA&download=image.png "")
+
+indexOf(int)
+
+indexOf(String)
+
+lastIndexOf(int)
+
+lastIndexOf(String)
+
+indexOf(String,int)
+
+getBytes()
+
+
+
+new String(Byte[],String(字符集))
+
+![](https://tcs.teambition.net/storage/312320e3313a50372c19d52cf106f305efe3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjMyMGUzMzEzYTUwMzcyYzE5ZDUyY2YxMDZmMzA1ZWZlMyJ9.X5i33DDCmMAZyQEDvFa_qqO6pVjJs6JBfdhHlUDKASs&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123c3d369ec8ba2fd2bbbf0dbdf72999abb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNjM2QzNjllYzhiYTJmZDJiYmJmMGRiZGY3Mjk5OWFiYiJ9.dDodqh2x8TmXvalcWBDTB6JVfYbMWNfFEQUX-ELDZv0&download=image.png "")
+
+
+
+![](https://tcs.teambition.net/storage/312385494cda160d12d3fc106d0e3427e631?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4NTQ5NGNkYTE2MGQxMmQzZmMxMDZkMGUzNDI3ZTYzMSJ9.1N_Kj93VkVYne0nhhSGKUH4b5aom-QBcens7T-5F9bw&download=image.png "")
+
+字符串的 equals 比较的是内容
+
+= 比较的是引用是否相等
+
+
+
+字符串每次改变内容 都会创建一个新的对象 原对象不变 
+
+String s = ""; 这种方式定义都会放到常量池上
+
+
+
+new String(); 定义堆上
+
+每次修改在堆上创建新的字符串对象
+
+
+
+StringBuffer 线程安全
+
+StringBuilder 性能高
+
+默认字符容量 16
+
+
+
+StringBuilder 每次在自己堆上改变 具有可变性
+
+![](https://tcs.teambition.net/storage/3123e94afe697b41aa4cf78c2421880fea83?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjNlOTRhZmU2OTdiNDFhYTRjZjc4YzI0MjE4ODBmZWE4MyJ9.-0WecGVD7t6B9y3vBrlteZPF9O9gLugWUB-kgYDAsN0&download=image.png "")
+
+![](https://tcs.teambition.net/storage/3123843dc0093dabbc77f8411c15e57d7146?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM4NDNkYzAwOTNkYWJiYzc3Zjg0MTFjMTVlNTdkNzE0NiJ9.2YZSl-ibZI_2iQBeRe6G58EKkhiQoquDRQ8xLUft95U&download=image.png "")
+
+
+
+append(char)
+
+append(String) 添加字符串
+
+delete(int,int) 删除字符串
+
+replace(int,int,String) 在指定 位置插入字符串
+
+subString(int,int)
+
+频繁操作使用StringBuilder 简单操作使用String
+
+
+
+Math.random() 返回[0,1)
+
+Math.ramdom()*10 返回[0,10)
+
+Math.ramdom()*10+1返回[1,11)
+
+int(Math.ramdom()*10+1) 返回整数
+
+Scanner sc = new Scanner(Systam.in);
+
+sc.netxt();
+
+数组.length
+
+
+
+Set表示集
+
+ArrayList数组序列 长度动态增长的数组
+
+LinkedList链表
+
+HashSet哈希集
+
+HashMap哈希表
+
+![](https://tcs.teambition.net/storage/31237c7b0bdbddc4ecda59989494a575d235?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjM3YzdiMGJkYmRkYzRlY2RhNTk5ODk0OTRhNTc1ZDIzNSJ9.4F9nutghEKVGiQ3uK8obLJD0YP0w1F__6GPcbIgpJd0&download=image.png "")
+
+
+
+list 是可以重复的有顺序的
+
+ArrayList 底层是动态数组
+
+优点
+
+尾部添加 或 删除数据 效率高
+
+适合查找和修改
+
+元素可以为null
+
+初始化容量为10个元素
+
+add(Object) 添加元素
+
+add(int,Object) 从第 int条 后面添加元素
+
+size() 长度
+
+get(int) 查询元素
+
+remove(int)删除元素
+
+set(int,Object) 从 第int条 替换元素
+
+
+
+Date 类
+
+new Date() 返回当前时间
+
+
+
+
+
+
+
+
+
+
+
+
+
+开源笔记
+
+可 Pull Requests 协作写开源笔记
+
+如果笔记图片无法访问 请访问 [teambition](https://tburl.in/0jDNvpbK) 原版开源笔记
+
+gitee
+
+[https://gitee.com/opendevel/java-for-linux](https://gitee.com/opendevel/java-for-linux)
+
+github
+
+[https://github.com/OSrcD/java-for-linux](https://github.com/OSrcD/java-for-linux)
+
+teambition
+
+[https://tburl.in/0jDNvpbK](https://tburl.in/0jDNvpbK)
+
+开源视频
+
+bilibili
+
+[https://space.bilibili.com/77266754](https://space.bilibili.com/77266754)
+
+开源博客
+
+oschina
+
+[https://my.oschina.net/u/4675154](https://my.oschina.net/u/4675154)
+
+csdn
+
+[https://blog.csdn.net/OpenDevel](https://blog.csdn.net/OpenDevel)
+
+开源项目
+
+gitee
+
+[https://gitee.com/opendevel](https://gitee.com/opendevel)
+
+github
+
+[https://github.com/OSrcD](https://github.com/OSrcD)
+
+开源赞赏
+
+![](https://tcs.teambition.net/storage/3121aed56e96d914e1046f3b498b493ce232?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9hcHBJZCI6IjU5Mzc3MGZmODM5NjMyMDAyZTAzNThmMSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTYxNjE0NzA0MSwiaWF0IjoxNjE1NTQyMjQxLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzMxMjFhZWQ1NmU5NmQ5MTRlMTA0NmYzYjQ5OGI0OTNjZTIzMiJ9.MIzecDyeH2i25yFDogFbaplj-yOEepREFTT-HrGBLv8&download=image.png "")
+

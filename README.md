@@ -1,4 +1,3 @@
-<div align="center"><img width="200" src="https://github.com/OSrcD/java-for-linux/blob/master/image/logo.png"/>
 <h1> java-for-linux: Welcome to Internet </h1>
 </div>
 
@@ -85,20 +84,6 @@ sudo open build/OpenToolbox-darwin-x64/OpenToolbox.app/
 
 [开源指北阅读地址](https://gitee.com/opensource-guide/)
 
-**iooc-admin 后台权限管理系统开源项目**：（在 **[iooc-vue-admin](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)** 文件夹）。
-
-**💡 使用说明：**
-
-```shell
-# 克隆项目
-git clone https://gitee.com/OpenDevel/iooc-vue-admin
-# 进入项目目录
-cd iooc-admin
-# 安装依赖
-yarn
-# 本地开发 启动项目
-yarn dev
-```
 
 **WebRTC 直播子项目**：（在 **WebRTC** 文件夹）。
 
@@ -286,7 +271,6 @@ Gitee、Github、为知笔记、Bilibili、JetBrains、Teambition、Photoshop、
 
 [开源指北开源项目](https://gitee.com/gitee-community/opensource-guide)
 
-[iooc-admin后台权限管理系统开源项目](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)
 
 ### java-for-linux 综合型开源项目资格证书：
 
@@ -562,13 +546,7 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-## iooc-admin 前端通用后台权限管理系统开源项目
 
-项目地址：
-
-[iooc-admin](https://gitee.com/OpenDevel/java-for-linux/tree/master/%E5%BC%80%E6%BA%90%E5%AD%90%E4%BB%93%E5%BA%93/iooc-vue-admin)
-
-[项目观看地址](https://www.bilibili.com/video/BV1qK411u7w6)
 
 # 开源项目交流群
 

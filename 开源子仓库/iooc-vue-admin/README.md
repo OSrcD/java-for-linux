@@ -1,1 +1,0 @@
-[iooc-vue-admin 开源子仓库](https://gitee.com/OpenDevel/iooc-vue-admin)

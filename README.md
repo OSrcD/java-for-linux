@@ -546,16 +546,6 @@ JVM 系列的项目地址：
 
 [auto-homework](https://gitee.com/OpenDevel/java-for-linux/tree/master/auto-homework)
 
-
-
-# 开源项目交流群
-
-java-for-linux & iooc-admin 开源项目技术支持
-
-**QQ 群**号 : **741396149**
-
-![image](https://github.com/OSrcD/java-for-linux/blob/master/image/group.png)
-
 # 开源赞赏
 
 ## 微信赞赏码

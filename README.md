@@ -552,6 +552,30 @@ JVM 系列的项目地址：
 
 ![image](https://github.com/OSrcD/java-for-linux/blob/master/image/赞赏码.png)
 
-## LICENSE
+# LICENSE
 
 使用 Apache2.0 开源许可协议
+
+# 鸣谢
+
+foodie-mall 吃货商城项目库（foodie-center foodie-cloud foodie-dev foodie-payment foodie-shop mybatis-generator nginx-url-hash sso-mtv sso-music 文件夹）
+
+来自慕课网 Java 架构师-技术专家
+
+movie-trailer 电影预告项目库（movie-trailer 文件夹）
+
+来自腾讯课堂 uni-app 商业级应用实战
+
+OA 办公项目库（oa 文件夹）
+
+来自 慕课网 Java 工程师 2018 版
+
+online-education 在线教育项目库（online-education 文件夹）
+
+来自 慕课网 Spring Cloud + Vue 前后端分离 开发企业级在线视频课程系统
+
+social-sharing 社交分享项目库 （social-sharing 文件夹）
+
+来自 慕课网 Spring Cloud Alibaba 微服务从入门到进阶
+
+来自 GitHub MyJacking 开源作者
